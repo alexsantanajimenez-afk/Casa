@@ -25,7 +25,7 @@ unas 25 h semanales. Lee `estado.md` antes de empezar.
 - ICP, exclusiones, outbound, LinkedIn, flujo semanal: `mi-metodo/`
 - Agentes y tareas programadas: `agentes-rutinarios/`
 - Campañas y entregables en marcha: `trabajo-en-curso/`; los cerrados, en `trabajo-terminado/`
-- Código del CRM: repo `alexsantanajimenez-afk/envio-wise`. Datos: Supabase `cargo-serpa-crm`.
+- Código del CRM: repo `alexsantanajimenez-afk/envio-wise`. Datos: Supabase `cargo-serpa-crm`. Direcciones, proyectos y variables: `sobre-el-proyecto/infraestructura.md`.
 
 ## Herramientas conectadas
 

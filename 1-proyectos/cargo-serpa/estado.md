@@ -64,16 +64,9 @@
 - Pasar las dos tareas programadas a leer esta carpeta en vez de llevar el prompt completo.
   Hacerlo en paralelo varios días antes de apagar las actuales.
 
-## Llevar la rama del CRM a `main` (verificado el 05/10/2026)
+## Infraestructura del CRM: resuelta el 05/10/2026
 
-- Producción es `https://envio-wise.vercel.app` y **ya usa la base buena** `cargo-serpa-crm`
-  (`jjrbtxvspxvvmnfohqbc`): lo confirman las peticiones del navegador (Network) y los datos del CRM
-  (200.557 envíos = 202.871 en la base − 2.314 de la línea separada BX; último dato 01/09/2026).
-- El `.env` del repo (`main` y todas las ramas) solo ha apuntado a `qduklechmrmkkurjnzko` (Lovable
-  Cloud). La dirección buena no está en ningún archivo del repo, así que **llega desde Vercel**,
-  aunque Alex no ve variables en la lista de *Settings → Environment Variables*.
-  `[POR COMPROBAR]` dónde están exactamente (el conector de Vercel da 403 en esa cuenta).
-- Por tanto, quitar el `.env` del repo no debería afectar a producción. Prueba segura antes de
-  fusionar: abrir el *Preview Deployment* de la rama `claude/brave-ritchie-gp7y98` en Vercel e
-  iniciar sesión. Si carga datos, se puede fusionar.
-- Quitar cualquier `NITRO_PRESET` que apunte a Cloudflare, si existe.
+- La rama de limpieza de Lovable se fusionó a `main` y producción funciona según Alex ("ahora sí", 05/10/2026; antes se comprobó login, 200.557 envíos y
+  gestión de usuarios). Detalle y tabla en `sobre-el-proyecto/infraestructura.md`.
+- Pendiente menor: decidir qué hacer con el proyecto de Vercel `envio-wise` (duplicado, sin uso) y
+  con la rama antigua `claude/serene-mayer-uvhfm4`. No tocar hasta decidirlo.
