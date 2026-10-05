@@ -26,7 +26,7 @@
 - **Tres tareas programadas de Claude**, lunes a viernes (horas reales verificadas el 05/10/2026):
   06:52 Canarias (07:52 Madrid) **rutina diaria de leads**; 07:00 UTC (08:00 Canarias) **parte de noticias**
   (Agente 9); 08:45 Canarias **barrido de señales** (Agentes 8 y 6). Detalle en `agentes-rutinarios/`.
-- Barrido de señales actualizado el 05/10/2026 con OK de Alex: toda España y exclusiones completas.
+- Barrido de señales y rutina diaria de leads actualizados el 05/10/2026 con OK de Alex: toda España y exclusiones completas.
 
 ## A medias
 

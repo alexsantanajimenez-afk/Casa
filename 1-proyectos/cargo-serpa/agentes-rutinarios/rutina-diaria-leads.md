@@ -11,14 +11,13 @@ distinta del barrido de señales (Agentes 8/6).
 - **Volumen**: del 5 al 7 de octubre de 2026 (modo prueba) 10 leads al día; **desde el 8 de octubre, 20 al día**.
   Tope de 40 enriquecimientos de email al día. Clay primero (**sus créditos caducan el 17/10/2026**); Apollo solo de respaldo, máximo 10 al día.
 
+**Actualizada el 05/10/2026 con OK de Alex**: exclusiones completas (punto 4c) y ámbito toda España explícito. El resto del prompt no cambia.
+
 ## Cosas a revisar (pendientes de decidir con Alex)
 
 - **Dos formatos de mensaje distintos**: esta rutina redacta un mensaje con servicios y presentación más larga;
   `mi-metodo/outbound.md` fija "solo presentarse, sin cifras, con el cierre literal". Hay que decidir cuál manda.
-- **Exclusiones propias**: esta rutina excluye "Mint Company", "Finanzauto" y los grandes EPC (Elecnor, Cobra, Sacyr,
-  Acciona, FCC Industrial, Lantania, Grupotec, Sampol, Ayesa) como ya clientes. No coincide con `mi-metodo/exclusiones.md`
-  (que añade Recalvi, Conelsa/Dielca, Ormazabal, ITT, Coray, Direx, PRIM, Zootecnia, Esprinet, Indra, Palex, GE, Medtronic, Werfen).
-  Unificar en una sola lista.
+- **Exclusiones**: unificadas el 05/10/2026 en el punto 4c con `mi-metodo/exclusiones.md` (esta rutina conserva además a Mint Company y a los grandes EPC como ya clientes). Si se cambia una lista, cambiar la otra.
 - El orden fijo de prospección decidido (señales → LinkedIn → cruce → Agente 6 → Apollo) no se parece a esta rutina
   (Clay/Apollo primero). Es un flujo paralelo; aclarar cómo conviven.
 - El prompt dice "Tipo = Cliente" (confirmado como correcto) y "Origen = F · Rutina diaria".
@@ -43,7 +42,7 @@ D. Logística, transporte y handling (5229, 5225, 5221, 5223, 4941, 5110): 3. So
 E. Importación y distribución (4642, 4649, 4651, 4652, 4634, 4638, 4741): 2. Cluster: "Importación y distribución" (o "Alimentación y bebidas").
 F. Industria, ingeniería y otros (2611, 7112, 3030, 8292, 7022, 2222, 1812, 3811, 6209): 1. Cluster: "Otro".
 Apollo y Clay no filtran por CNAE: traduce cada grupo a sectores y palabras clave de búsqueda en español e inglés. Si Apollo devuelve código NAICS/SIC en la ficha de empresa, anótalo en Notas para validar el encaje.
-Geografía: toda España. Prioridad: Madrid, Barcelona, País Vasco, Canarias y Baleares, sin excluir el resto.
+Geografía: toda España, todas las comunidades autónomas (decisión del 05/10/2026). Prioridad: Madrid, Barcelona, País Vasco, Canarias y Baleares, sin excluir el resto.
 
 2. CARGOS A BUSCAR
 Logística, supply chain, compras, aprovisionamiento, comercio exterior, import/export, transporte, operaciones. En empresas de menos de 50 personas: gerente o propietario. Prefiere decisores sobre operativos.
@@ -58,7 +57,7 @@ Logística, supply chain, compras, aprovisionamiento, comercio exterior, import/
 4. CRUCE OBLIGATORIO ANTES DE GASTAR CRÉDITOS (excluye si coincide en cualquiera)
 a) CRM Supabase, proyecto jjrbtxvspxvvmnfohqbc, SOLO consultas SELECT (nunca INSERT/UPDATE/DELETE/DDL). Tabla clientes_info (nombre_cliente, nif, email, email_secundario). Compara por dominio del email (ignora gmail, hotmail, etc.), por nombre normalizado de empresa (sin S.L., S.A., puntuación ni mayúsculas) y por NIF si lo conoces. Tabla envios (nombre_cliente) como segunda comprobación por nombre.
 b) Notion Prospectos: consulta por Contacto (dominio y email) y Empresa. Excluye CUALQUIER estado (Sin contactar, Contactado, Respondió, Reunión, Cliente, Cerrado sin éxito).
-c) Excluye siempre: Mint Company, Finanzauto y cualquier empresa que Alex haya marcado como cliente en Notion.
+c) Excluye siempre, aunque no aparezcan en el CRM ni en Notion: Mint Company, Finanzauto/Caterpillar, Recalvi, Conelsa/Grupo Dielca, Ormazabal (solo la planta de Las Palmas; Ikusi/Velatia SÍ se puede prospectar), ITT Canarias, Coray Medical, Direx, PRIM, Zootecnia SL, Esprinet Ibérica e Indra; y los ya trabajados Palex, GE, Medtronic y Werfen (aunque Medtronic aparezca como ejemplo de marca médica en el grupo A). Cofarca no es cliente, solo destino habitual de entregas: no la uses como prospecto de origen. Excluye también cualquier empresa que Alex haya marcado como cliente en Notion.
 Si hay duda razonable de que ya es cliente, descártala y anótalo en el resumen.
 
 5. EMAIL
