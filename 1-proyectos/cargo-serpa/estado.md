@@ -72,5 +72,5 @@
 
 - La rama de limpieza de Lovable se fusionó a `main` y producción funciona según Alex ("ahora sí", 05/10/2026; antes se comprobó login, 200.557 envíos y
   gestión de usuarios). Detalle y tabla en `sobre-el-proyecto/infraestructura.md`.
-- Pendiente menor: decidir qué hacer con el proyecto de Vercel `envio-wise` (duplicado, sin uso) y
-  con la rama antigua `claude/serene-mayer-uvhfm4`. No tocar hasta decidirlo.
+- Proyecto de Vercel `envio-wise` (duplicado) borrado por Alex el 05/10/2026.
+- Pendiente menor: decidir qué hacer con la rama antigua `claude/serene-mayer-uvhfm4` del repo. No tocar hasta decidirlo.

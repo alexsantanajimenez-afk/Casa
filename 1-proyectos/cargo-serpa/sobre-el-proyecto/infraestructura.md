@@ -27,8 +27,7 @@ El repo ya no lleva `.env`; plantilla en `.env.example`.
 
 ## Cosas que NO son producción (no tocar sin decidirlo)
 
-- Proyecto de Vercel **`envio-wise`** (`envio-wise.vercel.app`): apunta al mismo repo, está duplicado y
-  no lo usa nadie. Tiene 4 variables de Supabase creadas el 05/10 por error.
+- ~~Proyecto de Vercel `envio-wise`~~ (`envio-wise.vercel.app`): duplicado sin uso. **Borrado por Alex el 05/10/2026.** El repo de GitHub `envio-wise` NO se ha tocado y es el que despliega producción.
 - Supabase `qduklechmrmkkurjnzko`: base antigua de Lovable Cloud. No está en la cuenta de Supabase de
   Alex. El código ya no apunta a ella.
 - Supabase `Casa` y `Ayni`: otros proyectos de la cuenta, sin relación con el CRM.
