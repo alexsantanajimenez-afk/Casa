@@ -1,0 +1,21 @@
+# Flujo de trabajo semanal (lunes a viernes)
+
+- **Lunes · Reactivación y contenido**: Agente 1 prioriza llamadas de cartera fría; Agente 3
+  prepara Brevo; Agente 9 aporta actualidad y Agente 2 redacta el 1.er post de LinkedIn.
+- **Martes y jueves · Prospección activa**: Agente 8 detecta activadores; Agente 5 busca cuentas
+  en LinkedIn; Agente 6 califica (A/B/C); Agente 7 enriquece con Apollo.
+- **Miércoles · Contenido de autoridad**: Agente 9 aporta noticias sectoriales críticas y Agente 2
+  las convierte en el 2.º post o en un gancho de reactivación.
+- **Viernes · Auditoría y cierre**: Agente 2 genera el 3.er post; Agente 4 sincroniza, limpia y
+  audita Notion.
+
+## Orden fijo del flujo de prospección
+
+Señales → LinkedIn → cruce de datos → Agente 6 (Lead Scorer) → Apollo.
+
+## Rutinas automáticas (tareas programadas de Claude, hora local, lunes a viernes)
+
+- 8:30 · Parte de noticias (Agente 9)
+- 8:45 · Barrido de señales (Agentes 8 y 6)
+
+Detalle en `../agentes-rutinarios/`.
