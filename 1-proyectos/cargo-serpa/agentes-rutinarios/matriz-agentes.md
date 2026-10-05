@@ -13,8 +13,8 @@ uno tras otro en la misma conversación, salvo los de las tareas programadas, qu
 | 5 | Prospector LinkedIn | Localiza cuentas ICP y decisores de logística/compras | Lo ejecuta Alex a mano |
 | 6 | Lead Scorer | Cualifica leads (Score A/B/C) | Parte de la tarea de las 8:45 |
 | 7 | Enriquecedor (Apollo) | Guía a Alex con la extensión de Chrome, sin gastar créditos | Lo ejecuta Alex a mano |
-| 8 | Radar de Señales de Activación | Barrido diario de fuentes públicas | **Tarea programada 8:45** |
-| 9 | Radar de Actualidad Sectorial | Parte diario de noticias para elegir tema de LinkedIn | **Tarea programada 8:30** |
+| 8 | Radar de Señales de Activación | Barrido diario de fuentes públicas | **Tarea programada, 08:45 Canarias** |
+| 9 | Radar de Actualidad Sectorial | Parte diario de noticias para elegir tema de LinkedIn | **Tarea programada, 07:00 UTC** |
 
 ## Eliminados
 

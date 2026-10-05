@@ -1,6 +1,8 @@
 # Agente 9 · Parte diario de noticias de transporte
 
-- **Tarea programada de Claude**: lunes a viernes, **8:30** (hora local).
+- **Tarea programada de Claude** (id `trig_01FWHAbA8qBsEKjrPd6dpkPF`).
+- **Horario real**: lunes a viernes a las **07:00 UTC** (`0 7 * * 1-5`) = 08:00 en Canarias y 09:00 en Madrid con horario de verano; en invierno será 07:00 Canarias / 08:00 Madrid. Alex creía que era a las 8:30: `[POR COMPROBAR]` si quiere cambiarlo.
+- Aviso: push y email. Modelo `claude-opus-5-5`.
 - **Aviso**: solo a la app de Claude.
 - **Permiso**: solo propone temas. No publica ni envía nada.
 - **Historial**: guardar cada parte en `historial/AAAA-MM-DD-noticias.md` para no repetir temas y

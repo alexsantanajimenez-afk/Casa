@@ -23,8 +23,10 @@
   la empresa externa Loading.
 - Matriz de agentes renumerada (29/09). Formato del outbound 1:1 fijado (septiembre 2026).
   Cadencia de LinkedIn: lunes, miércoles y viernes.
-- Dos tareas programadas de Claude, lunes a viernes, hora local: **8:30** parte de noticias
-  (Agente 9) y **8:45** barrido de señales (Agentes 8 y 6). El aviso llega solo a la app.
+- **Tres tareas programadas de Claude**, lunes a viernes (horas reales verificadas el 05/10/2026):
+  06:52 Canarias (07:52 Madrid) **rutina diaria de leads**; 07:00 UTC (08:00 Canarias) **parte de noticias**
+  (Agente 9); 08:45 Canarias **barrido de señales** (Agentes 8 y 6). Detalle en `agentes-rutinarios/`.
+- Barrido de señales actualizado el 05/10/2026 con OK de Alex: toda España y exclusiones completas.
 
 ## A medias
 
@@ -59,8 +61,10 @@
 - **Leads fuera de las cuatro plazas comerciales**: Alex pasa todos los leads a Lidia (y a
   Mercedes, en los de Baleares); ellas reparten. Con el ámbito "toda España" no cambia el
   proceso. `[POR COMPROBAR]` si Mercedes recibe también otros leads además de los de Baleares.
-- **Aplicar el ámbito "toda España"** en las dos tareas programadas (siguen con el texto antiguo).
-  Requiere OK de Alex.
+- Unificar exclusiones y formato de mensaje entre la rutina diaria de leads y el outbound (ver `agentes-rutinarios/rutina-diaria-leads.md`).
+- Los **créditos de Clay caducan el 17/10/2026**; la rutina de leads pasa de 10 a 20 leads/día el 08/10.
+- Living Las Canteras: aplazado (solo es una propuesta; Alex lo retoma cuando quiera).
+- CRM: Alex dice que está terminado y que a la gerente le gusta (05/10/2026).
 - Pasar las dos tareas programadas a leer esta carpeta en vez de llevar el prompt completo.
   Hacerlo en paralelo varios días antes de apagar las actuales.
 
