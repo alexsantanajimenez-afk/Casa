@@ -5,8 +5,10 @@
 ## Hecho
 
 - **CRM propio** migrado de Lovable a GitHub (`envio-wise`) + Supabase (`cargo-serpa-crm`) +
-  Vercel, con login por email y contraseña. Datos cargados (según el volcado): clientes_info
-  (7.546), envíos (152.378, 2024-2026, por fecha de factura) y tráfico (95.516, 2025-2026).
+  Vercel, con login por email y contraseña. Datos reales en `cargo-serpa-crm` (verificado el
+  05/10/2026): clientes_info 7.546, envíos 202.871 (03/01/2023 a 01/09/2026; el CRM muestra
+  200.557 porque separa la línea BX) y tráfico 67.779. Las cifras del volcado antiguo (152.378
+  envíos 2024-2026 y 95.516 de tráfico) no coinciden: tomar estas.
 - **Limpieza de Lovable** en el repo (rama `claude/brave-ritchie-gp7y98`): sin dependencias ni
   restos, build propio para Vercel, `CLAUDE.md` real. Pendiente de llevar a `main` (ver abajo).
 - Módulos del CRM: envíos y facturación, comercial (carteras, alertas, resúmenes semanales),
@@ -62,9 +64,16 @@
 - Pasar las dos tareas programadas a leer esta carpeta en vez de llevar el prompt completo.
   Hacerlo en paralelo varios días antes de apagar las actuales.
 
-## Bloqueo antes de llevar el CRM a `main`
+## Llevar la rama del CRM a `main` (verificado el 05/10/2026)
 
-Las variables de entorno de Vercel deben apuntar al proyecto Supabase `cargo-serpa-crm`
-(`jjrbtxvspxvvmnfohqbc`). El `.env` que estaba subido al repo apuntaba a `qduklechmrmkkurjnzko`
-(la base de Lovable Cloud). Comprobar en Vercel (Settings → Environment Variables) y quitar
-cualquier `NITRO_PRESET` que apunte a Cloudflare.
+- Producción es `https://envio-wise.vercel.app` y **ya usa la base buena** `cargo-serpa-crm`
+  (`jjrbtxvspxvvmnfohqbc`): lo confirman las peticiones del navegador (Network) y los datos del CRM
+  (200.557 envíos = 202.871 en la base − 2.314 de la línea separada BX; último dato 01/09/2026).
+- El `.env` del repo (`main` y todas las ramas) solo ha apuntado a `qduklechmrmkkurjnzko` (Lovable
+  Cloud). La dirección buena no está en ningún archivo del repo, así que **llega desde Vercel**,
+  aunque Alex no ve variables en la lista de *Settings → Environment Variables*.
+  `[POR COMPROBAR]` dónde están exactamente (el conector de Vercel da 403 en esa cuenta).
+- Por tanto, quitar el `.env` del repo no debería afectar a producción. Prueba segura antes de
+  fusionar: abrir el *Preview Deployment* de la rama `claude/brave-ritchie-gp7y98` en Vercel e
+  iniciar sesión. Si carga datos, se puede fusionar.
+- Quitar cualquier `NITRO_PRESET` que apunte a Cloudflare, si existe.

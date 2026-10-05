@@ -11,9 +11,12 @@
 | Umbral de activación | 6 envíos en los primeros 60 días ≈ 92 % de retención (≈ 36 % por debajo) |
 | North Star Metric | Envíos mensuales de clientes activados |
 
-## Datos en el CRM (según el volcado, sin reverificar)
+## Datos en el CRM (verificado en Supabase `cargo-serpa-crm` el 05/10/2026)
 
-clientes_info 7.546 · envíos 152.378 (2024-2026, por fecha de factura) · tráfico 95.516 (2025-2026).
+clientes_info 7.546 · envíos 202.871 (03/01/2023 a 01/09/2026) · tráfico 67.779.
+El CRM enseña 200.557 envíos porque separa la línea BX (maletas, 2.314 envíos).
+El volcado antiguo decía 152.378 envíos (2024-2026) y 95.516 de tráfico: no coincide; descartado.
+`[POR COMPROBAR]` por qué el histórico empieza en 2023 si el análisis habla de 2024-2026.
 
 ## Cifras descartadas
 
