@@ -1,0 +1,3 @@
+# Cierre literal del outbound 1:1 (septiembre 2026, sustituido el 06/10/2026)
+
+> Soy Alex, de Cargo Serpa, una empresa de transporte con más de 30 años en el sector y especialista en el corredor Península–Canarias. Trabajamos con servicios como Courier Diario, Marítimo Semanal, Interinsular Diario y Urbano, entre otros, y además somos Agentes de Aduanas. Si en algún momento quieres conocer con más detalle los servicios que podemos ofrecerte y te viene bien que te llamemos cinco minutos, alguien de nuestro equipo comercial se pondrá en contacto contigo cuando mejor te encaje. Un saludo, Alex Santana
