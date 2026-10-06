@@ -55,8 +55,8 @@
   Créditos Apollo gastados ese día: ver saldo en Apollo (2.660 por ciclo, ciclo 06/10 a 06/11).
   Stryker pasa a cliente (ver `mi-metodo/exclusiones.md`); su representante es Sergio Jiménez.
   **Primera respuesta del lote (06/10)**: Enerland (Estefanía Oyarzabal). Su necesidad actual es Latam, con proyectos
-  puntuales en Canarias; añade a Julián Vila de Luis. Alex contestó el mismo día ofreciendo un dossier. Pendiente:
-  email de Julián, pasar el lead a Lidia (aviso al equipo internacional) y preparar el dossier si lo piden.
+  puntuales en Canarias; añade a Julián Vila de Luis. Alex contestó el mismo día ofreciendo un dossier. Julián tiene ficha propia
+  (julian.vila@enerlandgroup.com). Pendiente: pasar el lead a Lidia (aviso al equipo internacional) y preparar el dossier si lo piden.
 - **Brevo**: bajar los rebotes (11 % frente al 2 % recomendable), cambiar el remitente a
   `hola@comunicaciones...`, excluir particulares y renombrar campañas (ver estándar). Aprobado el 06/10; falta aplicarlo en las próximas campañas.
 - **Notion**: campo "Campaña" creado el 06/10; falta rellenarlo en las respuestas ya registradas y rellenar `Origen` en las ~89 fichas que no lo tienen.
