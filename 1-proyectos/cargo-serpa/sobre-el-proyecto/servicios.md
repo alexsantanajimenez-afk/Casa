@@ -20,4 +20,8 @@ Interinsular Diario y Urbano. Importación regular desde China (red WCA) y Sudam
 Es un servicio internacional (el de mayor ticket) y un argumento válido al contestar a prospectos
 con necesidad de Latam. `[POR COMPROBAR]` detalle: destinos, servicios (aéreo/marítimo) y frecuencia por destino.
 
+**Transportes por Europa y operaciones complejas desde Alemania con maquinaria pesada** (dato de Alex, 06/10/2026):
+Cargo Serpa los ha hecho. Se usó como argumento al contestar a HIMESA (semirremolque vacío Bélgica–Alemania).
+`[POR COMPROBAR]` detalle: qué corresponsales, tipos de carga y condiciones.
+
 En campañas se ignora el servicio **BX (maletas)**.
