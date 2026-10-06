@@ -71,6 +71,25 @@ media de 3 meses, alarma a más de 30 días"):
 Ver `mi-metodo/outbound.md` (contenido, tuteo, cierre literal, firma, respuestas) y
 `mi-metodo/linkedin.md` (tono y reglas del gancho).
 
+## Operativa de captación (06/10/2026)
+
+- **CRM y feedback de gerencia: cerrado.** Alex confirma que está OK y que gerencia también.
+- **Apollo de pago** (65 USD, 2.660 créditos de lead por ciclo; ciclo actual 06/10 a 06/11/2026).
+  Apollo es siempre la herramienta principal. Sin teléfonos de momento. Claude lo usa directamente,
+  con OK de Alex antes de gastar créditos.
+- **Clay**: no se paga. Los créditos que caducaban el 17/10 ya están gastados. Los gratis se
+  activan el 16/10/2026 y se usan solo para lo que Apollo no encuentre, hasta gastarlos.
+- **Capacidad de envío**: Alex puede enviar 50 correos 1:1 al día (antes el objetivo era 20).
+- **Valor de un cliente nuevo (datos de Alex)**: ticket medio de 119 €/mes si es del ICP; la media
+  anual del total de clientes es de unos 15.000 € y la mediana de 1.000 €. El valor está en las
+  cuentas grandes: priorizar calidad de ICP sobre volumen.
+- **Estandarización**: un único estándar de dónde vive cada dato y cómo se hace cada envío, en
+  `mi-metodo/estandar-operativo.md`.
+- **Tarea fija de la casa**: cruzar siempre las campañas de Brevo con las respuestas de Notion
+  (cada viernes y a los 3 y 7 días de cada campaña). Primer cruce: `trabajo-en-curso/auditoria-brevo-2026-10-06.md`.
+- Pendiente de OK de Alex (propuesto por Claude): remitente de Brevo solo `hola@comunicaciones...`,
+  convención de nombres REACT, excluir particulares, umbral de rebote 2 % / 5 %, campo "Campaña" en Notion.
+
 ## Infraestructura del CRM (05/10/2026)
 
 - Se eliminó Lovable del repo y se dejó un solo lockfile (`package-lock.json`); el `bun.lock`

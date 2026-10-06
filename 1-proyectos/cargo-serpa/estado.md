@@ -30,7 +30,9 @@
 
 ## A medias
 
-- Primera campaña de cartera fría (clientes con más de un año sin enviar, foco CO y CM): en lanzamiento.
+- Campañas de reactivación en Brevo **ya enviadas** (11 campañas, 249 envíos, 28/09 al 02/10).
+  Primer cruce con Notion hecho el 06/10: 12 respuestas identificadas y 28 rebotes duros (11 %).
+  Detalle y hallazgos en `trabajo-en-curso/auditoria-brevo-2026-10-06.md`.
 - Dosier de entregables: añadir página de Equipo comercial (top 3 por comercial, distintivo
   Pareto 80 %) y comparativa 2025 vs 2026 página a página. Corregir mayo 2026 y la página 3
   (+15,8 % real frente al +13,8 % publicado). PDF a paleta clara por la impresión. Para final de mes.
@@ -46,7 +48,14 @@
 
 ## Pendiente
 
-- Apollo y LinkedIn a mano (extensión de Chrome, sin créditos). Objetivo: 20 correos 1:1 al día.
+- **Apollo de pago** (2.660 créditos, ciclo 06/10 a 06/11). Objetivo: hasta 50 correos 1:1 al día
+  con contactos verificados de Apollo. Piloto en marcha; estándar en `mi-metodo/estandar-operativo.md`.
+- **Brevo**: bajar los rebotes (11 % frente al 2 % recomendable), cambiar el remitente a
+  `hola@comunicaciones...`, excluir particulares y renombrar campañas (ver estándar). Pendiente OK de Alex.
+- **Notion**: crear el campo "Campaña" y rellenar `Origen` en las ~89 fichas que no lo tienen.
+  Dielca y J2O constan "Sin contactar" pero estaban en el envío del 01/10.
+- **Rutina diaria de leads**: hoy prioriza Clay y usa Apollo solo de respaldo (máx. 10 al día).
+  Con Apollo de pago hay que invertir el orden. Pendiente de OK; no se ha cambiado la tarea programada.
 - Rehacer el dosier con los datos nuevos (final de mes).
 - **Informe mensual**: Alex lo saca del CRM y lo pasa él mismo a los comerciales y a gerencia.
   La Edge Function `informe-mensual` no existe (ni en el repo ni en `cargo-serpa-crm`; verificado
@@ -58,7 +67,11 @@
   Mercedes, en los de Baleares); ellas reparten. Con el ámbito "toda España" no cambia el
   proceso. `[POR COMPROBAR]` si Mercedes recibe también otros leads además de los de Baleares.
 - Unificar exclusiones y formato de mensaje entre la rutina diaria de leads y el outbound (ver `agentes-rutinarios/rutina-diaria-leads.md`).
-- Los **créditos de Clay caducan el 17/10/2026**; la rutina de leads pasa de 10 a 20 leads/día el 08/10.
+- **Clay**: los créditos que caducaban el 17/10 ya están gastados. Los gratis se activan el 16/10/2026
+  y solo se usan para lo que Apollo no encuentre. La rutina de leads pasa de 10 a 20 leads/día el 08/10:
+  decidir si se mantiene con Apollo.
+- Pendiente menor: borrar la rama antigua `claude/serene-mayer-uvhfm4` de `envio-wise` (verificado el
+  06/10: 0 commits por delante de `main`, no tiene nada único). Alex puede hacerlo en GitHub o dar permiso de escritura.
 - Living Las Canteras: aplazado (solo es una propuesta; Alex lo retoma cuando quiera).
 - CRM y feedback de gerencia: **cerrado**. Alex confirma (06/10/2026) que el CRM y gerencia están OK; el feedback anterior de la gerente ya no está pendiente.
 - Pasar las dos tareas programadas a leer esta carpeta en vez de llevar el prompt completo.
@@ -69,4 +82,4 @@
 - La rama de limpieza de Lovable se fusionó a `main` y producción funciona según Alex ("ahora sí", 05/10/2026; antes se comprobó login, 200.557 envíos y
   gestión de usuarios). Detalle y tabla en `sobre-el-proyecto/infraestructura.md`.
 - Proyecto de Vercel `envio-wise` (duplicado) borrado por Alex el 05/10/2026.
-- Pendiente menor: decidir qué hacer con la rama antigua `claude/serene-mayer-uvhfm4` del repo. No tocar hasta decidirlo.
+- Rama antigua `claude/serene-mayer-uvhfm4`: ver Pendiente (borrar; Alex lo autorizó el 06/10).

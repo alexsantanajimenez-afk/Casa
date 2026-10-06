@@ -7,7 +7,9 @@
 - **Miércoles · Contenido de autoridad**: Agente 9 aporta noticias sectoriales críticas y Agente 2
   las convierte en el 2.º post o en un gancho de reactivación.
 - **Viernes · Auditoría y cierre**: Agente 2 genera el 3.er post; Agente 4 sincroniza, limpia y
-  audita Notion.
+  audita Notion. **Cruce Brevo ↔ Notion**: Claude cruza las listas de cada campaña de Brevo con
+  las respuestas de Notion y saca la tasa por campaña (tarea fija, ver `estandar-operativo.md`).
+  Además, a los 3 y 7 días de cada campaña nueva.
 
 ## Orden fijo del flujo de prospección
 

@@ -1,7 +1,8 @@
 # Outbound 1:1 a prospectos (formato fijado en septiembre de 2026)
 
 - Canal: mensajes 1:1 desde Outlook (alexsantana@cargoserpa.es). No Brevo.
-- Objetivo: 20 correos 1:1 al día, con Apollo y LinkedIn a mano (extensión de Chrome, sin créditos).
+- Objetivo: hasta 50 correos 1:1 al día (capacidad de Alex, 06/10/2026), con contactos de Apollo
+  (plan de pago, 2.660 créditos por ciclo) y LinkedIn. Estándar completo en `estandar-operativo.md`.
 - **Contenido**: solo presentarse. Sin vender ni hablar del dolor del prospecto. Sin cifras de
   volumen, ficha ni PDF.
 - **Tuteo**: se abre con "Hola, [nombre]:" y una frase con su cargo y empresa.
