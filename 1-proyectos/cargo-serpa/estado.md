@@ -49,7 +49,11 @@
 ## Pendiente
 
 - **Apollo de pago** (2.660 créditos, ciclo 06/10 a 06/11). Objetivo: hasta 50 correos 1:1 al día
-  con contactos verificados de Apollo. Piloto en marcha; estándar en `mi-metodo/estandar-operativo.md`.
+  con contactos verificados de Apollo. Estándar en `mi-metodo/estandar-operativo.md`.
+  **06/10/2026**: 40 contactos ICP (uno por empresa, email verificado) y 2 de señales, cargados en Notion con
+  `Campaña = Outlook 1:1` y `Origen = B`, sin señal de Canarias verificada (Veredicto "Falta información").
+  Créditos Apollo gastados ese día: ver saldo en Apollo (2.660 por ciclo, ciclo 06/10 a 06/11).
+  Stryker pasa a cliente (ver `mi-metodo/exclusiones.md`); su representante es Sergio Jiménez.
 - **Brevo**: bajar los rebotes (11 % frente al 2 % recomendable), cambiar el remitente a
   `hola@comunicaciones...`, excluir particulares y renombrar campañas (ver estándar). Aprobado el 06/10; falta aplicarlo en las próximas campañas.
 - **Notion**: campo "Campaña" creado el 06/10; falta rellenarlo en las respuestas ya registradas y rellenar `Origen` en las ~89 fichas que no lo tienen.
