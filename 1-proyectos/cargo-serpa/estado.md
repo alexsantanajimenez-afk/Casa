@@ -51,8 +51,8 @@
 - **Apollo de pago** (2.660 créditos, ciclo 06/10 a 06/11). Objetivo: hasta 50 correos 1:1 al día
   con contactos verificados de Apollo. Piloto en marcha; estándar en `mi-metodo/estandar-operativo.md`.
 - **Brevo**: bajar los rebotes (11 % frente al 2 % recomendable), cambiar el remitente a
-  `hola@comunicaciones...`, excluir particulares y renombrar campañas (ver estándar). Pendiente OK de Alex.
-- **Notion**: crear el campo "Campaña" y rellenar `Origen` en las ~89 fichas que no lo tienen.
+  `hola@comunicaciones...`, excluir particulares y renombrar campañas (ver estándar). Aprobado el 06/10; falta aplicarlo en las próximas campañas.
+- **Notion**: campo "Campaña" creado el 06/10; falta rellenarlo en las respuestas ya registradas y rellenar `Origen` en las ~89 fichas que no lo tienen.
   Dielca y J2O constan "Sin contactar" pero estaban en el envío del 01/10.
 - **Rutina diaria de leads**: hoy prioriza Clay y usa Apollo solo de respaldo (máx. 10 al día).
   Con Apollo de pago hay que invertir el orden. Pendiente de OK; no se ha cambiado la tarea programada.

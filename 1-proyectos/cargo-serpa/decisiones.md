@@ -87,8 +87,9 @@ Ver `mi-metodo/outbound.md` (contenido, tuteo, cierre literal, firma, respuestas
   `mi-metodo/estandar-operativo.md`.
 - **Tarea fija de la casa**: cruzar siempre las campañas de Brevo con las respuestas de Notion
   (cada viernes y a los 3 y 7 días de cada campaña). Primer cruce: `trabajo-en-curso/auditoria-brevo-2026-10-06.md`.
-- Pendiente de OK de Alex (propuesto por Claude): remitente de Brevo solo `hola@comunicaciones...`,
-  convención de nombres REACT, excluir particulares, umbral de rebote 2 % / 5 %, campo "Campaña" en Notion.
+- **Aprobado por Alex el 06/10/2026 ("OK a todo")**: remitente de Brevo solo `hola@comunicaciones...`,
+  convención de nombres REACT, excluir particulares, umbral de rebote 2 % / 5 % y campo "Campaña" en Notion
+  (ya creado). Detalle en `mi-metodo/estandar-operativo.md`.
 
 ## Infraestructura del CRM (05/10/2026)
 

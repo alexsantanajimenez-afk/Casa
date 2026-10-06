@@ -1,7 +1,7 @@
 # Estándar operativo de captación y reactivación (06/10/2026)
 
 Una sola forma de hacer cada cosa. Si algo no cuadra con esto, se corrige aquí primero.
-Lo marcado **(propuesto)** lo propuso Claude el 06/10/2026 y falta el OK de Alex; el resto lo decidió Alex.
+Todo lo de este archivo está aprobado por Alex el 06/10/2026 ("OK a todo"), incluido lo que propuso Claude.
 
 ## Dónde vive cada dato
 
@@ -23,16 +23,16 @@ Lo marcado **(propuesto)** lo propuso Claude el 06/10/2026 y falta el OK de Alex
 
 ## Brevo (solo reactivación de cartera)
 
-- Remitente siempre `hola@comunicaciones.cargoserpa.es`, nunca `alexsantana@` ni el dominio raíz. **(propuesto)**
-- Nombre de campaña y de lista: `REACT{n}_{SEGMENTO}_{AAAA-MM}`. El estado (borrador, programada) no va en el nombre. **(propuesto)**
-- Solo contactos de empresa (B2B); fuera los marcados como `particular`. **(propuesto)**
-- Rebote duro objetivo por debajo del 2 %. Si una campaña pasa del 5 %, se para y se limpia la lista antes de seguir. **(propuesto)**
+- Remitente siempre `hola@comunicaciones.cargoserpa.es`, nunca `alexsantana@` ni el dominio raíz.
+- Nombre de campaña y de lista: `REACT{n}_{SEGMENTO}_{AAAA-MM}`. El estado (borrador, programada) no va en el nombre.
+- Solo contactos de empresa (B2B); fuera los marcados como `particular`.
+- Rebote duro objetivo por debajo del 2 %. Si una campaña pasa del 5 %, se para y se limpia la lista antes de seguir.
 - Brevo bloquea solo los rebotes duros; los contactos bloqueados no se vuelven a enviar.
 
 ## Notion "Prospectos"
 
 - `Origen` obligatorio en toda ficha. Hoy unas 89 fichas no lo tienen.
-- Campo nuevo **"Campaña"** (código REACT… o "Outlook 1:1") para poder medir respuestas por campaña. **(propuesto, hay que crearlo en Notion)**
+- Campo nuevo **"Campaña"** (código REACT… o "Outlook 1:1") para poder medir respuestas por campaña. (creado en Notion el 06/10/2026, con las seis campañas actuales y "Outlook 1:1")
 - Toda respuesta a una campaña se registra el mismo día con `Estado = Respondió`.
 
 ## Tarea fija: cruce Brevo ↔ Notion
