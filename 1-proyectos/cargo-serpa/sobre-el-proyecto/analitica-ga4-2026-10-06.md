@@ -33,3 +33,26 @@ Límites: no se capturó la tasa de interacción por página de destino; fuente/
 - Priorizar `/contacto` y `/servicios-especiales` (lo que la IA ya recomienda).
 - No invertir en anuncios en inglés por ahora.
 - Dar de alta Bing Webmaster Tools y Search Console al publicar.
+
+## Configuración de GA4 (lectura del 06/10/2026)
+- Cuenta "Cargo Serpa", propiedad "Cargo Serpa - GA4" (ID 366267754), flujo web `https://cargoserpa.es`, ID de medición `G-C2TWFJZ8Q1`. Recoge datos (activo en las últimas 48 h). Zona horaria España, moneda euro.
+- Etiquetas de sitio conectadas: 0. La vinculación con Universal Analytics no es visible (no concluyente).
+- **Solo 4 eventos automáticos** (30 días): `page_view` 2.429, `session_start` 1.853, `user_engagement` 1.625, `first_visit` 442. Medición mejorada: solo vistas de página.
+- **0 eventos clave.** Existe un evento clave `purchase` sin datos (resto de plantilla): conviene retirarlo.
+- Sin evento de formulario, clic en teléfono/email ni descarga. Hoy no se mide ningún lead.
+- Filtro "Internal Traffic" en modo **prueba** (no excluye nada); sin filtro de tráfico de desarrolladores.
+- Canales (90 días): Direct 4.386 sesiones (30,2 %), Organic Search 565 (33,3 %), AI Assistant 44 (50 %), Referral 30 (76,7 %).
+- El usuario de Alex **no es administrador**: no ve roles ni puede gestionar usuarios. Para cambiar la configuración hace falta rol Editor o Administrador `[POR COMPROBAR quién es el propietario de la cuenta]`.
+
+## Plan de medición para la web nueva (a montar con GTM, con Consent Mode v2)
+| Evento | Cuándo | Parámetros |
+|---|---|---|
+| `generate_lead` (evento clave) | Envío del formulario de presupuesto | tipo de servicio, idioma, página de origen |
+| `click_phone` (evento clave) | Clic en un teléfono | delegación |
+| `click_email` | Clic en un email | buzón |
+| `click_whatsapp` | Clic en el chat de WhatsApp | página |
+| `file_download` | Descarga de formularios (expedidor conocido, etc.) | nombre del archivo |
+| `tracking_search` | Uso de la caja de seguimiento | — |
+| `language_switch` | Cambio ES/EN | de, a |
+| `faq_open` | Abrir una pregunta frecuente | pregunta |
+Además: marcar `generate_lead` y `click_phone` como eventos clave, retirar `purchase`, activar el filtro de tráfico interno con las IP de las oficinas, y UTM en los enlaces de LinkedIn y Brevo.
