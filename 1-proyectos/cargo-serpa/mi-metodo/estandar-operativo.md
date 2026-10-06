@@ -20,6 +20,11 @@ Todo lo de este archivo está aprobado por Alex el 06/10/2026 ("OK a todo"), inc
 - Por criterio: priorizar empresas del tamaño y sector de las 62 que suman el 80 % de la facturación.
 - Antes de gastar créditos, Claude da el coste estimado y espera el OK de Alex. Después apunta créditos gastados y saldo.
 - Verificar el email en Apollo antes de enviar. Los emails de Clay sin verificar se marcan "(Clay, sin verificar Apollo)".
+- **Regla de no repetición (Alex, 06/10/2026)**: nunca se vuelve a traer un contacto ya contactado. Antes de gastar un crédito se
+  comprueba en Notion, en cualquier estado, por email, dominio, empresa y nombre de la persona; y en el CRM por palabra completa.
+  Aplica a Apollo, a Clay, a la rutina diaria y a cada lote manual. Un contacto con respuesta automática (fuera de la oficina) sigue
+  siendo "Contactado": no se vuelve a escribir sin que Alex lo decida.
+- Los apellidos de Apollo pueden estar desactualizados (caso DRV: figuraba Sukajeva y firma Bistrova). Si la respuesta trae otro nombre, se corrige la ficha.
 
 ## Brevo (solo reactivación de cartera)
 
