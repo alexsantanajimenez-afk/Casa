@@ -97,6 +97,8 @@ Ver `mi-metodo/outbound.md` (contenido, tuteo, cierre literal, firma, respuestas
   internacional con envíos semanales a Latam, línea de baja, "escríbeme y te cuento más"). Sustituye al cierre literal de septiembre.
   Frase de sector por grupo confirmada por Alex. Último párrafo (06/10): si les encaja, una persona del equipo comercial
   les presenta el dossier de servicios y frecuencias (en tuteo). Detalle en `mi-metodo/outbound.md`.
+- **Rutina diaria de leads (06/10/2026)**: Apollo es la herramienta principal; Clay solo para contactos sin email y cuando haya créditos.
+  Nortunel descartado por Alex. Recordatorios del cruce de respuestas el 09/10 y el 13/10.
 - **Respuestas de prospectos (06/10/2026)**: ante cada respuesta, Claude entrega siempre juntos el aviso a Lidia y la
   ficha de Notion, con el máximo de datos posibles y comprobando antes el CRM. Protocolo en `mi-metodo/respuesta-de-prospecto.md`.
 

@@ -73,8 +73,8 @@
 - **Envío del lote 1:1 (06/10/2026)**: Alex confirma que están enviados todos los correos de la lista (los 45 que se redactaron,
   más los de Enerland, Arkal, HIMESA e Indas ya registrados). Notion marcado como `Contactado` con fecha 06/10.
   Cruce de respuestas Brevo/1:1 a los 3 días (09/10) y a los 7 (13/10).
-- **Rutina diaria de leads**: hoy prioriza Clay y usa Apollo solo de respaldo (máx. 10 al día).
-  Con Apollo de pago hay que invertir el orden. Pendiente de OK; no se ha cambiado la tarea programada.
+- **Rutina diaria de leads**: pasada a Apollo como herramienta principal el 06/10/2026 (con OK de Alex). Clay solo para los contactos sin email
+  y cuando haya créditos (gratis desde el 16/10). Primera ejecución con Apollo: 07/10 a las 07:52 (Madrid); revisar el resultado.
 - Rehacer el dosier con los datos nuevos (final de mes).
 - **Informe mensual**: Alex lo saca del CRM y lo pasa él mismo a los comerciales y a gerencia.
   La Edge Function `informe-mensual` no existe (ni en el repo ni en `cargo-serpa-crm`; verificado
