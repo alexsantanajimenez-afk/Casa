@@ -52,4 +52,4 @@ lockfile.
 - **Agencia / informática de la web: A&A Informática** (ayainformatica.es, según la meta author). Alex pasará el código nuevo a A&A.
 - **DNS y dominio de comunicaciones: Loading** (empresa externa). No es quien mantiene la web.
 - Decisión de Alex (06/10/2026): **rehacer la web** (V5) en lugar de parchearla. Se mantienen el login y la oficina virtual de clientes.
-- GA4 `G-C2TWFJZ8Q1`: Alex tiene acceso. Search Console: `[POR COMPROBAR]`.
+- GA4 `G-C2TWFJZ8Q1`: Alex tiene acceso. Search Console: Alex tiene acceso (06/10/2026).
