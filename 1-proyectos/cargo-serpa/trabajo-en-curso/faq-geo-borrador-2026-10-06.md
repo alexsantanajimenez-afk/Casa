@@ -8,7 +8,7 @@ Una respuesta por pregunta de la prueba. Estructura: respuesta directa en la pri
 Cargo Serpa, operador logístico y agente de aduanas especializado en el corredor Península–Canarias desde 1992. El despacho lo preparamos y lo presentamos nosotros, como Agentes de Aduana, y el envío tiene un único responsable de principio a fin. Tenemos delegaciones en Madrid, Barcelona, Las Palmas, Tenerife, Lanzarote y Fuerteventura `[POR COMPROBAR: lista oficial]`.
 
 **2. ¿Cómo enviar mercancía desde la Península a Canarias? ¿Qué documentos hacen falta?**
-Se contrata un transporte aéreo o marítimo y se tramita el despacho de aduanas, porque Canarias tiene régimen fiscal propio. Los documentos habituales son la factura comercial, el documento de transporte (carta de porte, AWB o conocimiento de embarque), la lista de bultos y el DUA `[POR COMPROBAR con el equipo de aduanas: documentos exactos por tipo de mercancía]`. Nosotros preparamos el DUA y la gestión completa.
+Se contrata un transporte aéreo o marítimo y se tramita el despacho de aduanas, porque Canarias tiene régimen fiscal propio. Para enviar a Canarias hace falta factura de la mercancía (dato de Alex, 06/10); además, documento de transporte y lista de bultos. Nosotros preparamos el DUA y la gestión completa. `[POR COMPROBAR: otros documentos según la mercancía]`
 
 **3. ¿Qué es el DUA y quién lo tramita en un envío a Canarias?**
 El Documento Único Administrativo es la declaración con la que se despacha la mercancía en aduana. En Cargo Serpa lo preparamos y lo presentamos nosotros, como Agentes de Aduana, para que el cliente no tenga que contratar a un tercero.
