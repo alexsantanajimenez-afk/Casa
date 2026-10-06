@@ -1,6 +1,6 @@
 # Estado · Cargo Serpa
 
-Última actualización: 05/10/2026 (volcado del proyecto de Claude + verificación en el repo y Supabase).
+Última actualización: 06/10/2026 (CRM y gerencia cerrados). Anterior: 05/10/2026 (volcado del proyecto de Claude + verificación en el repo y Supabase).
 
 ## Hecho
 
@@ -48,10 +48,6 @@
 
 - Apollo y LinkedIn a mano (extensión de Chrome, sin créditos). Objetivo: 20 correos 1:1 al día.
 - Rehacer el dosier con los datos nuevos (final de mes).
-- **Feedback de la gerente sobre el CRM**: no consta si está hecho. Pide que Envíos/Servicios
-  describa el envío tipo por servicio (peso y bultos medios, envíos/día por cliente) y, en
-  Insights, poder recorrer todos los clientes de cada tarjeta y ordenar "sin envíos" de menos a
-  más días. `[POR COMPROBAR]`
 - **Informe mensual**: Alex lo saca del CRM y lo pasa él mismo a los comerciales y a gerencia.
   La Edge Function `informe-mensual` no existe (ni en el repo ni en `cargo-serpa-crm`; verificado
   el 05/10) y, con este proceso manual, **no hace falta reconstruirla**. Solo existe la tabla
@@ -64,7 +60,7 @@
 - Unificar exclusiones y formato de mensaje entre la rutina diaria de leads y el outbound (ver `agentes-rutinarios/rutina-diaria-leads.md`).
 - Los **créditos de Clay caducan el 17/10/2026**; la rutina de leads pasa de 10 a 20 leads/día el 08/10.
 - Living Las Canteras: aplazado (solo es una propuesta; Alex lo retoma cuando quiera).
-- CRM: Alex dice que está terminado y que a la gerente le gusta (05/10/2026).
+- CRM y feedback de gerencia: **cerrado**. Alex confirma (06/10/2026) que el CRM y gerencia están OK; el feedback anterior de la gerente ya no está pendiente.
 - Pasar las dos tareas programadas a leer esta carpeta en vez de llevar el prompt completo.
   Hacerlo en paralelo varios días antes de apagar las actuales.
 
