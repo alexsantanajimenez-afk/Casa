@@ -89,8 +89,6 @@
 - **Clay**: los créditos que caducaban el 17/10 ya están gastados. Los gratis se activan el 16/10/2026
   y solo se usan para lo que Apollo no encuentre. La rutina de leads pasa de 10 a 20 leads/día el 08/10:
   decidir si se mantiene con Apollo.
-- Pendiente menor: borrar la rama antigua `claude/serene-mayer-uvhfm4` de `envio-wise` (verificado el
-  06/10: 0 commits por delante de `main`, no tiene nada único). Alex puede hacerlo en GitHub o dar permiso de escritura.
 - Living Las Canteras: aplazado (solo es una propuesta; Alex lo retoma cuando quiera).
 - CRM y feedback de gerencia: **cerrado**. Alex confirma (06/10/2026) que el CRM y gerencia están OK; el feedback anterior de la gerente ya no está pendiente.
 - Pasar las dos tareas programadas a leer esta carpeta en vez de llevar el prompt completo.
@@ -101,4 +99,4 @@
 - La rama de limpieza de Lovable se fusionó a `main` y producción funciona según Alex ("ahora sí", 05/10/2026; antes se comprobó login, 200.557 envíos y
   gestión de usuarios). Detalle y tabla en `sobre-el-proyecto/infraestructura.md`.
 - Proyecto de Vercel `envio-wise` (duplicado) borrado por Alex el 05/10/2026.
-- Rama antigua `claude/serene-mayer-uvhfm4`: ver Pendiente (borrar; Alex lo autorizó el 06/10).
+- Rama antigua `claude/serene-mayer-uvhfm4`: borrada por Alex el 06/10/2026 (verificado: quedan solo `main` y `claude/brave-ritchie-gp7y98`).
