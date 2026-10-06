@@ -46,3 +46,10 @@ El repo venía de Lovable: dependencia `@lovable.dev/vite-tanstack-config` (forz
 destino), `bun.lock` apuntando al caché privado de Lovable (403) y `.env` con la base antigua. Se eliminó
 todo, se escribió un `vite.config.ts` propio (Nitro detecta Vercel con `VERCEL=1`) y se dejó un solo
 lockfile.
+
+## Web pública y responsables (06/10/2026)
+- Web actual `cargoserpa.es`: ASP.NET Web Forms sobre IIS 8.5 (ver `auditoria-tecnica-web-2026-09-25.md`).
+- **Agencia / informática de la web: A&A Informática** (ayainformatica.es, según la meta author). Alex pasará el código nuevo a A&A.
+- **DNS y dominio de comunicaciones: Loading** (empresa externa). No es quien mantiene la web.
+- Decisión de Alex (06/10/2026): **rehacer la web** (V5) en lugar de parchearla. Se mantienen el login y la oficina virtual de clientes.
+- GA4 `G-C2TWFJZ8Q1`: Alex tiene acceso. Search Console: `[POR COMPROBAR]`.
