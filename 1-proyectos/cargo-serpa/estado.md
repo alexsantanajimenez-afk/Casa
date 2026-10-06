@@ -68,6 +68,8 @@
   Logística) para que valore la propuesta. Pendiente: copiar el email de Cipriano del hilo, contestar, aviso a Lidia y dossier.
 - **Dossier de servicios y frecuencias** (06/10/2026): ya lo tiene hecho el equipo comercial (dato de Alex). No hay que prepararlo;
   el correo 1:1 lo ofrece y el comercial lo presenta cuando el prospecto responde. Enerland e Indas ya lo han recibido como oferta.
+- **Avisos y respuestas (06/10, tarde)**: Alex ya envió los avisos a Lidia y contestó a HIMESA. Falta contestar a Indas (Federico
+  Pérez, con Cipriano en copia); Alex lo hace el mismo día.
 - **Envío del lote 1:1 (06/10/2026)**: Alex confirma que están enviados todos los correos de la lista (los 45 que se redactaron,
   más los de Enerland, Arkal, HIMESA e Indas ya registrados). Notion marcado como `Contactado` con fecha 06/10.
   Cruce de respuestas Brevo/1:1 a los 3 días (09/10) y a los 7 (13/10).
