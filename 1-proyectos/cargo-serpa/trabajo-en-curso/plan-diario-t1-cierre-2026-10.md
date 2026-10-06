@@ -31,3 +31,9 @@
 6. Brevo: higiene aplicada y 2 flujos automáticos activos.
 7. LinkedIn Ads: 1.ª campaña en marcha (si hay presupuesto) o decisión documentada.
 8. Informe del T1 entregado.
+
+## Añadido tras la auditoría técnica (06/10)
+- Antes de publicar la V5: tabla validada de delegaciones (direcciones, teléfonos, emails y enlace de Google), CMP con Consent Mode v2 y texto legal.
+- Al publicar: robots.txt, sitemap.xml, title y description únicos por página, canonical, `lang`, redirecciones 301, `alt` en las imágenes.
+- GA4: `G-C2TWFJZ8Q1` ya existe; confirmar acceso. GTM y eventos de lead (`generate_lead`, `click_phone`, `click_email`) al publicar.
+- Mover estas tareas a los días 14, 15 y 20/10 del plan.
