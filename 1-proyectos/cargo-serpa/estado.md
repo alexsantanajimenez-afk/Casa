@@ -64,6 +64,8 @@
 - **Segunda respuesta del lote (06/10)**: HIMESA (Marçal Vidal). No tiene necesidades recurrentes, pero pide cotizar mover un
   semirremolque vacío con tractora y chófer de Geel (Bélgica) a Schemmerhofen (Alemania). Pregunta si hay corresponsales.
   Pendiente: confirmar con el equipo internacional si se puede hacer y contestarle; aviso a Lidia con la plantilla.
+- **Tercera respuesta del lote (06/10)**: Laboratorios Indas (Federico Pérez). Pone en copia a Cipriano Martín Martín (Jefe de
+  Logística) para que valore la propuesta. Pendiente: copiar el email de Cipriano del hilo, contestar, aviso a Lidia y dossier.
 - **Dossier de servicios y frecuencias** (06/10/2026): el correo 1:1 ya lo ofrece, así que tiene que existir y estar listo
   para el equipo comercial. Qué lleva (servicios, frecuencias por servicio, Latam) y quién lo prepara: por decidir. Enerland ya lo ha recibido como oferta.
 - **Rutina diaria de leads**: hoy prioriza Clay y usa Apollo solo de respaldo (máx. 10 al día).
