@@ -61,6 +61,8 @@
   `hola@comunicaciones...`, excluir particulares y renombrar campañas (ver estándar). Aprobado el 06/10; falta aplicarlo en las próximas campañas.
 - **Notion**: campo "Campaña" creado el 06/10; falta rellenarlo en las respuestas ya registradas y rellenar `Origen` en las ~89 fichas que no lo tienen.
   Dielca y J2O constan "Sin contactar" pero estaban en el envío del 01/10.
+- **Dossier de servicios y frecuencias** (06/10/2026): el correo 1:1 ya lo ofrece, así que tiene que existir y estar listo
+  para el equipo comercial. Qué lleva (servicios, frecuencias por servicio, Latam) y quién lo prepara: por decidir. Enerland ya lo ha recibido como oferta.
 - **Rutina diaria de leads**: hoy prioriza Clay y usa Apollo solo de respaldo (máx. 10 al día).
   Con Apollo de pago hay que invertir el orden. Pendiente de OK; no se ha cambiado la tarea programada.
 - Rehacer el dosier con los datos nuevos (final de mes).

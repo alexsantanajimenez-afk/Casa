@@ -22,7 +22,7 @@ Es la versión que Alex envió el 05/10/2026, con la frase de sector adaptada al
 >
 > Soy Alex, de Cargo Serpa: más de 30 años en transporte, miembros de IATA y WCA y agentes de aduanas. Hacemos internacional aéreo y marítimo (con envíos semanales a Latinoamérica), UE, Baleares diario, Canarias e interislas, y nos ocupamos de todo el proceso, aduana incluida.
 >
-> Si en algún momento os encaja, escríbeme y te cuento más. Si prefieres no recibir más mensajes, dímelo y no vuelvo a escribirte.
+> Si en algún momento os encaja, respóndeme y una persona de nuestro equipo comercial se pondrá en contacto contigo para presentarte el dossier de nuestros servicios y la frecuencia con la que hacemos cada uno. Si prefieres no recibir más mensajes, dímelo y no vuelvo a escribirte.
 >
 > Un saludo,
 > Alex Santana

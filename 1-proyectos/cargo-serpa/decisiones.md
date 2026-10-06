@@ -95,7 +95,8 @@ Ver `mi-metodo/outbound.md` (contenido, tuteo, cierre literal, firma, respuestas
   orden, con plantilla fija en `mi-metodo/aviso-a-lidia.md`. Sin enlaces a Notion (ellas no lo comparten).
 - **Plantilla del outbound 1:1 (06/10/2026)**: pasa a ser oficial la versión que Alex envió el 05/10 (frase de sector, IATA y WCA,
   internacional con envíos semanales a Latam, línea de baja, "escríbeme y te cuento más"). Sustituye al cierre literal de septiembre.
-  Frase de sector por grupo confirmada por Alex. Detalle en `mi-metodo/outbound.md`.
+  Frase de sector por grupo confirmada por Alex. Último párrafo (06/10): si les encaja, una persona del equipo comercial
+  les presenta el dossier de servicios y frecuencias (en tuteo). Detalle en `mi-metodo/outbound.md`.
 - **Respuestas de prospectos (06/10/2026)**: ante cada respuesta, Claude entrega siempre juntos el aviso a Lidia y la
   ficha de Notion, con el máximo de datos posibles y comprobando antes el CRM. Protocolo en `mi-metodo/respuesta-de-prospecto.md`.
 
