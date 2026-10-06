@@ -108,6 +108,11 @@ Ver `mi-metodo/outbound.md` (contenido, tuteo, cierre literal, firma, respuestas
 - **Lote de internacionales (06/10/2026)**: Alex pidió 15+ contactos de perfil exportador; se enriquecieron 23 (20 + 3 de reserva)
   con 23 créditos de Apollo. Saldo tras el lote: 2.582 de 2.660.
 
+- **Apuntar en Notion sin pedir OK (Alex, 06/10/2026)**: Claude puede registrar en Notion, sin esperar aprobación, lo que ya ha
+  decidido Alex o es mero apunte (fichas, estados, fechas, Origen, Campaña, notas). Sigue necesitando OK: enviar mensajes, gastar
+  créditos, escribir en Brevo, crear HTML o código, y cualquier acción hacia fuera.
+- **Origen en Notion (06/10/2026)**: pasa a significar la fuente del contacto (Cartera CRM, Clay, Apollo, LinkedIn, Señal, Referido, Inbound).
+
 ## Infraestructura del CRM (05/10/2026)
 
 - Se eliminó Lovable del repo y se dejó un solo lockfile (`package-lock.json`); el `bun.lock`

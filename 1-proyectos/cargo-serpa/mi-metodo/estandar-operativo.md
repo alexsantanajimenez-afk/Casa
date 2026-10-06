@@ -38,8 +38,8 @@ Todo lo de este archivo está aprobado por Alex el 06/10/2026 ("OK a todo"), inc
 
 - `Origen` obligatorio en toda ficha. Desde el 06/10/2026 responde a "¿de dónde sale el contacto?": **Cartera CRM · Clay · Apollo ·
   LinkedIn · Señal · Referido · Inbound**. Las letras A-F quedan solo en las fichas viejas. Las fichas nuevas cargadas con Apollo llevan `Apollo`.
-  Rellenadas 80 fichas el 06/10. Quedan 11 sin Origen (Verbund, Dormitorum, Digital Fone, Siscocan, Solmad, COARCO, Mint, Lacer, Gaestopas, Surdiesel, Improve): Alex dirá de dónde salieron.
-  Las 63 fichas cargadas el 06/10 con `B · Emisor peninsular` pasan a `Apollo` cuando se decida.
+  Rellenadas las 91 fichas que no lo tenían el 06/10. Las 11 de origen dudoso (Verbund, Dormitorum, Digital Fone, Siscocan, Solmad, COARCO,
+  Mint, Lacer, Gaestopas, Surdiesel, Improve) las dio Alex por `Clay`. Las 63 fichas cargadas el 06/10 con `B · Emisor peninsular` pasaron a `Apollo`.
 - Campo nuevo **"Campaña"** (código REACT… o "Outlook 1:1") para poder medir respuestas por campaña. (creado en Notion el 06/10/2026, con las seis campañas actuales y "Outlook 1:1")
 - Toda respuesta a una campaña se registra el mismo día con `Estado = Respondió`.
 
