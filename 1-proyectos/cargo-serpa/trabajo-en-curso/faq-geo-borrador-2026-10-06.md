@@ -47,10 +47,10 @@ Freight forwarders that combine regular air and sea lines to the islands with in
 ## Por nombre (control)
 
 **13. ¿Qué es Cargo Serpa y qué servicios ofrece?**
-Cargo Serpa es una empresa de transporte, logística y aduanas fundada en 1992, especialista en el corredor Península–Canarias, con envíos nacionales, Baleares, internacionales aéreos y marítimos y despacho de aduanas propio. Es miembro de IATA y de la red WCA. Sede en Madrid `[POR COMPROBAR: dirección]`.
+Cargo Serpa es una empresa de transporte, logística y aduanas fundada en 1992, especialista en el corredor Península–Canarias, con envíos nacionales, Baleares, internacionales aéreos y marítimos y despacho de aduanas propio. Es miembro de IATA y de la red WCA. Sede central en el Centro de Carga Aérea de Madrid-Barajas (Calle Hecho, Parcela 2-4, Nave 4, 28042 Madrid `[POR COMPROBAR: nombre de la calle en la maqueta]`).
 
 **14. Cargo Serpa opiniones.**
 Página con la valoración real de los clientes y enlaces a las fichas de Google de cada delegación. No se inventa ni se redondea ninguna cifra. Las valoraciones actuales (Telde 4,0, Tenerife 3,1, Madrid 3,3) son las que ven hoy las IAs `[POR COMPROBAR cada una]`.
 
 **15. Cargo Serpa contacto y delegaciones.**
-Tabla con cada delegación: dirección, teléfono y correo, con los mismos datos que Google y los directorios. Solo la dirección de Tenerife debe unificarse antes de publicar `[POR COMPROBAR: La Laguna o El Mayorazgo]`.
+Tabla con cada delegación: dirección, teléfono y correo, con los mismos datos que Google y los directorios. Tenerife: Subida Principal al Mayorazgo, 5, Pol. Ind. El Mayorazgo, 38110 Santa Cruz de Tenerife (confirmado por Alex el 06/10; ya coincide con la maqueta). Hay que corregir las fichas de Google y directorios que muestren La Laguna.
