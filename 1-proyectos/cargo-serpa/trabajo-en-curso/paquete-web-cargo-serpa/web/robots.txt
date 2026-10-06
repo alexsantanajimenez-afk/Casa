@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /api/
+# TODO A&A: añadir aquí las rutas internas del GES si procede (sin revelar nada sensible)
+
+Sitemap: https://www.cargoserpa.es/sitemap.xml
