@@ -75,6 +75,10 @@
   Cruce de respuestas Brevo/1:1 a los 3 días (09/10) y a los 7 (13/10).
 - **Rutina diaria de leads**: pasada a Apollo como herramienta principal el 06/10/2026 (con OK de Alex). Clay solo para los contactos sin email
   y cuando haya créditos (gratis desde el 16/10). Primera ejecución con Apollo: 07/10 a las 07:52 (Madrid); revisar el resultado.
+- **Lote de internacionales (06/10/2026, tarde)**: Alex pidió 15+ contactos de perfil exportador ("los internacionales dan mucho dinero").
+  23 contactos (20 + 3 de reserva: KEYA, FFaiges, DRV Phytolab), emails verificados en Apollo, 23 créditos. Saldo Apollo: 2.582 de 2.660
+  (78 gastados en el ciclo). Fichas en Notion (`Campaña = Outlook 1:1`, `Origen = B`, `Sin contactar`). Correos redactados en
+  `trabajo-en-curso/correos-internacionales-2026-10-06.md`. Pendiente: Alex los envía y se marcan `Contactado`.
 - Rehacer el dosier con los datos nuevos (final de mes).
 - **Informe mensual**: Alex lo saca del CRM y lo pasa él mismo a los comerciales y a gerencia.
   La Edge Function `informe-mensual` no existe (ni en el repo ni en `cargo-serpa-crm`; verificado
