@@ -91,6 +91,9 @@ Ver `mi-metodo/outbound.md` (contenido, tuteo, cierre literal, firma, respuestas
   convención de nombres REACT, excluir particulares, umbral de rebote 2 % / 5 % y campo "Campaña" en Notion
   (ya creado). Detalle en `mi-metodo/estandar-operativo.md`.
 
+- **Aviso de lead a Lidia (06/10/2026)**: todos los avisos llevan siempre el mismo contenido y el mismo
+  orden, con plantilla fija en `mi-metodo/aviso-a-lidia.md`. Sin enlaces a Notion (ellas no lo comparten).
+
 ## Infraestructura del CRM (05/10/2026)
 
 - Se eliminó Lovable del repo y se dejó un solo lockfile (`package-lock.json`); el `bun.lock`
