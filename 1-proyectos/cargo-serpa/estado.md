@@ -61,6 +61,9 @@
   `hola@comunicaciones...`, excluir particulares y renombrar campañas (ver estándar). Aprobado el 06/10; falta aplicarlo en las próximas campañas.
 - **Notion**: campo "Campaña" creado el 06/10; falta rellenarlo en las respuestas ya registradas y rellenar `Origen` en las ~89 fichas que no lo tienen.
   Dielca y J2O constan "Sin contactar" pero estaban en el envío del 01/10.
+- **Segunda respuesta del lote (06/10)**: HIMESA (Marçal Vidal). No tiene necesidades recurrentes, pero pide cotizar mover un
+  semirremolque vacío con tractora y chófer de Geel (Bélgica) a Schemmerhofen (Alemania). Pregunta si hay corresponsales.
+  Pendiente: confirmar con el equipo internacional si se puede hacer y contestarle; aviso a Lidia con la plantilla.
 - **Dossier de servicios y frecuencias** (06/10/2026): el correo 1:1 ya lo ofrece, así que tiene que existir y estar listo
   para el equipo comercial. Qué lleva (servicios, frecuencias por servicio, Latam) y quién lo prepara: por decidir. Enerland ya lo ha recibido como oferta.
 - **Rutina diaria de leads**: hoy prioriza Clay y usa Apollo solo de respaldo (máx. 10 al día).
