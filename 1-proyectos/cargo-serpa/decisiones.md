@@ -102,6 +102,12 @@ Ver `mi-metodo/outbound.md` (contenido, tuteo, cierre literal, firma, respuestas
 - **Respuestas de prospectos (06/10/2026)**: ante cada respuesta, Claude entrega siempre juntos el aviso a Lidia y la
   ficha de Notion, con el máximo de datos posibles y comprobando antes el CRM. Protocolo en `mi-metodo/respuesta-de-prospecto.md`.
 
+- **Dónde van los borradores (06/10/2026)**: lo que Alex tiene que copiar y pegar (correos, avisos a Lidia, listas) se entrega
+  en el chat o en una página de Notion, no solo en GitHub. GitHub se queda para lo estable (normas, estado, decisiones, método),
+  porque es lo único que sobrevive entre sesiones. Alex no abre GitHub a diario.
+- **Lote de internacionales (06/10/2026)**: Alex pidió 15+ contactos de perfil exportador; se enriquecieron 23 (20 + 3 de reserva)
+  con 23 créditos de Apollo. Saldo tras el lote: 2.582 de 2.660.
+
 ## Infraestructura del CRM (05/10/2026)
 
 - Se eliminó Lovable del repo y se dejó un solo lockfile (`package-lock.json`); el `bun.lock`
