@@ -53,3 +53,4 @@ lockfile.
 - **DNS y dominio de comunicaciones: Loading** (empresa externa). No es quien mantiene la web.
 - Decisión de Alex (06/10/2026): **rehacer la web** (V5) en lugar de parchearla. Se mantienen el login y la oficina virtual de clientes.
 - GA4 `G-C2TWFJZ8Q1`: Alex tiene acceso. Search Console: Alex tiene acceso (06/10/2026).
+- **GES (06/10/2026, dato de Alex):** el GES está dentro de la web actual. Los trabajadores entran en `cargoserpa.es` y se identifican dentro para trabajar. Ese acceso explica el tráfico directo en GA4 (~1.500 sesiones al mes). Riesgo: sustituir la web entera puede romper el GES. Hay que acordar con A&A que el GES conserve su dirección (o pase a un subdominio) y que la web nueva solo enlace a él. Preguntas para A&A: si el GES comparte código con la web, qué direcciones usa (`/login.aspx` y otras), si también entran clientes, y cómo se migra sin cortar el acceso. No redirigir `/login.aspx` mientras no haya acuerdo.
