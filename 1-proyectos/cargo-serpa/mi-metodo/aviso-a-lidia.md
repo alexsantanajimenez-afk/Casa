@@ -18,8 +18,9 @@ Hola, Lidia:
 
 Te paso un lead.
 
-- **Empresa:** [nombre, sector, ciudad, tamaño aproximado]
-- **Contacto(s):** [nombre, cargo, email, teléfono si lo hay]
+- **Empresa:** [nombre, sector y a qué se dedica, ciudad y dirección, empleados, facturación estimada, web, teléfono central, LinkedIn]
+- **Contacto(s):** [nombre, cargo, email, teléfono si lo hay, LinkedIn]
+- **Historial con Cargo Serpa:** [consulta al CRM: cliente actual o antiguo, envíos, último envío, ingresos; o "no consta en el CRM" con la fecha de la comprobación]
 - **Origen:** [campaña de Brevo o correo 1:1] · [fecha de envío] · respuesta el [fecha]
 - **Tipo de lead:** [caliente / activación de Brevo / 1:1 a nutrir]
 - **Qué han dicho:** [1-2 frases, lo más literal posible]
@@ -38,8 +39,9 @@ Hola, Lidia:
 
 Te paso un lead.
 
-- **Empresa:** Enerland, energías renovables, Zaragoza, unos 300 empleados.
-- **Contacto(s):** Estefanía Oyarzabal Alonso, Responsable de Compras y Logística (estefania.oyarzabal@enerlandgroup.com). Julián Vila de Luis, del departamento que llevaría estos proyectos (julian.vila@enerlandgroup.com). Teléfonos: `[POR COMPROBAR]`.
+- **Empresa:** Enerland Group, EPC y O&M de plantas fotovoltaicas (desarrollo y construcción de grandes plantas, almacenamiento de energía), fundada en 2007. Sede en Bilbilis 18, nave A4, PLAZA, 50197 Zaragoza. Unos 300 empleados; facturación estimada por Apollo de 166 M (moneda sin confirmar). Teléfono central +34 976 06 83 87. Web enerlandgroup.com; LinkedIn linkedin.com/company/enerland-group.
+- **Contacto(s):** Estefanía Oyarzabal Alonso, Responsable de Compras y Logística (estefania.oyarzabal@enerlandgroup.com; LinkedIn linkedin.com/in/estefanía-oyarzabal-alonso-88008296). Julián Vila de Luis, del departamento que llevaría estos proyectos (julian.vila@enerlandgroup.com). Teléfonos directos: `[POR COMPROBAR]`.
+- **Historial con Cargo Serpa:** no consta en el CRM (comprobado el 06/10/2026): ni cliente ni envíos. Es un lead nuevo.
 - **Origen:** correo 1:1 de presentación enviado el 06/10/2026 · respuesta el mismo día.
 - **Tipo de lead:** caliente (llega una persona nueva, Julián, a quien Estefanía deriva).
 - **Qué han dicho:** "Actualmente nuestras necesidades logísticas están más focalizadas a Latam, pero sí que hemos tenido proyectos en Canarias y es posible que tengamos en un futuro." Añaden en copia a Julián "para teneros en consideración si se da el caso".

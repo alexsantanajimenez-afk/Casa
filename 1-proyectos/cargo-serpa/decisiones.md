@@ -93,6 +93,8 @@ Ver `mi-metodo/outbound.md` (contenido, tuteo, cierre literal, firma, respuestas
 
 - **Aviso de lead a Lidia (06/10/2026)**: todos los avisos llevan siempre el mismo contenido y el mismo
   orden, con plantilla fija en `mi-metodo/aviso-a-lidia.md`. Sin enlaces a Notion (ellas no lo comparten).
+- **Respuestas de prospectos (06/10/2026)**: ante cada respuesta, Claude entrega siempre juntos el aviso a Lidia y la
+  ficha de Notion, con el máximo de datos posibles y comprobando antes el CRM. Protocolo en `mi-metodo/respuesta-de-prospecto.md`.
 
 ## Infraestructura del CRM (05/10/2026)
 
