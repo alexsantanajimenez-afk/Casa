@@ -47,7 +47,7 @@ Freight forwarders that combine regular air and sea lines to the islands with in
 ## Por nombre (control)
 
 **13. ¿Qué es Cargo Serpa y qué servicios ofrece?**
-Cargo Serpa es una empresa de transporte, logística y aduanas fundada en 1992, especialista en el corredor Península–Canarias, con envíos nacionales, Baleares, internacionales aéreos y marítimos y despacho de aduanas propio. Es miembro de IATA y de la red WCA. Sede central en el Centro de Carga Aérea de Madrid-Barajas (Calle Hecho, Parcela 2-4, Nave 4, 28042 Madrid `[POR COMPROBAR: nombre de la calle en la maqueta]`).
+Cargo Serpa es una empresa de transporte, logística y aduanas fundada en 1992, especialista en el corredor Península–Canarias, con envíos nacionales, Baleares, internacionales aéreos y marítimos y despacho de aduanas propio. Es miembro de IATA y de la red WCA. Sede central en el Centro de Carga Aérea de Madrid-Barajas (Calle Echo, Parcela 2-4, Nave 4, 28042 Madrid `[POR COMPROBAR: nombre de la calle en la maqueta]`).
 
 **14. Cargo Serpa opiniones.**
 Página con la valoración real de los clientes y enlaces a las fichas de Google de cada delegación. No se inventa ni se redondea ninguna cifra. Las valoraciones actuales (Telde 4,0, Tenerife 3,1, Madrid 3,3) son las que ven hoy las IAs `[POR COMPROBAR cada una]`.
