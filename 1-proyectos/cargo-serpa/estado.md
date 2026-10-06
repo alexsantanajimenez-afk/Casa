@@ -66,8 +66,11 @@
   Pendiente: confirmar con el equipo internacional si se puede hacer y contestarle; aviso a Lidia con la plantilla.
 - **Tercera respuesta del lote (06/10)**: Laboratorios Indas (Federico Pérez). Pone en copia a Cipriano Martín Martín (Jefe de
   Logística) para que valore la propuesta. Pendiente: copiar el email de Cipriano del hilo, contestar, aviso a Lidia y dossier.
-- **Dossier de servicios y frecuencias** (06/10/2026): el correo 1:1 ya lo ofrece, así que tiene que existir y estar listo
-  para el equipo comercial. Qué lleva (servicios, frecuencias por servicio, Latam) y quién lo prepara: por decidir. Enerland ya lo ha recibido como oferta.
+- **Dossier de servicios y frecuencias** (06/10/2026): ya lo tiene hecho el equipo comercial (dato de Alex). No hay que prepararlo;
+  el correo 1:1 lo ofrece y el comercial lo presenta cuando el prospecto responde. Enerland e Indas ya lo han recibido como oferta.
+- **Envío del lote 1:1 (06/10/2026)**: Alex confirma que están enviados todos los correos de la lista (los 45 que se redactaron,
+  más los de Enerland, Arkal, HIMESA e Indas ya registrados). Notion marcado como `Contactado` con fecha 06/10.
+  Cruce de respuestas Brevo/1:1 a los 3 días (09/10) y a los 7 (13/10).
 - **Rutina diaria de leads**: hoy prioriza Clay y usa Apollo solo de respaldo (máx. 10 al día).
   Con Apollo de pago hay que invertir el orden. Pendiente de OK; no se ha cambiado la tarea programada.
 - Rehacer el dosier con los datos nuevos (final de mes).
