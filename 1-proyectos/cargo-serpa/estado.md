@@ -1,27 +1,47 @@
 # Estado · Cargo Serpa
 
-Última actualización: 07/10/2026 (cierre del miércoles: outbound a leads de la rutina y búsqueda de exportadores).
+Última actualización: 07/10/2026 (cierre del miércoles: outbound, búsquedas nuevas y noticia de LinkedIn).
 
 ## Hoy, 07/10/2026
 
 - **Enviados por Alex (38 correos 1:1 en formato B)**, todos en Notion como "Contactado" con fecha 07/10:
   8 leads de la rutina diaria, 20 de la tanda 1 de exportadores y envíos internacionales y los 10 de la
   tanda 2.
-- **Rebote**: Julian Nuñez (Frutos Secos Medina), `jnunez@frutossecosmedina.com`: el dominio rechaza la
-  dirección (Apollo no traía dominio principal de la empresa). "Descartado" en Notion. Por esto, antes de
-  enviar nuevas tandas, comprobar el cargo actual en LinkedIn (enlace en la ficha) y que el dominio del
-  email coincida con el de la empresa: Apollo da por "verificado" el email aunque la persona se haya
-  ido o la dirección no exista.
-- **Respuestas automáticas, personas que ya no están**: Néstor Llansol (Laboratorios Neum, se fue el
-  08/05/26) y Dilan Gómez (Distrivet). Ambos "Descartado" en Notion. El 05/10 rebotó también
-  Luis Lorenzo (EM&E). Fecha de refresco de Apollo no sirve de filtro (Dilan figuraba refrescado el 23/09).
-- **Ficha nueva**: Rafael Parque, sustituto de Néstor en Neum (rparque@laboratoriosneum.com, dato de la
-  respuesta automática, sin créditos). "Sin contactar", correo B redactado. Cargo exacto `[POR COMPROBAR]`.
+- **Pendientes de enviar (18 fichas "Sin contactar" con el mensaje B en el cuerpo, más 1 de Neum)**:
+  - Tanda 3, importación desde Alemania (8): Linde Material Handling, REYCA, Recambios Auto Diesel y
+    Diselectric (encajan); IPG Dental, VCG Decoletaje, BENIGAR y Grupo Avisa (con "Verificar datos").
+  - Tanda 4 (10): RC Microelectrónica, AUSA, Domusa Teknik, Comercial Eléctrica del Llobregat,
+    Diagnóstica Longwood, Fluitecnik y Cadielsa (encajan); Hisense Iberia, Herco e Inoxtruck (con
+    "Verificar datos").
+  - Rafael Parque (Laboratorios Neum, sustituto de Néstor): rparque@laboratoriosneum.com.
+- **Respuestas**:
+  - **Vincent Brauns (Emica Bombas)** responde que ya trabajan con muchos transitarios y están muy
+    cubiertos. Pone en copia a Inma González (logística, inma.gonzalez@emicabombas.com), que contactará si
+    hay interés. Notion: "Respondió", "Nurturing", acción A4. Alex le contestó agradeciendo y dejando la
+    puerta abierta. **Decisión de Alex: no se pasa a Lidia** (no es un lead caliente).
+  - **Respuestas automáticas, personas que ya no están**: Néstor Llansol (Laboratorios Neum, se fue el
+    08/05/26) y Dilan Gómez (Distrivet). Ambos "Descartado" en Notion.
+  - **Rebotes**: Julian Nuñez (Frutos Secos Medina, el dominio rechaza la dirección) y, el 05/10,
+    Luis Lorenzo (EM&E). "Descartado" en Notion.
+- **Calidad de los datos de Apollo**: da por "verificado" el email aunque la persona se haya ido, la
+  dirección no exista o sea un buzón de departamento (`logistica@`, `compras@`, `export@`). La fecha de
+  refresco no sirve de filtro (Dilan figuraba refrescado el 23/09). Antes de enviar: comprobar el cargo en
+  LinkedIn (enlace en la ficha) y que el dominio del email coincida con el de la empresa. La tanda de
+  importación desde Alemania salió peor que la de exportadores: el origen de las compras no consta en
+  ninguna base y los concesionarios de marcas alemanas compran el recambio al almacén de la marca en España.
+- **Descartes por CRM o Notion**: Tecnove, Fresenius Kabi, Würth MODYF, Cultek, Helios Electromedicina,
+  Mateco España (ya con 3 contactos en "Respondió") y Cohimar Hidráulica Neumática.
 - **Distrivet**: la empresa remite a `departamento_transporte@distrivet.es`, buzón genérico que la regla
   descarta. Decisión de Alex pendiente: enviar como excepción o buscar a una persona con nombre.
-- **Créditos de Apollo hoy**: 32 gastados en esta búsqueda (22 + 10), más 8 de la rutina de la mañana =
-  tope de 40 enriquecimientos/día alcanzado. Saldo estimado tras los 32: unos 2.538 (calculado, no
-  releído de Apollo). Clay sin usar (caducan el 17/10/2026).
+- **Créditos de Apollo hoy**: 52 gastados en estas búsquedas (22 + 10 + 10 + 10) más 8 de la rutina de la
+  mañana = 60 enriquecimientos, por encima del tope de 40 que nos habíamos puesto (Alex pidió seguir).
+  Saldo estimado: unos 2.518 (calculado, no releído de Apollo). Clay sin usar (caducan el 17/10/2026).
+- **Noticia de LinkedIn (termosellado y embalaje de maquinaria, material de Lidia)**: la máquina de la
+  foto va a Canarias; se termosella en plástico y se asegura con correas de amarre (confirmado por Alex),
+  y se mueve a todos los destinos. Imagen: se quitó la banda de los tres bloques y el rótulo ajeno
+  "WC Móvil". Post redactado con gancho "no es un fantasma" (versión sobria alternativa). Pendiente: el
+  logo de Cargo Serpa (Alex lo pasa), cambiar el subtítulo "con los más altos estándares de seguridad y
+  calidad" (afirmación sin base), fecha (hoy o viernes), autor (página o perfil) y hashtags.
 - Decisiones del día en `decisiones.md` (formato B para internacional, aduana operativa, descartes por regla).
 
 ## Hecho
