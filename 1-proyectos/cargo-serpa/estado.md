@@ -1,6 +1,13 @@
 # Estado · Cargo Serpa
 
-Última actualización: 05/10/2026 (volcado del proyecto de Claude + verificación en el repo y Supabase).
+Última actualización: 07/10/2026 (arranque del miércoles: outbound a leads de la rutina y primera búsqueda de exportadores).
+
+## Hoy, 07/10/2026
+
+- Enviados por Alex 8 correos 1:1 en formato B (leads de la rutina diaria); en Notion ya figuran como "Contactado".
+- Segmento nuevo, exportadores y envíos internacionales: 20 leads registrados en "Prospectos" (Estado "Sin contactar") con el mensaje B en la ficha. 4 llevan "Verificar datos". Pendiente de enviar por Alex.
+- Créditos de Apollo gastados hoy por esta búsqueda: 22, más una tanda adicional de 10. Clay sin usar (caducan el 17/10/2026).
+- Decisiones del día en `decisiones.md` (formato B para internacional, aduana operativa).
 
 ## Hecho
 

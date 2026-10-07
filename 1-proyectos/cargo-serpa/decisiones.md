@@ -71,6 +71,22 @@ media de 3 meses, alarma a más de 30 días"):
 Ver `mi-metodo/outbound.md` (contenido, tuteo, cierre literal, firma, respuestas) y
 `mi-metodo/linkedin.md` (tono y reglas del gancho).
 
+## Prospección internacional (07/10/2026)
+
+- **Nuevo segmento**: empresas que exportan a China, Sudamérica o hacen envíos entre países de
+  Europa. Búsqueda con Apollo (personas, gratis) y email enriquecido con Apollo (1 crédito por
+  persona); Clay no filtra empresas por país y quedó sin usar. Tope diario: 40 enriquecimientos.
+- **Formato del mensaje: B para envíos internacionales.** B es el mensaje largo de la rutina
+  diaria (servicios, IATA/WCA, aduana incluida, opción de baja). Motivo (Alex): el A (solo
+  presentarse, con cierre literal) se queda corto para internacional. Los 8 correos del 07/10
+  salieron en B. `[POR COMPROBAR]` si B sustituye a A también fuera del segmento internacional.
+- **Aduana operativa**: Cargo Serpa tiene despachantes propios y hace todo el despacho (Alex,
+  07/10/2026), así que se puede ofrecer exportación con aduana incluida.
+- **Escritura en Notion**: los leads de esta búsqueda se registran en "Prospectos" con Origen =
+  Apollo, Campaña = Outlook 1:1 y el mensaje B completo en el cuerpo de la ficha.
+- **Descartes por regla**: buzones genéricos (`logistica@`, `export@`, `info@`) y empresas con
+  coincidencia dudosa en el CRM (Tecnove, por Tecnove Fiberglass SL).
+
 ## Infraestructura del CRM (05/10/2026)
 
 - Se eliminó Lovable del repo y se dejó un solo lockfile (`package-lock.json`); el `bun.lock`
