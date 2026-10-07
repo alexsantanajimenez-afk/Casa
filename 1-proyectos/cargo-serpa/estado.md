@@ -4,25 +4,26 @@
 
 ## Hoy, 07/10/2026
 
-- **Enviados por Alex (38 correos 1:1 en formato B)**, todos en Notion como "Contactado" con fecha 07/10:
-  8 leads de la rutina diaria, 20 de la tanda 1 de exportadores y envíos internacionales y los 10 de la
-  tanda 2.
-- **Pendientes de enviar (18 fichas "Sin contactar" con el mensaje B en el cuerpo, más 1 de Neum)**:
-  - Tanda 3, importación desde Alemania (8): Linde Material Handling, REYCA, Recambios Auto Diesel y
-    Diselectric (encajan); IPG Dental, VCG Decoletaje, BENIGAR y Grupo Avisa (con "Verificar datos").
-  - Tanda 4 (10): RC Microelectrónica, AUSA, Domusa Teknik, Comercial Eléctrica del Llobregat,
-    Diagnóstica Longwood, Fluitecnik y Cadielsa (encajan); Hisense Iberia, Herco e Inoxtruck (con
-    "Verificar datos").
-  - Rafael Parque (Laboratorios Neum, sustituto de Néstor): rparque@laboratoriosneum.com.
-- **Respuestas**:
-  - **Vincent Brauns (Emica Bombas)** responde que ya trabajan con muchos transitarios y están muy
-    cubiertos. Pone en copia a Inma González (logística, inma.gonzalez@emicabombas.com), que contactará si
-    hay interés. Notion: "Respondió", "Nurturing", acción A4. Alex le contestó agradeciendo y dejando la
-    puerta abierta. **Decisión de Alex: no se pasa a Lidia** (no es un lead caliente).
-  - **Respuestas automáticas, personas que ya no están**: Néstor Llansol (Laboratorios Neum, se fue el
-    08/05/26) y Dilan Gómez (Distrivet). Ambos "Descartado" en Notion.
-  - **Rebotes**: Julian Nuñez (Frutos Secos Medina, el dominio rechaza la dirección) y, el 05/10,
+- **Enviados por Alex hoy: 57 correos 1:1 en formato B**, todos en Notion como "Contactado" con fecha
+  07/10: 8 de la rutina diaria, 20 de la tanda 1 (exportadores e internacional), 10 de la tanda 2, 8 de la
+  tanda 3 (importación desde Alemania), 10 de la tanda 4 y Rafael Parque (Neum). Alex confirma que no queda
+  ninguno de hoy por enviar.
+- **Respuestas (5) y rebotes (2)**:
+  - **Vincent Brauns (Emica Bombas):** ya trabajan con muchos transitarios y están muy cubiertos. Pone en
+    copia a Inma González (logística, inma.gonzalez@emicabombas.com), que contactará si hay interés.
+    Notion: "Respondió", "Nurturing", acción A4. Alex contestó agradeciendo, sin insistir.
+  - **Astrid Monforte (Neumastock):** no es la persona indicada y deriva a **Lidia Gómez**
+    (Lgomez@neumastock.es). Ficha nueva "Sin contactar" con el correo redactado (responder en el mismo hilo,
+    con Astrid en copia). No es Lidia Marín, la comercial de Cargo Serpa. Envío `[POR COMPROBAR]`.
+  - **William Van Vianen (RC Microelectrónica):** respuesta automática, de baja por paternidad, sin
+    reenvío; da compras@rcmicro.es (buzón genérico, no usado). Notion: acción "Identificar contacto". En
+    Apollo solo constan otro "Manager" (Alfonso) y dos Product Manager; nadie de logística o compras.
+  - **Néstor Llansol (Laboratorios Neum, se fue el 08/05/26) y Dilan Gómez (Distrivet):** ya no están.
+    "Descartado" en Notion.
+  - **Rebotes:** Julian Nuñez (Frutos Secos Medina, el dominio rechaza la dirección) y, el 05/10,
     Luis Lorenzo (EM&E). "Descartado" en Notion.
+- **Regla sobre Lidia Marín (decisión de Alex, 07/10):** no se le pasa ningún lead hasta que conteste un
+  lead de verdad (interés real). Los nurturing, derivaciones y bajas se quedan en Notion.
 - **Calidad de los datos de Apollo**: da por "verificado" el email aunque la persona se haya ido, la
   dirección no exista o sea un buzón de departamento (`logistica@`, `compras@`, `export@`). La fecha de
   refresco no sirve de filtro (Dilan figuraba refrescado el 23/09). Antes de enviar: comprobar el cargo en
