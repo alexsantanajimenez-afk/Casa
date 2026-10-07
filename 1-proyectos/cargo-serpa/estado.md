@@ -9,8 +9,8 @@
   descartar, abajo).
 - **Tanda 2: 10 leads** (Estado "Sin contactar" en Notion salvo cambios; mensaje B en la ficha). Alex
   ha empezado a enviarlos: **rebotó Julian Nuñez (Frutos Secos Medina)**, `jnunez@frutossecosmedina.com`,
-  el dominio rechaza la dirección (Apollo no traía dominio principal de la empresa). Falta pasarlo a
-  "Descartado" en Notion y confirmar qué otros de la tanda 2 se enviaron. Antes de enviar el resto,
+  el dominio rechaza la dirección (Apollo no traía dominio principal de la empresa). Ya figura como
+  "Descartado" en Notion. Falta confirmar qué otros de la tanda 2 se enviaron. Antes de enviar el resto,
   comprobar el cargo actual en LinkedIn (enlace en la ficha): Apollo da por "verificado" el email
   aunque la persona se haya ido o la dirección no exista.
 - **Respuestas automáticas, personas que ya no están**: Néstor Llansol (Laboratorios Neum, se fue el
