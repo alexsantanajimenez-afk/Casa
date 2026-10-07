@@ -1,13 +1,29 @@
 # Estado · Cargo Serpa
 
-Última actualización: 07/10/2026 (arranque del miércoles: outbound a leads de la rutina y primera búsqueda de exportadores).
+Última actualización: 07/10/2026 (cierre del miércoles: outbound a leads de la rutina y búsqueda de exportadores).
 
 ## Hoy, 07/10/2026
 
-- Enviados por Alex 8 correos 1:1 en formato B (leads de la rutina diaria); en Notion ya figuran como "Contactado".
-- Segmento nuevo, exportadores y envíos internacionales: 20 leads registrados en "Prospectos" (Estado "Sin contactar") con el mensaje B en la ficha. 4 llevan "Verificar datos". Pendiente de enviar por Alex.
-- Créditos de Apollo gastados hoy por esta búsqueda: 22, más una tanda adicional de 10. Clay sin usar (caducan el 17/10/2026).
-- Decisiones del día en `decisiones.md` (formato B para internacional, aduana operativa).
+- **Enviados por Alex (30 correos 1:1 en formato B)**, todos en Notion como "Contactado" con fecha 07/10:
+  8 leads de la rutina diaria y 20 de la tanda 1 de exportadores y envíos internacionales (más 2 a
+  descartar, abajo).
+- **Tanda 2: 10 leads** (Estado "Sin contactar" en Notion salvo cambios; mensaje B en la ficha). Alex
+  ha empezado a enviarlos: **rebotó Julian Nuñez (Frutos Secos Medina)**, `jnunez@frutossecosmedina.com`,
+  el dominio rechaza la dirección (Apollo no traía dominio principal de la empresa). Falta pasarlo a
+  "Descartado" en Notion y confirmar qué otros de la tanda 2 se enviaron. Antes de enviar el resto,
+  comprobar el cargo actual en LinkedIn (enlace en la ficha): Apollo da por "verificado" el email
+  aunque la persona se haya ido o la dirección no exista.
+- **Respuestas automáticas, personas que ya no están**: Néstor Llansol (Laboratorios Neum, se fue el
+  08/05/26) y Dilan Gómez (Distrivet). Ambos "Descartado" en Notion. El 05/10 rebotó también
+  Luis Lorenzo (EM&E). Fecha de refresco de Apollo no sirve de filtro (Dilan figuraba refrescado el 23/09).
+- **Ficha nueva**: Rafael Parque, sustituto de Néstor en Neum (rparque@laboratoriosneum.com, dato de la
+  respuesta automática, sin créditos). "Sin contactar", correo B redactado. Cargo exacto `[POR COMPROBAR]`.
+- **Distrivet**: la empresa remite a `departamento_transporte@distrivet.es`, buzón genérico que la regla
+  descarta. Decisión de Alex pendiente: enviar como excepción o buscar a una persona con nombre.
+- **Créditos de Apollo hoy**: 32 gastados en esta búsqueda (22 + 10), más 8 de la rutina de la mañana =
+  tope de 40 enriquecimientos/día alcanzado. Saldo estimado tras los 32: unos 2.538 (calculado, no
+  releído de Apollo). Clay sin usar (caducan el 17/10/2026).
+- Decisiones del día en `decisiones.md` (formato B para internacional, aduana operativa, descartes por regla).
 
 ## Hecho
 
