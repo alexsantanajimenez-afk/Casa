@@ -13,8 +13,7 @@
     copia a Inma González (logística, inma.gonzalez@emicabombas.com), que contactará si hay interés.
     Notion: "Respondió", "Nurturing", acción A4. Alex contestó agradeciendo, sin insistir.
   - **Astrid Monforte (Neumastock):** no es la persona indicada y deriva a **Lidia Gómez**
-    (Lgomez@neumastock.es). Ficha nueva "Sin contactar" con el correo redactado (responder en el mismo hilo,
-    con Astrid en copia). No es Lidia Marín, la comercial de Cargo Serpa. Envío `[POR COMPROBAR]`.
+    (Lgomez@neumastock.es). Ficha nueva: correo enviado por Alex el 07/10 en el hilo de Astrid (con ella en copia), "Contactado". No es Lidia Marín, la comercial de Cargo Serpa.
   - **William Van Vianen (RC Microelectrónica):** respuesta automática, de baja por paternidad, sin
     reenvío; da compras@rcmicro.es (buzón genérico, no usado). Notion: acción "Identificar contacto". En
     Apollo solo constan otro "Manager" (Alfonso) y dos Product Manager; nadie de logística o compras.
@@ -32,8 +31,8 @@
   ninguna base y los concesionarios de marcas alemanas compran el recambio al almacén de la marca en España.
 - **Descartes por CRM o Notion**: Tecnove, Fresenius Kabi, Würth MODYF, Cultek, Helios Electromedicina,
   Mateco España (ya con 3 contactos en "Respondió") y Cohimar Hidráulica Neumática.
-- **Distrivet**: la empresa remite a `departamento_transporte@distrivet.es`, buzón genérico que la regla
-  descarta. Decisión de Alex pendiente: enviar como excepción o buscar a una persona con nombre.
+- **Distrivet:** resuelto por Alex el 07/10 (cómo, no consta). La empresa remitía al buzón genérico
+  `departamento_transporte@distrivet.es`; Dilan Gómez sigue "Descartado" en Notion.
 - **Créditos de Apollo hoy**: 52 gastados en estas búsquedas (22 + 10 + 10 + 10) más 8 de la rutina de la
   mañana = 60 enriquecimientos, por encima del tope de 40 que nos habíamos puesto (Alex pidió seguir).
   Saldo estimado: unos 2.518 (calculado, no releído de Apollo). Clay sin usar (caducan el 17/10/2026).
