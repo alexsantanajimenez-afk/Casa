@@ -4,11 +4,17 @@
 
 ## Hoy, 07/10/2026
 
-- **Enviados por Alex hoy: 57 correos 1:1 en formato B**, todos en Notion como "Contactado" con fecha
-  07/10: 8 de la rutina diaria, 20 de la tanda 1 (exportadores e internacional), 10 de la tanda 2, 8 de la
-  tanda 3 (importación desde Alemania), 10 de la tanda 4 y Rafael Parque (Neum). Alex confirma que no queda
-  ninguno de hoy por enviar.
-- **Respuestas (5) y rebotes (2)**:
+- **Enviados por Alex hoy: 59 correos 1:1 en formato B**: 8 de la rutina diaria, 20 de la tanda 1
+  (exportadores e internacional), 10 de la tanda 2, 8 de la tanda 3 (importación desde Alemania), 10 de la
+  tanda 4, Rafael Parque (Neum) y los dos sustitutos de rebotes (Juan Humanes, EM&E; Clara Collada, Frutos
+  Secos Medina). Alex confirma que no queda ninguno de hoy por enviar.
+- **Pendiente de Notion (el conector falló dos veces, 07/10):** crear las fichas de Juan Humanes
+  ("Contactado", juan.humanes@eme-es.com, dominio catch-all) y de Clara Collada.
+- **Tercer rebote, Clara Collada (Frutos Secos Medina):** `ccollada@eguiafoodfactory.com` no se entregó
+  ("No se pudo entregar a estos destinatarios"). El dominio eguiafoodfactory.com queda refutado y Apollo
+  volvió a dar por verificado un email inválido. María De Alonso (Supply Chain Manager) sigue sin email.
+  Dominio real de Frutos Secos Medina `[POR COMPROBAR]`. Ficha prevista: "Cerrado sin éxito", acción "Verificar datos".
+- **Respuestas (5) y rebotes (3)**:
   - **Vincent Brauns (Emica Bombas):** ya trabajan con muchos transitarios y están muy cubiertos. Pone en
     copia a Inma González (logística, inma.gonzalez@emicabombas.com), que contactará si hay interés.
     Notion: "Respondió", "Nurturing", acción A4. Alex contestó agradeciendo, sin insistir.
@@ -33,9 +39,9 @@
   Mateco España (ya con 3 contactos en "Respondió") y Cohimar Hidráulica Neumática.
 - **Distrivet:** resuelto por Alex el 07/10 (cómo, no consta). La empresa remitía al buzón genérico
   `departamento_transporte@distrivet.es`; Dilan Gómez sigue "Descartado" en Notion.
-- **Créditos de Apollo hoy**: 52 gastados en estas búsquedas (22 + 10 + 10 + 10) más 8 de la rutina de la
-  mañana = 60 enriquecimientos, por encima del tope de 40 que nos habíamos puesto (Alex pidió seguir).
-  Saldo estimado: unos 2.518 (calculado, no releído de Apollo). Clay sin usar (caducan el 17/10/2026).
+- **Créditos de Apollo hoy**: 55 gastados en estas búsquedas (22 + 10 + 10 + 10 + 3) más 8 de la rutina de la
+  mañana = 63 enriquecimientos, por encima del tope de 40 que nos habíamos puesto (Alex pidió seguir).
+  Saldo estimado: unos 2.515 (calculado, no releído de Apollo). Clay sin usar (caducan el 17/10/2026).
 - **LinkedIn, miércoles 07/10: post PUBLICADO** (termosellado y embalaje de maquinaria, material de Lidia).
   La máquina de la foto es una carretilla elevadora eléctrica que Alex describe como "a ser exportada"
   (antes dijo que iba a Canarias: destino exacto `[POR COMPROBAR]`); se termosella en plástico y se asegura
