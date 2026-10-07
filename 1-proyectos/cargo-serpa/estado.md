@@ -37,12 +37,15 @@
 - **Créditos de Apollo hoy**: 52 gastados en estas búsquedas (22 + 10 + 10 + 10) más 8 de la rutina de la
   mañana = 60 enriquecimientos, por encima del tope de 40 que nos habíamos puesto (Alex pidió seguir).
   Saldo estimado: unos 2.518 (calculado, no releído de Apollo). Clay sin usar (caducan el 17/10/2026).
-- **Noticia de LinkedIn (termosellado y embalaje de maquinaria, material de Lidia)**: la máquina de la
-  foto va a Canarias; se termosella en plástico y se asegura con correas de amarre (confirmado por Alex),
-  y se mueve a todos los destinos. Imagen: se quitó la banda de los tres bloques y el rótulo ajeno
-  "WC Móvil". Post redactado con gancho "no es un fantasma" (versión sobria alternativa). Pendiente: el
-  logo de Cargo Serpa (Alex lo pasa), cambiar el subtítulo "con los más altos estándares de seguridad y
-  calidad" (afirmación sin base), fecha (hoy o viernes), autor (página o perfil) y hashtags.
+- **LinkedIn, miércoles 07/10: post PUBLICADO** (termosellado y embalaje de maquinaria, material de Lidia).
+  La máquina de la foto es una carretilla elevadora eléctrica que Alex describe como "a ser exportada"
+  (antes dijo que iba a Canarias: destino exacto `[POR COMPROBAR]`); se termosella en plástico y se asegura
+  con correas de amarre (confirmado por Alex), y se mueve a todos los destinos. Gancho "No, no es un
+  fantasma", con corte "…antes de salir…". La versión exacta publicada no consta aquí. Imagen: sin la
+  banda de los tres bloques y sin el rótulo ajeno "WC Móvil". Pendiente para próximas piezas: el logo de
+  Cargo Serpa, el subtítulo de la imagen ("con los más altos estándares de seguridad y calidad"), el pilar
+  "maquinaria" (qué equipos y vehículos tienen) y si se publica desde la página o el perfil. Siguiente post:
+  viernes 09/10 (cierre de semana).
 - Decisiones del día en `decisiones.md` (formato B para internacional, aduana operativa, descartes por regla).
 
 ## Hecho

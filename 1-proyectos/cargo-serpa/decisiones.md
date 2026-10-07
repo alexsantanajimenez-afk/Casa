@@ -87,6 +87,23 @@ Ver `mi-metodo/outbound.md` (contenido, tuteo, cierre literal, firma, respuestas
 - **Descartes por regla**: buzones genéricos (`logistica@`, `export@`, `info@`) y empresas con
   coincidencia dudosa en el CRM (Tecnove, por Tecnove Fiberglass SL).
 
+## LinkedIn y leads: reglas nuevas (07/10/2026)
+
+- **No prometer garantías absolutas ni resultados** en posts ni en imágenes: nada de "seguridad total",
+  "protección completa", "sin riesgos", "garantizan" ni "asegura el éxito de tus envíos". Se dice lo que se
+  hace y se puede demostrar (plástico termosellado, correas de amarre, equipo cualificado). Tampoco
+  superlativos sin base ("los más altos estándares").
+- **Gancho del post:** abre con lo que el lector ve o vive (no con la empresa), la empresa entra en la
+  segunda frase y el "…ver más" corta a mitad de la tensión, antes de resolverla. Un detalle concreto
+  (carretilla elevadora eléctrica) mejor que uno genérico (máquina). Como mucho dos hashtags.
+- **Fotos de trabajo real:** no cambiar el aspecto de lo que se muestra (color del material); quitar rótulos
+  y marcas de terceros del fondo; no nombrar al cliente.
+- **Leads a Lidia Marín (decisión de Alex):** no se le pasa ninguno hasta que conteste un lead de verdad
+  (interés real). Los nurturing, las derivaciones y las bajas se quedan en Notion. Matiza la regla de
+  "todos los leads" del 05/10/2026.
+- **Respuesta a un "ya estamos cubiertos":** agradecer, dejar la puerta abierta (equipo comercial si hay
+  interés) y no insistir; ficha en Notion como "Nurturing", acción A4.
+
 ## Infraestructura del CRM (05/10/2026)
 
 - Se eliminó Lovable del repo y se dejó un solo lockfile (`package-lock.json`); el `bun.lock`
