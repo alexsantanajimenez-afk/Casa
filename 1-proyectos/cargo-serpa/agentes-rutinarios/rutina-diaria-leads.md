@@ -13,8 +13,7 @@ distinta del barrido de señales (Agentes 8/6).
   Plan de pago: 2.660 créditos de lead por ciclo (06/10 al 06/11/2026). Tope de 30 enriquecimientos de email al día.
   Si quedan menos de 500 créditos, no gasta y avisa.
 - **Clay: solo para emails que Apollo no devuelva verificados, y solo desde que haya créditos.** Alex confirma (08/10/2026)
-  que Clay no tiene créditos hasta el 17/10. El prompt dice 16/10: es una diferencia de un día, sin efecto práctico
-  mientras Clay se use solo como respaldo. `[POR COMPROBAR]` si se quiere alinear el texto.
+  que Clay no tiene créditos hasta el 17/10. El prompt de la tarea se alineó al 17/10 el 08/10/2026 con OK de Alex.
 
 ## Cosas a revisar (pendientes de decidir con Alex)
 
@@ -24,8 +23,6 @@ distinta del barrido de señales (Agentes 8/6).
 - **Exclusiones**: unificadas el 05/10/2026 en el punto 4c con `mi-metodo/exclusiones.md` (esta rutina conserva además a Mint Company y a los grandes EPC como ya clientes; el prompt añade a Stryker). Si se cambia una lista, cambiar la otra.
 - El orden fijo de prospección decidido (señales → LinkedIn → cruce → Agente 6 → Apollo) no se parece a esta rutina.
   Es un flujo paralelo; aclarar cómo conviven.
-- `CLAUDE.md` dice que Apollo se usa "a mano con la extensión de Chrome, sin gastar créditos"; esta rutina gasta créditos de
-  Apollo por API. Aclarar y, si procede, corregir `CLAUDE.md`.
 - El prompt dice "Tipo = Cliente" (confirmado como correcto) y "Origen = F · Rutina diaria".
 
 ## Prompt vigente (copia íntegra de la tarea, 08/10/2026)
@@ -39,7 +36,7 @@ OBJETIVO: dejar leads nuevos, cualificados y con mensaje redactado en la tabla P
 - Hasta el 7 de octubre de 2026 (modo prueba): 10 leads. A partir del 8 de octubre: 20 leads.
 - APOLLO ES LA HERRAMIENTA PRINCIPAL (plan de pago de Alex: 2.660 créditos de lead por ciclo, ciclo del 06/10 al 06/11/2026). Busca a las personas con apollo_mixed_people_api_search (la búsqueda NO gasta créditos de lead y no devuelve emails) y obtén el email con apollo_people_bulk_match por id (1 crédito por persona, máximo 10 por llamada), sin waterfall y sin teléfono (no uses reveal_phone_number, run_waterfall_email ni run_waterfall_phone: Alex no quiere teléfonos de momento). Filtra la búsqueda por contact_email_status = verified para no gastar créditos en emails dudosos.
 - Tope duro: máximo 30 enriquecimientos de email por día. Antes de gastar, consulta el saldo con apollo_usage_stats_credit_usage_stats: si quedan menos de 500 créditos de lead, no gastes y avísalo en el resumen. Anota los créditos gastados y el saldo.
-- CLAY solo se usa para los contactos de los que Apollo NO devuelva un email verificado, y solo si Alex tiene créditos de Clay (los gratis se activan el 16/10/2026). Clay no permite filtrar por cargo ni por país: no lo uses para buscar personas, solo para pedir el email de una persona concreta ya identificada. Si no hay créditos de Clay o falla, no insistas: deja al contacto sin email (ver punto 5).
+- CLAY solo se usa para los contactos de los que Apollo NO devuelva un email verificado, y solo si Alex tiene créditos de Clay (los gratis se activan el 17/10/2026). Clay no permite filtrar por cargo ni por país: no lo uses para buscar personas, solo para pedir el email de una persona concreta ya identificada. Si no hay créditos de Clay o falla, no insistas: deja al contacto sin email (ver punto 5).
 - Si más del 50% de los candidatos de un grupo sale sin email verificado, avísalo en el resumen.
 
 1. GRUPOS DE BÚSQUEDA Y CUOTA (sobre 20 leads; en prueba reparte proporcionalmente)
