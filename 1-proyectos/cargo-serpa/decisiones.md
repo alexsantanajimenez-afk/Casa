@@ -47,6 +47,12 @@ Lo que no consta aquí no significa que no se decidiera: preguntar.
   ni proponer cómo gastarlos. La rutina diaria de leads sube a 20 leads/día desde el 08/10.
 - **Orden de herramientas en la rutina de leads (06/10/2026, confirmado el 08/10)**: Apollo primero
   (tope 30 enriquecimientos/día); Clay solo como respaldo y solo desde el 17/10.
+- **Sectores fuera de la búsqueda manual (08/10/2026)**: alimentación y vinos descartados ("es un
+  lío"); también agroalimentario (aceites, aceitunas, bodegas). Búsquedas nuevas: farma, sanitario,
+  maquinaria, recambios y energía. Los químicos, solo con mercancía peligrosa (ADR/IMDG) confirmada.
+- **Recordatorios (08/10/2026)**: segundo mensaje corto en el mismo hilo, a los 4 días hábiles
+  (se hizo a los 7 días con la tanda del 01/10). Sin la frase "dímelo y no insisto"; cierre:
+  "Y si no es el momento, lo entiendo perfectamente." `[POR COMPROBAR]` si es uno solo por persona.
 
 ## Alertas de fuga (criterio real, verificado en el código el 05/10/2026)
 
