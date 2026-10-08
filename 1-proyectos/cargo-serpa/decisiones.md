@@ -45,6 +45,8 @@ Lo que no consta aquí no significa que no se decidiera: preguntar.
 - **API de Claude**: descartada por ahora; se usa la suscripción.
 - **Clay (08/10/2026)**: créditos gastados; no hay más hasta el 17/10. No volver a sacar el tema
   ni proponer cómo gastarlos. La rutina diaria de leads sube a 20 leads/día desde el 08/10.
+- **Orden de herramientas en la rutina de leads (06/10/2026, confirmado el 08/10)**: Apollo primero
+  (tope 30 enriquecimientos/día); Clay solo como respaldo y solo desde el 17/10.
 
 ## Alertas de fuga (criterio real, verificado en el código el 05/10/2026)
 
