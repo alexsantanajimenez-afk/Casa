@@ -46,7 +46,8 @@
 
 ## Pendiente
 
-- Apollo y LinkedIn a mano (extensión de Chrome, sin créditos). Objetivo: 20 correos 1:1 al día.
+- Prospección 1:1: la rutina diaria deja 20 leads/día en Notion con Apollo de pago (tope 30
+  enriquecimientos/día, desde el 06/10/2026); LinkedIn sigue a mano. Objetivo: 20 correos 1:1 al día.
 - Rehacer el dosier con los datos nuevos (final de mes).
 - **Feedback de la gerente sobre el CRM**: no consta si está hecho. Pide que Envíos/Servicios
   describa el envío tipo por servicio (peso y bultos medios, envíos/día por cliente) y, en
