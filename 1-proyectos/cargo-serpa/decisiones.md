@@ -43,6 +43,8 @@ Lo que no consta aquí no significa que no se decidiera: preguntar.
 - **Redes sociales**: descartadas Instagram, TikTok y Facebook; el ICP de compras e industria
   está en LinkedIn.
 - **API de Claude**: descartada por ahora; se usa la suscripción.
+- **Clay (08/10/2026)**: créditos gastados; no hay más hasta el 17/10. No volver a sacar el tema
+  ni proponer cómo gastarlos. La rutina diaria de leads sube a 20 leads/día desde el 08/10.
 
 ## Alertas de fuga (criterio real, verificado en el código el 05/10/2026)
 

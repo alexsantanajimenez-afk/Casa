@@ -62,7 +62,7 @@
   Mercedes, en los de Baleares); ellas reparten. Con el ámbito "toda España" no cambia el
   proceso. `[POR COMPROBAR]` si Mercedes recibe también otros leads además de los de Baleares.
 - Unificar exclusiones y formato de mensaje entre la rutina diaria de leads y el outbound (ver `agentes-rutinarios/rutina-diaria-leads.md`).
-- Los **créditos de Clay caducan el 17/10/2026**; la rutina de leads pasa de 10 a 20 leads/día el 08/10.
+- **Clay: créditos ya gastados (08/10/2026). No hay más hasta el 17/10.** No volver a plantearlo ni a proponer cómo gastarlos. La rutina de leads pasa de 10 a 20 leads/día el 08/10.
 - Living Las Canteras: aplazado (solo es una propuesta; Alex lo retoma cuando quiera).
 - CRM: Alex dice que está terminado y que a la gerente le gusta (05/10/2026).
 - Pasar las dos tareas programadas a leer esta carpeta en vez de llevar el prompt completo.
