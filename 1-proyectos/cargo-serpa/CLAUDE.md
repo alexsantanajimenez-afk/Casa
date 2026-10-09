@@ -30,7 +30,6 @@ unas 25 h semanales. Lee `estado.md` antes de empezar.
 ## Herramientas conectadas
 
 Notion (base "Prospectos"), Brevo (solo reactivación de cartera), Apollo (plan de pago desde el
-06/10/2026, 2.660 créditos por ciclo; Claude lo usa directamente, pero **no gasta créditos sin el
-OK de Alex**, ver `mi-metodo/estandar-operativo.md`), Clay (solo con los créditos gratis, tras
-Apollo), Supabase (datos del CRM). WhatsApp no tiene conector: el texto
+06/10/2026; antes era gratuito y se usaba a mano con la extensión de Chrome), Clay (de respaldo,
+sin créditos hasta el 17/10/2026), Supabase (datos del CRM). WhatsApp no tiene conector: el texto
 lo redacta Claude y lo envía Alex.

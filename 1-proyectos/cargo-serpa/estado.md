@@ -142,9 +142,7 @@
   Mercedes, en los de Baleares); ellas reparten. Con el ámbito "toda España" no cambia el
   proceso. `[POR COMPROBAR]` si Mercedes recibe también otros leads además de los de Baleares.
 - Unificar exclusiones y formato de mensaje entre la rutina diaria de leads y el outbound (ver `agentes-rutinarios/rutina-diaria-leads.md`).
-- **Clay**: los créditos que caducaban el 17/10 ya están gastados. Los gratis se activan el 16/10/2026
-  y solo se usan para lo que Apollo no encuentre. La rutina de leads pasa de 10 a 20 leads/día el 08/10:
-  decidir si se mantiene con Apollo.
+- **Clay: créditos ya gastados (08/10/2026). No hay más hasta el 17/10.** No volver a plantearlo ni a proponer cómo gastarlos. La rutina de leads pasa de 10 a 20 leads/día el 08/10, con Apollo primero (tope 30/día) y Clay solo de respaldo desde el 17/10.
 - Living Las Canteras: aplazado (solo es una propuesta; Alex lo retoma cuando quiera).
 - CRM y feedback de gerencia: **cerrado**. Alex confirma (06/10/2026) que el CRM y gerencia están OK; el feedback anterior de la gerente ya no está pendiente.
 - Pasar las dos tareas programadas a leer esta carpeta en vez de llevar el prompt completo.

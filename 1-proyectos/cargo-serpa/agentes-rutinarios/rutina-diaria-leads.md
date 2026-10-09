@@ -27,10 +27,11 @@ Cambios (el texto íntegro vive en la propia tarea programada; esta es una copia
 
 ## Cosas a revisar (pendientes de decidir con Alex)
 
-- **Dos formatos de mensaje distintos**: esta rutina redacta un mensaje con servicios y presentación más larga;
-  `mi-metodo/outbound.md` fija "solo presentarse, sin cifras, con el cierre literal". Hay que decidir cuál manda.
-- **Exclusiones**: unificadas el 05/10/2026 en el punto 4c con `mi-metodo/exclusiones.md` (esta rutina conserva además a Mint Company y a los grandes EPC como ya clientes). Si se cambia una lista, cambiar la otra.
-- El orden fijo de prospección decidido (señales → LinkedIn → cruce → Agente 6 → Apollo) no se parece a esta rutina
-  (Clay/Apollo primero). Es un flujo paralelo; aclarar cómo conviven.
+- **Formato de mensaje**: el prompt usa desde el 06/10 una plantilla oficial de Alex (asunto único, con dossier y
+  envíos semanales a Latinoamérica). `mi-metodo/outbound.md` fija otro formato (solo presentarse, sin cifras, cierre literal).
+  Hay que decidir cuál manda.
+- **Exclusiones**: unificadas el 05/10/2026 en el punto 4c con `mi-metodo/exclusiones.md` (esta rutina conserva además a Mint Company y a los grandes EPC como ya clientes; el prompt añade a Stryker). Si se cambia una lista, cambiar la otra.
+- El orden fijo de prospección decidido (señales → LinkedIn → cruce → Agente 6 → Apollo) no se parece a esta rutina.
+  Es un flujo paralelo; aclarar cómo conviven.
 - El prompt dice "Tipo = Cliente" (confirmado como correcto) y "Origen = F · Rutina diaria".
 
