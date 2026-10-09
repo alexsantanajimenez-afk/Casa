@@ -47,6 +47,10 @@ Lo que no consta aquí no significa que no se decidiera: preguntar.
   de pago por conector es la herramienta principal; ya no se usa la extensión de Chrome.
   **Clay y n8n no se usan.** Tope de 40 enriquecimientos de email al día, todos posibles en
   Apollo (desaparece el máximo de 10).
+- **Rutina diaria de leads (09/10/2026)**: prompt de la tarea actualizado con OK de Alex. Tope de
+  40 enriquecimientos/día (antes 30); Clay fuera y solo lo reactiva Alex; sin email verificado en
+  Apollo se descarta al candidato (ya no se crea ficha "PENDIENTE DE CLAY"). Historial en
+  `agentes-rutinarios/rutina-diaria-leads.md`.
 - **Feedback de la gerente sobre el CRM (08/10/2026)**: hecho y le gustó. No volver a
   marcarlo como pendiente.
 

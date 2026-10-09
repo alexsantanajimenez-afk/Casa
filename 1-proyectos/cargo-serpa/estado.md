@@ -58,7 +58,7 @@
   Mercedes, en los de Baleares); ellas reparten. Con el ámbito "toda España" no cambia el
   proceso. `[POR COMPROBAR]` si Mercedes recibe también otros leads además de los de Baleares.
 - Unificar exclusiones y formato de mensaje entre la rutina diaria de leads y el outbound (ver `agentes-rutinarios/rutina-diaria-leads.md`).
-- La rutina de leads pasó de 10 a 20 leads/día el 08/10. Clay ya no se usa: Apollo de pago es la herramienta principal (tope 40 enriquecimientos/día). El prompt de la tarea programada de las 06:52 **aún lleva Clay primero**: actualizarlo con OK de Alex.
+- La rutina de leads pasó de 10 a 20 leads/día el 08/10. Clay no se usa hasta que Alex decida: Apollo de pago es la única herramienta (tope 40 enriquecimientos/día; sin email verificado se descarta). Prompt de la tarea de las 06:52 actualizado el 09/10/2026 con OK de Alex (el conector de Clay sigue enganchado a la tarea; el prompt prohíbe usarlo). El 09/10 la rutina creó 16 leads, no 20: `[POR COMPROBAR]` el motivo.
 - Feedback de la gerente sobre el CRM: hecho, le gustó (08/10/2026).
 - Living Las Canteras: aplazado (solo es una propuesta; Alex lo retoma cuando quiera).
 - CRM: Alex dice que está terminado y que a la gerente le gusta (05/10/2026).

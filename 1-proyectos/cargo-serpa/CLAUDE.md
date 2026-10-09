@@ -34,4 +34,5 @@ Notion (base "Prospectos"), Brevo (solo reactivación de cartera), **Apollo de p
 (datos del CRM). Tope: 40 enriquecimientos de email al día, todos posibles en Apollo.
 WhatsApp no tiene conector: el texto lo redacta Claude y lo envía Alex.
 
-**No se usan** (decidido 08/10/2026): **Clay** y **n8n**. No proponerlos ni preguntar por ellos.
+**No se usan**: **n8n** y **Clay** (decidido 08/10/2026). Clay solo lo reactiva Alex cuando
+quiera; hasta entonces no proponerlo ni preguntar por ello.
