@@ -56,6 +56,11 @@ Lo que no consta aquí no significa que no se decidiera: preguntar.
   médico) y de EAVE (energía y movilidad eléctrica en Canarias) en toda España, más empresas con
   operación en Canarias; EAVE queda excluido como cliente; el mensaje abre con "Veo que eres [cargo]"
   (sin "el/la", así lo envía Alex). Prompt de la tarea actualizado el mismo día con OK de Alex.
+- **ICP, no solo gemelos (09/10/2026, tarde)**: Alex no quiere que la rutina busque siempre gemelos de
+  PRIM y EAVE. La fuente principal es el ICP de `mi-metodo/icp.md` (industriales y distribuidores que
+  mueven mercancía a Canarias de forma recurrente), con prioridad a la señal de Canarias. Los gemelos
+  quedan como complemento (máximo 4 de 20 al día). Se añadieron al prompt los CNAE del ICP que faltaban
+  (4672, 4664, 4774, 4211).
 - **Aprendizaje (09/10/2026)**: un email "verificado" de Apollo también puede rebotar
   (`cpena@` y `sergio@electrimega.es`); si un dominio rebota se descarta la empresa entera y se
   llama por teléfono. Descartar también buzones genéricos aunque Apollo los dé como verificados.
