@@ -77,3 +77,10 @@ Ver `mi-metodo/outbound.md` (contenido, tuteo, cierre literal, firma, respuestas
   apuntaba al caché privado de Lovable.
 - Build propio de Vite; Nitro detecta Vercel solo (antes forzaba Cloudflare).
 - `.env` fuera del repo; plantilla en `.env.example`. Las variables viven en Vercel.
+
+## Seguimiento del CRM (05/10/2026)
+
+- **Feedback de la gerente sobre el CRM**: se da por cerrado. El CRM está aprobado y se descarta
+  el pendiente (envío tipo por servicio y recorrido de tarjetas en Insights).
+- **Informe mensual**: se genera directamente desde el CRM y funciona. Se retira el workflow de
+  n8n del PDF mensual y no se reconstruye la Edge Function `informe-mensual`.
