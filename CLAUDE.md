@@ -11,6 +11,17 @@ Claude lee este archivo primero y después entra en la habitación (proyecto) qu
 - No inventar datos ni cifras. Si algo no consta, decirlo y marcarlo `[POR COMPROBAR]`.
 - Lo que no esté anotado aquí no significa que no se haya decidido: preguntar.
 
+## Regla de oro: al terminar, subir a `main`
+
+Cada sesión de Claude Code trabaja en su propia rama (`claude/...`). Si el trabajo no se pasa a `main`, la sesión de mañana
+**no lo verá** y la casa pierde su sentido. El 09/10/2026 hubo que fusionar 5 ramas de una semana con conflictos.
+
+- **Al empezar**: sesión nueva, base `main`. Leer `CLAUDE.md` y `estado.md` del proyecto.
+- **Al terminar**: actualizar `estado.md` y `decisiones.md` y **subir todo a `main`** (avance directo; si hay conflicto, resolverlo
+  conservando todas las decisiones). Alex lo pide con: "actualiza el estado y las decisiones y súbelo a `main`".
+- Antes de dar por cerrada una sesión, comprobar con `git log origin/main` que el último commit está en `main`.
+- Los borradores que Alex copia y pega van en el chat o en Notion; GitHub es para lo estable.
+
 ## Mapa
 
 | Carpeta | Qué hay |
