@@ -71,6 +71,48 @@ media de 3 meses, alarma a más de 30 días"):
 Ver `mi-metodo/outbound.md` (contenido, tuteo, cierre literal, firma, respuestas) y
 `mi-metodo/linkedin.md` (tono y reglas del gancho).
 
+## Operativa de captación (06/10/2026)
+
+- **CRM y feedback de gerencia: cerrado.** Alex confirma que está OK y que gerencia también.
+- **Apollo de pago** (65 USD, 2.660 créditos de lead por ciclo; ciclo actual 06/10 a 06/11/2026).
+  Apollo es siempre la herramienta principal. Sin teléfonos de momento. Claude lo usa directamente,
+  con OK de Alex antes de gastar créditos.
+- **Clay**: no se paga. Los créditos que caducaban el 17/10 ya están gastados. Los gratis se
+  activan el 16/10/2026 y se usan solo para lo que Apollo no encuentre, hasta gastarlos.
+- **Capacidad de envío**: Alex puede enviar 50 correos 1:1 al día (antes el objetivo era 20).
+- **Valor de un cliente nuevo (datos de Alex)**: ticket medio de 119 €/mes si es del ICP; la media
+  anual del total de clientes es de unos 15.000 € y la mediana de 1.000 €. El valor está en las
+  cuentas grandes: priorizar calidad de ICP sobre volumen.
+- **Estandarización**: un único estándar de dónde vive cada dato y cómo se hace cada envío, en
+  `mi-metodo/estandar-operativo.md`.
+- **Tarea fija de la casa**: cruzar siempre las campañas de Brevo con las respuestas de Notion
+  (cada viernes y a los 3 y 7 días de cada campaña). Primer cruce: `trabajo-en-curso/auditoria-brevo-2026-10-06.md`.
+- **Aprobado por Alex el 06/10/2026 ("OK a todo")**: remitente de Brevo solo `hola@comunicaciones...`,
+  convención de nombres REACT, excluir particulares, umbral de rebote 2 % / 5 % y campo "Campaña" en Notion
+  (ya creado). Detalle en `mi-metodo/estandar-operativo.md`.
+
+- **Aviso de lead a Lidia (06/10/2026)**: todos los avisos llevan siempre el mismo contenido y el mismo
+  orden, con plantilla fija en `mi-metodo/aviso-a-lidia.md`. Sin enlaces a Notion (ellas no lo comparten).
+- **Plantilla del outbound 1:1 (06/10/2026)**: pasa a ser oficial la versión que Alex envió el 05/10 (frase de sector, IATA y WCA,
+  internacional con envíos semanales a Latam, línea de baja, "escríbeme y te cuento más"). Sustituye al cierre literal de septiembre.
+  Frase de sector por grupo confirmada por Alex. Último párrafo (06/10): si les encaja, una persona del equipo comercial
+  les presenta el dossier de servicios y frecuencias (en tuteo). Detalle en `mi-metodo/outbound.md`.
+- **Rutina diaria de leads (06/10/2026)**: Apollo es la herramienta principal; Clay solo para contactos sin email y cuando haya créditos.
+  Nortunel descartado por Alex. Recordatorios del cruce de respuestas el 09/10 y el 13/10.
+- **Respuestas de prospectos (06/10/2026)**: ante cada respuesta, Claude entrega siempre juntos el aviso a Lidia y la
+  ficha de Notion, con el máximo de datos posibles y comprobando antes el CRM. Protocolo en `mi-metodo/respuesta-de-prospecto.md`.
+
+- **Dónde van los borradores (06/10/2026)**: lo que Alex tiene que copiar y pegar (correos, avisos a Lidia, listas) se entrega
+  en el chat o en una página de Notion, no solo en GitHub. GitHub se queda para lo estable (normas, estado, decisiones, método),
+  porque es lo único que sobrevive entre sesiones. Alex no abre GitHub a diario.
+- **Lote de internacionales (06/10/2026)**: Alex pidió 15+ contactos de perfil exportador; se enriquecieron 23 (20 + 3 de reserva)
+  con 23 créditos de Apollo. Saldo tras el lote: 2.582 de 2.660.
+
+- **Apuntar en Notion sin pedir OK (Alex, 06/10/2026)**: Claude puede registrar en Notion, sin esperar aprobación, lo que ya ha
+  decidido Alex o es mero apunte (fichas, estados, fechas, Origen, Campaña, notas). Sigue necesitando OK: enviar mensajes, gastar
+  créditos, escribir en Brevo, crear HTML o código, y cualquier acción hacia fuera.
+- **Origen en Notion (06/10/2026)**: pasa a significar la fuente del contacto (Cartera CRM, Clay, Apollo, LinkedIn, Señal, Referido, Inbound).
+
 ## Infraestructura del CRM (05/10/2026)
 
 - Se eliminó Lovable del repo y se dejó un solo lockfile (`package-lock.json`); el `bun.lock`

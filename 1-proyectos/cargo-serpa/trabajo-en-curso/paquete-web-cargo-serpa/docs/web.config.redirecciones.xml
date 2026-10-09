@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Probar antes de producción. Requiere el módulo URL Rewrite de IIS. No redirigir /login ni las rutas del GES. -->
+<configuration>
+  <system.webServer>
+    <rewrite>
+      <rules>
+    <rule name="r1" stopProcessing="true"><match url="^index\.aspx$" ignoreCase="true" /><action type="Redirect" url="/es/" redirectType="Permanent" appendQueryString="false" /></rule>
+    <rule name="r2" stopProcessing="true"><match url="^index$" ignoreCase="true" /><action type="Redirect" url="/es/" redirectType="Permanent" appendQueryString="false" /></rule>
+    <rule name="r3" stopProcessing="true"><match url="^index\.html$" ignoreCase="true" /><action type="Redirect" url="/es/" redirectType="Permanent" appendQueryString="false" /></rule>
+    <rule name="r4" stopProcessing="true"><match url="^contacto\.aspx$" ignoreCase="true" /><action type="Redirect" url="/es/solicitar-presupuesto/" redirectType="Permanent" appendQueryString="false" /></rule>
+    <rule name="r5" stopProcessing="true"><match url="^contacto$" ignoreCase="true" /><action type="Redirect" url="/es/solicitar-presupuesto/" redirectType="Permanent" appendQueryString="false" /></rule>
+    <rule name="r6" stopProcessing="true"><match url="^transporte\.aspx$" ignoreCase="true" /><action type="Redirect" url="/es/transporte-peninsula-canarias/" redirectType="Permanent" appendQueryString="false" /></rule>
+    <rule name="r7" stopProcessing="true"><match url="^transporte$" ignoreCase="true" /><action type="Redirect" url="/es/transporte-peninsula-canarias/" redirectType="Permanent" appendQueryString="false" /></rule>
+    <rule name="r8" stopProcessing="true"><match url="^delegaciones\.aspx$" ignoreCase="true" /><action type="Redirect" url="/es/#delegaciones" redirectType="Permanent" appendQueryString="false" /></rule>
+    <rule name="r9" stopProcessing="true"><match url="^delegaciones$" ignoreCase="true" /><action type="Redirect" url="/es/#delegaciones" redirectType="Permanent" appendQueryString="false" /></rule>
+    <rule name="r10" stopProcessing="true"><match url="^delegaciones/index\.aspx$" ignoreCase="true" /><action type="Redirect" url="/es/#delegaciones" redirectType="Permanent" appendQueryString="false" /></rule>
+    <rule name="r11" stopProcessing="true"><match url="^servicios\-especiales$" ignoreCase="true" /><action type="Redirect" url="/es/servicios/" redirectType="Permanent" appendQueryString="false" /></rule>
+    <rule name="r12" stopProcessing="true"><match url="^servicios\-especiales\.aspx$" ignoreCase="true" /><action type="Redirect" url="/es/servicios/" redirectType="Permanent" appendQueryString="false" /></rule>
+    <rule name="r13" stopProcessing="true"><match url="^historia\.aspx$" ignoreCase="true" /><action type="Redirect" url="/es/empresa/" redirectType="Permanent" appendQueryString="false" /></rule>
+    <rule name="r14" stopProcessing="true"><match url="^descargas\.aspx$" ignoreCase="true" /><action type="Redirect" url="/es/servicios/" redirectType="Permanent" appendQueryString="false" /></rule>
+    <rule name="r15" stopProcessing="true"><match url="^aduanas\.aspx$" ignoreCase="true" /><action type="Redirect" url="/es/aduanas-dua-canarias/" redirectType="Permanent" appendQueryString="false" /></rule>
+    <rule name="r16" stopProcessing="true"><match url="^logistica\.aspx$" ignoreCase="true" /><action type="Redirect" url="/es/servicios/" redirectType="Permanent" appendQueryString="false" /></rule>
+      </rules>
+    </rewrite>
+  </system.webServer>
+</configuration>

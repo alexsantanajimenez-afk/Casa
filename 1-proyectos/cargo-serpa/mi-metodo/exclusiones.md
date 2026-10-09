@@ -5,7 +5,8 @@ Fuente única: las rutinas y los agentes leen esta lista antes de registrar o co
 ## Clientes actuales
 
 Finanzauto/Caterpillar, Recalvi, Conelsa/Grupo Dielca, Ormazabal, ITT Canarias, Coray Medical,
-Direx, PRIM, Zootecnia SL, Esprinet Ibérica, Indra.
+Direx, PRIM, Zootecnia SL, Esprinet Ibérica, Indra, **Stryker** (añadido el 06/10/2026; su
+representante es Sergio Jiménez).
 
 - **Ormazabal** es solo la planta de Las Palmas. **Ikusi (Velatia) sí se puede prospectar.**
 

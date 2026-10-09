@@ -1,6 +1,6 @@
 # Estado · Cargo Serpa
 
-Última actualización: 05/10/2026 (volcado del proyecto de Claude + verificación en el repo y Supabase).
+Última actualización: 06/10/2026 (CRM y gerencia cerrados). Anterior: 05/10/2026 (volcado del proyecto de Claude + verificación en el repo y Supabase).
 
 ## Hecho
 
@@ -30,7 +30,9 @@
 
 ## A medias
 
-- Primera campaña de cartera fría (clientes con más de un año sin enviar, foco CO y CM): en lanzamiento.
+- Campañas de reactivación en Brevo **ya enviadas** (11 campañas, 249 envíos, 28/09 al 02/10).
+  Primer cruce con Notion hecho el 06/10: 12 respuestas identificadas y 28 rebotes duros (11 %).
+  Detalle y hallazgos en `trabajo-en-curso/auditoria-brevo-2026-10-06.md`.
 - Dosier de entregables: añadir página de Equipo comercial (top 3 por comercial, distintivo
   Pareto 80 %) y comparativa 2025 vs 2026 página a página. Corregir mayo 2026 y la página 3
   (+15,8 % real frente al +13,8 % publicado). PDF a paleta clara por la impresión. Para final de mes.
@@ -46,7 +48,37 @@
 
 ## Pendiente
 
-- Apollo y LinkedIn a mano (extensión de Chrome, sin créditos). Objetivo: 20 correos 1:1 al día.
+- **Apollo de pago** (2.660 créditos, ciclo 06/10 a 06/11). Objetivo: hasta 50 correos 1:1 al día
+  con contactos verificados de Apollo. Estándar en `mi-metodo/estandar-operativo.md`.
+  **06/10/2026**: 40 contactos ICP (uno por empresa, email verificado) y 2 de señales, cargados en Notion con
+  `Campaña = Outlook 1:1` y `Origen = B`, sin señal de Canarias verificada (Veredicto "Falta información").
+  Créditos Apollo gastados ese día: ver saldo en Apollo (2.660 por ciclo, ciclo 06/10 a 06/11).
+  Stryker pasa a cliente (ver `mi-metodo/exclusiones.md`); su representante es Sergio Jiménez.
+  **Primera respuesta del lote (06/10)**: Enerland (Estefanía Oyarzabal). Su necesidad actual es Latam, con proyectos
+  puntuales en Canarias; añade a Julián Vila de Luis. Alex contestó el mismo día ofreciendo un dossier. Julián tiene ficha propia
+  (julian.vila@enerlandgroup.com). Pendiente: pasar el lead a Lidia (aviso al equipo internacional) y preparar el dossier si lo piden.
+- **Brevo**: bajar los rebotes (11 % frente al 2 % recomendable), cambiar el remitente a
+  `hola@comunicaciones...`, excluir particulares y renombrar campañas (ver estándar). Aprobado el 06/10; falta aplicarlo en las próximas campañas.
+- **Notion**: campo "Campaña" creado el 06/10; falta rellenarlo en las respuestas ya registradas y rellenar `Origen` en las ~89 fichas que no lo tienen.
+  Dielca y J2O constan "Sin contactar" pero estaban en el envío del 01/10.
+- **Segunda respuesta del lote (06/10)**: HIMESA (Marçal Vidal). No tiene necesidades recurrentes, pero pide cotizar mover un
+  semirremolque vacío con tractora y chófer de Geel (Bélgica) a Schemmerhofen (Alemania). Pregunta si hay corresponsales.
+  Pendiente: confirmar con el equipo internacional si se puede hacer y contestarle; aviso a Lidia con la plantilla.
+- **Tercera respuesta del lote (06/10)**: Laboratorios Indas (Federico Pérez). Pone en copia a Cipriano Martín Martín (Jefe de
+  Logística) para que valore la propuesta. Pendiente: copiar el email de Cipriano del hilo, contestar, aviso a Lidia y dossier.
+- **Dossier de servicios y frecuencias** (06/10/2026): ya lo tiene hecho el equipo comercial (dato de Alex). No hay que prepararlo;
+  el correo 1:1 lo ofrece y el comercial lo presenta cuando el prospecto responde. Enerland e Indas ya lo han recibido como oferta.
+- **Avisos y respuestas (06/10, tarde)**: Alex ya envió los avisos a Lidia y contestó a HIMESA. Falta contestar a Indas (Federico
+  Pérez, con Cipriano en copia); Alex lo hace el mismo día.
+- **Envío del lote 1:1 (06/10/2026)**: Alex confirma que están enviados todos los correos de la lista (los 45 que se redactaron,
+  más los de Enerland, Arkal, HIMESA e Indas ya registrados). Notion marcado como `Contactado` con fecha 06/10.
+  Cruce de respuestas Brevo/1:1 a los 3 días (09/10) y a los 7 (13/10).
+- **Rutina diaria de leads**: pasada a Apollo como herramienta principal el 06/10/2026 (con OK de Alex). Clay solo para los contactos sin email
+  y cuando haya créditos (gratis desde el 16/10). Primera ejecución con Apollo: 07/10 a las 07:52 (Madrid); revisar el resultado.
+- **Lote de internacionales (06/10/2026, tarde)**: Alex pidió 15+ contactos de perfil exportador ("los internacionales dan mucho dinero").
+  23 contactos (20 + 3 de reserva: KEYA, FFaiges, DRV Phytolab), emails verificados en Apollo, 23 créditos. Saldo Apollo: 2.582 de 2.660
+  (78 gastados en el ciclo). Fichas en Notion (`Campaña = Outlook 1:1`, `Origen = B`, `Sin contactar`). Correos redactados en
+  `trabajo-en-curso/correos-internacionales-2026-10-06.md`. Pendiente: Alex los envía y se marcan `Contactado`.
 - Rehacer el dosier con los datos nuevos (final de mes).
 - **Informe mensual**: se genera directamente desde el CRM y funciona (05/10/2026). Alex lo pasa
   él mismo a los comerciales y a gerencia. El workflow de n8n se retira y la Edge Function
@@ -58,9 +90,11 @@
   Mercedes, en los de Baleares); ellas reparten. Con el ámbito "toda España" no cambia el
   proceso. `[POR COMPROBAR]` si Mercedes recibe también otros leads además de los de Baleares.
 - Unificar exclusiones y formato de mensaje entre la rutina diaria de leads y el outbound (ver `agentes-rutinarios/rutina-diaria-leads.md`).
-- Los **créditos de Clay caducan el 17/10/2026**; la rutina de leads pasa de 10 a 20 leads/día el 08/10.
+- **Clay**: los créditos que caducaban el 17/10 ya están gastados. Los gratis se activan el 16/10/2026
+  y solo se usan para lo que Apollo no encuentre. La rutina de leads pasa de 10 a 20 leads/día el 08/10:
+  decidir si se mantiene con Apollo.
 - Living Las Canteras: aplazado (solo es una propuesta; Alex lo retoma cuando quiera).
-- CRM: Alex dice que está terminado y que a la gerente le gusta (05/10/2026).
+- CRM y feedback de gerencia: **cerrado**. Alex confirma (06/10/2026) que el CRM y gerencia están OK; el feedback anterior de la gerente ya no está pendiente.
 - Pasar las dos tareas programadas a leer esta carpeta en vez de llevar el prompt completo.
   Hacerlo en paralelo varios días antes de apagar las actuales.
 
@@ -69,4 +103,4 @@
 - La rama de limpieza de Lovable se fusionó a `main` y producción funciona según Alex ("ahora sí", 05/10/2026; antes se comprobó login, 200.557 envíos y
   gestión de usuarios). Detalle y tabla en `sobre-el-proyecto/infraestructura.md`.
 - Proyecto de Vercel `envio-wise` (duplicado) borrado por Alex el 05/10/2026.
-- Pendiente menor: decidir qué hacer con la rama antigua `claude/serene-mayer-uvhfm4` del repo. No tocar hasta decidirlo.
+- Rama antigua `claude/serene-mayer-uvhfm4`: borrada por Alex el 06/10/2026 (verificado: quedan solo `main` y `claude/brave-ritchie-gp7y98`).
