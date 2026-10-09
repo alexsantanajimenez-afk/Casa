@@ -43,6 +43,12 @@ Lo que no consta aquí no significa que no se decidiera: preguntar.
 - **Redes sociales**: descartadas Instagram, TikTok y Facebook; el ICP de compras e industria
   está en LinkedIn.
 - **API de Claude**: descartada por ahora; se usa la suscripción.
+- **Herramientas de enriquecimiento (hablado con Alex el 08/10/2026, anotado el 09/10)**: Apollo
+  de pago por conector es la herramienta principal; ya no se usa la extensión de Chrome.
+  **Clay y n8n no se usan.** Tope de 40 enriquecimientos de email al día, todos posibles en
+  Apollo (desaparece el máximo de 10).
+- **Feedback de la gerente sobre el CRM (08/10/2026)**: hecho y le gustó. No volver a
+  marcarlo como pendiente.
 
 ## Alertas de fuga (criterio real, verificado en el código el 05/10/2026)
 

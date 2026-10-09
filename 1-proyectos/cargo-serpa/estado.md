@@ -1,6 +1,6 @@
 # Estado · Cargo Serpa
 
-Última actualización: 05/10/2026 (volcado del proyecto de Claude + verificación en el repo y Supabase).
+Última actualización: 09/10/2026 (herramientas: Apollo de pago, sin Clay ni n8n; feedback de la gerente hecho). Anterior: 05/10/2026 (volcado del proyecto de Claude + verificación en el repo y Supabase).
 
 ## Hecho
 
@@ -16,7 +16,7 @@
 - Entregables cerrados: análisis de 18 páginas para dirección, hoja de cartera fría, sistema de
   alertas de fuga con resumen semanal por comercial y para gerencia.
 - Otros activos: landing de alta conversión (wireframe vivo), tracker React del plan de 9 meses,
-  pitch con modelo de ROI, workflow n8n para el PDF mensual.
+  pitch con modelo de ROI.
 - Primera campaña segmentada de inactivos lanzada vía Brevo.
 - Email: subdominio `comunicaciones.cargoserpa.es` autenticado en Brevo. Remitente
   `hola@comunicaciones.cargoserpa.es`, Reply-To `alexsantana@cargoserpa.es`. DNS gestionado por
@@ -46,23 +46,20 @@
 
 ## Pendiente
 
-- Apollo y LinkedIn a mano (extensión de Chrome, sin créditos). Objetivo: 20 correos 1:1 al día.
+- Apollo de pago por conector (sin extensión) y LinkedIn. Objetivo: 20 correos 1:1 al día.
 - Rehacer el dosier con los datos nuevos (final de mes).
-- **Feedback de la gerente sobre el CRM**: no consta si está hecho. Pide que Envíos/Servicios
-  describa el envío tipo por servicio (peso y bultos medios, envíos/día por cliente) y, en
-  Insights, poder recorrer todos los clientes de cada tarjeta y ordenar "sin envíos" de menos a
-  más días. `[POR COMPROBAR]`
 - **Informe mensual**: Alex lo saca del CRM y lo pasa él mismo a los comerciales y a gerencia.
   La Edge Function `informe-mensual` no existe (ni en el repo ni en `cargo-serpa-crm`; verificado
   el 05/10) y, con este proceso manual, **no hace falta reconstruirla**. Solo existe la tabla
-  `resumenes_mensuales`. Pendiente: confirmar si el workflow de n8n del PDF mensual sigue en uso.
+  `resumenes_mensuales`. n8n no se usa (08/10/2026).
 - **Migraciones**: el repo tiene 69 archivos y Supabase tiene migraciones posteriores
   (p. ej. `alertas_cartera_repetida`, 05/10). Comprobar que el repo contiene todas las aplicadas.
 - **Leads fuera de las cuatro plazas comerciales**: Alex pasa todos los leads a Lidia (y a
   Mercedes, en los de Baleares); ellas reparten. Con el ámbito "toda España" no cambia el
   proceso. `[POR COMPROBAR]` si Mercedes recibe también otros leads además de los de Baleares.
 - Unificar exclusiones y formato de mensaje entre la rutina diaria de leads y el outbound (ver `agentes-rutinarios/rutina-diaria-leads.md`).
-- Los **créditos de Clay caducan el 17/10/2026**; la rutina de leads pasa de 10 a 20 leads/día el 08/10.
+- La rutina de leads pasó de 10 a 20 leads/día el 08/10. Clay ya no se usa: Apollo de pago es la herramienta principal (tope 40 enriquecimientos/día). El prompt de la tarea programada de las 06:52 **aún lleva Clay primero**: actualizarlo con OK de Alex.
+- Feedback de la gerente sobre el CRM: hecho, le gustó (08/10/2026).
 - Living Las Canteras: aplazado (solo es una propuesta; Alex lo retoma cuando quiera).
 - CRM: Alex dice que está terminado y que a la gerente le gusta (05/10/2026).
 - Pasar las dos tareas programadas a leer esta carpeta en vez de llevar el prompt completo.

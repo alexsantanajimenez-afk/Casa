@@ -29,6 +29,9 @@ unas 25 h semanales. Lee `estado.md` antes de empezar.
 
 ## Herramientas conectadas
 
-Notion (base "Prospectos"), Brevo (solo reactivación de cartera), Apollo (a mano con la extensión
-de Chrome, sin gastar créditos), Supabase (datos del CRM). WhatsApp no tiene conector: el texto
-lo redacta Claude y lo envía Alex.
+Notion (base "Prospectos"), Brevo (solo reactivación de cartera), **Apollo de pago por conector
+(herramienta principal de enriquecimiento; ya no se usa la extensión de Chrome)**, Supabase
+(datos del CRM). Tope: 40 enriquecimientos de email al día, todos posibles en Apollo.
+WhatsApp no tiene conector: el texto lo redacta Claude y lo envía Alex.
+
+**No se usan** (decidido 08/10/2026): **Clay** y **n8n**. No proponerlos ni preguntar por ellos.
