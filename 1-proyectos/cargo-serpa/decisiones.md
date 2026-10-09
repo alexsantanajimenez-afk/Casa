@@ -43,9 +43,9 @@ Lo que no consta aquí no significa que no se decidiera: preguntar.
 - **Redes sociales**: descartadas Instagram, TikTok y Facebook; el ICP de compras e industria
   está en LinkedIn.
 - **API de Claude**: descartada por ahora; se usa la suscripción.
-- **Clay (08/10/2026)**: créditos gastados; no hay más hasta el 17/10. No volver a sacar el tema
+- **Clay (08/10/2026)** *(superado el 09/10: Clay fuera y solo lo reactiva Alex)*: créditos gastados; no hay más hasta el 17/10. No volver a sacar el tema
   ni proponer cómo gastarlos. La rutina diaria de leads sube a 20 leads/día desde el 08/10.
-- **Orden de herramientas en la rutina de leads (06/10/2026, confirmado el 08/10)**: Apollo primero
+- **Orden de herramientas en la rutina de leads (06/10/2026, confirmado el 08/10)** *(superado el 09/10: tope 40 y sin Clay)*: Apollo primero
   (tope 30 enriquecimientos/día); Clay solo como respaldo y solo desde el 17/10.
 - **Sectores fuera de la búsqueda manual (08/10/2026)**: alimentación y vinos descartados ("es un
   lío"); también agroalimentario (aceites, aceitunas, bodegas). Búsquedas nuevas: farma, sanitario,
@@ -53,6 +53,29 @@ Lo que no consta aquí no significa que no se decidiera: preguntar.
 - **Recordatorios (08/10/2026)**: segundo mensaje corto en el mismo hilo, a los 4 días hábiles
   (se hizo a los 7 días con la tanda del 01/10). Sin la frase "dímelo y no insisto"; cierre:
   "Y si no es el momento, lo entiendo perfectamente." `[POR COMPROBAR]` si es uno solo por persona.
+- **Herramientas de enriquecimiento (hablado con Alex el 08/10/2026, anotado el 09/10)**: Apollo
+  de pago por conector es la herramienta principal; ya no se usa la extensión de Chrome.
+  **Clay y n8n no se usan.** Tope de 40 enriquecimientos de email al día, todos posibles en
+  Apollo (desaparece el máximo de 10).
+- **Rutina diaria de leads (09/10/2026)**: prompt de la tarea actualizado con OK de Alex. Tope de
+  40 enriquecimientos/día (antes 30); Clay fuera y solo lo reactiva Alex; sin email verificado en
+  Apollo se descarta al candidato (ya no se crea ficha "PENDIENTE DE CLAY"). Historial en
+  `agentes-rutinarios/rutina-diaria-leads.md`.
+- **Rutina de leads, ajustes de la tarde (09/10/2026)**: debe llegar siempre a la cuota de 20
+  (el 09/10 se quedó en 16); al menos la mitad sale de "gemelos" de PRIM (ortopedia y material
+  médico) y de EAVE (energía y movilidad eléctrica en Canarias) en toda España, más empresas con
+  operación en Canarias; EAVE queda excluido como cliente; el mensaje abre con "Veo que eres [cargo]"
+  (sin "el/la", así lo envía Alex). Prompt de la tarea actualizado el mismo día con OK de Alex.
+- **ICP, no solo gemelos (09/10/2026, tarde)**: Alex no quiere que la rutina busque siempre gemelos de
+  PRIM y EAVE. La fuente principal es el ICP de `mi-metodo/icp.md` (industriales y distribuidores que
+  mueven mercancía a Canarias de forma recurrente), con prioridad a la señal de Canarias. Los gemelos
+  quedan como complemento (máximo 4 de 20 al día). Se añadieron al prompt los CNAE del ICP que faltaban
+  (4672, 4664, 4774, 4211).
+- **Aprendizaje (09/10/2026)**: un email "verificado" de Apollo también puede rebotar
+  (`cpena@` y `sergio@electrimega.es`); si un dominio rebota se descarta la empresa entera y se
+  llama por teléfono. Descartar también buzones genéricos aunque Apollo los dé como verificados.
+- **Feedback de la gerente sobre el CRM (08/10/2026)**: hecho y le gustó. No volver a
+  marcarlo como pendiente.
 
 ## Alertas de fuga (criterio real, verificado en el código el 05/10/2026)
 

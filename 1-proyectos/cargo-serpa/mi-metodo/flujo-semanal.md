@@ -17,7 +17,7 @@ Señales → LinkedIn → cruce de datos → Agente 6 (Lead Scorer) → Apollo.
 
 ## Rutinas automáticas (tareas programadas de Claude, lunes a viernes)
 
-- 06:52 Canarias (07:52 Madrid) · Rutina diaria de leads (Clay/Apollo, escribe en Notion)
+- 06:52 Canarias (07:52 Madrid) · Rutina diaria de leads (Apollo, escribe en Notion)
 - 07:00 UTC (08:00 Canarias en verano) · Parte de noticias (Agente 9)
 - 08:45 Canarias · Barrido de señales (Agentes 8 y 6)
 
