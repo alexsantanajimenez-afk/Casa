@@ -60,6 +60,14 @@
 - Unificar exclusiones y formato de mensaje entre la rutina diaria de leads y el outbound (ver `agentes-rutinarios/rutina-diaria-leads.md`).
 - La rutina de leads pasó de 10 a 20 leads/día el 08/10. Clay no se usa hasta que Alex decida: Apollo de pago es la única herramienta (tope 40 enriquecimientos/día; sin email verificado se descarta). Prompt de la tarea de las 06:52 actualizado el 09/10/2026 con OK de Alex (el conector de Clay sigue enganchado a la tarea; el prompt prohíbe usarlo). El 09/10 la rutina creó 16 leads, no 20: `[POR COMPROBAR]` el motivo.
 - Feedback de la gerente sobre el CRM: hecho, le gustó (08/10/2026).
+- **09/10/2026, tanda de gemelos**: Alex envió 24 correos 1:1 a gemelos de PRIM y EAVE y a empresas con
+  operación en Canarias (todos registrados en Prospectos con Origen "Apollo"). Respuesta caliente:
+  **Bioline Supply** (Segovia, distribución de productos médicos): hay que enviar el dossier a Carmen
+  (Soporte Técnico) y que Lidia derive a un comercial que llame después. Incidencias: Dentaltix
+  (baja de maternidad, retomar), Electrimega (dominio rebota, pasar a llamada: +34 928 67 82 61),
+  Campofrío (Pedro Santana ya no está; escrito a Luis Velasco y Pedro Pablo Martín).
+- Prompt de la tarea de las 06:52 actualizado el 09/10 por la tarde: llegar siempre a 20, gemelos de PRIM
+  y EAVE, descarte de dominios que rebotan. Comprobar el lunes 12/10 que llega a 20.
 - Living Las Canteras: aplazado (solo es una propuesta; Alex lo retoma cuando quiera).
 - CRM: Alex dice que está terminado y que a la gerente le gusta (05/10/2026).
 - Pasar las dos tareas programadas a leer esta carpeta en vez de llevar el prompt completo.

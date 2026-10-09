@@ -51,6 +51,14 @@ Lo que no consta aquí no significa que no se decidiera: preguntar.
   40 enriquecimientos/día (antes 30); Clay fuera y solo lo reactiva Alex; sin email verificado en
   Apollo se descarta al candidato (ya no se crea ficha "PENDIENTE DE CLAY"). Historial en
   `agentes-rutinarios/rutina-diaria-leads.md`.
+- **Rutina de leads, ajustes de la tarde (09/10/2026)**: debe llegar siempre a la cuota de 20
+  (el 09/10 se quedó en 16); al menos la mitad sale de "gemelos" de PRIM (ortopedia y material
+  médico) y de EAVE (energía y movilidad eléctrica en Canarias) en toda España, más empresas con
+  operación en Canarias; EAVE queda excluido como cliente; el mensaje abre con "Veo que eres el/la
+  [cargo]". Prompt de la tarea actualizado el mismo día con OK de Alex.
+- **Aprendizaje (09/10/2026)**: un email "verificado" de Apollo también puede rebotar
+  (`cpena@` y `sergio@electrimega.es`); si un dominio rebota se descarta la empresa entera y se
+  llama por teléfono. Descartar también buzones genéricos aunque Apollo los dé como verificados.
 - **Feedback de la gerente sobre el CRM (08/10/2026)**: hecho y le gustó. No volver a
   marcarlo como pendiente.
 
