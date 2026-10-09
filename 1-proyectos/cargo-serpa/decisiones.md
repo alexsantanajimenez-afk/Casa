@@ -112,6 +112,38 @@ Ver `mi-metodo/outbound.md` (contenido, tuteo, cierre literal, firma, respuestas
   decidido Alex o es mero apunte (fichas, estados, fechas, Origen, Campaña, notas). Sigue necesitando OK: enviar mensajes, gastar
   créditos, escribir en Brevo, crear HTML o código, y cualquier acción hacia fuera.
 - **Origen en Notion (06/10/2026)**: pasa a significar la fuente del contacto (Cartera CRM, Clay, Apollo, LinkedIn, Señal, Referido, Inbound).
+## Prospección internacional (07/10/2026)
+
+- **Nuevo segmento**: empresas que exportan a China, Sudamérica o hacen envíos entre países de
+  Europa. Búsqueda con Apollo (personas, gratis) y email enriquecido con Apollo (1 crédito por
+  persona); Clay no filtra empresas por país y quedó sin usar. Tope diario: 40 enriquecimientos.
+- **Formato del mensaje: B para envíos internacionales.** B es el mensaje largo de la rutina
+  diaria (servicios, IATA/WCA, aduana incluida, opción de baja). Motivo (Alex): el A (solo
+  presentarse, con cierre literal) se queda corto para internacional. Los 8 correos del 07/10
+  salieron en B. `[POR COMPROBAR]` si B sustituye a A también fuera del segmento internacional.
+- **Aduana operativa**: Cargo Serpa tiene despachantes propios y hace todo el despacho (Alex,
+  07/10/2026), así que se puede ofrecer exportación con aduana incluida.
+- **Escritura en Notion**: los leads de esta búsqueda se registran en "Prospectos" con Origen =
+  Apollo, Campaña = Outlook 1:1 y el mensaje B completo en el cuerpo de la ficha.
+- **Descartes por regla**: buzones genéricos (`logistica@`, `export@`, `info@`) y empresas con
+  coincidencia dudosa en el CRM (Tecnove, por Tecnove Fiberglass SL).
+
+## LinkedIn y leads: reglas nuevas (07/10/2026)
+
+- **No prometer garantías absolutas ni resultados** en posts ni en imágenes: nada de "seguridad total",
+  "protección completa", "sin riesgos", "garantizan" ni "asegura el éxito de tus envíos". Se dice lo que se
+  hace y se puede demostrar (plástico termosellado, correas de amarre, equipo cualificado). Tampoco
+  superlativos sin base ("los más altos estándares").
+- **Gancho del post:** abre con lo que el lector ve o vive (no con la empresa), la empresa entra en la
+  segunda frase y el "…ver más" corta a mitad de la tensión, antes de resolverla. Un detalle concreto
+  (carretilla elevadora eléctrica) mejor que uno genérico (máquina). Como mucho dos hashtags.
+- **Fotos de trabajo real:** no cambiar el aspecto de lo que se muestra (color del material); quitar rótulos
+  y marcas de terceros del fondo; no nombrar al cliente.
+- **Leads a Lidia Marín (decisión de Alex):** no se le pasa ninguno hasta que conteste un lead de verdad
+  (interés real). Los nurturing, las derivaciones y las bajas se quedan en Notion. Matiza la regla de
+  "todos los leads" del 05/10/2026.
+- **Respuesta a un "ya estamos cubiertos":** agradecer, dejar la puerta abierta (equipo comercial si hay
+  interés) y no insistir; ficha en Notion como "Nurturing", acción A4.
 
 ## Infraestructura del CRM (05/10/2026)
 

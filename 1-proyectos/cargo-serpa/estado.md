@@ -1,6 +1,58 @@
 # Estado · Cargo Serpa
 
 Última actualización: 06/10/2026 (CRM y gerencia cerrados). Anterior: 05/10/2026 (volcado del proyecto de Claude + verificación en el repo y Supabase).
+Última actualización: 07/10/2026 (cierre del miércoles: outbound, búsquedas nuevas y noticia de LinkedIn).
+
+## Hoy, 07/10/2026
+
+- **Enviados por Alex hoy: 59 correos 1:1 en formato B**: 8 de la rutina diaria, 20 de la tanda 1
+  (exportadores e internacional), 10 de la tanda 2, 8 de la tanda 3 (importación desde Alemania), 10 de la
+  tanda 4, Rafael Parque (Neum) y los dos sustitutos de rebotes (Juan Humanes, EM&E; Clara Collada, Frutos
+  Secos Medina). Alex confirma que no queda ninguno de hoy por enviar.
+- **Pendiente de Notion (el conector falló dos veces, 07/10):** crear las fichas de Juan Humanes
+  ("Contactado", juan.humanes@eme-es.com, dominio catch-all) y de Clara Collada.
+- **Tercer rebote, Clara Collada (Frutos Secos Medina):** `ccollada@eguiafoodfactory.com` no se entregó
+  ("No se pudo entregar a estos destinatarios"). El dominio eguiafoodfactory.com queda refutado y Apollo
+  volvió a dar por verificado un email inválido. María De Alonso (Supply Chain Manager) sigue sin email.
+  Dominio real de Frutos Secos Medina `[POR COMPROBAR]`. Ficha prevista: "Cerrado sin éxito", acción "Verificar datos".
+- **Respuestas (5) y rebotes (3)**:
+  - **Vincent Brauns (Emica Bombas):** ya trabajan con muchos transitarios y están muy cubiertos. Pone en
+    copia a Inma González (logística, inma.gonzalez@emicabombas.com), que contactará si hay interés.
+    Notion: "Respondió", "Nurturing", acción A4. Alex contestó agradeciendo, sin insistir.
+  - **Astrid Monforte (Neumastock):** no es la persona indicada y deriva a **Lidia Gómez**
+    (Lgomez@neumastock.es). Ficha nueva: correo enviado por Alex el 07/10 en el hilo de Astrid (con ella en copia), "Contactado". No es Lidia Marín, la comercial de Cargo Serpa.
+  - **William Van Vianen (RC Microelectrónica):** respuesta automática, de baja por paternidad, sin
+    reenvío; da compras@rcmicro.es (buzón genérico, no usado). Notion: acción "Identificar contacto". En
+    Apollo solo constan otro "Manager" (Alfonso) y dos Product Manager; nadie de logística o compras.
+  - **Néstor Llansol (Laboratorios Neum, se fue el 08/05/26) y Dilan Gómez (Distrivet):** ya no están.
+    "Descartado" en Notion.
+  - **Rebotes:** Julian Nuñez (Frutos Secos Medina, el dominio rechaza la dirección) y, el 05/10,
+    Luis Lorenzo (EM&E). "Descartado" en Notion.
+- **Regla sobre Lidia Marín (decisión de Alex, 07/10):** no se le pasa ningún lead hasta que conteste un
+  lead de verdad (interés real). Los nurturing, derivaciones y bajas se quedan en Notion.
+- **Calidad de los datos de Apollo**: da por "verificado" el email aunque la persona se haya ido, la
+  dirección no exista o sea un buzón de departamento (`logistica@`, `compras@`, `export@`). La fecha de
+  refresco no sirve de filtro (Dilan figuraba refrescado el 23/09). Antes de enviar: comprobar el cargo en
+  LinkedIn (enlace en la ficha) y que el dominio del email coincida con el de la empresa. La tanda de
+  importación desde Alemania salió peor que la de exportadores: el origen de las compras no consta en
+  ninguna base y los concesionarios de marcas alemanas compran el recambio al almacén de la marca en España.
+- **Descartes por CRM o Notion**: Tecnove, Fresenius Kabi, Würth MODYF, Cultek, Helios Electromedicina,
+  Mateco España (ya con 3 contactos en "Respondió") y Cohimar Hidráulica Neumática.
+- **Distrivet:** resuelto por Alex el 07/10 (cómo, no consta). La empresa remitía al buzón genérico
+  `departamento_transporte@distrivet.es`; Dilan Gómez sigue "Descartado" en Notion.
+- **Créditos de Apollo hoy**: 55 gastados en estas búsquedas (22 + 10 + 10 + 10 + 3) más 8 de la rutina de la
+  mañana = 63 enriquecimientos, por encima del tope de 40 que nos habíamos puesto (Alex pidió seguir).
+  Saldo estimado: unos 2.515 (calculado, no releído de Apollo). Clay sin usar (caducan el 17/10/2026).
+- **LinkedIn, miércoles 07/10: post PUBLICADO** (termosellado y embalaje de maquinaria, material de Lidia).
+  La máquina de la foto es una carretilla elevadora eléctrica que Alex describe como "a ser exportada"
+  (antes dijo que iba a Canarias: destino exacto `[POR COMPROBAR]`); se termosella en plástico y se asegura
+  con correas de amarre (confirmado por Alex), y se mueve a todos los destinos. Gancho "No, no es un
+  fantasma", con corte "…antes de salir…". La versión exacta publicada no consta aquí. Imagen: sin la
+  banda de los tres bloques y sin el rótulo ajeno "WC Móvil". Pendiente para próximas piezas: el logo de
+  Cargo Serpa, el subtítulo de la imagen ("con los más altos estándares de seguridad y calidad"), el pilar
+  "maquinaria" (qué equipos y vehículos tienen) y si se publica desde la página o el perfil. Siguiente post:
+  viernes 09/10 (cierre de semana).
+- Decisiones del día en `decisiones.md` (formato B para internacional, aduana operativa, descartes por regla).
 
 ## Hecho
 
