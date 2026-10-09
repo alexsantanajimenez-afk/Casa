@@ -23,7 +23,7 @@ distinta del barrido de señales (Agentes 8/6).
 - 09/10/2026 (OK de Alex): tope de 40 al día; Clay fuera; sin email verificado se descarta.
 - 09/10/2026 (OK de Alex, tarde): debe llegar siempre a los 20 leads; búsqueda de gemelos de los dos
   mejores clientes y de empresas que mueven a Canarias; EAVE excluido; descarte de dominios que
-  rebotan; apertura del mensaje con "el/la" y cargo en español. Esta copia es el prompt vigente
+  rebotan; apertura del mensaje con el cargo en español, sin "el/la" (corregido el mismo día: Alex envía "Veo que eres jefe de ..."). Esta copia es el prompt vigente
   tras este cambio.
 
 ## Cosas a revisar (pendientes de decidir con Alex)
@@ -98,7 +98,7 @@ Asunto para todos: "Presentación · Cargo Serpa".
 Cuerpo:
 "Hola, [nombre]:
 
-Veo que eres [el/la] [cargo en español, en minúscula] en [empresa], y por eso me pongo en contacto contigo. Llevamos años moviendo [mercancía] para empresas de vuestro perfil, así que te escribo simplemente para presentarme.
+Veo que eres [cargo en español, en minúscula] en [empresa], y por eso me pongo en contacto contigo. Llevamos años moviendo [mercancía] para empresas de vuestro perfil, así que te escribo simplemente para presentarme.
 
 Soy Alex, de Cargo Serpa: más de 30 años en transporte, miembros de IATA y WCA y agentes de aduanas. Hacemos internacional aéreo y marítimo (con envíos semanales a Latinoamérica), UE, Baleares diario, Canarias e interislas, y nos ocupamos de todo el proceso, aduana incluida.
 
@@ -106,7 +106,7 @@ Si en algún momento os encaja, respóndeme y una persona de nuestro equipo come
 
 Un saludo,
 Alex Santana"
-Elige "el" o "la" según el nombre de pila; si el nombre es ambiguo, escribe "formas parte del equipo de [área] en [empresa]". Traduce el cargo al español ("Purchasing Manager" = "responsable de compras", "Director of Operations" = "director de operaciones").
+Sin "el" ni "la" delante del cargo (ejemplo: "Veo que eres jefe de logística en [empresa]"). Traduce el cargo al español ("Purchasing Manager" = "responsable de compras", "Director of Operations" = "director de operaciones").
 [mercancía] según grupo: A "material sanitario y farmacéutico"; B "maquinaria, repuestos y componentes industriales"; C "material eléctrico y equipos de energía"; D sustituye la frase por "Llevamos años trabajando con operadores logísticos y transitarios en Canarias y Baleares, así que te escribo simplemente para presentarme"; E "mercancía de importación y distribución"; F "mercancía industrial y de distribución" (si es construcción u obra: "material y equipos para obra").
 
 8. LO QUE NUNCA HACES
