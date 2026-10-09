@@ -1,5 +1,12 @@
 # Estado · Mejora de la web cargoserpa.es
 
+> ⚠️ **DESFASADO (09/10/2026).** Esta carpeta es una reconstrucción de la sesión del 25/09 al 04/10 y quedó superada.
+> El trabajo real de la web (06 y 07/10) está en la rama `claude/sleepy-fermi-emltzy` y **aún no está en `main`**:
+> decisión de **rehacer la web** (no parchearla), maqueta V5/V6, paquete para A&A Informática (11 páginas ES + 11 EN),
+> lectura de GA4 y Search Console. La maqueta SÍ está guardada allí (no "no guardada" como dice más abajo).
+> Al consolidar las ramas, esta carpeta debe sustituirse por la de esa rama o archivarse.
+
+
 Última actualización: 09/10/2026. Reconstruido desde la sesión de Claude "Mejora de diseño web" (25/09 al 04/10/2026).
 
 ## Qué es
