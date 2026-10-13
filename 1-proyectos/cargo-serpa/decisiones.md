@@ -191,3 +191,16 @@ Ver `mi-metodo/outbound.md` (contenido, tuteo, cierre literal, firma, respuestas
   el pendiente (envío tipo por servicio y recorrido de tarjetas en Insights).
 - **Informe mensual**: se genera directamente desde el CRM y funciona. Se retira el workflow de
   n8n del PDF mensual y no se reconstruye la Edge Function `informe-mensual`.
+
+## Decisiones del 13/10/2026
+
+- **Servicios que ofrece Cargo Serpa (dato de Alex):** hace **todos los servicios, incluidos almacenamiento temporal y picking**, y tiene **agentes de aduanas propios en Tenerife y Las Palmas**. Se puede decir a prospectos (como ya se hizo con Eranovum y Neumáticos Atlántico).
+- **Logística y operadores (Suardiaz, Logística Marrero) no entran en el outbound:** son partners o competencia, no cliente final.
+- **Leads a Lidia, excepción:** Alex decidió pasar a Lidia el caso Herco (1:1 a nutrir, con oferta de tarifas) aunque no hubiera interés claro. La regla del 07/10 (solo leads con interés real) se mantiene como norma general; la excepción la decide Alex caso a caso.
+- **Respuesta automática de ausencia:** el contacto sigue "Contactado" y no se le reescribe ni se escribe a otro buzón sin decisión de Alex (caso Orthidal, con Davinia Santana como alternativa).
+- **Segundo toque en el 1:1:** recordatorio corto, en el mismo hilo (responder a todos), sin repetir la presentación. Se aplicó a 10 contactos del 06 y 07/10. El texto largo con presentación se descartó por excesivo.
+- **Brevo:** cuesta 18 €/mes (renovación el 21/10/2026). Alex no lo ve rentable por lo que rinde. Datos del 13/10: el rebote (11-15 %) es el problema real, no el precio. Decisión de mantener, limpiar o bajar de plan: pendiente. La reactivación de los clientes de mayor facturación pasaría a 1:1 personalizado.
+- **LinkedIn, criterio de un post bueno (Alex, 13/10):** noticia concreta con datos verificables (fecha, importe, ruta), explicada en preguntas cortas, tres comprobaciones prácticas para hacer con el transitario, autoridad breve y llamada a la acción suave. Los posts genéricos de capacidades o con escenas inventadas no le convencen. El contenido general para toda España es válido; no hace falta centrarlo siempre en Canarias.
+- **LinkedIn, cuidados:** no añadir datos que no estén en la fuente (en el post de la huelga se añadieron "jueves y viernes", "cross-docking" y "24 o 48 horas" sin respaldo); como mucho dos hashtags.
+- **Historial de posts publicados:** se registra cada post en `agentes-rutinarios/historial/posts-publicados.md` para no repetir tema (el DeCA ya se había publicado una vez).
+- **Entorno de Claude Code:** las webs de las revistas digitales de transporte están bloqueadas por la política de red; para consultarlas hay que ampliar los dominios permitidos, o pegar los titulares. El parte del Agente 9 llega por otro entorno.

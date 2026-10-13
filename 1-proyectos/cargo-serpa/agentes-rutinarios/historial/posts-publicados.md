@@ -41,6 +41,11 @@ Formato: fecha · tema · de dónde sale · formato · texto (o `[POR COMPROBAR]
   - Ocho hashtags: la regla es como mucho dos.
   - Los enlaces a "España" del pegado eran de una búsqueda de Google: comprobar que no están activos en LinkedIn.
   - Lección: cualquier dato que no esté en la fuente se marca o se quita antes de publicar.
+- Versión corregida por Alex el 13/10/2026 (cierre del post): quita los detalles sin respaldo y generaliza las tres comprobaciones, que ya no son solo de Canarias:
+  1. Qué envíos tienes programados esa semana y cuáles se pueden adelantar.
+  2. Qué salidas según destino tienen fecha fija y cuánto margen real tienen.
+  3. Qué plazo de entrega comprometes con tus clientes en esos días.
+  Cierre: "En Cargo Serpa llevamos más de 30 años en el transporte. Somos miembros de IATA y WCA, agentes de aduanas, y nos ocupamos del proceso entero, de extremo a extremo. Si tienes envíos previstos para esas semanas, escríbenos por privado o déjanos un comentario y lo miramos juntos."
 
 ## Ideas ya descartadas por Alex (13/10/2026)
 - Post genérico de aduana en Tenerife con escena ilustrativa del contenedor ("¿quién despacha en destino?").

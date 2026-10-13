@@ -1,6 +1,38 @@
 # Estado · Cargo Serpa
 
-Última actualización: 09/10/2026 (consolidación de las ramas de la semana: CRM, outbound, Apollo de pago, rutina de leads y web). Anterior: 05/10/2026 (volcado del proyecto de Claude + verificación en el repo y Supabase).
+Última actualización: 13/10/2026 (cierre del día: leads, respuestas del 1:1, segundo toque, A&A, Brevo y LinkedIn). Anterior: 09/10/2026 (consolidación de las ramas de la semana: CRM, outbound, Apollo de pago, rutina de leads y web).
+
+## Hoy, 13/10/2026 (martes; el lunes 12/10 fue festivo nacional y no se trabajó)
+
+- **Rutina de leads (13/10)**: llegó a los 20 (A 8, B 4, C 2, D 2, E 3, F 1; 9 con señal de Canarias verificada, 3 de Baleares; gemelos 0).
+  27 créditos de Apollo gastados (20 leads, 3 descartes tras enriquecer, 1 error de ID de la rutina, 3 enriquecidos fuera de cuota).
+  Saldo según el informe de la rutina: 2.331 (calculado, no releído en Apollo). Para mañana quedan Famara, Alvarez Group y Master Battery
+  (ya con email verificado): pasarlos antes por exclusiones y CRM; en el CRM consta "RED STAR SURF S.L FAMARA POWER", comprobar si es el mismo.
+- **Envíos 1:1**: Alex envió 17 de los 20 más Cabot Fornés (saludo "Hola, Víctor"; apellido `[POR COMPROBAR]`). **Suardiaz y Logística Marrero no se contactan**
+  (son partners o competencia, decisión de Alex); siguen "Sin contactar" en Notion `[POR COMPROBAR]` si pasan a "Descartado". Orthidal: respuesta automática, remite a
+  Davinia Santana (cargo `[POR COMPROBAR]`); no se reescribe sin decisión de Alex.
+- **Respuestas del día**:
+  - **Neumáticos Atlántico** (Juan José de Vera): caliente. Importa neumáticos de Asia (Port Klang, Laem Chabang, Ho Chi Minh a TFE/LPS) y busca agente de aduanas en Tenerife.
+    En copia: Ángel González Morales (Compras) y David Socas.
+  - **Eranovum** (Gema Fernández-Clemente): caliente. Carretera España-Francia-Bélgica, bultos de 30-40 kg y de unos 425 kg, almacenaje temporal; pide reunión esta semana.
+  - **Herco** (Beatriz Franco, atención al cliente): muy poco internacional, solo importación de Alemania y Francia. Alex decidió pasarlo a Lidia como 1:1 a nutrir
+    (excepción a la regla del 07/10) con oferta de tarifas.
+  - **CTG** (Antonio Guisasola) y **EDP** (Iván López): "ya estamos cubiertos", Nurturing A4, no pasan a Lidia.
+  - Avisos a Lidia de Neumáticos Atlántico, Eranovum y Herco: preparados; que salieran todos `[POR COMPROBAR]`.
+- **Segundo toque 1:1**: 10 recordatorios cortos en el mismo hilo (COMSA, Recambios Centro, EMO, Solarig, Opdenergy, Elawan, TIRESUR, CHINTEX, Ventas Internacionales,
+  Nomad Solar). Marcados en Notion. Resultado a revisar a los 3-5 días.
+- **1:1 frente a Brevo (datos del 13/10)**: Brevo, 249 enviados, 28 rebotes duros (11 %; la última campaña, 15 %), 12 respuestas (4,8 %), 4-5 útiles (≈2 %).
+  1:1 (Notion, Campaña "Outlook 1:1"), unos 225 enviados, 16 respuestas (7,1 %), 9 "Encaja" (4 %) y 7 nurturing. Muestras pequeñas; los 17 de hoy no han madurado.
+  **Brevo cuesta 18 €/mes** (plan Marketing Standard, 5.000 envíos al mes; usado el 5 %), renovación el 21/10/2026. Decisión pendiente: el problema no es el precio, es el rebote.
+- **A&A Informática**: Alex envió el correo con las preguntas de la web (GES y direcciones, servidor y HTTPS, formulario, GTM, cookies, páginas legales). Pendiente su respuesta.
+  Pendiente aparte: correo a Loading (TXT para Search Console y Bing).
+- **Cierre del mes**: Alex envió los resúmenes mensuales a los comerciales y a gerencia.
+- **LinkedIn**: publicado hoy el post de la **huelga general del 11 de noviembre** (formato noticia con preguntas y tres revisiones). El DeCA ya se había publicado antes.
+  Se analizó la página de DSV, Scan, GEODIS, Maresa y Baleària con la extensión (ver `agentes-rutinarios/historial/posts-publicados.md` para el criterio).
+  Se creó el historial de posts publicados.
+- **Rutinas programadas** (leídas hoy): leads (07:52 Madrid, sin modelo fijado, con el conector de Clay aún enganchado), señales (08:45 Canarias) y noticias (07:00 UTC, Opus 5.5).
+  Las revistas digitales están bloqueadas desde el entorno de Claude Code (política de red); el Agente 9 sí trae noticias.
+- **Competencia**: Baleària compró Transportes Intercanarios (23/07) y lanzó Baleària Logística (20/08). Pasar a Lidia o dirección `[POR COMPROBAR]` si es proveedor.
 
 ## Hoy, 07/10/2026
 
