@@ -34,6 +34,21 @@ la cartera fría.
 - La fórmula `Temperatura` de Notion puede depender de `Puntuación`; no se pudo leer. `[POR COMPROBAR]` antes de rellenar el campo en masa.
 - Pendiente: aplicar el scoring a los 226 contactos del 1:1 ya enviados y ver si los que respondieron puntúan más (backtest).
 
+### Contraste inicial de la señal de Canarias (13/10/2026, 226 contactos de "Outlook 1:1")
+
+Clasificación hecha por texto en `Notas` (aproximada):
+
+| Señal en Notas | Enviados | Respondieron | Útiles ("Encaja") |
+|---|---|---|---|
+| Canarias verificada | 92 | 7 (7,6 %) | 5 (5,4 %) |
+| No consta (incluye "sin señal" y fichas sin ese dato) | 126 | 11 (8,7 %) | 4 (3,2 %) |
+| Baleares verificada | 8 | 0 | 0 |
+
+Lectura: la tasa de respuesta es parecida con o sin señal de Canarias; las respuestas **útiles** son algo mayores con señal (5,4 % frente a 3,2 %),
+pero la diferencia (5 frente a 4 casos) es demasiado pequeña para concluir. No se puede confirmar ni descartar el peso de 30 puntos.
+Se mantiene por la razón de negocio (el 67,7 % de lo que se factura llega a Canarias) y se revisa tras la prueba de 2 semanas.
+Baleares: 0 de 8, muestra mínima.
+
 ## 2. Reparto de cuota diaria (sobre 20)
 
 Datos del 13/10/2026, campaña "Outlook 1:1" (226 contactos enviados). Muestras pequeñas; los envíos del 13/10 no han madurado.
