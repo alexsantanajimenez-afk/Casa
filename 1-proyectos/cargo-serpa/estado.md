@@ -2,6 +2,11 @@
 
 Última actualización: 13/10/2026 (cierre del día: leads, respuestas del 1:1, segundo toque, A&A, Brevo y LinkedIn). Anterior: 09/10/2026 (consolidación de las ramas de la semana: CRM, outbound, Apollo de pago, rutina de leads y web).
 
+## Hoy, 14/10/2026 (miércoles)
+
+- **Leads del 13/10 gestionados (Alex, 14/10)**: "todo ok". Se da por hecho el seguimiento de los leads calientes y los avisos a Lidia
+  (Neumáticos Atlántico, Eranovum y Herco), que figuraban `[POR COMPROBAR]`. Detalle de lo enviado y de la reunión de Eranovum: no consta.
+
 ## Hoy, 13/10/2026 (martes; el lunes 12/10 fue festivo nacional y no se trabajó)
 
 - **Rutina de leads (13/10)**: llegó a los 20 (A 8, B 4, C 2, D 2, E 3, F 1; 9 con señal de Canarias verificada, 3 de Baleares; gemelos 0).
