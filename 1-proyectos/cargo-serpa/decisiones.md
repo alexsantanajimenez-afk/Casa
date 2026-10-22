@@ -214,4 +214,7 @@ Ver `mi-metodo/outbound.md` (contenido, tuteo, cierre literal, firma, respuestas
 - **Créditos de Apollo**: gastar los que queden antes del 06/11/2026 (1.413 a fecha 22/10).
 - **A&A Informática**: reunión el 21/10; la web la hacen ellos en unos 15 días y darán acceso al business de Google.
 - **LinkedIn**: si un día no se publica, se publica al día siguiente (el miércoles 21/10 no salió; sale el jueves 22/10).
+- **Tercer párrafo del correo 1:1 (Alex, 22/10):** "…respóndeme y una persona de nuestro departamento comercial podría ponerse en contacto con ustedes para mostrarles el dossier de nuestros servicios y la frecuencia con la que hacemos cada uno." Va siempre así. Pendiente: actualizar el prompt de la rutina de leads (con su OK) y decidir si el resto del correo pasa también a "ustedes".
+- **Dedupe antes de enviar (22/10):** las fichas de la rutina del 16 y 19/10 ya estaban enviadas aunque figuraban "Sin contactar" (INBRAIN, LR Diagnóstico, Deltalab y el resto del lote). Antes de sacar una tanda, comprobar con Alex o Outlook.
+- **Buzones genéricos:** descartado MASCYF por `purchase@mascyf.com`.
 
