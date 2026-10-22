@@ -218,3 +218,4 @@ Ver `mi-metodo/outbound.md` (contenido, tuteo, cierre literal, firma, respuestas
 - **Dedupe antes de enviar (22/10):** las fichas de la rutina del 16 y 19/10 ya estaban enviadas aunque figuraban "Sin contactar" (INBRAIN, LR Diagnóstico, Deltalab y el resto del lote). Antes de sacar una tanda, comprobar con Alex o Outlook.
 - **Buzones genéricos:** descartado MASCYF por `purchase@mascyf.com`.
 
+- **Seguimiento (reactivación del 1:1) dentro de la casa (Alex, 22/10):** máximo **2 correos por contacto**; no hay tercero. Frecuencia: a los **4-5 días** sin respuesta, Claude **propone** a Alex el segundo toque con la lista de quienes no contestaron; no se envía sin su OK. El que contesta sale de la secuencia. Después del segundo toque no se vuelve a escribir. Sustituye a "segundo toque solo a los que nunca contestaron" en lo que se refiere a la cadencia. Texto del segundo correo: `[POR COMPROBAR]`, se redacta cuando Alex lo pida.

@@ -41,3 +41,11 @@ Versión anterior (septiembre, "cierre literal", ya no se usa): ver `3-archivo/`
   lead caliente (llega alguien nuevo), activación de Brevo, y mensaje 1:1 cuando nos escribe
   alguien que no usa un servicio pero sí otro y hay que nutrirlo. Se registran en la base
   "Prospectos" de Notion.
+
+## Seguimiento a los 4-5 días (regla de Alex, 22/10/2026)
+
+- Máximo 2 correos por contacto (el primero y un segundo). No hay tercero.
+- A los 4-5 días del primer envío sin respuesta, Claude propone el segundo toque: lista de contactos que no han contestado, con la fecha del primer envío. Alex da el OK y envía él.
+- Quien contesta sale de la secuencia y pasa a respuesta de prospecto (`respuesta-de-prospecto.md`).
+- Para saber quién contestó se cruza Notion con la bandeja de Outlook; los envíos de Outlook no quedan reflejados solos en Notion.
+- Texto del segundo correo: `[POR COMPROBAR]`, aún sin redactar.
