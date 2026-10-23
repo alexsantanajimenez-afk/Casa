@@ -1,6 +1,36 @@
 # Estado · Cargo Serpa
 
-Última actualización: 13/10/2026 (cierre del día: leads, respuestas del 1:1, segundo toque, A&A, Brevo y LinkedIn). Anterior: 09/10/2026 (consolidación de las ramas de la semana: CRM, outbound, Apollo de pago, rutina de leads y web).
+Última actualización: 23/10/2026 (resumen de leads de las dos últimas semanas y leads pasados a un comercial). Anterior: 13/10/2026 (cierre del día: leads, respuestas del 1:1, segundo toque, A&A, Brevo y LinkedIn).
+
+## Resumen semanal de leads (formato fijado por Alex el 23/10/2026)
+
+Cada semana, tres bloques: (1) leads creados en Notion por fecha y origen; (2) respuestas y estado; (3) **leads a los que se dijo que un comercial contactaría**, con qué piden y si el aviso a Lidia salió. Cifras por fecha de creación de la ficha en Notion (UTC), no por fecha de envío.
+
+**Leads creados en Prospectos.** Semana 12–18/10: 125 (rutina diaria 100, Apollo 20, señales 4, Cartera CRM 1). Semana 19–23/10 (hasta hoy): 495 (rutina 80, Apollo 411 de los que 401 son una carga del 22/10 sin enviar ni señal de Canarias verificada, señales 4). `[POR COMPROBAR]` si la carga de 401 es intencionada y su coste en créditos.
+
+**Leads pasados a un comercial (aviso a Lidia enviado según Alex; "Enviado a Cargo Serpa" puesto el 23/10, salvo los tres marcados con 13/10):**
+
+| Semana | Empresa | Qué piden |
+|---|---|---|
+| 12–18/10 | Neumáticos Atlántico (13/10) | Neumáticos desde Asia a TFE/LPS y agente de aduanas |
+| 12–18/10 | Eranovum (13/10) | Carretera España-Francia-Bélgica, almacenaje temporal, reunión |
+| 12–18/10 | Herco (13/10) | Tarifas de importación desde Alemania y Francia (nutrir) |
+| 12–18/10 | Goizper (14/10) | Tarifa España y Europa, en m³ y cargas completas |
+| 12–18/10 | Niubo Maquinaria (14/10) | Valorar cotizar envíos (excepción a la regla del 07/10) |
+| 12–18/10 | Akralab (16/10) | Aduanas y trámites de farmacia en Barcelona y Valencia |
+| 12–18/10 | Elawan (15/10) | México; se le dijo que sí |
+| 12–18/10 | Pharma International (16/10) | Colaboración internacional puntual |
+| 19–23/10 | PEMSA | Propuesta de islas (Canarias y Baleares), frecuencias, tarifas y visita; adjunta volúmenes desde Alcalá de Henares |
+| 19–23/10 | Electren (grupo Dragados) | Transporte nacional e internacional de obra ferroviaria (vigas, bobinas, camión con grúa); el confirming a 120 días es "el problema"; correo pasado a la gerente |
+| 19–23/10 | Linear Chemicals (Alex García, Export & Customer Service, 23/10) | Necesidades cubiertas con proveedores habituales; pide el dossier de servicios para comparar y cotizar cuando encaje una operación; propone conectar por LinkedIn. Señal: adjudicación del 22/10 de tiras reactivas al Área de Salud de Tenerife (7.188 €). Aviso a Lidia: pendiente de enviar por Alex |
+
+Contacto de cada fecha del aviso: `[POR COMPROBAR]` (la fecha de "Enviado a Cargo Serpa" del 23/10 es la de la anotación, no la real, salvo Neumáticos Atlántico, Eranovum y Herco).
+
+**Cruce con el CRM (23/10/2026).** PEMSA y Electren: sin coincidencias, no constan como clientes ni con envíos. El grupo Dragados tiene tres clientes asignados a Lidia Marín (DRAGADOS, S.A. nº 100150; Dragados Canarios nº 5805; UTE Central Hidroeléctrica Salto de Chira nº 6374), sin envíos. `[POR COMPROBAR]` si Electren es la misma cuenta.
+
+**Fichas creadas el 23/10.** PEMSA (Antonio Bellón, Logistic Manager) y José Espada (Electren); Alberto Boj (Electren) pasado a Respondió. Pendiente de PEMSA: email de Antonio Bellón, origen, quién es "Alejandro", fecha de recepción.
+
+**Notion.** El 23/10 se agotó el límite de consultas de datos (se repone en menos de 60 min); las fichas se leyeron por búsqueda.
 
 ## Hoy, 13/10/2026 (martes; el lunes 12/10 fue festivo nacional y no se trabajó)
 
