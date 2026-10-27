@@ -204,3 +204,11 @@ Ver `mi-metodo/outbound.md` (contenido, tuteo, cierre literal, firma, respuestas
 - **LinkedIn, cuidados:** no añadir datos que no estén en la fuente (en el post de la huelga se añadieron "jueves y viernes", "cross-docking" y "24 o 48 horas" sin respaldo); como mucho dos hashtags.
 - **Historial de posts publicados:** se registra cada post en `agentes-rutinarios/historial/posts-publicados.md` para no repetir tema (el DeCA ya se había publicado una vez).
 - **Entorno de Claude Code:** las webs de las revistas digitales de transporte están bloqueadas por la política de red; para consultarlas hay que ampliar los dominios permitidos, o pegar los titulares. El parte del Agente 9 llega por otro entorno.
+
+## Decisiones del 27/10/2026
+
+- **Pestaña "Por contactar" (Alex)**: base aparte en Notion con todos los contactos no contactados y verificados; al enviarse o contestar pasan a Prospectos. No se mezclan datos con los que daban error. Objetivo: unos 1.000 contactos nuevos el viernes 30/10 (techo real ≈ 900-920 por los créditos).
+- **Gastar todos los créditos de Apollo en 5 días (Alex)**, con búsquedas que gastan créditos (nada de "buscas sin gastar"), zona rotando por día (Madrid, Barcelona, País Vasco, Canarias, Baleares...). Comprobar siempre antes de enriquecer: CRM/Supabase (dominio y nombre), Notion (empresa y dominio) y la tabla `leads` de Supabase (espejo parado en 16/10, no sirve sola).
+- **Envíos**: 50 correos 1:1 al día; recordatorio a los **5 días hábiles** (Alex, 27/10; antes 4), un solo recordatorio por persona.
+- **Exclusiones nuevas**: alimentación, bebidas y agro siguen fuera (08/10); operadores logísticos no entran; buzones genéricos (`compras@`, `international@`) se descartan aunque Apollo los dé como verificados.
+- **Ritmo**: el 27/10 se gastaron 114 créditos (Madrid) y quedan 838; reparto previsto ~210/día hasta el 30/10 y el resto hasta el 06/11.

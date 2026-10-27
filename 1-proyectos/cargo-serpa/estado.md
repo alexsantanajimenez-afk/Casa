@@ -1,6 +1,15 @@
 # Estado · Cargo Serpa
 
-Última actualización: 23/10/2026 (resumen de leads de las dos últimas semanas y leads pasados a un comercial). Anterior: 13/10/2026 (cierre del día: leads, respuestas del 1:1, segundo toque, A&A, Brevo y LinkedIn).
+Última actualización: 27/10/2026 (Por contactar y Apollo). Anterior: 23/10/2026 (resumen de leads de las dos últimas semanas y leads pasados a un comercial). Anterior: 13/10/2026 (cierre del día: leads, respuestas del 1:1, segundo toque, A&A, Brevo y LinkedIn).
+
+## Hoy, 27/10/2026 (martes): pestaña "Por contactar" y gasto de créditos Apollo
+
+- **Perfil del cliente ICP (CRM, solo lectura, 12 meses hasta 30/09)**: 58 clientes suman el 80 % de 7,78 M€ (la cifra anotada era 62, definición distinta `[POR COMPROBAR]`). Madrid, Canarias y Baleares; sectores: handling/aerolíneas, energía y renovables, material médico, ingeniería y maquinaria. Casi todos con envíos a Canarias.
+- **Notion**: creada la base **"Por contactar"** (hija de la página Cargo Serpa; `collection://4f2bc9fe-3fd6-4b47-b280-7373c66ce811`) con las columnas de Prospectos más `Fecha recordatorio` y `Lote Apollo`. Movidas desde Prospectos **378 fichas** "Sin contactar" con email verificado (Apollo 22/10 y rutina de 26-27/10), tras cruzar dominio con el CRM (0 coincidencias) y excluir 11 (SIMON, Cables ESLA, Bioiberica x2, Eiffage, Logista, DIANIA, Smartlog, INTERTRANSIT, TCT, Geis). Quedan en Prospectos ~40 fichas viejas de la rutina "sin marcar" por si ya se enviaron `[POR COMPROBAR]`.
+- **Apollo**: saldo 952 → **838** de 2.565 (ciclo hasta 06/11). Gasto de hoy 114 créditos, zona **Madrid**: 100 contactos nuevos en "Por contactar" (`Lote Apollo` = "2026-10-27 Madrid"). Descartados tras enriquecer: ROIS (Rovi ya contactada), Gransolar (ya en la lista), Transcoma (cliente Hamilton), buzones compras@ de Inmarepro y Tongil, y 5 de alimentación/agro, más 4 de la 2.ª tanda (Sinergia, Incendios, Ricopia, GPBMU). Aprendizaje: cruzar CRM y Notion **antes** de enriquecer, no después.
+- **Zona de mañana**: Barcelona; luego País Vasco, Canarias, Baleares, Valencia y resto. Madrid está casi agotado con estos filtros.
+- **Recordatorio**: 5 días hábiles tras el envío, un solo recordatorio por persona; si no contesta, "Cerrado sin respuesta". Primer recordatorio previsto a partir del miércoles 28/10 (contactados del 22/10 o antes).
+- **Notion SQL**: el límite de consultas se agotó hoy a media mañana y se repuso; usar `group_concat` y consultas agregadas.
 
 ## Resumen semanal de leads (formato fijado por Alex el 23/10/2026)
 
