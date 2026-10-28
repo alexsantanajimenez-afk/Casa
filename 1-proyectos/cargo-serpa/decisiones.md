@@ -233,3 +233,12 @@ Ver `mi-metodo/outbound.md` (contenido, tuteo, cierre literal, firma, respuestas
 - **Comprobación tras enriquecer**: además de nombre y dominio contra CRM y Notion antes de enriquecer, se vuelve a cruzar el dominio del email después (cazó RADSA y BYG, clientes del CRM). Una sola persona por empresa en cada lote.
 - **Barcelona**: 102 créditos gastados, 87 fichas útiles en "Por contactar". Zona siguiente: País Vasco.
 - **Respuestas a prospectos**: ninguna de las del 27/10 va a Lidia (derivaciones, no amable, rebote y autorespuestas se quedan en Notion).
+
+## Confirmaciones del 28/10/2026 (arranque de sesión)
+
+- **Linear Chemicals**: aviso a Lidia enviado por Alex.
+- **Carga de 401 leads (22/10)**: intencionada. Objetivo: gastar todos los créditos de Apollo antes del 06/11.
+- **Brevo**: no se renovó (consolida la pausa del 22/10).
+- **PEMSA**: reunión ya con un comercial; cerrado por nuestra parte.
+- **A&A Informática**: Alex ya habló con ellos; cerrado.
+- **Rutina de arranque**: si la sesión parece no conocer lo reciente, mirar `git branch -r` por ramas sin fusionar antes de dar nada por perdido.
