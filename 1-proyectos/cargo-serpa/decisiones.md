@@ -204,3 +204,18 @@ Ver `mi-metodo/outbound.md` (contenido, tuteo, cierre literal, firma, respuestas
 - **LinkedIn, cuidados:** no añadir datos que no estén en la fuente (en el post de la huelga se añadieron "jueves y viernes", "cross-docking" y "24 o 48 horas" sin respaldo); como mucho dos hashtags.
 - **Historial de posts publicados:** se registra cada post en `agentes-rutinarios/historial/posts-publicados.md` para no repetir tema (el DeCA ya se había publicado una vez).
 - **Entorno de Claude Code:** las webs de las revistas digitales de transporte están bloqueadas por la política de red; para consultarlas hay que ampliar los dominios permitidos, o pegar los titulares. El parte del Agente 9 llega por otro entorno.
+
+## Decisiones del 22/10/2026
+
+- **Brevo**: pausado 3 meses (Alex). Cierra la decisión pendiente del 13/10 sobre mantener, limpiar o bajar de plan.
+- **Segundo toque**: solo a los que nunca contestaron (10 el 13/10); no se repite a nadie.
+- **Leads calientes del 13/10**: ya tratados por Lidia; no hay nada pendiente con ellos en esta carpeta.
+- **Envío del backlog**: tandas de 10, varias veces al día, hasta agotar todos los contactos con email.
+- **Créditos de Apollo**: gastar los que queden antes del 06/11/2026 (1.413 a fecha 22/10).
+- **A&A Informática**: reunión el 21/10; la web la hacen ellos en unos 15 días y darán acceso al business de Google.
+- **LinkedIn**: si un día no se publica, se publica al día siguiente (el miércoles 21/10 no salió; sale el jueves 22/10).
+- **Tercer párrafo del correo 1:1 (Alex, 22/10):** "…respóndeme y una persona de nuestro departamento comercial podría ponerse en contacto con ustedes para mostrarles el dossier de nuestros servicios y la frecuencia con la que hacemos cada uno." Va siempre así. Pendiente: actualizar el prompt de la rutina de leads (con su OK) y decidir si el resto del correo pasa también a "ustedes".
+- **Dedupe antes de enviar (22/10):** las fichas de la rutina del 16 y 19/10 ya estaban enviadas aunque figuraban "Sin contactar" (INBRAIN, LR Diagnóstico, Deltalab y el resto del lote). Antes de sacar una tanda, comprobar con Alex o Outlook.
+- **Buzones genéricos:** descartado MASCYF por `purchase@mascyf.com`.
+
+- **Seguimiento (reactivación del 1:1) dentro de la casa (Alex, 22/10):** máximo **2 correos por contacto**; no hay tercero. Frecuencia: a los **4-5 días** sin respuesta, Claude **propone** a Alex el segundo toque con la lista de quienes no contestaron; no se envía sin su OK. El que contesta sale de la secuencia. Después del segundo toque no se vuelve a escribir. Sustituye a "segundo toque solo a los que nunca contestaron" en lo que se refiere a la cadencia. Texto del segundo correo: `[POR COMPROBAR]`, se redacta cuando Alex lo pida.

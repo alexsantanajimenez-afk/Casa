@@ -32,6 +32,22 @@ Contacto de cada fecha del aviso: `[POR COMPROBAR]` (la fecha de "Enviado a Carg
 
 **Notion.** El 23/10 se agotó el límite de consultas de datos (se repone en menos de 60 min); las fichas se leyeron por búsqueda.
 
+
+## Hoy, 22/10/2026 (jueves). Del 14 al 21/10 no consta nada en esta carpeta `[POR COMPROBAR]`
+
+- **Corrección de Alex a lo que figuraba aquí**:
+  - **Brevo: pausado 3 meses** (la renovación del 21/10 ya no es decisión pendiente).
+  - **Leads calientes del 13/10** (Neumáticos Atlántico, Eranovum, Herco): Lidia los tiene todos y están tratados.
+  - **Segundo toque del 13/10**: fue solo a 10 contactos que nunca contestaron. No se repite a nadie.
+  - **A&A Informática**: reunión el 21/10. Ellos se ponen con la web y esperan tenerlo todo en unos 15 días. Darán a Alex acceso al business de Google (Search Console / perfil de empresa). Sustituye al pendiente del TXT con Loading `[POR COMPROBAR]`.
+  - **LinkedIn**: el post del miércoles 21/10 no se subió; se sube hoy 22/10.
+- **Leads de hoy (rutina, 07:52 Madrid)**: 20 con email verificado en Apollo (7 de dominio catch-all) más 2 fichas de señales sin contacto (Abex Excelencia Robótica, Señalizaciones Villar). Alex pidió los 20 correos de golpe. Hay que decidir los 4 de grupo D (Coslada Logística, Tree Logistics, JGH Logística, Barquín y Otxoa) por la regla de partners/competencia del 13/10. Lingotes: nombre "Juan Sanzo" con email ignacio.sanzo@ (comprobar persona).
+- **Backlog sin enviar (Notion, Estado = "Sin contactar", 22/10)**: 327 fichas, unas 164 con email: rutina diaria 08-22/10 (122, incluye los 20 de hoy; las del 08 al 21/10 pueden estar ya enviadas y sin marcar, cruzar con Outlook), rutina 02-05/10 (12), Clay 01/10 (16), Apollo (6), resto (8). Las 148 de septiembre (A, B, C, búsqueda inicial) no tienen email. Alex habla de unos 500 contactos más que no constan en Notion `[POR COMPROBAR]` dónde están (¿Apollo sin guardar?).
+- **Informe del T1 (artifact, 22/10)**: creado a petición de Alex con el plan de 9 meses, estado frente al plan, reactivaciones (CRM a 30/09), embudo de contactos, ranking de 1.042 empresas por propensión a carga internacional y marco de medición. Enlace y fuentes en `trabajo-en-curso/informe-t1-artifact-2026-10-22.md`. Datos fijos: se rehace al llegar los envíos de octubre y la analítica de LinkedIn.
+- **Hallazgo del 22/10**: otra sesión cargó hoy 401 leads de Apollo en Notion ("Tanda Apollo 22/10"). Eran empresas grandes y el estado "Sin contactar" no refleja lo enviado desde Outlook. Cruzar con Outlook antes de enviar.
+- **Método de envío**: de 10 en 10, varias veces al día, hasta completar todos.
+- **Apollo (22/10)**: 1.413 de 2.660 créditos de lead disponibles (1.247 gastados). El ciclo termina el 06/11/2026 a las 08:37 UTC. Alex quiere gastarlos antes del 06/11 (unos 118 al día en 11 días laborables); límite real: su capacidad de envío (50 al día) y el tope vigente de 40 enriquecimientos. Propuesta pendiente de OK: subir el tope.
+
 ## Hoy, 13/10/2026 (martes; el lunes 12/10 fue festivo nacional y no se trabajó)
 
 - **Rutina de leads (13/10)**: llegó a los 20 (A 8, B 4, C 2, D 2, E 3, F 1; 9 con señal de Canarias verificada, 3 de Baleares; gemelos 0).

@@ -22,7 +22,7 @@ Es la versión que Alex envió el 05/10/2026, con la frase de sector adaptada al
 >
 > Soy Alex, de Cargo Serpa: más de 30 años en transporte, miembros de IATA y WCA y agentes de aduanas. Hacemos internacional aéreo y marítimo (con envíos semanales a Latinoamérica), UE, Baleares diario, Canarias e interislas, y nos ocupamos de todo el proceso, aduana incluida.
 >
-> Si en algún momento os encaja, respóndeme y una persona de nuestro equipo comercial se pondrá en contacto contigo para presentarte el dossier de nuestros servicios y la frecuencia con la que hacemos cada uno. Si prefieres no recibir más mensajes, dímelo y no vuelvo a escribirte.
+> Si en algún momento os encaja, respóndeme y una persona de nuestro departamento comercial podría ponerse en contacto con ustedes para mostrarles el dossier de nuestros servicios y la frecuencia con la que hacemos cada uno. Si prefieres no recibir más mensajes, dímelo y no vuelvo a escribirte.
 >
 > Un saludo,
 > Alex Santana
@@ -30,6 +30,8 @@ Es la versión que Alex envió el 05/10/2026, con la frase de sector adaptada al
 **Frase de sector (confirmada por Alex el 06/10/2026):** energía y material eléctrico = "material eléctrico y equipos de energía"; médico y farmacéutico = "material sanitario y farmacéutico"; maquinaria y recambios = "maquinaria, repuestos y componentes industriales"; construcción = "material y equipos para obra"; otros = "mercancía industrial y de distribución".
 
 Versión anterior (septiembre, "cierre literal", ya no se usa): ver `3-archivo/`.
+
+**Regla de Alex (22/10/2026): el tercer párrafo va siempre así** ("una persona de nuestro departamento comercial podría ponerse en contacto con ustedes para mostrarles el dossier…"). Aplica a todos los correos 1:1 desde esa fecha. La rutina diaria de leads (07:52) sigue con el texto antiguo hasta que Alex apruebe cambiar su prompt.
 
 ## Comerciales y leads
 
@@ -39,3 +41,11 @@ Versión anterior (septiembre, "cierre literal", ya no se usa): ver `3-archivo/`
   lead caliente (llega alguien nuevo), activación de Brevo, y mensaje 1:1 cuando nos escribe
   alguien que no usa un servicio pero sí otro y hay que nutrirlo. Se registran en la base
   "Prospectos" de Notion.
+
+## Seguimiento a los 4-5 días (regla de Alex, 22/10/2026)
+
+- Máximo 2 correos por contacto (el primero y un segundo). No hay tercero.
+- A los 4-5 días del primer envío sin respuesta, Claude propone el segundo toque: lista de contactos que no han contestado, con la fecha del primer envío. Alex da el OK y envía él.
+- Quien contesta sale de la secuencia y pasa a respuesta de prospecto (`respuesta-de-prospecto.md`).
+- Para saber quién contestó se cruza Notion con la bandeja de Outlook; los envíos de Outlook no quedan reflejados solos en Notion.
+- Texto del segundo correo: `[POR COMPROBAR]`, aún sin redactar.
