@@ -23,6 +23,7 @@ Cada semana, tres bloques: (1) leads creados en Notion por fecha y origen; (2) r
 | 19–23/10 | PEMSA | Propuesta de islas (Canarias y Baleares), frecuencias, tarifas y visita; adjunta volúmenes desde Alcalá de Henares |
 | 19–23/10 | Electren (grupo Dragados) | Transporte nacional e internacional de obra ferroviaria (vigas, bobinas, camión con grúa); el confirming a 120 días es "el problema"; correo pasado a la gerente |
 | 19–23/10 | Linear Chemicals (Alex García, Export & Customer Service, 23/10) | Necesidades cubiertas con proveedores habituales; pide el dossier de servicios para comparar y cotizar cuando encaje una operación; propone conectar por LinkedIn. Señal: adjudicación del 22/10 de tiras reactivas al Área de Salud de Tenerife (7.188 €). Aviso a Lidia: pendiente de enviar por Alex |
+| 19–23/10 | **Pfisterer España (ENTRÓ HOY, 23/10)** · cliente nº 5249 en reactivación; contacto Javier Gutiérrez, copia a Sergio Esteban (comercial asignado) | Petición de presupuesto y consejo: 2 palets (240 kg y 160 kg) de Arganda del Rey a SET Mezquita (Puerto del Rosario) el 03/11/26, continuación a SE Macher (Lanzarote) el 10/11/26 con recogida desde el 07/11, y vuelta el 19/11. Piden asesoramiento (avión Madrid–islas y ferry entre islas) y si va con cuaderno ATA o factura (`[POR COMPROBAR]` con aduanas). Venía del lead del 01/10 |
 
 Contacto de cada fecha del aviso: `[POR COMPROBAR]` (la fecha de "Enviado a Cargo Serpa" del 23/10 es la de la anotación, no la real, salvo Neumáticos Atlántico, Eranovum y Herco).
 
