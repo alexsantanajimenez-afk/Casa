@@ -47,6 +47,13 @@ Formato: fecha · tema · de dónde sale · formato · texto (o `[POR COMPROBAR]
   3. Qué plazo de entrega comprometes con tus clientes en esos días.
   Cierre: "En Cargo Serpa llevamos más de 30 años en el transporte. Somos miembros de IATA y WCA, agentes de aduanas, y nos ocupamos del proceso entero, de extremo a extremo. Si tienes envíos previstos para esas semanas, escríbenos por privado o déjanos un comentario y lo miramos juntos."
 
+### 14/10/2026 (miércoles) · Carga aérea desde Asia: cambios de ruta
+- Origen: borrador pegado por Alex a partir de una noticia de Diario del Puerto sobre la carga aérea de Aena en septiembre (no consta el titular ni el enlace). Claude no pudo confirmar las cifras (−5,7 % en la red de Aena, 62,41 millones de kilos en Madrid-Barajas, caídas a doble dígito con Catar, Pekín y Emiratos) ni la cifra de oficinas de WCA (11.800 en 195 países); se quitaron. Único dato con respaldo: la nota de Aena de agosto de 2026 (Madrid-Barajas, menos carga que un año antes, −12 %; redacción de la nota contradictoria, comprobar el PDF).
+- Gancho (elegido por Alex, opción 3): "¿Cuándo te enteras de que tu ruta aérea habitual ha cambiado: antes de que salga la carga o el día que no llega?", con corte "…más" tras "En Cargo Serpa llevamos más de 30 años en el transporte y esto es lo que revisamos primero:". Se descartó el arranque "no sale en la factura, sale el día que llega tu mercancía" (confuso y no demostrable).
+- Formato: texto con tres comprobaciones prácticas (hub y aerolínea, plazo comprometido con los clientes, quién avisa si la ruta cambia). Dos hashtags: #CargaAerea #Logistica.
+- Texto exacto publicado: `[POR COMPROBAR]`. Versión acordada en la sesión: la del gancho 3 sin cifras. Alex pegó una versión con las cifras entre corchetes y se le advirtió de que no estaban verificadas; no consta cuál se publicó.
+- Lección: no entran en un post de autoridad cifras ni cantidades de red (oficinas, países) sin fuente a la vista; las promesas de "visibilidad en tiempo real" o "reaccionamos antes" se sustituyen por comprobaciones para el lector.
+
 ## Ideas ya descartadas por Alex (13/10/2026)
 - Post genérico de aduana en Tenerife con escena ilustrativa del contenedor ("¿quién despacha en destino?").
 - Los tres enfoques cortos A/B/C (problema, tres preguntas, trayectoria).

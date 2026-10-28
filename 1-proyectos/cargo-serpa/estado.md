@@ -48,6 +48,11 @@ Contacto de cada fecha del aviso: `[POR COMPROBAR]` (la fecha de "Enviado a Carg
 - **Método de envío**: de 10 en 10, varias veces al día, hasta completar todos.
 - **Apollo (22/10)**: 1.413 de 2.660 créditos de lead disponibles (1.247 gastados). El ciclo termina el 06/11/2026 a las 08:37 UTC. Alex quiere gastarlos antes del 06/11 (unos 118 al día en 11 días laborables); límite real: su capacidad de envío (50 al día) y el tope vigente de 40 enriquecimientos. Propuesta pendiente de OK: subir el tope.
 
+## Hoy, 14/10/2026 (miércoles)
+
+- **Leads del 13/10 gestionados (Alex, 14/10)**: "todo ok". Se da por hecho el seguimiento de los leads calientes y los avisos a Lidia
+  (Neumáticos Atlántico, Eranovum y Herco), que figuraban `[POR COMPROBAR]`. Detalle de lo enviado y de la reunión de Eranovum: no consta.
+
 ## Hoy, 13/10/2026 (martes; el lunes 12/10 fue festivo nacional y no se trabajó)
 
 - **Rutina de leads (13/10)**: llegó a los 20 (A 8, B 4, C 2, D 2, E 3, F 1; 9 con señal de Canarias verificada, 3 de Baleares; gemelos 0).

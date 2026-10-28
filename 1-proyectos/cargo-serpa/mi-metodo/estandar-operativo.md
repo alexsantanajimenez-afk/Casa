@@ -24,6 +24,11 @@ Todo lo de este archivo está aprobado por Alex el 06/10/2026 ("OK a todo"), inc
   comprueba en Notion, en cualquier estado, por email, dominio, empresa y nombre de la persona; y en el CRM por palabra completa.
   Aplica a Apollo, a Clay, a la rutina diaria y a cada lote manual. Un contacto con respuesta automática (fuera de la oficina) sigue
   siendo "Contactado": no se vuelve a escribir sin que Alex lo decida.
+- **Orden fijo antes de enriquecer (Alex, 14/10/2026, tras gastar créditos en clientes que ya estaban en el CRM)**: 1) buscar en Apollo
+  (gratis); 2) **cruzar con el CRM** (`clientes_info`, nombre con palabra completa y dominio del email) **y con Prospectos** (Notion o la
+  tabla `leads` del CRM); 3) listar en el mensaje a Alex qué sale y por qué (cliente activo, excliente inactivo, ya contactado, mismo grupo
+  con otra marca); 4) pedir el OK con el coste en créditos; 5) solo entonces enriquecer. Un excliente inactivo no es un frío: se trata como
+  reactivación. Si Notion no deja consultar por límite de uso, se cruza con la tabla `leads` del CRM y con el buscador de Notion.
 - Los apellidos de Apollo pueden estar desactualizados (caso DRV: figuraba Sukajeva y firma Bistrova). Si la respuesta trae otro nombre, se corrige la ficha.
 
 ## Brevo (solo reactivación de cartera)
