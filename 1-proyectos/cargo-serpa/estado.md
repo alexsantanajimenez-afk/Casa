@@ -1,6 +1,16 @@
 # Estado · Cargo Serpa
 
-Última actualización: 27/10/2026 (Por contactar y Apollo). Anterior: 23/10/2026 (resumen de leads de las dos últimas semanas y leads pasados a un comercial). Anterior: 13/10/2026 (cierre del día: leads, respuestas del 1:1, segundo toque, A&A, Brevo y LinkedIn).
+Última actualización: 28/10/2026 (lote Barcelona). Anterior: 27/10/2026 (Por contactar y Apollo). Anterior: 23/10/2026 (resumen de leads de las dos últimas semanas y leads pasados a un comercial). Anterior: 13/10/2026 (cierre del día: leads, respuestas del 1:1, segundo toque, A&A, Brevo y LinkedIn).
+
+## Hoy, 28/10/2026 (miércoles): lote Barcelona y respuestas del 27/10
+
+- **Apollo Barcelona**: 102 candidatos (de 300 personas: 128 ya en Notion, 46 logística, 2 clientes, 1 no ICP; más 9 descartados a mano y 3 por el CRM por nombre) enriquecidos con 102 créditos. Tras enriquecer se descartaron 15: 5 buzones genéricos (export@, compras@, producto@, ventas.medica@), 4 alimentación/agro (Canaletas, Neovital, Regaber, Bioser), Tycsa (Chile), ABC Grup (posible operador logístico `[POR COMPROBAR]`), RADSA y BYG (**clientes del CRM**, 2 créditos perdidos) y Meritxell Pelfort (misma empresa que Fernando Casasnovas, Aguilar y Salas/Inoxtorres). **87 fichas nuevas** en "Por contactar", `Lote Apollo` = "2026-10-28 Barcelona". Cruce de dominios con Notion (Prospectos y Por contactar): 0 coincidencias.
+- **A revisar a mano**: Actibios (Apollo la etiqueta "logistics & supply chain"), Grupo CTC (etiqueta "human resources"), Percon, Bernadí, Optim.Vision, Optral (sector poco claro). Quedan en "Otro" y anotado en Notas.
+- **Créditos**: Apollo marca **706** restantes (ciclo hasta 06/11). Esperado 838 − 102 = 736; **30 de diferencia sin explicar** `[POR COMPROBAR]`.
+- **Pestaña "Por contactar"**: 378 (movidas 27/10) + 100 (Madrid) + 87 (Barcelona) ≈ 565 `[POR COMPROBAR]` con el recuento real en Notion.
+- **Respuestas del 27/10 (48 correos de Madrid)**: rebote Carttec (salua@carttec.com, 5.7.1); derivaciones Dentaid (Jordi Vernedas → Anselm Bravo, anselm.bravo@dentaid.es) y Fresenius (Mónica Peláez → compras Tres Cantos, ofrece recibir folleto); no amable ENUSA (guardan el contacto); respuestas automáticas Cartés (compras@filtroscartes.net) y MAPBiopharma (Pilar Redondo ya no está; Berta Castillo y Anna Sanchez). Ninguna va a Lidia.
+- **Siguiente zona**: País Vasco (29/10), luego Canarias, Baleares y Valencia. Reservar ~30 créditos.
+- **Pendiente de Alex**: confirmar cuáles de los 48 envíos de Madrid se enviaron (Fecha primer envío 27/10, recordatorio 03/11); ~40 fichas viejas "Sin contactar" en Prospectos; si se sube a `main`.
 
 ## Hoy, 27/10/2026 (martes): pestaña "Por contactar" y gasto de créditos Apollo
 

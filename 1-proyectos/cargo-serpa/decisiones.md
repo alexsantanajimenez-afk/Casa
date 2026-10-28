@@ -212,3 +212,9 @@ Ver `mi-metodo/outbound.md` (contenido, tuteo, cierre literal, firma, respuestas
 - **Envíos**: 50 correos 1:1 al día; recordatorio a los **5 días hábiles** (Alex, 27/10; antes 4), un solo recordatorio por persona.
 - **Exclusiones nuevas**: alimentación, bebidas y agro siguen fuera (08/10); operadores logísticos no entran; buzones genéricos (`compras@`, `international@`) se descartan aunque Apollo los dé como verificados.
 - **Ritmo**: el 27/10 se gastaron 114 créditos (Madrid) y quedan 838; reparto previsto ~210/día hasta el 30/10 y el resto hasta el 06/11.
+
+## Decisiones del 28/10/2026
+
+- **Comprobación tras enriquecer**: además de nombre y dominio contra CRM y Notion antes de enriquecer, se vuelve a cruzar el dominio del email después (cazó RADSA y BYG, clientes del CRM). Una sola persona por empresa en cada lote.
+- **Barcelona**: 102 créditos gastados, 87 fichas útiles en "Por contactar". Zona siguiente: País Vasco.
+- **Respuestas a prospectos**: ninguna de las del 27/10 va a Lidia (derivaciones, no amable, rebote y autorespuestas se quedan en Notion).
