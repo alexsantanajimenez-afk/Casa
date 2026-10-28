@@ -218,3 +218,4 @@ Ver `mi-metodo/outbound.md` (contenido, tuteo, cierre literal, firma, respuestas
 - **Comprobación tras enriquecer**: además de nombre y dominio contra CRM y Notion antes de enriquecer, se vuelve a cruzar el dominio del email después (cazó RADSA y BYG, clientes del CRM). Una sola persona por empresa en cada lote.
 - **Barcelona**: 102 créditos gastados, 87 fichas útiles en "Por contactar". Zona siguiente: País Vasco.
 - **Respuestas a prospectos**: ninguna de las del 27/10 va a Lidia (derivaciones, no amable, rebote y autorespuestas se quedan en Notion).
+- **País Vasco el mismo 28/10 (Alex: "si hoy País Vasco")**: se hizo el lote de 107 créditos en el mismo día que Barcelona. Ritmo de créditos: 838 → 599 en 28/10 (239 gastados en el día, 30 sin explicar).
