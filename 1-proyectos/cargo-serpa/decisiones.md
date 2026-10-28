@@ -219,3 +219,17 @@ Ver `mi-metodo/outbound.md` (contenido, tuteo, cierre literal, firma, respuestas
 - **Buzones genéricos:** descartado MASCYF por `purchase@mascyf.com`.
 
 - **Seguimiento (reactivación del 1:1) dentro de la casa (Alex, 22/10):** máximo **2 correos por contacto**; no hay tercero. Frecuencia: a los **4-5 días** sin respuesta, Claude **propone** a Alex el segundo toque con la lista de quienes no contestaron; no se envía sin su OK. El que contesta sale de la secuencia. Después del segundo toque no se vuelve a escribir. Sustituye a "segundo toque solo a los que nunca contestaron" en lo que se refiere a la cadencia. Texto del segundo correo: `[POR COMPROBAR]`, se redacta cuando Alex lo pida.
+
+## Decisiones del 27/10/2026
+
+- **Pestaña "Por contactar" (Alex)**: base aparte en Notion con todos los contactos no contactados y verificados; al enviarse o contestar pasan a Prospectos. No se mezclan datos con los que daban error. Objetivo: unos 1.000 contactos nuevos el viernes 30/10 (techo real ≈ 900-920 por los créditos).
+- **Gastar todos los créditos de Apollo en 5 días (Alex)**, con búsquedas que gastan créditos (nada de "buscas sin gastar"), zona rotando por día (Madrid, Barcelona, País Vasco, Canarias, Baleares...). Comprobar siempre antes de enriquecer: CRM/Supabase (dominio y nombre), Notion (empresa y dominio) y la tabla `leads` de Supabase (espejo parado en 16/10, no sirve sola).
+- **Envíos**: 50 correos 1:1 al día; recordatorio a los **5 días hábiles** (Alex, 27/10; antes 4), un solo recordatorio por persona.
+- **Exclusiones nuevas**: alimentación, bebidas y agro siguen fuera (08/10); operadores logísticos no entran; buzones genéricos (`compras@`, `international@`) se descartan aunque Apollo los dé como verificados.
+- **Ritmo**: el 27/10 se gastaron 114 créditos (Madrid) y quedan 838; reparto previsto ~210/día hasta el 30/10 y el resto hasta el 06/11.
+
+## Decisiones del 28/10/2026
+
+- **Comprobación tras enriquecer**: además de nombre y dominio contra CRM y Notion antes de enriquecer, se vuelve a cruzar el dominio del email después (cazó RADSA y BYG, clientes del CRM). Una sola persona por empresa en cada lote.
+- **Barcelona**: 102 créditos gastados, 87 fichas útiles en "Por contactar". Zona siguiente: País Vasco.
+- **Respuestas a prospectos**: ninguna de las del 27/10 va a Lidia (derivaciones, no amable, rebote y autorespuestas se quedan en Notion).
