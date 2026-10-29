@@ -1,6 +1,15 @@
 # Estado · Cargo Serpa
 
-Última actualización: 28/10/2026 (lote Barcelona). Anterior: 27/10/2026 (Por contactar y Apollo). Anterior: 23/10/2026 (resumen de leads de las dos últimas semanas y leads pasados a un comercial). Anterior: 13/10/2026 (cierre del día: leads, respuestas del 1:1, segundo toque, A&A, Brevo y LinkedIn).
+Última actualización: 29/10/2026 (informe T1 interno rehecho y plan T2). Anterior: 28/10/2026 (lote Barcelona). Anterior: 27/10/2026 (Por contactar y Apollo). Anterior: 23/10/2026 (resumen de leads de las dos últimas semanas y leads pasados a un comercial). Anterior: 13/10/2026 (cierre del día: leads, respuestas del 1:1, segundo toque, A&A, Brevo y LinkedIn).
+
+## Hoy, 29/10/2026 (jueves): informe T1 interno rehecho y plan T2
+
+- **Artifact**: el que se trabaja es **"Informe T1 interno"** (https://claude.ai/artifact/CTdeWqnDATGG2xoyHWGYHC, versión 6, privado de Alex; contiene los 650 emails sin contactar, no compartir tal cual). Ojo: existe otro "Informe T1 Cargo Serpa" (DbAmGXbvrzk8DxTT2AFLfN, 22/10) que NO es este. Rediseñado: fondo blanco siempre, azul marino, sin menú fijo ni script de sección activa (con ellos el visor no dejaba bajar del punto 3).
+- **Estructura final**: título "Medición de Cartera y Método para crecer en T2", lo que tenemos (9 puntos), CRM, clientes reactivados, leads calientes (33, desplegable cerrado con resumen), "ya estamos cubiertos" (22), lo aprendido (con desplegable de detalle del T1), 6 líneas de trabajo T2, calendario y semana tipo, traspaso y 650 empresas sin contactar. Quitado: antes/ahora, objetivos y pendientes del T1, adelantado, dónde apostamos, lo que no se hace, cuadro de mando, reglas, riesgos, por decidir, experimentos y todo lo atribuible a la reactivación.
+- **Cifras releídas en Supabase (solo lectura)**: reactivaciones 2026 por mes 6, 18, 11, 9, 11, 8, 9, 11, 15 = **98 (media 11/mes)**. El CRM acaba el 30/09 (última importación 13/10, septiembre): **los 11 reactivados desde el 1/10 quedan `[POR COMPROBAR]`**. Inactividad a 30/09 (clientes con envíos): <6 meses 485, 6-12 meses 146, >12 meses 734; **no cuadra con los 264 de 6-12 meses de antes** `[POR COMPROBAR]`, por eso el informe no pone cifras de segmentos.
+- **Leads**: 33 = 31 de la lista anterior + TECNA y Grupo Quero (28/10) `[POR COMPROBAR]` que se comunicaron a Lidia. Pharma International está en leads y en "ya cubiertos" (en Notion consta nurturing, no pasada a Lidia) `[POR COMPROBAR]`.
+- **"Ya estamos cubiertos"**: 22 empresas = 12 anteriores + 10 nuevas de las respuestas 14-28/10 (Combe, Disop, Dentaid, ENUSA, Fresenius, Bioiberica, ENAR, L4M Print, Pharma International, Novoimplant). Alex dijo "17" y la tabla tenía 12 `[POR COMPROBAR]` cuáles eran los otros 5.
+- **Pendientes**: teléfonos de las 10 empresas de Canarias y de las de transporte (búsqueda en Apollo gasta créditos, pide OK); dossier descargable para la web `[POR COMPROBAR]`; seguimiento de la campaña inbound `[POR FIJAR]`; acuerdo de servicio con Lidia `[POR DECIDIR]`; número de Pharma International; confirmar si la lista "sin contactar" (650, foto del 28/10) se actualiza.
 
 ## Hoy, 28/10/2026 (miércoles): lote Barcelona y respuestas del 27/10
 

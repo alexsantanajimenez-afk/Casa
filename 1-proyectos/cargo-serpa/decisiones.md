@@ -242,3 +242,15 @@ Ver `mi-metodo/outbound.md` (contenido, tuteo, cierre literal, firma, respuestas
 - **PEMSA**: reunión ya con un comercial; cerrado por nuestra parte.
 - **A&A Informática**: Alex ya habló con ellos; cerrado.
 - **Rutina de arranque**: si la sesión parece no conocer lo reciente, mirar `git branch -r` por ramas sin fusionar antes de dar nada por perdido.
+
+## Decisiones del 29/10/2026 (informe T1 interno y plan T2)
+
+- **Informe**: se cuenta lo que tenemos, sin comparar con lo anterior ("antes y ahora" fuera). Se quita todo lo atribuible a la reactivación y los cuadros de objetivos, reglas y riesgos. El informe es más corto: los datos van en desplegables.
+- **Secuencia de contacto 1:1 (sustituye al "máximo 2 correos" del 22/10 y al recordatorio único a 5 días hábiles del 27/10)**: día 0 primer correo; día 4 segundo correo **en el mismo hilo, con otro enfoque y corto**; día 7 tercer correo de cierre; día 9 llamada y búsqueda del decisor en LinkedIn (solo los 5 de más encaje del día). Sin respuesta: pasa a gerencia con teléfono para llamadas en frío de los comerciales y vuelve a la cola a los 90 días. Con seguimiento pendiente no se envían contactos nuevos.
+- **Canarias (método propio)**: se buscan empresas que encajen con el ICP y se envían a gerencia (empresa, dirección, decisor, email, teléfono; se intentan localizar todos los teléfonos). **Lidia Marín decide el reparto de visitas**; nosotros no lo sabemos en el momento. Los comerciales salen a visitar.
+- **Inbound (desde diciembre)**: visitas, registros y descargas de dossier medidos en la web; dossier descargable y formulario para dejar datos; el popup de WhatsApp propone dejar el email en el mensaje predeterminado. Al registrarse o descargar se activa la campaña inbound.
+- **Transitarias y empresas de transporte**: se les escribe diciendo que Cargo Serpa puede ser su casa en Canarias (excepción deliberada a la exclusión de operadores logísticos).
+- **Reactivación**: la masiva no rinde; se limita a 2 o 3 clientes grandes con trato personalizado (enero). Las reactivaciones de 2026 (media 11/mes) no se asocian a la campaña.
+- **SEO y AEO**: medición mensual, cuando la web esté lista. Resumen semanal los lunes; mensual el día 10 tras el cierre, con facturación por comercial y gerencia.
+- **Traspaso a Cargo Serpa**: este trimestre se deja todo en manos de la empresa (CRM, fichas de Google, Google Ads, playbooks). Fuera del T2: LinkedIn Ads, flujos de Brevo, Clay, n8n, calculadora de envío (T3 si hay datos), SEO a lo grande.
+- **Artifact**: no usar elementos fijos (menú sticky) ni scripts de scroll: el visor dejó de permitir bajar.
