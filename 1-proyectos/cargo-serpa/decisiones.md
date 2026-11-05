@@ -254,3 +254,13 @@ Ver `mi-metodo/outbound.md` (contenido, tuteo, cierre literal, firma, respuestas
 - **SEO y AEO**: medición mensual, cuando la web esté lista. Resumen semanal los lunes; mensual el día 10 tras el cierre, con facturación por comercial y gerencia.
 - **Traspaso a Cargo Serpa**: este trimestre se deja todo en manos de la empresa (CRM, fichas de Google, Google Ads, playbooks). Fuera del T2: LinkedIn Ads, flujos de Brevo, Clay, n8n, calculadora de envío (T3 si hay datos), SEO a lo grande.
 - **Artifact**: no usar elementos fijos (menú sticky) ni scripts de scroll: el visor dejó de permitir bajar.
+
+## Decisiones del 05/11/2026 (maqueta web V9)
+
+- **Base de la web**: la V7 buena (frases y estructura del 30/10). El diseño nuevo se aplica encima y no toca los textos.
+- **Dirección visual**: neutros con **un solo color**, el rojo del logo, solo para la acción. Por qué: Alex quiere algo "más chulo" y menos corporativo; las referencias (Vercel, Revolut, Apple, Lovable, Trade Republic) comparten neutros, titulares enormes y un solo color de acción. Descartadas: la gama azul y rojo corporativa (mi primer intento) y "Atlántico vivo" (V8, demasiado colorida).
+- **Fondos y titular**: pizarra suave en vez de casi negro; "Especialistas…" del mismo blanco que el resto del titular; fuera el resplandor rojo de la foto del avión y de las bandas.
+- **Botones de la portada**: dos, no tres. "Hablar con un asesor" sustituye a "Concertar una reunión" y a "Llamar": muestra el teléfono de la central o recoge nombre y teléfono para que llamemos. **Sin calendario de citas**: Alex lo descarta porque no están modernizados y es un lío.
+- **Cifras**: fuera las toneladas del último año; fuera los textos explicativos (fuentes, frases para buscadores e IA, párrafo de plazos). Lo que había que comprobar (envíos del CRM) queda anotado en `estado.md`.
+- **Mapas de las tarjetas**: el de España se queda (gusta) con más ciudades; el del mundo pasa a red de líneas "de todas partes a todas partes", como el de España. Las tarjetas de Nacional e Internacional son blancas y sólidas para no confundirse con el fondo.
+- **Correos de delegaciones** (confirmados por Alex): Baleares `baleares@`, Tenerife `traficotci@`, Lanzarote `lanzarote@`, Fuerteventura `fuerteventura@`, todos `@cargoserpa.es`.

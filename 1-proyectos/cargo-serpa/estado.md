@@ -1,6 +1,19 @@
 # Estado · Cargo Serpa
 
-Última actualización: 29/10/2026 (informe T1 interno rehecho y plan T2). Anterior: 28/10/2026 (lote Barcelona). Anterior: 27/10/2026 (Por contactar y Apollo). Anterior: 23/10/2026 (resumen de leads de las dos últimas semanas y leads pasados a un comercial). Anterior: 13/10/2026 (cierre del día: leads, respuestas del 1:1, segundo toque, A&A, Brevo y LinkedIn).
+Última actualización: 05/11/2026 (maqueta web V9). Anterior: 29/10/2026 (informe T1 interno rehecho y plan T2). Anterior: 28/10/2026 (lote Barcelona). Anterior: 27/10/2026 (Por contactar y Apollo). Anterior: 23/10/2026 (resumen de leads de las dos últimas semanas y leads pasados a un comercial). Anterior: 13/10/2026 (cierre del día: leads, respuestas del 1:1, segundo toque, A&A, Brevo y LinkedIn).
+
+## Hoy, 05/11/2026 (jueves): maqueta web V9
+
+- **Qué es**: `trabajo-en-curso/Maqueta_Cargo_Serpa_V9.html`, hecha sobre la **V7 buena** (la del 30/10 con las frases cerradas: internacional primero, plazos de 18 h a 10 días, cifras animadas, más de 190 países, mapas en las tarjetas). La V7 estaba solo en la rama `ccr-73b394e5-ihschc`, sin fusionar; ya está en `main`. Antecedentes: `Maqueta_Cargo_Serpa_V8.html` (look "Atlántico vivo", descartado por colorido) y `3-archivo/maqueta-v6-azul-rojo-2026-11-05.html` (mi primer intento sobre la V6, sin las frases de la V7).
+- **Look V9 "Neutro con un solo color"**: fondos blanco, gris y pizarra (`#2e3542`, no negro); rojo del logo (`#d62b43`) solo para la acción y las rutas de los mapas; titular enorme todo en blanco; sin resplandor rojo en la foto del avión; tarjetas blancas, muy redondeadas; cifras grandes en una fila; botones en píldora.
+- **Portada con dos botones**: "Solicitar presupuesto" y **"Hablar con un asesor"** (llamar a la central **+34 91 329 03 18** o dejar nombre y teléfono para que nos llamen). Sin calendario de citas.
+- **Mapas**: España con más ciudades desde Madrid (Barcelona, Valencia, Sevilla, Málaga, Bilbao, A Coruña, Tenerife, Lanzarote); mundo como red de líneas animadas entre 12 puntos.
+- **Contenido**: toneladas del último año fuera; textos explicativos fuera (notas "Fuente…", párrafo de plazos, frase de las FAQ sobre buscadores e IA); correos de delegaciones confirmados por Alex: `baleares@`, `traficotci@`, `lanzarote@`, `fuerteventura@cargoserpa.es`.
+- **Revisión móvil** (12 páginas a 390 px): sin desbordes; zonas táctiles de 44 px; marcas "por confirmar" a 12 px mínimo.
+- **`[POR COMPROBAR]` que ya no se ven en la página**: **+60.000 envíos** (CRM, 12 meses hasta 30/09/2026) y la fuente de las cifras (presentación corporativa 2025); la nota que lo avisaba se quitó.
+- **Pendientes**: horario de la central, plazo de respuesta a "Te llamamos nosotros" y a dónde llegan esos datos `[POR DECIDIR]` (lo conecta A&A); la página Empresa aún muestra "+90 países" y "8 líneas diarias" (la portada dice 190 y ya no muestra líneas diarias) `[POR DECIDIR]`; foto del hero provisional; menú con Península–Canarias y Aduanas dentro de "Nacional" (se puede subir a primer nivel); llevar la V9 al paquete de A&A (el paquete sigue con el diseño V6); gamas alternativas vistas y no elegidas (crema y naranja, bosque y ámbar, noche y menta, ciruela y coral, azul eléctrico).
+- **Ramas sin fusionar detectadas, no tocadas**: `claude/cargo-serpa-contact-management-xzobq4` (estado y decisiones 28/10, País Vasco, TECNA y Quero) y `claude/gifted-franklin-d54bxe` (informe T1 del 03/11). Hay que decidir si se fusionan.
+- **Referencias de diseño que dio Alex**: Vercel (partners), Revolut, Apple, Lovable (partners) y Trade Republic. No se pudieron abrir desde la sesión (red bloqueada); se usó lo que se recuerda de su estilo.
 
 ## Hoy, 29/10/2026 (jueves): informe T1 interno rehecho y plan T2
 
