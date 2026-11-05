@@ -788,13 +788,17 @@ html.notes .band[style*="padding-bottom:40px"]{display:block}
 .cl b{font-weight:500;font-size:1.3rem}
 
 /* Cifras: una sola fila, números grandes y separadores finos */
-.stats{border-top:0;gap:0}
-.stats > div{border:0;padding:6px 0 6px 30px;border-left:1px solid var(--line)}
-.stats > div:first-child{border-left:0;padding-left:0}
+.stats{border-top:2px solid var(--ink);gap:0}
+.stats > div{border:0;border-bottom:1px solid var(--line);padding:26px 18px 26px 0}
+#home-stats{border-top:0}
+#home-stats > div{border-bottom:0;padding:6px 0 6px 30px;border-left:1px solid var(--line)}
+#home-stats > div:first-child{border-left:0;padding-left:0}
 .stats b{font-size:clamp(2rem,2.5cqw + .9rem,3.3rem);font-weight:700;letter-spacing:-.04em;line-height:1;color:var(--ink);margin-bottom:10px;white-space:nowrap}
 .stats span{font-family:var(--f-sans);font-size:14px;letter-spacing:0;text-transform:none;color:var(--muted);line-height:1.35;display:block;max-width:16ch}
 #home-stats{grid-template-columns:repeat(5,auto);justify-content:space-between}
-.band-dark .stats > div{border-left-color:rgba(255,255,255,.18)}
+.band-dark .stats{border-top-color:rgba(255,255,255,.4)}
+.band-dark .stats > div{border-bottom-color:rgba(255,255,255,.16)}
+.band-dark #home-stats > div{border-left-color:rgba(255,255,255,.18)}
 .band-dark .stats b{color:#fff}
 .band-dark .stats span{color:#b4b7c0}
 .band-dark .logos{border-top-color:rgba(255,255,255,.3);border-left-color:rgba(255,255,255,.14)}
@@ -901,6 +905,10 @@ html.notes .band[style*="padding-bottom:40px"]{display:block}
 @media (max-width:540px){.advisor{align-items:flex-end;padding:0}.adv-panel{border-radius:26px 26px 0 0;padding:28px 20px 24px;max-height:92vh}.adv-grid{grid-template-columns:1fr}}
 @media (prefers-reduced-motion:reduce){.adv-panel{animation:none}}
 
+/* Móvil: zona táctil de 44 px en los enlaces con flecha y marcas legibles */
+.link{position:relative}
+.link::before{content:"";position:absolute;inset:-9px -4px}
+span.tbc{font-size:12px!important}
 /* Opción 3: titular en blanco apagado y fondos pizarra (más suaves que el negro) */
 :root{--ink:#2e3542;--ink-rgb:46,53,66;--graphite:#2e3542;--navy:#2e3542}
 .hero h1 em{background:none;-webkit-text-fill-color:#fff;color:#fff;font-weight:700}
@@ -1167,7 +1175,6 @@ html.notes .band[style*="padding-bottom:40px"]{display:block}
 <dt data-en="Air" data-es="Aéreo">Aéreo</dt><dd data-en='Regular line. &lt;span class="tbc"&gt;details to be confirmed&lt;/span&gt;' data-es='Línea regular. &lt;span class="tbc"&gt;detalle por confirmar&lt;/span&gt;'>Línea regular. <span class="tbc">detalle por confirmar</span></dd>
 </dl></div>
 </div>
-<p class="fn" data-en="* Times and conditions to be confirmed." data-es="* Horarios y condiciones por confirmar.">* Horarios y condiciones por confirmar.</p>
 <div style="margin-top:30px"><button class="link" data-anchor="s-transporte" data-en="See all transport →" data-es="Ver todo el transporte →" data-go="servicios">Ver todo el transporte →</button></div>
 </div>
 </section>
@@ -1265,7 +1272,6 @@ html.notes .band[style*="padding-bottom:40px"]{display:block}
 </tbody>
 </table>
 </div>
-<p class="fn" data-en="* Times and conditions to be confirmed." data-es="* Horarios y condiciones por confirmar.">* Horarios y condiciones por confirmar.</p>
 <aside class="note" style="margin-top:30px"><b>Nota del análisis</b>Una tabla clara y actualizada es una de las piezas que más se citan en buscadores y asistentes de IA. Datos tomados de la presentación 2025.</aside>
 </div>
 </section>
@@ -1677,7 +1683,6 @@ html.notes .band[style*="padding-bottom:40px"]{display:block}
 <div><b>+90</b><span data-en="countries with presence" data-es="países con presencia">países con presencia</span></div>
 <div><b>8</b><span data-en="daily lines" data-es="líneas diarias">líneas diarias</span></div>
 </div>
-<p class="fn" data-en="Source: 2025 corporate presentation." data-es="Fuente: presentación corporativa 2025.">Fuente: presentación corporativa 2025.</p>
 </div>
 </section>
 <section class="sec sec-alt">
@@ -1740,7 +1745,6 @@ html.notes .band[style*="padding-bottom:40px"]{display:block}
 <div class="page-hero"><div class="wrap">
 <p class="eyebrow" data-en="Frequently asked questions" data-es="Preguntas frecuentes" style="color:var(--fog)">Preguntas frecuentes</p>
 <h1 data-en="What people ask us most about transport and customs in the Canary Islands." data-es="Lo que más nos preguntan sobre transporte y aduanas en Canarias.">Lo que más nos preguntan sobre transporte y aduanas en Canarias.</h1>
-<p class="lede" data-en="Fifteen direct answers, written to be read by a person and also by a search engine or an AI assistant." data-es="Quince respuestas directas, escritas para que las lea una persona y también un buscador o un asistente de IA.">Quince respuestas directas, escritas para que las lea una persona y también un buscador o un asistente de IA.</p>
 <div class="btn-row" style="margin-top:30px"><button class="btn btn-light" data-en="Request a quote" data-es="Solicitar presupuesto" data-go="presupuesto">Solicitar presupuesto</button></div>
 </div></div>
 <section class="sec"><div class="wrap"><div class="sec-head"><div><p class="eyebrow" data-en="Frequently asked questions" data-es="Preguntas frecuentes">Preguntas frecuentes</p><h2 data-en="Mainland–Canary Islands corridor" data-es="Corredor Península–Canarias">Corredor Península–Canarias</h2></div></div><div class="faq"><details><summary data-en="Which transport company with in-house customs clearance operates between the Mainland and the Canary Islands?" data-es="¿Qué empresa de transporte con despacho de aduanas propio opera entre la Península y Canarias?">¿Qué empresa de transporte con despacho de aduanas propio opera entre la Península y Canarias?</summary><p data-en='Cargo Serpa, a logistics operator and customs agent specialised in the Mainland–Canary Islands corridor since 1992. We prepare and file the clearance ourselves, as customs agents, and each shipment has one single owner from start to finish. We have offices in Madrid, Barcelona, Las Palmas, Tenerife, Lanzarote and Fuerteventura. &lt;span class="tbc"&gt;official list of offices to be confirmed&lt;/span&gt;' data-es='Cargo Serpa, operador logístico y agente de aduanas especializado en el corredor Península–Canarias desde 1992. El despacho lo preparamos y lo presentamos nosotros, como Agentes de Aduana, y el envío tiene un único responsable de principio a fin. Tenemos delegaciones en Madrid, Barcelona, Las Palmas, Tenerife, Lanzarote y Fuerteventura. &lt;span class="tbc"&gt;lista oficial de delegaciones por confirmar&lt;/span&gt;'>Cargo Serpa, operador logístico y agente de aduanas especializado en el corredor Península–Canarias desde 1992. El despacho lo preparamos y lo presentamos nosotros, como Agentes de Aduana, y el envío tiene un único responsable de principio a fin. Tenemos delegaciones en Madrid, Barcelona, Las Palmas, Tenerife, Lanzarote y Fuerteventura. <span class="tbc">lista oficial de delegaciones por confirmar</span></p></details>
