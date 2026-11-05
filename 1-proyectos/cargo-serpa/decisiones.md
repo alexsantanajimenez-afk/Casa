@@ -254,3 +254,10 @@ Ver `mi-metodo/outbound.md` (contenido, tuteo, cierre literal, firma, respuestas
 - **SEO y AEO**: medición mensual, cuando la web esté lista. Resumen semanal los lunes; mensual el día 10 tras el cierre, con facturación por comercial y gerencia.
 - **Traspaso a Cargo Serpa**: este trimestre se deja todo en manos de la empresa (CRM, fichas de Google, Google Ads, playbooks). Fuera del T2: LinkedIn Ads, flujos de Brevo, Clay, n8n, calculadora de envío (T3 si hay datos), SEO a lo grande.
 - **Artifact**: no usar elementos fijos (menú sticky) ni scripts de scroll: el visor dejó de permitir bajar.
+
+## Decisiones del 05/11/2026 (OHLA, Sando y CRM)
+
+- **OHLA y Sando, prioridad alta** (Veredicto = Encaja en Notion). OHLA se trata como **reactivación** (cliente nº 4832, inactivo desde junio de 2023), no como prospecto frío; antes de contactarla se avisa a su comercial, Eugenio Domínguez. Sando es prospecto nuevo. Ninguna se contacta sin OK de Alex.
+- **No se borran datos del CRM para reducir el egress** (propuesta de borrar 2024, descartada): el egress son datos que salen, no lo almacenado, y el histórico se usa para inactividad, reactivación, ICP e informes. Si hiciera falta recortar, primero copia completa y archivar fuera.
+- **No pagar Supabase Pro (25 $/mes) por ahora** (decisión de Alex). El CRM está en plan Free y restringido por cuota de egress hasta el reinicio del ciclo (07/11). Siguiente paso: revisar logs y aligerar el CRM; si bloquea trabajo, plantear a Cargo Serpa que lo pague.
+- **Post de Ormuz**: hecho atribuido a la Guardia Revolucionaria con la negativa de EE.UU.; cifras no verificadas (Drewry) fuera del texto.
