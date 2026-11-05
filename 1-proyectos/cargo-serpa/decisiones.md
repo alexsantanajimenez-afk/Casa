@@ -264,3 +264,4 @@ Ver `mi-metodo/outbound.md` (contenido, tuteo, cierre literal, firma, respuestas
 - **Cifras**: fuera las toneladas del último año; fuera los textos explicativos (fuentes, frases para buscadores e IA, párrafo de plazos). Lo que había que comprobar (envíos del CRM) queda anotado en `estado.md`.
 - **Mapas de las tarjetas**: el de España se queda (gusta) con más ciudades; el del mundo pasa a red de líneas "de todas partes a todas partes", como el de España. Las tarjetas de Nacional e Internacional son blancas y sólidas para no confundirse con el fondo.
 - **Correos de delegaciones** (confirmados por Alex): Baleares `baleares@`, Tenerife `traficotci@`, Lanzarote `lanzarote@`, Fuerteventura `fuerteventura@`, todos `@cargoserpa.es`.
+- **Paquete de A&A (aclaración de Alex, 05/11)**: no se pasa la V9 al paquete (`paquete-web-cargo-serpa/`). A&A dice que con la captura tiene suficiente, así que se les da el HTML de la maqueta V9. El paquete se queda con el diseño V6.
