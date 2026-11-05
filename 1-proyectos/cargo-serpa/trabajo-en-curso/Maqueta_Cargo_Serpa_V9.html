@@ -879,6 +879,10 @@ html.notes .band[style*="padding-bottom:40px"]{display:block}
 }
 
 :root{--ink:#0e0f12;--ink-rgb:14,15,18;--bg:#fafaf8;--bg2:#f1f1ee;--red:#d62b43;--red-d:#b51e35;--red-text:#c4172f;--red-soft:#ff6b7d;--acc-rgb:214,43,67;--on-acc:#ffffff;--g1:245,49,66;--g2:255,140,60;--em1:#ff7a8a;--em2:#ffb27a;--text2:#4a4d57;--muted:#666a76;--graphite:#0e0f12;--slate:#4a4d57;--navy:#0e0f12;--steel:#666a76;--paper:#fafaf8;--champagne:#c4172f;--champagne-soft:#ff6b7d}
+/* Opción 3: titular en blanco apagado y fondos pizarra (más suaves que el negro) */
+:root{--ink:#2e3542;--ink-rgb:46,53,66;--graphite:#2e3542;--navy:#2e3542}
+.hero h1 em{background:none;-webkit-text-fill-color:rgba(255,255,255,.62);color:rgba(255,255,255,.62)}
+.hero-media img{filter:grayscale(.2) contrast(1.03) brightness(1)}
 </style>
 </head>
 <body>
