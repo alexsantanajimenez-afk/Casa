@@ -12,26 +12,26 @@
 - **Cuando un prospecto contesta**: se le agradece y se dice que una persona del equipo comercial
   le contactará lo antes posible, sin pedir datos ni hacer preguntas.
 
-## Plantilla oficial (06/10/2026, sustituye al cierre literal de septiembre)
+## Plantilla oficial (12/11/2026, sustituye a la del 06/10 y a la regla del 22/10)
 
-Es la versión que Alex envió el 05/10/2026, con la frase de sector adaptada al grupo del prospecto y los envíos semanales a Latinoamérica.
+Es la versión que Alex fijó el 12/11/2026 y que se envió ese día a 39 contactos. Tuteo en el saludo y en el cierre; "vosotros" en el tercer párrafo.
 
 > Hola, [nombre]:
 >
-> Veo que eres [cargo] en [empresa], y por eso me pongo en contacto contigo. Llevamos años moviendo [sector] para empresas de vuestro perfil, así que te escribo simplemente para presentarme.
+> Veo que eres [cargo] en [empresa], y por eso me pongo en contacto contigo. Llevamos años moviendo [sector] para empresas de vuestro sector, así que te escribo simplemente para presentarme.
 >
-> Soy Alex, de Cargo Serpa: más de 30 años en transporte, miembros de IATA y WCA y agentes de aduanas. Hacemos internacional aéreo y marítimo (con envíos semanales a Latinoamérica), UE, Baleares diario, Canarias e interislas, y nos ocupamos de todo el proceso, aduana incluida.
+> Soy Alex, de Cargo Serpa: más de 30 años en transporte, miembros de IATA y WCA y agentes de aduanas. Nos encargamos de todo el recorrido, aduana incluida: transporte internacional aéreo y marítimo (con envíos semanales a Latinoamérica), UE, territorio nacional y Andorra. Además, conectamos a diario la Península con Canarias y Baleares, y hacemos envíos interislas dentro de Canarias.
 >
-> Si en algún momento os encaja, respóndeme y una persona de nuestro departamento comercial podría ponerse en contacto con ustedes para mostrarles el dossier de nuestros servicios y la frecuencia con la que hacemos cada uno. Si prefieres no recibir más mensajes, dímelo y no vuelvo a escribirte.
+> Si en algún momento os encaja, podéis responderme a este email y una persona de nuestro departamento comercial se pondría en contacto con vosotros para mostraros el dossier de nuestros servicios y la frecuencia con la que hacemos cada uno. Así también podéis hacer una comparativa con lo que manejáis ahora.
+>
+> Si prefieres no recibir más mensajes, dímelo y no vuelvo a escribirte.
 >
 > Un saludo,
 > Alex Santana
 
-**Frase de sector (confirmada por Alex el 06/10/2026):** energía y material eléctrico = "material eléctrico y equipos de energía"; médico y farmacéutico = "material sanitario y farmacéutico"; maquinaria y recambios = "maquinaria, repuestos y componentes industriales"; construcción = "material y equipos para obra"; otros = "mercancía industrial y de distribución".
+**Frase de sector (sin cambios, confirmada el 06/10/2026):** energía y material eléctrico = "material eléctrico y equipos de energía"; médico y farmacéutico = "material sanitario y farmacéutico"; maquinaria y recambios = "maquinaria, repuestos y componentes industriales"; construcción = "material y equipos para obra"; otros = "mercancía industrial y de distribución".
 
-Versión anterior (septiembre, "cierre literal", ya no se usa): ver `3-archivo/`.
-
-**Regla de Alex (22/10/2026): el tercer párrafo va siempre así** ("una persona de nuestro departamento comercial podría ponerse en contacto con ustedes para mostrarles el dossier…"). Aplica a todos los correos 1:1 desde esa fecha. La rutina diaria de leads (07:52) sigue con el texto antiguo hasta que Alex apruebe cambiar su prompt.
+Versión anterior (06/10, tercer párrafo del 22/10): ver el historial de git.
 
 ## Comerciales y leads
 

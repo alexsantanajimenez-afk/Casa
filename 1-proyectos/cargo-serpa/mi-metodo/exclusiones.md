@@ -10,6 +10,11 @@ representante es Sergio Jiménez).
 
 - **Ormazabal** es solo la planta de Las Palmas. **Ikusi (Velatia) sí se puede prospectar.**
 
+## Clientes nuevos captados (CRM, 12/11/2026)
+
+- **Eranovum E-Mobility SL** (cliente nº 7639, comercial Sergio Esteban): lead caliente del 13/10, captado por la prospección de Alex (atribuible). Sin envíos en el CRM a 12/11.
+- **AMP (Advanced Mineral Processing)** (nº 7586) y **Rosenbauer Española** (nº 7614): clientes de Víctor del Campo. No prospectar.
+
 ## Ya trabajados
 
 Palex, GE, Medtronic, Werfen.

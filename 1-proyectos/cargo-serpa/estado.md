@@ -2,6 +2,14 @@
 
 Última actualización: 05/11/2026 (maqueta web V9). Anterior: 29/10/2026 (informe T1 interno rehecho y plan T2). Anterior: 28/10/2026 (lote Barcelona). Anterior: 27/10/2026 (Por contactar y Apollo). Anterior: 23/10/2026 (resumen de leads de las dos últimas semanas y leads pasados a un comercial). Anterior: 13/10/2026 (cierre del día: leads, respuestas del 1:1, segundo toque, A&A, Brevo y LinkedIn).
 
+## Hoy, 12/11/2026 (jueves): plantilla nueva, 39 correos, altas del CRM y leads
+
+- **Plantilla nueva del primer correo 1:1** (`mi-metodo/outbound.md`): "de vuestro sector", servicios con territorio nacional y Andorra, tercer párrafo con comparativa. Enviados **39 correos** hoy (lotes Apollo 02/11 Resto de España y 29/10 Valencia y Baleares). Marcados "Contactado" en Notion con recordatorio el **19/11**; la secuencia del 29/10 pone el segundo correo a los 4 días, o sea el 16/11 `[POR DECIDIR]`.
+- **Altas del CRM**: el CRM (`clientes_info`) llegaba solo a las altas del 02/09. A partir de los Excel de cada comercial (Eugenio, Mercedes, Pablo, Sergio, Francisco, Víctor, Oswaldo, Javier, Lidia/BCN) se crearon **79 fichas** con su comercial. Fecha de alta = primer envío del CRM; **49 sin envíos** siguen con 12/11 (provisional). Los envíos del CRM llegan hasta el 31/10: para el resumen mensual de octubre hay que importar los de noviembre y los que faltan `[POR COMPROBAR]`.
+- **Eranovum**: cliente nº 7639 (Sergio Esteban), captado por la prospección (lead del 13/10). Sin envíos en el CRM. **AMP (7586) y Rosenbauer (7614)**: clientes de Víctor del Campo, en `exclusiones.md`.
+- **Leads del día**: **DHV Technology** (Mónica Herrera y Estela Palacios Leiva, piden el dossier; fichas en "Por contactar", aviso a Lidia enviado). **Promega** (Vigo) y **Enerclic**: cotizado y avisados a Lidia, registrados en otro chat. **Telefónica**: concurso de logística en Canarias, respuesta a la reactivación del 28/09; atribución `[POR DECIDIR]`, ficha de Miguel Pérez pendiente en el otro chat. **Ynsadiet** (Ricardo Quintana): sin volumen en nuestro nicho; Nurturing, respuesta sin insistir.
+- **Pendiente**: ramas sin fusionar (`claude/cargo-serpa-contact-management-xzobq4`, `claude/gifted-franklin-d54bxe`, `claude/clever-turing-arxcpr`); resumen mensual de octubre tras completar el CRM; post de LinkedIn del viernes 13/11.
+
 ## Hoy, 05/11/2026 (jueves): maqueta web V9
 
 - **Qué es**: `trabajo-en-curso/Maqueta_Cargo_Serpa_V9.html`, hecha sobre la **V7 buena** (la del 30/10 con las frases cerradas: internacional primero, plazos de 18 h a 10 días, cifras animadas, más de 190 países, mapas en las tarjetas). La V7 estaba solo en la rama `ccr-73b394e5-ihschc`, sin fusionar; ya está en `main`. Antecedentes: `Maqueta_Cargo_Serpa_V8.html` (look "Atlántico vivo", descartado por colorido) y `3-archivo/maqueta-v6-azul-rojo-2026-11-05.html` (mi primer intento sobre la V6, sin las frases de la V7).
