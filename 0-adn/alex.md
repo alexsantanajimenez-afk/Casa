@@ -10,8 +10,6 @@ experimenta para escalar todo tipo de producto. Formación en Derecho y ADE (no 
 - Sin bullets innecesarios ni lenguaje corporativo o genérico. No repetir lo que ya ha dicho
   ni abrir con muletillas.
 - Todo anclado en el negocio concreto (en Cargo Serpa: logística y mercado Canarias–Madrid).
-- Tono: "Sin humo. Con números."
-
 ## Contacto de trabajo
 
 - Email de Cargo Serpa: alexsantana@cargoserpa.es
