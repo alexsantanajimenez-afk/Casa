@@ -267,6 +267,13 @@ Ver `mi-metodo/outbound.md` (contenido, tuteo, cierre literal, firma, respuestas
 - **Correos de delegaciones** (confirmados por Alex): Baleares `baleares@`, Tenerife `traficotci@`, Lanzarote `lanzarote@`, Fuerteventura `fuerteventura@`, todos `@cargoserpa.es`.
 - **Paquete de A&A (aclaración de Alex, 05/11)**: no se pasa la V9 al paquete (`paquete-web-cargo-serpa/`). A&A dice que con la captura tiene suficiente, así que se les da el HTML de la maqueta V9. El paquete se queda con el diseño V6.
 
+## Decisiones del 05/11/2026 (OHLA, Sando y CRM)
+
+- **OHLA y Sando, prioridad alta** (Veredicto = Encaja en Notion). OHLA se trata como **reactivación** (cliente nº 4832, inactivo desde junio de 2023), no como prospecto frío; antes de contactarla se avisa a su comercial, Eugenio Domínguez. Sando es prospecto nuevo. Ninguna se contacta sin OK de Alex.
+- **No se borran datos del CRM para reducir el egress** (propuesta de borrar 2024, descartada): el egress son datos que salen, no lo almacenado, y el histórico se usa para inactividad, reactivación, ICP e informes. Si hiciera falta recortar, primero copia completa y archivar fuera.
+- **No pagar Supabase Pro (25 $/mes) por ahora** (decisión de Alex). El CRM está en plan Free y restringido por cuota de egress hasta el reinicio del ciclo (07/11). Siguiente paso: revisar logs y aligerar el CRM; si bloquea trabajo, plantear a Cargo Serpa que lo pague.
+- **Post de Ormuz**: hecho atribuido a la Guardia Revolucionaria con la negativa de EE.UU.; cifras no verificadas (Drewry) fuera del texto.
+
 ## Decisiones del 12/11/2026 (jueves: plantilla nueva, altas del CRM y 39 correos)
 
 - **Plantilla del primer correo 1:1 (Alex, 12/11)**: nueva versión con "de vuestro sector", párrafo de servicios ampliado (territorio nacional y Andorra, Canarias e interislas) y tercer párrafo con comparativa ("Así también podéis hacer una comparativa con lo que manejáis ahora"). Sustituye a la del 06/10 y a la regla del tercer párrafo del 22/10. Texto en `mi-metodo/outbound.md`.
