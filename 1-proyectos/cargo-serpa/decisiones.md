@@ -283,3 +283,8 @@ Ver `mi-metodo/outbound.md` (contenido, tuteo, cierre literal, firma, respuestas
 - **AMP y Rosenbauer**: clientes de Víctor del Campo; no se prospectan.
 - **Leads del día**: DHV Technology (Mónica Herrera y Estela Palacios, piden el dossier; aviso a Lidia enviado), Promega (Vigo; cotizado, aviso a Lidia) y Enerclic (en otro chat), Telefónica (concurso de logística en Canarias, respuesta a la reactivación del 28/09; en otro chat). Ynsadiet (Ricardo Quintana): dice que apenas tienen volumen en nuestro nicho; Nurturing.
 - **Lección**: varias sesiones trabajan a la vez; cada una debe dejar sus leads en Notion para que las demás no se pisen.
+
+## Decisiones del 17/11/2026 (martes: arranque)
+
+- **Ramas**: fusionadas a `main` las 5 pendientes (28/10, 03/11, 05/11, 12/11 y 13/11) con OK de Alex; conflictos resueltos conservando todo.
+- **Pendientes que Alex da por cerrados**: OHLA (aviso a Eugenio Domínguez), CRM de Supabase sin restricción, aviso de TECNA a Lidia y correos de Madrid del 35 al 49. Ya no se arrastran en `estado.md`.

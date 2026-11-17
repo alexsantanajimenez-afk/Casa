@@ -6,6 +6,7 @@
 
 - **Ramas fusionadas a `main`** (OK de Alex): `cargo-serpa-contact-management` (28/10, País Vasco, TECNA y Quero), `gifted-franklin` (03/11, PDFs del informe T1), `clever-turing` (05/11, OHLA y Sando, CRM restringido, post de Ormuz), `relaxed-thompson` (12/11, medición y "Por contactar" por señal de Canarias) y `busy-wozniak` (13/11, fuera la frase de tono de `CLAUDE.md` y del ADN). Conflictos resueltos conservando todo. No quedan ramas por delante de `main`.
 - **Del 13/11 al 16/11 no consta nada** `[POR COMPROBAR]` (post del viernes 13/11).
+- **Pendientes cerrados (Alex, 17/11: "ponlo como ok")**: aviso a Eugenio Domínguez por OHLA hecho; restricción del CRM en Supabase levantada (el CRM se puede consultar); aviso de TECNA a Lidia enviado; correos de Madrid del 35 al 49 (27/10) enviados.
 
 ## Hoy, 12/11/2026 (jueves): plantilla nueva, 39 correos, altas del CRM y leads
 
