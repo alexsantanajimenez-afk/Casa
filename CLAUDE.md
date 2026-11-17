@@ -7,7 +7,7 @@ Claude lee este archivo primero y después entra en la habitación (proyecto) qu
 
 - **No ejecutar nada sin el OK explícito de Alex.** Eso incluye escribir en Notion o Brevo,
   enviar mensajes, lanzar campañas y crear HTML, apps o código.
-- Responder en español, directo y breve. "Sin humo. Con números."
+- Responder en español, directo y breve.
 - No inventar datos ni cifras. Si algo no consta, decirlo y marcarlo `[POR COMPROBAR]`.
 - Lo que no esté anotado aquí no significa que no se haya decidido: preguntar.
 
