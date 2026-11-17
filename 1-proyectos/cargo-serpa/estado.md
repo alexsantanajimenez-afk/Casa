@@ -2,6 +2,11 @@
 
 Última actualización: 05/11/2026 (maqueta web V9). Anterior: 29/10/2026 (informe T1 interno rehecho y plan T2). Anterior: 28/10/2026 (lote Barcelona). Anterior: 27/10/2026 (Por contactar y Apollo). Anterior: 23/10/2026 (resumen de leads de las dos últimas semanas y leads pasados a un comercial). Anterior: 13/10/2026 (cierre del día: leads, respuestas del 1:1, segundo toque, A&A, Brevo y LinkedIn).
 
+## Hoy, 17/11/2026 (martes): ramas fusionadas
+
+- **Ramas fusionadas a `main`** (OK de Alex): `cargo-serpa-contact-management` (28/10, País Vasco, TECNA y Quero), `gifted-franklin` (03/11, PDFs del informe T1), `clever-turing` (05/11, OHLA y Sando, CRM restringido, post de Ormuz), `relaxed-thompson` (12/11, medición y "Por contactar" por señal de Canarias) y `busy-wozniak` (13/11, fuera la frase de tono de `CLAUDE.md` y del ADN). Conflictos resueltos conservando todo. No quedan ramas por delante de `main`.
+- **Del 13/11 al 16/11 no consta nada** `[POR COMPROBAR]` (post del viernes 13/11).
+
 ## Hoy, 12/11/2026 (jueves): plantilla nueva, 39 correos, altas del CRM y leads
 
 - **Plantilla nueva del primer correo 1:1** (`mi-metodo/outbound.md`): "de vuestro sector", servicios con territorio nacional y Andorra, tercer párrafo con comparativa. Enviados **39 correos** hoy (lotes Apollo 02/11 Resto de España y 29/10 Valencia y Baleares). Marcados "Contactado" en Notion con recordatorio el **19/11**; la secuencia del 29/10 pone el segundo correo a los 4 días, o sea el 16/11 `[POR DECIDIR]`.
