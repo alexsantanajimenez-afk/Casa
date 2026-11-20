@@ -288,3 +288,13 @@ Ver `mi-metodo/outbound.md` (contenido, tuteo, cierre literal, firma, respuestas
 
 - **Ramas**: fusionadas a `main` las 5 pendientes (28/10, 03/11, 05/11, 12/11 y 13/11) con OK de Alex; conflictos resueltos conservando todo.
 - **Pendientes que Alex da por cerrados**: OHLA (aviso a Eugenio Domínguez), CRM de Supabase sin restricción, aviso de TECNA a Lidia y correos de Madrid del 35 al 49. Ya no se arrastran en `estado.md`.
+
+## Decisiones del 20/11/2026 (viernes: limpieza de Notion)
+
+- **Una sola base de trabajo para el outbound 1:1: "Por contactar"** (Claude, con delegación expresa de Alex: "hazlo tú, confío en ti"). Cada contacto vive ahí de principio a fin y no se copia a Prospectos. Prospectos queda como histórico hasta el 08/11 y para señales, inbound, referidos, reactivación y cartera. Motivo: desde el 09/11 los envíos se registran en "Por contactar" mientras la rutina seguía creando fichas en Prospectos, y había personas con ficha en las dos y estados distintos.
+- **Convención para "no escribir"**: `Veredicto = Descartado` o `Acción siguiente = Ninguna`. Duplicados: `Rol en la cuenta = Ficha duplicada (fusionada)`. Personas que entran en el hilo de un lead: `Rol en la cuenta = Escalada` (no se les escribe en frío).
+- **Un solo contacto en frío por empresa**: si alguien de la empresa ya respondió o está contactado, el resto de fichas de esa empresa no se escriben en frío.
+- **Recordatorios vencidos de Prospectos (03-11/11) se cierran sin recordatorio** como "Cerrado sin éxito" (149; 9-17 días sin respuesta). Coherente con la decisión del 22/10 de no repetir segundos toques masivos.
+- **Limpieza sin borrar**: solo cambios de propiedades, con los IDs anotados en `trabajo-en-curso/limpieza-notion-2026-11-20.md` para poder deshacer.
+- **Fonestar**: lead 1:1 a nutrir (piden información); aviso a Lidia.
+

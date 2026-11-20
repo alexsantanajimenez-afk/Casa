@@ -1,6 +1,19 @@
 # Estado · Cargo Serpa
 
-Última actualización: 05/11/2026 (maqueta web V9). Anterior: 29/10/2026 (informe T1 interno rehecho y plan T2). Anterior: 28/10/2026 (lote Barcelona). Anterior: 27/10/2026 (Por contactar y Apollo). Anterior: 23/10/2026 (resumen de leads de las dos últimas semanas y leads pasados a un comercial). Anterior: 13/10/2026 (cierre del día: leads, respuestas del 1:1, segundo toque, A&A, Brevo y LinkedIn).
+Última actualización: 20/11/2026 (limpieza de Notion y Fonestar). Anterior: 17/11/2026 (ramas fusionadas). Anterior: 05/11/2026 (maqueta web V9). Anterior: 29/10/2026 (informe T1 interno rehecho y plan T2). Anterior: 28/10/2026 (lote Barcelona). Anterior: 27/10/2026 (Por contactar y Apollo). Anterior: 23/10/2026 (resumen de leads de las dos últimas semanas y leads pasados a un comercial). Anterior: 13/10/2026 (cierre del día: leads, respuestas del 1:1, segundo toque, A&A, Brevo y LinkedIn).
+
+## Hoy, 20/11/2026 (viernes): limpieza de Notion, Fonestar y post
+
+- **Del 18 al 19/11 no consta nada en la casa** `[POR COMPROBAR]`, pero Notion registra **243 envíos 1:1 del 16 al 19/11** (80, 55, 69 y 39) y 80 más del 09 al 11/11. Respuestas del 16-19/11 vistas en las fichas: Cemengal (pedirá cotización, no va a Lidia), Duro Felguera (pasa el contacto a Compras, nutrir), SYG (cubiertos), rebote de Lifasa; Gransolar descartada el 19/11 con OK de Alex.
+- **Auditoría y limpieza de Notion (OK de Alex: "hazlo tú", "limpia todo")**. Detalle e IDs para deshacer en `trabajo-en-curso/limpieza-notion-2026-11-20.md`.
+  - **Regla nueva**: "Por contactar" es la base de trabajo del outbound 1:1 (de principio a fin); Prospectos queda como histórico hasta el 08/11 y para señales, inbound, referidos, reactivación y cartera. Descripciones de las dos bases actualizadas.
+  - Hecho: 24 duplicados marcados en Prospectos; 31 "Sin contactar" de empresas ya contactadas descartadas (Finanzauto marcada como cliente); 6 fichas de "Por contactar" que no se escriben en frío (Jeremias y Erreka descartadas; Parcitank, DHV, Tecoi y Great Plastic como Escalada dentro de su hilo).
+  - **Pendiente**: cerrar como "Cerrado sin éxito" los **149 Contactado de Prospectos con recordatorio vencido (03-11/11)**. Se cortó porque se agotó el cupo de consultas SQL de Notion (se repone en menos de 1 h).
+  - **Recuento antes de limpiar**: Por contactar 707 (329 sin contactar, 342 contactados, 30 respondieron, 6 cerrados); Prospectos 1.158 (308 sin contactar, 733 contactados, 86 respondieron, 18 cerrados, 13 clientes).
+  - **Recordatorios de "Por contactar"**: 98 vencidos hoy (incluidos 35 del 12/11); vencen 75 el 23/11, 49 el 24/11, 68 el 25/11 y 39 el 26/11.
+  - **La rutina diaria no crea fichas en Prospectos desde el 06/11** `[POR COMPROBAR]` si está parada.
+- **Fonestar (lead de hoy, 08:17)**: Zulema Zubizarreta (Purchasing Director, correo 1:1 del 10/11) reenvía a **Silvia Lavín** (Logistics – Purchasing Department, logistics@fonestar.com, 942 254 555), que pide información de la empresa. No consta en el CRM. Fichas en "Por contactar": Zulema → Respondió; Silvia, ficha nueva (Escalada). Respuesta y aviso a Lidia redactados en el chat; **pendiente que Alex los envíe**.
+- **Post de LinkedIn del viernes 20/11: publicado** (Alex). Tema y texto `[POR COMPROBAR]`.
 
 ## Hoy, 17/11/2026 (martes): ramas fusionadas
 

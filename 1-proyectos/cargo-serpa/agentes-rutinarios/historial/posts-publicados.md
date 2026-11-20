@@ -54,6 +54,9 @@ Formato: fecha · tema · de dónde sale · formato · texto (o `[POR COMPROBAR]
 - Texto exacto publicado: `[POR COMPROBAR]`. Versión acordada en la sesión: la del gancho 3 sin cifras. Alex pegó una versión con las cifras entre corchetes y se le advirtió de que no estaban verificadas; no consta cuál se publicó.
 - Lección: no entran en un post de autoridad cifras ni cantidades de red (oficinas, países) sin fuente a la vista; las promesas de "visibilidad en tiempo real" o "reaccionamos antes" se sustituyen por comprobaciones para el lector.
 
+### 20/11/2026 (viernes) · tema `[POR COMPROBAR]`
+- Alex confirma que lo ha publicado ("ya subí post de LinkedIn"). Tema, origen y texto: `[POR COMPROBAR]`.
+
 ## Ideas ya descartadas por Alex (13/10/2026)
 - Post genérico de aduana en Tenerife con escena ilustrativa del contenedor ("¿quién despacha en destino?").
 - Los tres enfoques cortos A/B/C (problema, tres preguntas, trayectoria).
