@@ -28,6 +28,7 @@ Cada sesión de Claude Code trabaja en su propia rama (`claude/...`). Si el trab
 |---|---|
 | `0-adn/` | Quién es Alex, cómo trabaja, preferencias |
 | `1-proyectos/cargo-serpa/` | Growth de Cargo Serpa (cliente ancla, el que se usa a diario) |
+| `1-proyectos/vrtcl/` | VRTCL, marca propia con Carlos: web vrtcl.tech, formulario, legal y prospección |
 | `2-herramientas/` | Skills y métodos reutilizables en varios proyectos |
 | `3-archivo/` | Copias de seguridad y cosas que ya no se usan |
 

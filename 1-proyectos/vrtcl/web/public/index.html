@@ -1,0 +1,965 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>VRTCL · Growth y go to market para empresas</title>
+<meta name="description" content="VRTCL: growth y go to market para empresas. Estrategia con datos, CRM a medida y diez agentes de IA. Proyecto cerrado de 16 semanas, todo a tu nombre.">
+<script>window.VRTCL_GA_ID="";try{if(localStorage.getItem('vrtcl-motion')==='off'){document.documentElement.classList.add('no-motion');window.__noMotion=true}}catch(e){}</script>
+<link rel="canonical" href="https://vrtcl.tech/">
+<meta name="theme-color" content="#161616">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="VRTCL">
+<meta property="og:locale" content="es_ES">
+<meta property="og:url" content="https://vrtcl.tech/">
+<meta property="og:title" content="VRTCL · Crece con criterio. Escala con IA.">
+<meta property="og:description" content="Growth y go to market para empresas: estrategia con datos, CRM a medida y diez agentes de IA. Proyecto cerrado de 16 semanas, todo a tu nombre.">
+<meta property="og:image" content="https://vrtcl.tech/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="VRTCL. Crece con criterio. Escala con IA.">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='175 575 325 285'%3E%3Crect x='175' y='575' width='325' height='285' rx='60' fill='%23161616'/%3E%3Cg transform='matrix%281, 0, 0, 1, 210, 610%29'%3E%3Cg%3E%3Cg%3E%3Cpath fill='%23ffffff' d='M 66.886719 13.839844 L 71.351562 47.136719 C 71.894531 51.210938 74.542969 54.695312 78.316406 56.3125 L 200.101562 108.480469 C 208.425781 112.050781 217.460938 105.183594 216.257812 96.207031 L 211.792969 62.910156 C 211.25 58.839844 208.601562 55.355469 204.828125 53.738281 L 83.046875 1.566406 C 74.71875 -2 65.683594 4.863281 66.886719 13.839844 Z M 125.53125 87.289062 L 247.3125 139.464844 C 251.089844 141.082031 253.738281 144.566406 254.28125 148.636719 L 258.746094 181.933594 C 259.949219 190.910156 250.910156 197.777344 242.589844 194.207031 L 120.808594 142.035156 C 117.035156 140.417969 114.386719 136.933594 113.839844 132.859375 L 109.378906 99.566406 C 108.175781 90.589844 117.210938 83.722656 125.53125 87.289062 Z M 17.449219 106.296875 L 139.230469 158.46875 C 143.003906 160.085938 145.652344 163.570312 146.199219 167.640625 L 150.660156 200.9375 C 151.863281 209.914062 142.828125 216.78125 134.507812 213.210938 L 12.722656 161.039062 C 8.949219 159.421875 6.300781 155.9375 5.757812 151.863281 L 1.292969 118.570312 C 0.0859375 109.589844 9.125 102.726562 17.449219 106.296875 Z M 17.449219 106.296875 ' fill-opacity='1' fill-rule='nonzero'/%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E">
+<link rel="preload" href="/fonts/Figtree-latin-_Xms-HUzqD.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/JetBrainsMono-latin-tDbv2o-flE.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" as="image" href="/img/fachada-1600.webp" media="(min-width:901px)">
+<link rel="preload" as="image" href="/img/fachada-900.webp" media="(max-width:900px)">
+<style>
+/* latin-ext */
+@font-face {
+  font-family: 'Figtree';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/fonts/Figtree-latin-ext-_Xms-HUzqD.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Figtree';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/fonts/Figtree-latin-_Xms-HUzqD.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Figtree';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(/fonts/Figtree-latin-ext-_Xms-HUzqD.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Figtree';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(/fonts/Figtree-latin-_Xms-HUzqD.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Figtree';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/fonts/Figtree-latin-ext-_Xms-HUzqD.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Figtree';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/fonts/Figtree-latin-_Xms-HUzqD.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Figtree';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(/fonts/Figtree-latin-ext-_Xms-HUzqD.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Figtree';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(/fonts/Figtree-latin-_Xms-HUzqD.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Figtree';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url(/fonts/Figtree-latin-ext-_Xms-HUzqD.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Figtree';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url(/fonts/Figtree-latin-_Xms-HUzqD.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/fonts/JetBrainsMono-latin-ext-tDbv2o-flE.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/fonts/JetBrainsMono-latin-tDbv2o-flE.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/fonts/JetBrainsMono-latin-ext-tDbv2o-flE.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/fonts/JetBrainsMono-latin-tDbv2o-flE.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(/fonts/Jost-latin-ext-92zPtBhPNq.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(/fonts/Jost-latin-92zPtBhPNq.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+</style>
+<style>
+/* VRTCL v2: papel blanco, tinta negra, un acento naranja. Titulares enormes en mayúsculas, etiquetas mono, filas separadas por líneas. */
+:root{
+  --paper:#ffffff; --ink:#161616; --text:#3a3a3a; --mute:#6e6e6e; --line:rgba(22,22,22,.16);
+  --night:#161616; --night-ink:#ffffff; --night-mute:#a3a3a3;
+  --amber:#161616; --amber-2:#3a3a3a; --on-amber:#ffffff; --hl:#FFC700;
+  --display:'Figtree','Helvetica Neue',Arial,sans-serif; --mono:'JetBrains Mono',ui-monospace,Menlo,monospace;
+  --t-hero:clamp(58px,10.6vw,180px); --t-xl:clamp(40px,6vw,96px); --t-l:clamp(30px,3.6vw,54px); --t-m:clamp(24px,2.4vw,34px);
+  --t-s:clamp(18px,1.45vw,21px); --t-lede:clamp(18px,1.45vw,21px); --t-body:17px; --t-small:15px; --t-micro:13px; --t-label:13px;
+  --ink2:#ffffff; --line-n:rgba(255,255,255,.14);
+  color-scheme:light;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+body{margin:0;background:var(--paper);color:var(--ink);font:500 var(--t-body)/1.55 var(--display);-webkit-font-smoothing:antialiased}
+a{color:inherit}
+:focus-visible{outline:2px solid var(--amber);outline-offset:3px}
+.pad{padding-left:max(20px,env(safe-area-inset-left,0px));padding-right:max(20px,env(safe-area-inset-right,0px))}
+@media (min-width:900px){.pad{padding-left:30px;padding-right:30px}}
+.mono{font:500 var(--t-label)/1.4 var(--mono);letter-spacing:.08em;text-transform:uppercase}
+.lab{display:block;color:var(--mute);margin-bottom:18px}
+.up{text-transform:uppercase}
+.h-xl{font:900 var(--t-xl)/.9 var(--display);letter-spacing:-.035em;text-transform:uppercase;margin:0;text-wrap:balance}
+.dot{color:var(--hl)}
+.ul{text-decoration:none;background:linear-gradient(var(--hl),var(--hl)) 0 100%/100% .11em no-repeat;padding-bottom:0;-webkit-box-decoration-break:clone;box-decoration-break:clone}
+.btn{display:inline-flex;align-items:center;gap:8px;font:500 var(--t-label)/1 var(--mono);letter-spacing:.1em;text-transform:uppercase;text-decoration:none;background:var(--amber);color:var(--on-amber);padding:14px 20px;border:0;cursor:pointer;transition:background .2s}
+.btn:hover{background:var(--amber-2)}
+.btn.ghost{background:none;color:inherit;border:1px solid currentColor}
+.sec{border-top:1px solid var(--line);padding-block:96px}
+@media (max-width:900px){.sec{padding-block:72px}}
+.vr-mark{display:block;fill:currentColor;stroke:currentColor}
+
+/* cabecera */
+.bar{position:sticky;top:0;z-index:30;display:flex;align-items:stretch;height:46px;background:var(--paper);border-bottom:1px solid var(--ink)}
+.brand{display:flex;align-items:center;gap:9px;padding:0 24px 0 30px;border-right:1px solid var(--ink);text-decoration:none;font:800 20px/1 var(--display);padding-top:3px}
+.brand .vr-mark{width:24px;height:20px;margin-top:-3px}
+.bar nav{display:flex;align-items:center;gap:26px;padding-left:28px}
+.bar nav a{text-decoration:none;font:500 var(--t-label) var(--mono);letter-spacing:.1em;text-transform:uppercase}
+.bar nav a:hover{text-decoration:underline;text-decoration-color:var(--amber);text-underline-offset:4px}
+.bar .cta{margin-left:auto;display:flex;align-items:center;gap:10px;padding:0 24px;background:var(--ink);color:var(--paper);text-decoration:none;font:500 var(--t-label) var(--mono);letter-spacing:.1em;text-transform:uppercase}
+.bar .cta:hover{background:#222}
+@media (max-width:900px){.bar nav{display:none}.brand{padding-left:20px}.bar .cta{padding:0 16px}}
+
+/* portada */
+.hero{padding-top:clamp(40px,7vh,72px)}
+.hero-top{display:flex;justify-content:space-between;gap:16px;color:var(--mute)}
+.hero-top .slogan{font:300 13px/1 'Jost',var(--display);letter-spacing:.14em;text-transform:uppercase;color:var(--ink)}
+.hero h1{font:900 var(--t-hero)/.86 var(--display);letter-spacing:-.04em;text-transform:uppercase;margin:28px 0 0;margin-left:-.04em}
+.hero-low{display:flex;justify-content:space-between;align-items:flex-end;gap:32px;margin-top:clamp(40px,7vh,80px);padding-bottom:clamp(56px,11vh,120px)}
+.hero-low p{margin:0;max-width:46ch;font:500 var(--t-lede)/1.45 var(--display);color:var(--text)}
+.hero-low .mono{color:var(--mute);white-space:nowrap}
+@media (max-width:700px){.hero-low{flex-direction:column;align-items:flex-start}.hero-low > .mono{display:none}.hero-top span:last-child{display:none}}
+.photo{position:relative;height:clamp(200px,34vh,380px);border-top:1px solid var(--ink);border-bottom:1px solid var(--ink);background:#888 url(/img/fachada-1600.webp) center 30%/cover no-repeat;overflow:hidden}
+.photo::after{content:"";position:absolute;inset:0;opacity:.35;mix-blend-mode:overlay;background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='200' height='200'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/></filter><rect width='100%25' height='100%25' filter='url(%23n)'/></svg>")}
+.photo .tag{position:absolute;left:30px;bottom:18px;z-index:1;background:var(--paper);padding:6px 10px}
+
+/* por qué */
+.why{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:40px;align-items:start}
+.why-body{margin:40px 0 0;max-width:52ch;display:grid;gap:16px;color:var(--text)}
+.why-body p{margin:0}
+.stamp{width:150px;height:150px;position:relative;margin-top:8px}
+.stamp svg.ring{width:100%;height:100%}
+.stamp text{font:500 10px var(--mono);letter-spacing:0;text-transform:uppercase;fill:var(--ink)}
+.stamp .vr-mark{position:absolute;left:50%;top:50%;width:46px;height:38px;transform:translate(-50%,-50%)}
+.stamp svg.ring{animation:spin 60s linear infinite}@keyframes spin{to{transform:rotate(360deg)}}
+@media (prefers-reduced-motion:reduce){.stamp svg.ring{animation-duration:80s}}
+@media (max-width:900px){.why{grid-template-columns:1fr}.stamp{display:none}.why-body{margin-left:0}}
+.ticker{display:none}
+.ticker > div{display:inline-flex;gap:28px;padding:14px 0;color:var(--ink)}
+@media (prefers-reduced-motion:no-preference){.ticker > div{animation:tick 38s linear infinite}@keyframes tick{to{transform:translateX(-50%)}}}
+
+/* qué te montamos */
+.what-hd{display:grid;grid-template-columns:minmax(0,1fr);gap:0}
+.what-intro{margin:40px 0 0;max-width:52ch;color:var(--text)}
+.what-intro p{margin:0 0 22px}
+.acc{margin-top:56px;border-top:1px solid var(--ink)}
+.acc details{border-bottom:1px solid var(--ink)}
+.acc summary{list-style:none;cursor:pointer;display:grid;grid-template-columns:60px 54px minmax(0,1fr) 40px;align-items:center;gap:12px;padding:22px 0}
+.acc summary::-webkit-details-marker{display:none}
+.acc .n{color:var(--mute)}
+.acc .ic{width:40px;height:40px}
+.acc .ic *{fill:none;stroke:var(--ink);stroke-width:2}
+.acc .ic .f{fill:var(--ink)}
+.acc .ic .o{fill:var(--amber);stroke:var(--amber)}
+.acc h3{margin:0;font:900 var(--t-l)/1 var(--display);letter-spacing:-.03em;text-transform:uppercase}
+.acc .pm{justify-self:end;font:400 26px/1 var(--mono);transition:transform .25s}
+.acc details[open] .pm{transform:rotate(45deg)}
+.acc .in{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:32px;padding:0 0 30px 126px}
+.acc .in p{margin:0;font:600 var(--t-s)/1.35 var(--display);max-width:30ch}
+.tags{display:flex;flex-wrap:wrap;gap:8px;align-content:flex-start}
+.tags span{border:1px solid var(--ink);padding:7px 10px;font:500 11px/1.2 var(--mono);letter-spacing:.06em;text-transform:uppercase}
+@media (max-width:900px){.acc summary{grid-template-columns:40px 44px minmax(0,1fr) 30px}.acc .ic{width:32px;height:32px}.acc .in{grid-template-columns:1fr;padding-left:0}}
+
+/* modelo */
+.model-body{margin:40px 0 0;max-width:52ch;color:var(--text)}
+.model-body p{margin:0 0 16px}
+.ba{display:grid;grid-template-columns:1fr 1fr;margin-top:48px;border-top:1px solid var(--ink);border-bottom:1px solid var(--ink)}
+.ba > div{display:flex;align-items:flex-start;gap:24px;padding:34px clamp(16px,3vw,40px) 34px 0}
+.ba > div + div{padding-left:clamp(16px,3vw,40px)}
+.ba > div + div{border-left:1px solid var(--ink)}
+.ba svg{width:88px;height:56px;flex:none}
+.ba svg *{fill:none;stroke:var(--ink);stroke-width:1.6}
+.ba .after .o{fill:var(--amber);stroke:var(--amber)}
+.ba b{display:block;font:800 var(--t-s)/1.2 var(--display)}
+.ba small{display:block;color:var(--mute);font:500 var(--t-label)/1.4 var(--mono);letter-spacing:.08em;text-transform:uppercase;margin-bottom:6px}
+.ba ul{margin:8px 0 0;padding:0 0 0 18px;color:var(--text);font-size:var(--t-small)}
+@media (max-width:900px){.what-intro,.model-body{margin-left:0}}
+@media (max-width:760px){.ba{grid-template-columns:1fr}.ba > div + div{border-left:0;border-top:1px solid var(--ink);padding-left:0}}
+
+/* agentes (bloque negro) */
+.night{background:var(--night);color:var(--night-ink);border-top:0}
+.night .lab{color:var(--night-mute)}
+.night .intro{color:#cfcfcf;max-width:54ch;margin:28px 0 0;font:500 var(--t-lede)/1.5 var(--display)}
+.cap{display:flex;gap:18px;align-items:baseline;margin-top:24px;padding-top:18px;border-top:1px solid var(--line-n);font:600 var(--t-s)/1.4 var(--display)}
+.cap .mono{color:var(--amber);flex:none}
+.cap em{font-style:normal;color:var(--night-mute);font-weight:500}
+.fine{margin:14px 0 0;color:var(--night-mute);font:500 var(--t-label)/1.7 var(--mono);letter-spacing:.04em}
+/* agentes en acción (panel animado) */
+.ax{position:relative;margin-top:40px}
+.ax-panel{position:relative;overflow:hidden;background:#111111;border:1px solid rgba(255,255,255,.12);border-radius:22px;padding:14px;display:grid;grid-template-columns:minmax(0,340px) minmax(0,1fr) minmax(0,320px);grid-template-rows:auto 210px 236px auto;gap:12px;grid-template-areas:"hd hd hd" "sig brief week" "sig msg act" "fun fun fun"}
+.ax-hd{grid-area:hd;display:flex;align-items:center;gap:12px;padding:4px 4px 2px;flex-wrap:wrap}
+.ax-logo{width:28px;height:28px;border-radius:8px;background:var(--ink);display:grid;place-items:center}
+.ax-logo i{width:9px;height:9px;border-radius:50%;background:var(--amber)}
+.ax-hd > b{font:800 var(--t-s)/1 var(--display);letter-spacing:-.02em}
+.ax-busy{color:var(--amber);margin-left:4px}
+.ax-dock{margin-left:auto;display:flex;gap:10px;align-items:center;min-height:22px}
+.ax-dock i{display:block;width:14px;height:18px}
+.ax-card{position:relative;background:#1c1c1c;border:1px solid rgba(255,255,255,.08);border-radius:14px;padding:14px 16px;overflow:hidden;min-width:0}
+.ax-h{display:flex;justify-content:space-between;gap:8px;margin:0 0 10px;font:500 var(--t-label) var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--mute)}
+.ax-sig{grid-area:sig}
+#axRows{-webkit-mask-image:linear-gradient(#000 82%,transparent);mask-image:linear-gradient(#000 82%,transparent);height:calc(100% - 28px);overflow:hidden}.ax-brief{grid-area:brief}.ax-week{grid-area:week}.ax-msg{grid-area:msg}.ax-act{grid-area:act}
+.ax-hl{outline:1.5px dashed var(--amber);outline-offset:3px;border-radius:10px}
+.ax-row{display:grid;grid-template-columns:28px minmax(0,1fr) auto;gap:10px;align-items:center;padding:7px 8px;margin:0 -8px;border-radius:10px;transition:background .3s,opacity .4s}
+.ax-av{width:28px;height:28px;border-radius:8px;background:#262626;display:grid;place-items:center;font:700 var(--t-micro) var(--display);color:var(--mute)}
+.ax-row b{display:block;font:700 var(--t-small)/1.25 var(--display);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.ax-row small{display:block;font-size:var(--t-micro);color:var(--mute);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.ax-sc{font:800 var(--t-s)/1 var(--display);letter-spacing:-.02em;text-align:right;white-space:nowrap}
+.ax-tag{display:inline-block;font:500 var(--t-label)/1 var(--mono);padding:3px 5px;border-radius:5px;border:1px solid rgba(255,255,255,.2);color:var(--mute);margin-left:6px;vertical-align:3px;letter-spacing:.02em}
+.ax-tag.hot{background:var(--amber);border-color:var(--amber);color:var(--on-amber)}
+.ax-row.new{background:rgba(255,255,255,.07)}
+.ax-row.dup{opacity:.4}.ax-row.dup b{text-decoration:line-through}
+.ax-row.gone{animation:axgone .5s ease forwards}
+.ax-enter{animation:axin .5s ease both}
+@keyframes axin{from{opacity:0;transform:translateY(-10px)}to{opacity:1;transform:none}}
+@keyframes axgone{to{opacity:0;height:0;padding-top:0;padding-bottom:0}}
+.ax-ttl{font:800 var(--t-s)/1.2 var(--display);letter-spacing:-.02em;margin:0 0 10px;min-height:24px}
+.ax-ttl em{font:500 var(--t-label) var(--mono);font-style:normal;color:var(--on-amber);background:var(--amber);padding:3px 7px;border-radius:6px;margin-left:8px;vertical-align:3px}
+.ax-kv{display:grid;grid-template-columns:118px minmax(0,1fr);gap:8px;font-size:var(--t-small);line-height:1.35;margin-top:6px;min-height:20px}
+.ax-kv i{font:500 var(--t-label) var(--mono);font-style:normal;letter-spacing:.06em;text-transform:uppercase;color:var(--amber);padding-top:2px}
+.ax-q{display:flex;gap:6px;margin:0 0 8px;min-height:22px}
+.ax-q i{font:500 var(--t-label) var(--mono);font-style:normal;padding:3px 8px;border-radius:999px;border:1px solid rgba(255,255,255,.18);color:var(--mute);transition:all .3s}
+.ax-q i.on{background:var(--ink);color:#111;border-color:var(--ink)}
+.ax-q i.sent{border-color:var(--amber);color:var(--amber)}
+.ax-q i.sent::after{content:" ✓"}
+.ax-to{font:700 var(--t-small)/1.3 var(--display);margin-bottom:6px}
+.ax-body{font-size:var(--t-small);line-height:1.45;color:#e8e8e8}
+.ax-btns{position:absolute;left:16px;bottom:14px;display:flex;gap:8px}
+.ax-b{font:700 var(--t-micro) var(--display);padding:8px 14px;border-radius:999px;border:1px solid rgba(255,255,255,.25);color:var(--ink);background:#1c1c1c;transition:background .2s,transform .15s}
+.ax-b.ok{background:var(--ink);color:#111;border-color:var(--ink)}
+.ax-b.done{background:var(--amber);border-color:var(--amber);color:var(--on-amber)}
+.ax-b.press{transform:scale(.94)}
+.ax-state.go{color:var(--amber)}
+.ax-m{display:flex;justify-content:space-between;align-items:baseline;padding:7px 0;border-bottom:1px solid rgba(255,255,255,.08);font-size:var(--t-small)}
+.ax-m:last-child{border-bottom:0}
+.ax-m b{font:800 var(--t-s)/1 var(--display);letter-spacing:-.02em;transition:color .3s}
+.ax-bump{color:var(--amber)!important}
+.ax-verd{font:500 var(--t-label)/1 var(--mono);letter-spacing:.06em;text-transform:uppercase;padding:4px 7px;border-radius:5px;border:1px solid rgba(255,255,255,.2);color:var(--mute);transition:all .3s}
+.ax-verd.on{background:var(--amber);color:var(--on-amber);border-color:var(--amber)}
+.ax-log{list-style:none;margin:0;padding:0}
+.ax-log li{font-size:var(--t-small);line-height:1.35;padding:6px 0;border-bottom:1px solid rgba(255,255,255,.08);animation:axin .4s ease both}
+.ax-log li b{color:var(--amber);font-weight:700;margin-right:6px}
+.ax-log li:nth-child(n+6){display:none}
+.ax-fun{grid-area:fun;display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:12px}
+.ax-col{background:#1c1c1c;border:1px solid rgba(255,255,255,.08);border-radius:14px;padding:12px 14px;min-height:150px}
+.ax-ch{margin:0 0 10px;font:500 var(--t-label) var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--mute);display:flex;justify-content:space-between;gap:6px}
+.ax-ch b{color:var(--ink);font-weight:500;transition:color .3s}
+.ax-col:last-child{border-color:rgba(255,255,255,.45)}
+.ax-col:last-child .ax-ch{color:var(--amber)}
+.ax-ch .s{display:none}
+.ax-ph{height:24px;border-radius:7px;background:#262626;margin-bottom:8px}
+.ax-chip{position:absolute;left:0;top:0;height:30px;border-radius:8px;background:var(--amber);color:var(--on-amber);font:700 var(--t-micro)/30px var(--display);padding:0 10px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;opacity:0;z-index:5;transition:transform .65s cubic-bezier(.6,.05,.25,1),opacity .3s}
+.ax-cur{position:absolute;left:0;top:0;z-index:20;pointer-events:none;opacity:.4;transition:transform .72s cubic-bezier(.55,.05,.25,1),opacity .3s}
+.ax-cur.on{opacity:1}
+.ax-cur svg{display:block;filter:drop-shadow(0 2px 4px rgba(0,0,0,.6))}
+.ax-cur.flip span{left:auto;right:6px}
+.ax-cur span{position:absolute;left:15px;top:15px;white-space:nowrap;font:700 var(--t-label)/1 var(--display);padding:5px 9px;border-radius:999px;background:var(--amber);color:var(--on-amber);opacity:0;transition:opacity .25s}
+.ax-cur.on span{opacity:1}
+.ax-cur.human span{background:var(--ink);color:#111}
+.ax-cur.click svg{transform:scale(.85)}
+.ax-caret{display:inline-block;width:2px;height:14px;background:var(--ink);vertical-align:-2px}
+@media (max-width:1180px){.ax-panel{grid-template-columns:minmax(0,1fr) minmax(0,1fr);grid-template-rows:auto 300px 210px 236px auto;grid-template-areas:"hd hd" "sig act" "brief week" "msg msg" "fun fun"}}
+@media (max-width:760px){
+  .ax-panel{grid-template-columns:minmax(0,1fr);grid-template-rows:auto 300px 240px 300px auto;grid-template-areas:"hd" "sig" "brief" "msg" "fun";padding:10px;gap:10px}
+  .ax-week,.ax-act,.ax-dock{display:none}
+  .ax-fun{grid-template-columns:repeat(5,minmax(0,1fr));gap:6px}
+  .ax-col{min-height:76px;padding:8px}
+  .ax-ch{display:block;font-size:10px;letter-spacing:.02em}
+  .ax-ch b{display:block;font:800 18px/1.2 var(--display);margin-top:4px}
+  .ax-ch .l{display:none}.ax-ch .s{display:inline}
+  .ax-ph{display:none}
+  .ax-chip{display:none}
+  .ax-kv{grid-template-columns:1fr;gap:0}
+  .ax-cur{display:none}
+}
+@media (prefers-reduced-motion:reduce){.ax-cur,.ax-chip,.ax-row,.ax-log li{transition:none!important;animation:none!important}}
+.ax-logo{background:none!important;width:auto!important;height:auto!important}
+.ax-logo .vr-mark{width:28px;height:23px;color:var(--night-ink)}
+.night{--ink:#ffffff;--mute:#a3a3a3;--line:rgba(255,255,255,.16);--amber:#ffffff;--amber-2:#e6e6e6;--on-amber:#161616}
+.decide{--amber:#ffffff;--amber-2:#e6e6e6;--on-amber:#161616}
+footer{--amber:#ffffff}
+
+/* clientes */
+.logos{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));margin-top:56px;border-top:1px solid var(--ink);border-left:1px solid var(--ink)}
+.logos > div{height:180px;display:flex;flex-direction:column;gap:18px;align-items:center;justify-content:center;border-right:1px solid var(--ink);border-bottom:1px solid var(--ink);padding:16px;text-align:center}
+.logos .name{font:800 clamp(22px,2.2vw,30px)/1 var(--display);letter-spacing:-.02em}
+.logos .cl{display:block;margin:0 auto;width:auto;max-width:100%;color:var(--ink)}
+.cl-chekin{height:34px}
+.cl-brandtrack{height:25px;margin:4.5px auto!important}
+@media (max-width:900px){.cl-chekin{height:27px}.cl-brandtrack{height:19px;margin:4px auto!important}}
+.logos .name small{display:block;margin-top:12px;font:500 11px var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--mute)}
+.logos .slot{color:var(--mute);font:500 var(--t-label) var(--mono);letter-spacing:.1em;text-transform:uppercase;background:repeating-linear-gradient(135deg,transparent 0 10px,rgba(22,22,22,.04) 10px 11px)}
+.logos-note{margin-top:16px;color:var(--mute)}
+.logos > div{display:grid!important;grid-template-rows:56px auto;align-content:center;justify-items:center;gap:16px!important}
+.logos .lg{display:block;width:auto;max-width:78%;object-fit:contain;align-self:center}
+@media (max-width:900px){.logos > div{grid-template-rows:46px auto;gap:12px!important}}
+.lg-sq{height:50px}
+.lg-wd{height:26px}
+.lg-raight{height:32px}
+.lg-hiberus{height:30px}
+.lg-huming{height:46px}
+.lg-shakers{height:24px}
+.lg-blash{height:26px}
+.lg-ezpays{height:40px}
+.logos .lg-next{display:flex;flex-direction:column;gap:10px;align-items:center;justify-content:center;border-right:1px solid var(--ink);border-bottom:1px solid var(--ink);text-decoration:none;background:var(--ink);color:var(--paper);font:800 clamp(20px,1.8vw,26px)/1 var(--display);letter-spacing:-.01em}
+.logos .lg-next .mono{font:500 var(--t-label) var(--mono);letter-spacing:.1em;text-transform:uppercase;color:var(--hl)}
+.logos .lg-next:hover{background:#000}
+.lg-n{font-size:var(--t-label);letter-spacing:.1em;text-transform:uppercase;color:var(--mute)}
+@media (max-width:900px){.logos{grid-template-columns:repeat(2,minmax(0,1fr))}.logos > div{height:150px;gap:14px}.lg-sq{height:42px}.lg-wd{height:21px}.lg-raight{height:26px}.lg-hiberus{height:25px}}
+
+/* proceso */
+.tl{display:grid;grid-template-columns:repeat(16,minmax(0,1fr));gap:4px;margin-top:56px}
+.wk{display:block;font-style:normal}
+.wk span{display:block;font:500 var(--t-label) var(--mono);color:var(--mute);margin-bottom:8px}
+.wk::after{content:"";display:block;height:10px}
+.wk.p1::after{background:var(--ink)}
+.wk.p2::after{background:rgba(22,22,22,.55)}
+.wk.p3::after{background:rgba(22,22,22,.18)}
+@media (max-width:900px){.wk span{font-size:10px}.wk:not(:first-child):not(:nth-child(3)):not(:nth-child(11)):not(:last-child) span{visibility:hidden}}
+.cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));margin-top:40px;border-top:1px solid var(--ink);border-left:1px solid var(--ink)}
+.cards > div{border-right:1px solid var(--ink);border-bottom:1px solid var(--ink);padding:26px 24px 30px}
+.cards .mono{color:var(--mute)}
+.cards h3{font:900 var(--t-m)/1 var(--display);letter-spacing:-.03em;text-transform:uppercase;margin:14px 0 14px}
+.cards h4{font:800 var(--t-body)/1.35 var(--display);margin:0 0 6px}
+.cards p{margin:0;color:var(--text);font-size:var(--t-small)}
+@media (max-width:900px){.cards{grid-template-columns:1fr}}
+.closed{display:flex;justify-content:space-between;align-items:flex-end;gap:24px;flex-wrap:wrap;margin-top:56px}
+.closed b{font:900 var(--t-l)/1 var(--display);letter-spacing:-.03em;text-transform:uppercase}
+.closed p{margin:0;max-width:40ch;color:var(--text)}
+
+/* tú decides */
+.decide{background:var(--ink);color:var(--paper);border-top:0;padding-block:120px}
+.decide .lab{color:var(--night-mute)}
+.decide .h-xl{max-width:14ch}
+.decide p{margin:32px 0 32px;max-width:52ch;color:#cfcfcf;font:500 var(--t-lede)/1.5 var(--display)}
+
+/* contacto */
+.contact{display:grid;grid-template-columns:minmax(0,4fr) minmax(0,8fr);gap:48px;margin-top:48px}
+.contact > p{margin:0;color:var(--text);font:500 var(--t-lede)/1.5 var(--display)}
+form{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px 20px}
+form label{display:block}
+form label span{display:block;color:var(--mute);margin-bottom:6px}
+form input,form textarea,form select{width:100%;border:1px solid var(--ink);background:#fff;padding:14px 14px;font:500 var(--t-body) var(--display);color:var(--ink);border-radius:0;-webkit-appearance:none;appearance:none}
+form input::placeholder,form textarea::placeholder{color:#9a9a9a}
+form input[type=checkbox]{-webkit-appearance:auto;appearance:auto;width:18px;height:18px;padding:0;border:0;accent-color:#161616;flex:none}
+.chk.bad input{outline:2px solid #c0392b;outline-offset:2px}
+form input:focus,form textarea:focus,form select:focus{outline:none;box-shadow:0 0 0 3px var(--hl)}
+form textarea{min-height:120px}
+.tel{position:relative;display:grid;grid-template-columns:auto minmax(0,1fr)}
+.tel select{width:auto;border-right:0;padding-right:28px;font:500 var(--t-micro) var(--mono);letter-spacing:.04em;background:#fff url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='10' height='6'><path d='M0 0l5 6 5-6z' fill='%23161616'/></svg>") right 10px center no-repeat;cursor:pointer}
+.tel input{padding-right:40px}
+.tel-ok{position:absolute;right:12px;top:50%;transform:translateY(-50%);font-style:normal;font-weight:800;opacity:0;transition:opacity .2s}
+.tel.ok .tel-ok{opacity:1}
+.tel.ok input{box-shadow:inset 0 -3px 0 var(--hl)}
+.hint{display:block;margin-top:6px;color:var(--mute);font-size:var(--t-micro)}
+.bad input,.bad .tel input,.bad select{border-color:#c0392b}
+.bad .hint,.err{color:#c0392b}
+.chk.bad{color:#c0392b}
+form .wide{grid-column:1 / -1}
+form textarea{resize:vertical}
+.chk{grid-column:1 / -1;display:flex;gap:10px;align-items:flex-start;color:var(--text);font-size:var(--t-micro)}
+.chk input{width:auto;margin-top:3px}
+.send{grid-column:1 / -1;display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap}
+.send .mono{color:var(--mute)}
+.sent{display:none;grid-column:1 / -1;border:1px solid var(--ink);padding:14px 16px;background:#fff}
+form.done .sent{display:block}
+.legal-mini{grid-column:1 / -1;margin:0;color:var(--mute);font-size:13px;line-height:1.5}
+.legal-mini a,.chk a{color:inherit;text-decoration:underline;text-underline-offset:3px}
+.hp{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+.err-send{display:none;grid-column:1 / -1;border:1px solid #c0392b;color:#c0392b;padding:14px 16px;background:#fff}
+form.fail .err-send{display:block}
+form.sending button[type=submit]{opacity:.5;pointer-events:none}
+@media (max-width:900px){.contact{grid-template-columns:1fr}form{grid-template-columns:1fr}}
+
+/* cinta y pie */
+.strip{overflow:hidden;white-space:nowrap;border-top:1px solid var(--ink);border-bottom:1px solid var(--ink);background:var(--paper)}
+.strip > div{display:inline-flex;gap:22px;padding:16px 0;font:300 clamp(18px,1.8vw,26px)/1 'Jost',var(--display);letter-spacing:.06em;text-transform:uppercase}
+.strip i{font-style:normal;color:var(--amber)}
+@media (prefers-reduced-motion:no-preference){.strip > div{animation:tick 44s linear infinite}}
+footer{background:var(--ink);color:var(--paper);padding-top:56px}
+.f-cols{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:32px;padding-bottom:48px;border-bottom:1px solid var(--line-n)}
+.f-cols .mono{color:var(--night-mute);display:block;margin-bottom:14px}
+.f-cols a{display:block;width:max-content;max-width:100%;padding:5px 0;text-decoration:none;font:500 var(--t-label) var(--mono);letter-spacing:.08em;text-transform:uppercase;margin-bottom:2px}
+.f-cols a:hover{color:var(--amber)}
+.f-brand{display:flex;justify-content:space-between;align-items:flex-end;gap:24px;flex-wrap:wrap;padding-block:48px 28px}
+.f-logo{display:flex;align-items:center;gap:16px}
+.f-logo .vr-mark{width:clamp(70px,9vw,120px);height:auto}
+.f-slogan{font:300 14px/1 'Jost',var(--display);letter-spacing:.14em;text-transform:uppercase}
+.f-bottom{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;padding-block:18px calc(18px + env(safe-area-inset-bottom,0px));border-top:1px solid var(--line-n);color:var(--night-mute)}
+@media (max-width:700px){.f-cols{grid-template-columns:1fr 1fr}}
+
+.brand .vr-lock{display:block;height:21px;width:auto;fill:currentColor}
+.f-brand .f-logo{width:100%}
+.f-logo .vr-locktag{display:block;width:min(100%,820px);height:auto;color:var(--night-ink)}
+.vr-mark{stroke:none}
+.stamp .vr-mark{width:52px;height:44px}
+
+/* portada: titular en dos líneas y botón */
+.hero h1{font-size:clamp(44px,7.1vw,150px);margin-top:clamp(40px,8vh,96px)}
+.hero-top{align-items:baseline}
+.hero-cta{display:flex;align-items:center;gap:22px;flex-wrap:wrap;margin-top:26px}
+.hero-cta .link{text-decoration:none;border-bottom:1px solid currentColor;padding-bottom:3px}
+.hero-cta .link:hover{border-bottom-color:var(--hl)}
+.why-h{font-size:clamp(34px,4.6vw,88px)}
+@media (min-width:901px){.hero h1,.why-h{white-space:nowrap}}
+@media (max-width:900px){.hero h1 br,.why-h br{display:none}}
+
+/* animaciones: letras que se descifran, letras que ruedan y entradas con fallo de señal */
+.ch{display:inline}
+.w{white-space:nowrap}
+.ch.roll{display:inline-block;text-align:center}
+@media (prefers-reduced-motion:no-preference){
+  html.js .glitch{opacity:0}
+  html.js .glitch.in{opacity:1}
+  html.js .glitch.in{animation:gIn .9s steps(1,end) forwards}
+  html.js .photo.glitch.in{animation:gIn .9s steps(1,end) forwards,gGray 1.4s ease-out forwards}
+  @keyframes gIn{
+    0%{opacity:1;clip-path:inset(0 0 72% 0);transform:translateX(-10px)}
+    14%{clip-path:inset(38% 0 34% 0);transform:translateX(12px)}
+    28%{clip-path:inset(8% 0 58% 0);transform:translateX(-6px)}
+    42%{clip-path:inset(62% 0 4% 0);transform:translateX(8px)}
+    56%{clip-path:inset(0 0 22% 0);transform:translateX(-4px)}
+    70%{clip-path:inset(0);transform:translateX(2px)}
+    100%{clip-path:inset(0);transform:none}}
+  @keyframes gGray{0%{filter:contrast(1.9) brightness(1.15)}100%{filter:none}}
+}
+.skip{position:absolute;left:12px;top:-60px;z-index:50;background:var(--ink);color:var(--paper);padding:10px 14px;font:500 var(--t-label) var(--mono);text-decoration:none}
+.skip:focus{top:12px}
+.f-legal{display:flex;flex-wrap:wrap;gap:4px 20px}
+.f-legal a,.f-btn{color:var(--night-mute);text-decoration:none;font:inherit;letter-spacing:inherit;text-transform:inherit;background:none;border:0;padding:4px 0;cursor:pointer}
+.f-legal a:hover,.f-btn:hover{color:var(--paper)}
+/* movimiento desactivado a mano */
+html.no-motion *,html.no-motion *::before,html.no-motion *::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}
+html.no-motion .glitch{opacity:1!important;clip-path:none!important;transform:none!important}
+/* aviso de cookies */
+.ck{position:fixed;left:16px;right:16px;bottom:16px;z-index:60;max-width:560px;margin-left:auto;background:var(--paper);color:var(--ink);border:1px solid var(--ink);padding:20px 22px;box-shadow:0 10px 40px rgba(0,0,0,.18)}
+.ck[hidden]{display:none}
+.ck h2{margin:0 0 8px;font:800 18px/1.2 var(--display)}
+.ck p{margin:0 0 16px;font-size:14px;line-height:1.5;color:var(--text)}
+.ck p a{color:inherit}
+.ck-row{display:flex;flex-wrap:wrap;gap:10px}
+.ck-row button{flex:1 1 120px;padding:12px 14px;font:500 var(--t-label) var(--mono);letter-spacing:.08em;text-transform:uppercase;border:1px solid var(--ink);cursor:pointer}
+.ck-a,.ck-r{background:var(--ink);color:var(--paper)}
+.ck-c{background:var(--paper);color:var(--ink)}
+.ck-opts{border-top:1px solid var(--line);margin:0 0 16px;padding-top:12px}
+.ck-opts label{display:flex;gap:10px;align-items:flex-start;font-size:14px;line-height:1.45;margin-bottom:10px}
+.ck-opts input{width:18px;height:18px;accent-color:#161616;flex:none;margin-top:2px}
+/* logos: las tarjetas se dan la vuelta en cascada al entrar */
+@media (prefers-reduced-motion:no-preference){
+  html.js:not(.no-motion) .logos.fl-wait > div{transform:perspective(900px) rotateY(-90deg);opacity:0}
+  html.js:not(.no-motion) .logos.fl-go > div{animation:flip .75s cubic-bezier(.2,.7,.2,1) both;animation-delay:var(--d,0ms)}
+  @keyframes flip{0%{transform:perspective(900px) rotateY(-90deg);opacity:0}45%{opacity:1}100%{transform:perspective(900px) rotateY(0);opacity:1}}
+}
+@media (max-width:900px){.photo{background-image:url(/img/fachada-900.webp)}}
+</style>
+</head>
+<body>
+<a class="skip" href="#que">Saltar al contenido</a>
+<header class="bar">
+  <a class="brand" href="#top" aria-label="VRTCL, inicio"><svg class="vr-lock" viewBox="205 600 1085 222" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><g transform="matrix(1, 0, 0, 1, 210, 610)"><g><g><path fill="currentColor" d="M 66.886719 13.839844 L 71.351562 47.136719 C 71.894531 51.210938 74.542969 54.695312 78.316406 56.3125 L 200.101562 108.480469 C 208.425781 112.050781 217.460938 105.183594 216.257812 96.207031 L 211.792969 62.910156 C 211.25 58.839844 208.601562 55.355469 204.828125 53.738281 L 83.046875 1.566406 C 74.71875 -2 65.683594 4.863281 66.886719 13.839844 Z M 125.53125 87.289062 L 247.3125 139.464844 C 251.089844 141.082031 253.738281 144.566406 254.28125 148.636719 L 258.746094 181.933594 C 259.949219 190.910156 250.910156 197.777344 242.589844 194.207031 L 120.808594 142.035156 C 117.035156 140.417969 114.386719 136.933594 113.839844 132.859375 L 109.378906 99.566406 C 108.175781 90.589844 117.210938 83.722656 125.53125 87.289062 Z M 17.449219 106.296875 L 139.230469 158.46875 C 143.003906 160.085938 145.652344 163.570312 146.199219 167.640625 L 150.660156 200.9375 C 151.863281 209.914062 142.828125 216.78125 134.507812 213.210938 L 12.722656 161.039062 C 8.949219 159.421875 6.300781 155.9375 5.757812 151.863281 L 1.292969 118.570312 C 0.0859375 109.589844 9.125 102.726562 17.449219 106.296875 Z M 17.449219 106.296875 " fill-opacity="1" fill-rule="nonzero"/></g></g></g><g transform="matrix(1, 0, 0, 1, 475, 601)"><g><g fill="currentColor" fill-opacity="1"><g transform="translate(9.616637, 213.256064)"><g><path d="M 75.46875 0 L -6.640625 -195.796875 L 43.671875 -195.796875 L 93.03125 -67.15625 L 142.390625 -195.796875 L 192.703125 -195.796875 L 110.59375 0 Z M 75.46875 0 "/></g></g></g><g fill="currentColor" fill-opacity="1"><g transform="translate(196.156344, 213.256064)"><g><path d="M 14.234375 -195.796875 L 84.25 -195.796875 C 103.082031 -195.796875 118.429688 -190.769531 130.296875 -180.71875 C 142.160156 -170.675781 148.09375 -156.320312 148.09375 -137.65625 C 148.09375 -123.25 144.492188 -111.179688 137.296875 -101.453125 C 130.097656 -91.722656 120.328125 -84.878906 107.984375 -80.921875 L 175.390625 0 L 118.65625 0 L 58.859375 -77.375 L 58.859375 0 L 14.234375 0 Z M 58.859375 -108.9375 L 64.078125 -108.9375 C 68.191406 -108.9375 71.671875 -109.015625 74.515625 -109.171875 C 77.367188 -109.328125 80.613281 -109.878906 84.25 -110.828125 C 87.882812 -111.773438 90.8125 -113.117188 93.03125 -114.859375 C 95.25 -116.609375 97.148438 -119.140625 98.734375 -122.453125 C 100.316406 -125.773438 101.109375 -129.8125 101.109375 -134.5625 C 101.109375 -139.3125 100.316406 -143.347656 98.734375 -146.671875 C 97.148438 -149.992188 95.25 -152.523438 93.03125 -154.265625 C 90.8125 -156.003906 87.882812 -157.347656 84.25 -158.296875 C 80.613281 -159.242188 77.367188 -159.796875 74.515625 -159.953125 C 71.671875 -160.117188 68.191406 -160.203125 64.078125 -160.203125 L 58.859375 -160.203125 Z M 58.859375 -108.9375 "/></g></g></g><g fill="currentColor" fill-opacity="1"><g transform="translate(357.064636, 213.256064)"><g><path d="M 1.90625 -156.640625 L 1.90625 -195.796875 L 139.546875 -195.796875 L 139.546875 -156.640625 L 93.03125 -156.640625 L 93.03125 0 L 48.421875 0 L 48.421875 -156.640625 Z M 1.90625 -156.640625 "/></g></g></g><g fill="currentColor" fill-opacity="1"><g transform="translate(491.392213, 213.256064)"><g><path d="M 118.421875 -40.34375 C 125.222656 -40.34375 131.828125 -41.367188 138.234375 -43.421875 C 144.648438 -45.484375 149.359375 -47.460938 152.359375 -49.359375 L 156.875 -52.453125 L 175.859375 -14.484375 C 175.222656 -14.003906 174.351562 -13.367188 173.25 -12.578125 C 172.144531 -11.785156 169.570312 -10.320312 165.53125 -8.1875 C 161.5 -6.050781 157.1875 -4.191406 152.59375 -2.609375 C 148.007812 -1.023438 142 0.394531 134.5625 1.65625 C 127.125 2.925781 119.453125 3.5625 111.546875 3.5625 C 93.347656 3.5625 76.097656 -0.90625 59.796875 -9.84375 C 43.503906 -18.789062 30.375 -31.09375 20.40625 -46.75 C 10.4375 -62.414062 5.453125 -79.347656 5.453125 -97.546875 C 5.453125 -111.304688 8.378906 -124.515625 14.234375 -137.171875 C 20.085938 -149.828125 27.878906 -160.664062 37.609375 -169.6875 C 47.347656 -178.707031 58.703125 -185.90625 71.671875 -191.28125 C 84.648438 -196.664062 97.941406 -199.359375 111.546875 -199.359375 C 124.203125 -199.359375 135.867188 -197.851562 146.546875 -194.84375 C 157.222656 -191.84375 164.78125 -188.835938 169.21875 -185.828125 L 175.859375 -181.3125 L 156.875 -143.34375 C 155.769531 -144.289062 154.109375 -145.4375 151.890625 -146.78125 C 149.671875 -148.132812 145.238281 -149.914062 138.59375 -152.125 C 131.945312 -154.34375 125.222656 -155.453125 118.421875 -155.453125 C 107.660156 -155.453125 98.007812 -153.707031 89.46875 -150.21875 C 80.925781 -146.738281 74.160156 -142.148438 69.171875 -136.453125 C 64.191406 -130.765625 60.394531 -124.632812 57.78125 -118.0625 C 55.175781 -111.5 53.875 -104.816406 53.875 -98.015625 C 53.875 -83.140625 59.453125 -69.804688 70.609375 -58.015625 C 81.765625 -46.234375 97.703125 -40.34375 118.421875 -40.34375 Z M 118.421875 -40.34375 "/></g></g></g><g fill="currentColor" fill-opacity="1"><g transform="translate(670.574781, 213.256064)"><g><path d="M 58.859375 -195.796875 L 58.859375 -39.15625 L 126.265625 -39.15625 L 126.265625 0 L 14.234375 0 L 14.234375 -195.796875 Z M 58.859375 -195.796875 "/></g></g></g></g></g></svg></a>
+  <nav aria-label="Secciones"><a href="#que">Qué hacemos</a><a href="#agentes">Agentes</a><a href="#clientes">Clientes</a><a href="#proceso">Proceso</a></nav>
+  <a class="cta" href="#contacto">Pide tu auditoría <span aria-hidden="true">↗</span></a>
+</header>
+
+<main id="top">
+  <section class="hero pad">
+    <div class="hero-top mono"><span class="slogan">Human judgment. AI execution.</span><span>2026 — VRTCL</span></div>
+    <h1>Crece con criterio.<br> Escala con IA<span class="dot">.</span></h1>
+    <div class="hero-low"><div><p>Somos tu Growth Manager y tu equipo de Go To Market durante todo el proceso. Montamos el sistema que encuentra, ordena y trabaja a tus clientes, y se queda a tu nombre.</p><div class="hero-cta"><a class="btn" href="#contacto">( Pide tu auditoría )</a><a class="link mono" href="#que">Cómo funciona ↓</a></div></div><span class="mono">Scroll ↓</span></div>
+  </section>
+  <div class="photo glitch" role="img" aria-label="Fachada de un edificio en blanco y negro"></div>
+
+  <section class="sec pad" id="por-que" style="border-top:0">
+    <div class="why">
+      <div>
+        <span class="lab mono">/ Por qué ahora</span>
+        <h2 class="h-xl why-h">Hoy no gana el más grande.<br> Gana el que mejor <span class="ul">ejecuta</span>.</h2>
+      </div>
+      <div class="stamp" aria-hidden="true"><svg class="ring" viewBox="0 0 150 150"><defs><path id="circ" d="M75,75 m-58,0 a58,58 0 1,1 116,0 a58,58 0 1,1 -116,0"/></defs><text><textPath href="#circ" textLength="362" lengthAdjust="spacing">Proyecto cerrado · 16 semanas · Montado en tu equipo ·</textPath></text></svg><svg class="vr-mark" viewBox="205 605 265 225" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><g transform="matrix(1, 0, 0, 1, 210, 610)"><g><g><path fill="currentColor" d="M 66.886719 13.839844 L 71.351562 47.136719 C 71.894531 51.210938 74.542969 54.695312 78.316406 56.3125 L 200.101562 108.480469 C 208.425781 112.050781 217.460938 105.183594 216.257812 96.207031 L 211.792969 62.910156 C 211.25 58.839844 208.601562 55.355469 204.828125 53.738281 L 83.046875 1.566406 C 74.71875 -2 65.683594 4.863281 66.886719 13.839844 Z M 125.53125 87.289062 L 247.3125 139.464844 C 251.089844 141.082031 253.738281 144.566406 254.28125 148.636719 L 258.746094 181.933594 C 259.949219 190.910156 250.910156 197.777344 242.589844 194.207031 L 120.808594 142.035156 C 117.035156 140.417969 114.386719 136.933594 113.839844 132.859375 L 109.378906 99.566406 C 108.175781 90.589844 117.210938 83.722656 125.53125 87.289062 Z M 17.449219 106.296875 L 139.230469 158.46875 C 143.003906 160.085938 145.652344 163.570312 146.199219 167.640625 L 150.660156 200.9375 C 151.863281 209.914062 142.828125 216.78125 134.507812 213.210938 L 12.722656 161.039062 C 8.949219 159.421875 6.300781 155.9375 5.757812 151.863281 L 1.292969 118.570312 C 0.0859375 109.589844 9.125 102.726562 17.449219 106.296875 Z M 17.449219 106.296875 " fill-opacity="1" fill-rule="nonzero"/></g></g></g></svg></div>
+    </div>
+    <div class="why-body">
+      <p>Tu competencia tiene las mismas herramientas que tú. La diferencia es quién las usa cada día, con datos y con método.</p>
+      <p>En VRTCL decidimos con criterio humano y ejecutamos con IA: estrategia de growth, CRM y diez agentes que trabajan cada mañana. Tu equipo revisa y aprueba.</p>
+    </div>
+  </section>
+
+  <section class="sec pad" id="que" style="border-top:0;padding-top:24px">
+    <span class="lab mono">/ Qué te montamos</span>
+    <h2 class="h-xl">Cuatro piezas.<br>Un solo <span class="ul">sistema</span>.</h2>
+    <div class="what-intro"><p>No vendemos horas ni herramientas sueltas. Montamos cuatro piezas que funcionan juntas desde el primer día y que se quedan en tus cuentas.</p><a class="btn" href="#proceso">( Ver el proceso )</a></div>
+    <div class="acc">
+      <details open><summary><span class="n mono">01</span><svg class="ic" viewBox="0 0 40 40" aria-hidden="true"><circle cx="20" cy="20" r="16"/><path d="M20 4v8M20 28v8M4 20h8M28 20h8"/><circle class="o" cx="20" cy="20" r="4"/></svg><h3>Estrategia de growth</h3><span class="pm" aria-hidden="true">+</span></summary>
+        <div class="in"><p>Decisiones que parten de datos, no de opiniones.</p><div class="tags"><span>Auditoría web y conversión</span><span>Analítica de cartera y ventas</span><span>Cliente ideal (ICP)</span><span>Competencia</span><span>Embudo y canales</span><span>Plan de crecimiento</span></div></div></details>
+      <details><summary><span class="n mono">02</span><svg class="ic" viewBox="0 0 40 40" aria-hidden="true"><rect x="4" y="6" width="32" height="8"/><rect x="4" y="18" width="32" height="8"/><rect x="4" y="30" width="20" height="6" class="o"/></svg><h3>CRM a medida</h3><span class="pm" aria-hidden="true">+</span></summary>
+        <div class="in"><p>Todo el ciclo del cliente, en tu propia cuenta.</p><div class="tags"><span>Etapas ICP · MQL · SQL</span><span>Ficha de cada cuenta</span><span>Puntuación y señales</span><span>Limpieza de duplicados</span><span>Conectado a tu correo</span><span>Recompra y fidelización</span></div></div></details>
+      <details><summary><span class="n mono">03</span><svg class="ic" viewBox="0 0 40 40" aria-hidden="true"><g><circle cx="8" cy="8" r="3.4"/><circle cx="20" cy="8" r="3.4"/><circle class="f" cx="32" cy="8" r="3.4"/><circle cx="8" cy="20" r="3.4"/><circle class="o" cx="20" cy="20" r="3.4"/><circle cx="32" cy="20" r="3.4"/><circle class="f" cx="8" cy="32" r="3.4"/><circle cx="20" cy="32" r="3.4"/><circle cx="32" cy="32" r="3.4"/></g></svg><h3>Diez agentes de IA</h3><span class="pm" aria-hidden="true">+</span></summary>
+        <div class="in"><p>Trabajan cada mañana. Tu equipo revisa y aprueba.</p><div class="tags"><span>Buscador</span><span>Limpiador</span><span>Vigía</span><span>Puntuador</span><span>Investigador</span><span>Redactor</span><span>Lector</span><span>Cuidador</span><span>Analista</span><span>Portavoz</span></div></div></details>
+      <details><summary><span class="n mono">04</span><svg class="ic" viewBox="0 0 40 40" aria-hidden="true"><path d="M4 36h32"/><rect x="7" y="22" width="6" height="12"/><rect x="17" y="14" width="6" height="20"/><rect class="o" x="27" y="6" width="6" height="28"/></svg><h3>Panel de dirección</h3><span class="pm" aria-hidden="true">+</span></summary>
+        <div class="in"><p>Lo que ha pasado esta semana, de un vistazo.</p><div class="tags"><span>Conversión por etapa</span><span>Reuniones y oportunidades</span><span>Actividad de los agentes</span><span>Semana buena, media o mala</span><span>Movimientos de la competencia</span></div></div></details>
+    </div>
+  </section>
+
+  <section class="sec pad" id="modelo">
+    <span class="lab mono">/ Service as a Software</span>
+    <h2 class="h-xl">No te vendemos un SaaS.<br>Te construimos <span class="ul">el tuyo</span>.</h2>
+    <div class="model-body"><p>Funciona como un software: cada mañana, con su panel y sus agentes. Pero no es genérico: lo diseñamos con tus datos, tu cliente ideal y tu forma de vender, y se instala en tus cuentas. Sin cuotas y sin compartirlo con nadie.</p></div>
+    <div class="ba">
+      <div><svg viewBox="0 0 88 56" aria-hidden="true"><rect x="6" y="8" width="16" height="12" transform="rotate(-14 14 14)"/><circle cx="44" cy="12" r="7"/><rect x="62" y="20" width="18" height="10" transform="rotate(18 71 25)"/><path d="M10 44l10-8 6 10"/><circle cx="50" cy="42" r="5"/><rect x="66" y="40" width="12" height="12" transform="rotate(30 72 46)"/></svg><div><small>Antes</small><b>Herramientas sueltas</b><ul><li>Un CRM a medias</li><li>El Excel de cada uno</li><li>Una agencia que se va y se lo lleva</li></ul></div></div>
+      <div class="after"><svg viewBox="0 0 88 56" aria-hidden="true"><rect x="6" y="6" width="34" height="20"/><rect x="48" y="6" width="34" height="20"/><rect x="6" y="32" width="34" height="20"/><rect class="o" x="48" y="32" width="34" height="20"/></svg><div><small>Después</small><b>Un sistema a tu nombre</b><ul><li>Estrategia, CRM, agentes y panel conectados</li><li>Tu equipo formado</li><li>Todo documentado</li></ul></div></div>
+    </div>
+  </section>
+
+  <section class="sec pad night" id="agentes">
+    <span class="lab mono">/ Así es una mañana</span>
+    <h2 class="h-xl">Diez agentes.<br><span class="ul">Tu equipo aprueba</span>.</h2>
+    <p class="intro">Cada agente tiene una sola tarea y solo toca sus herramientas. Trabajan a la vez, se pasan el trabajo y nada sale sin tu OK.</p>
+      <div class="ax" id="ax" aria-label="Animación de ejemplo: los agentes detectan señales, puntúan, investigan y redactan; tu equipo aprueba los mensajes y la cuenta avanza hasta la reunión.">
+        <div class="ax-panel" id="axp">
+          <div class="ax-hd"><span class="ax-logo"><svg class="vr-mark" viewBox="205 605 265 225" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><g transform="matrix(1, 0, 0, 1, 210, 610)"><g><g><path fill="currentColor" d="M 66.886719 13.839844 L 71.351562 47.136719 C 71.894531 51.210938 74.542969 54.695312 78.316406 56.3125 L 200.101562 108.480469 C 208.425781 112.050781 217.460938 105.183594 216.257812 96.207031 L 211.792969 62.910156 C 211.25 58.839844 208.601562 55.355469 204.828125 53.738281 L 83.046875 1.566406 C 74.71875 -2 65.683594 4.863281 66.886719 13.839844 Z M 125.53125 87.289062 L 247.3125 139.464844 C 251.089844 141.082031 253.738281 144.566406 254.28125 148.636719 L 258.746094 181.933594 C 259.949219 190.910156 250.910156 197.777344 242.589844 194.207031 L 120.808594 142.035156 C 117.035156 140.417969 114.386719 136.933594 113.839844 132.859375 L 109.378906 99.566406 C 108.175781 90.589844 117.210938 83.722656 125.53125 87.289062 Z M 17.449219 106.296875 L 139.230469 158.46875 C 143.003906 160.085938 145.652344 163.570312 146.199219 167.640625 L 150.660156 200.9375 C 151.863281 209.914062 142.828125 216.78125 134.507812 213.210938 L 12.722656 161.039062 C 8.949219 159.421875 6.300781 155.9375 5.757812 151.863281 L 1.292969 118.570312 C 0.0859375 109.589844 9.125 102.726562 17.449219 106.296875 Z M 17.449219 106.296875 " fill-opacity="1" fill-rule="nonzero"/></g></g></g></svg></span><b>Equipo de go to market</b><span class="mono ax-busy" id="axBusy">10 agentes en marcha</span><span class="ax-dock" id="axDock" aria-hidden="true"></span></div>
+          <div class="ax-card ax-sig" id="axSig"><div class="ax-h"><span>Señales de hoy</span><span id="axSigN">186</span></div><div id="axRows"></div></div>
+          <div class="ax-card ax-brief" id="axBrief"><div class="ax-h"><span>Ficha de la cuenta</span><span id="axBriefSt">Esperando</span></div>
+            <div class="ax-ttl" id="axT"></div>
+            <div class="ax-kv"><i>Por qué ahora</i><span id="axB1"></span></div>
+            <div class="ax-kv"><i>Quién compra</i><span id="axB2"></span></div>
+            <div class="ax-kv"><i>Qué le duele</i><span id="axB3"></span></div></div>
+          <div class="ax-card ax-msg" id="axMsg"><div class="ax-h"><span>Primer mensaje</span><span class="ax-state" id="axMSt">—</span></div>
+            <div class="ax-q" id="axQ"></div><div class="ax-to" id="axTo"></div><div class="ax-body" id="axBody"></div>
+            <div class="ax-btns"><span class="ax-b ok" id="axOk">Aprobar</span><span class="ax-b">Editar</span></div></div>
+          <div class="ax-card ax-week" id="axWeek"><div class="ax-h"><span>Esta semana</span><span class="ax-verd" id="axVerd">Semana: —</span></div>
+            <div class="ax-m"><span>Cuentas investigadas</span><b id="axW1">163</b></div>
+            <div class="ax-m"><span>Mensajes aprobados</span><b id="axW2">57</b></div>
+            <div class="ax-m"><span>Respuestas positivas</span><b id="axW3">20</b></div>
+            <div class="ax-m"><span>Reuniones</span><b id="axW4">8</b></div></div>
+          <div class="ax-card ax-act" id="axAct"><div class="ax-h"><span>Actividad</span><span>en directo</span></div><ul class="ax-log" id="axLog"></ul></div>
+          <div class="ax-fun">
+            <div class="ax-col" id="axC0"><div class="ax-ch"><span class="l">Señal</span><span class="s">Señal</span> <b id="axF0">186</b></div><div class="ax-ph"></div><div class="ax-ph"></div><div class="ax-ph"></div></div>
+            <div class="ax-col" id="axC1"><div class="ax-ch"><span class="l">Investigada</span><span class="s">Invest.</span> <b id="axF1">163</b></div><div class="ax-ph"></div><div class="ax-ph"></div><div class="ax-ph"></div></div>
+            <div class="ax-col" id="axC2"><div class="ax-ch"><span class="l">Redactada</span><span class="s">Redact.</span> <b id="axF2">57</b></div><div class="ax-ph"></div><div class="ax-ph"></div><div class="ax-ph"></div></div>
+            <div class="ax-col" id="axC3"><div class="ax-ch"><span class="l">Respondida</span><span class="s">Resp.</span> <b id="axF3">20</b></div><div class="ax-ph"></div><div class="ax-ph"></div><div class="ax-ph"></div></div>
+            <div class="ax-col" id="axC4"><div class="ax-ch"><span class="l">Reunión</span><span class="s">Reunión</span> <b id="axF4">8</b></div><div class="ax-ph"></div><div class="ax-ph"></div><div class="ax-ph"></div></div>
+          </div>
+          <div class="ax-chip" id="axChip0">Distribuidora de bebidas</div><div class="ax-chip" id="axChip1">Agencia de viajes</div><div class="ax-chip" id="axChip2">Clínica dental</div>
+          <div id="axCurs" aria-hidden="true"></div>
+        </div>
+      </div>
+      <p class="cap" aria-live="off"><span class="mono" id="axCapN">01</span><span id="axCapT">Vigía detecta una señal <em>· a la vez, Buscador trae cuentas nuevas</em></span></p>
+      <p class="fine">ICP: encaja con tu cliente ideal · MQL: ha mostrado interés · SQL: listo para hablar con ventas · Nurturing: aún no está listo, lo seguimos cuidando. Ejemplo con empresas y cifras inventadas.</p>
+  </section>
+
+  <section class="sec pad" id="clientes" style="border-top:0">
+    <span class="lab mono">/ Con quién hemos trabajado</span>
+    <h2 class="h-xl">Lo que te proponemos,<br><span class="ul">ya funciona</span>.</h2>
+    <div class="logos"><div><img class="lg lg-chekin lg-sq" src="/img/logos/chekin-170d3854.webp" loading="lazy" decoding="async" alt="" width="160" height="160"><span class="lg-n mono">Chekin</span></div><div><img class="lg lg-brandtrack lg-sq" src="/img/logos/brandtrack-db1fa3b2.webp" loading="lazy" decoding="async" alt="" width="158" height="160"><span class="lg-n mono">Brandtrack</span></div><div><img class="lg lg-raight lg-wd" src="/img/logos/raight-f2eaffc6.webp" loading="lazy" decoding="async" alt="" width="343" height="110"><span class="lg-n mono">RAIGHT.ai</span></div><div><img class="lg lg-softonic lg-sq" src="/img/logos/softonic-cbf4dcfc.webp" loading="lazy" decoding="async" alt="" width="131" height="160"><span class="lg-n mono">Softonic</span></div><div><img class="lg lg-huming lg-sq" src="/img/logos/huming-23b2fce8.webp" loading="lazy" decoding="async" alt="" width="195" height="160"><span class="lg-n mono">Huming</span></div><div><img class="lg lg-symvaro lg-sq" src="/img/logos/symvaro-d9473e48.webp" loading="lazy" decoding="async" alt="" width="160" height="160"><span class="lg-n mono">Symvaro GmbH</span></div><div><img class="lg lg-nodd3r lg-wd" src="/img/logos/nodd3r-32b3642e.webp" loading="lazy" decoding="async" alt="" width="566" height="110"><span class="lg-n mono">nodd3r</span></div><div><img class="lg lg-hiberus lg-wd" src="/img/logos/hiberus-a82286d4.webp" loading="lazy" decoding="async" alt="" width="451" height="110"><span class="lg-n mono">Hiberus</span></div><div><img class="lg lg-shakers lg-wd" src="/img/logos/shakers-6d36445e.webp" loading="lazy" decoding="async" alt="" width="531" height="110"><span class="lg-n mono">Shakers</span></div><div><img class="lg lg-ezpays lg-sq" src="/img/logos/ezpays-628d4a86.webp" loading="lazy" decoding="async" alt="" width="232" height="160"><span class="lg-n mono">ezpays</span></div><div><img class="lg lg-blash lg-wd" src="/img/logos/blash-8997b33d.webp" loading="lazy" decoding="async" alt="" width="444" height="110"><span class="lg-n mono">Blash Design</span></div><div><img class="lg lg-waterloo lg-sq" src="/img/logos/waterloo-135308c4.webp" loading="lazy" decoding="async" alt="" width="160" height="160"><span class="lg-n mono">Waterloo</span></div></div>
+  </section>
+
+  <section class="sec pad" id="proceso">
+    <span class="lab mono">/ Cómo trabajamos</span>
+    <h2 class="h-xl">Dieciséis semanas.<br>Y funciona <span class="ul">sin nosotros</span>.</h2>
+    <div class="tl" aria-hidden="true"><i class="wk p1"><span>1</span></i><i class="wk p1"><span>2</span></i><i class="wk p2"><span>3</span></i><i class="wk p2"><span>4</span></i><i class="wk p2"><span>5</span></i><i class="wk p2"><span>6</span></i><i class="wk p2"><span>7</span></i><i class="wk p2"><span>8</span></i><i class="wk p2"><span>9</span></i><i class="wk p2"><span>10</span></i><i class="wk p3"><span>11</span></i><i class="wk p3"><span>12</span></i><i class="wk p3"><span>13</span></i><i class="wk p3"><span>14</span></i><i class="wk p3"><span>15</span></i><i class="wk p3"><span>16</span></i></div>
+    <div class="cards">
+      <div><span class="mono">01 · Semanas 1 y 2</span><h3>Auditoría</h3><h4>Vemos dónde está tu crecimiento.</h4><p>Tu web, tus datos y tu cartera. Sales con un informe de prioridades.</p></div>
+      <div><span class="mono">02 · Semanas 3 a 10</span><h3>Construcción</h3><h4>Montamos el sistema.</h4><p>Plan de crecimiento, cliente ideal, agentes de IA y tu CRM con su panel.</p></div>
+      <div><span class="mono">03 · Semanas 11 a 16</span><h3>Traspaso</h3><h4>Lo dejamos funcionando.</h4><p>Con tus datos reales, tu equipo formado y todo documentado.</p></div>
+    </div>
+    <div class="closed"><b>Proyecto cerrado<span class="dot">.</span></b><p>Sin cuotas mensuales y sin ataduras al terminar. Todo queda en tus cuentas y a tu nombre.</p></div>
+  </section>
+
+  <section class="sec pad decide">
+    <span class="lab mono">/ Tú decides</span>
+    <h2 class="h-xl">Dos semanas. Un plan.<br>Y&nbsp;<span class="ul">decides tú</span>.</h2>
+    <p>Trabajamos dos semanas con tus datos y te presentamos la auditoría: dónde está tu crecimiento y qué hay que montar. Con eso decides cómo seguir: lo construimos nosotros o lo desarrolla tu equipo con el plan en la mano.</p>
+    <a class="btn" href="#contacto">( Pide tu auditoría )</a>
+  </section>
+
+  <section class="sec pad" id="contacto" style="border-top:0">
+    <span class="lab mono">/ Contacto</span>
+    <h2 class="h-xl">Cuéntanos qué<br>quieres <span class="ul">conseguir</span>.</h2>
+    <div class="contact">
+      <p>Hablemos del qué antes del cómo. Empezamos por la auditoría: dos semanas para ver con datos dónde está tu crecimiento.</p>
+      <form id="form" name="contacto" method="POST" action="/api/contacto" novalidate>
+        <p class="hp" aria-hidden="true"><label>No rellenar: <input name="bot-field" tabindex="-1" autocomplete="off"></label></p>
+        <label><span class="mono">Nombre y apellidos*</span><input name="nombre" autocomplete="name" required placeholder="Ej. Marta López"></label>
+        <label><span class="mono">Email*</span><input name="email" type="email" autocomplete="email" required placeholder="nombre@empresa.com"></label>
+        <label class="tel-l"><span class="mono">Teléfono*</span><span class="tel"><select name="prefijo" aria-label="Prefijo"><option value="+34" selected>ES +34</option><option value="+351">PT +351</option><option value="+33">FR +33</option><option value="+44">UK +44</option><option value="+49">DE +49</option><option value="+52">MX +52</option><option value="+1">US +1</option></select><input name="telefono" type="tel" inputmode="tel" autocomplete="tel-national" required placeholder="612 345 678"><i class="tel-ok" aria-hidden="true">✓</i></span><small class="hint" id="telHint">9 cifras, empieza por 6, 7, 8 o 9.</small></label>
+        <label><span class="mono">Empresa*</span><input name="empresa" autocomplete="organization" required placeholder="Nombre de tu empresa"></label>
+        <label class="wide"><span class="mono">¿Qué necesitas resolver?</span><textarea name="mensaje" placeholder="Cuéntanos en dos líneas qué quieres conseguir."></textarea></label>
+        <label class="chk"><input type="checkbox" name="privacidad" required> <span>He leído y acepto la <a href="/privacidad/" target="_blank" rel="noopener">política de privacidad</a>.*</span></label>
+        <div class="send"><span class="mono">Los campos con * son obligatorios.</span><button class="btn" type="submit">( Enviar )</button></div>
+        <p class="legal-mini">Responsables: Alexandre Santana y Carlos Cedres (VRTCL). Finalidad: responder a tu solicitud. Tus datos se guardan en servidores de la Unión Europea y no se ceden a terceros salvo obligación legal. Puedes acceder a ellos, corregirlos o pedir que los borremos escribiendo a <a href="mailto:hello@vrtcl.tech">hello@vrtcl.tech</a>. Más información en la <a href="/privacidad/" target="_blank" rel="noopener">política de privacidad</a>.</p>
+        <p class="sent mono">Gracias. Hemos recibido tu mensaje y te escribimos pronto.</p>
+        <p class="err-send mono">No se ha podido enviar. Inténtalo de nuevo o escríbenos a <a href="mailto:hello@vrtcl.tech">hello@vrtcl.tech</a>.</p>
+      </form>
+    </div>
+  </section>
+</main>
+
+<div class="strip" aria-hidden="true"><div><span>Criterio humano</span><i>×</i><span>Ejecución con IA</span><i>×</i><span>16 semanas</span><i>×</i><span>Todo a tu nombre</span><i>×</i><span>Human judgment</span><i>×</i><span>AI execution</span><i>×</i><span>Criterio humano</span><i>×</i><span>Ejecución con IA</span><i>×</i><span>16 semanas</span><i>×</i><span>Todo a tu nombre</span><i>×</i><span>Human judgment</span><i>×</i><span>AI execution</span><i>×</i></div></div>
+<footer class="pad">
+  <div class="f-cols">
+    <div><span class="mono">Índice</span><a href="#que">Qué hacemos</a><a href="#agentes">Agentes</a><a href="#clientes">Clientes</a><a href="#proceso">Proceso</a></div>
+    <div><span class="mono">¿Hablamos?</span><a href="mailto:hello@vrtcl.tech">hello@vrtcl.tech</a><a href="#contacto">Pide tu auditoría</a></div>
+  </div>
+  <div class="f-brand"><div class="f-logo"><svg class="vr-locktag" viewBox="205 600 1085 280" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="VRTCL. Human judgment. AI execution."><g transform="matrix(1, 0, 0, 1, 210, 610)"><g><g><path fill="currentColor" d="M 66.886719 13.839844 L 71.351562 47.136719 C 71.894531 51.210938 74.542969 54.695312 78.316406 56.3125 L 200.101562 108.480469 C 208.425781 112.050781 217.460938 105.183594 216.257812 96.207031 L 211.792969 62.910156 C 211.25 58.839844 208.601562 55.355469 204.828125 53.738281 L 83.046875 1.566406 C 74.71875 -2 65.683594 4.863281 66.886719 13.839844 Z M 125.53125 87.289062 L 247.3125 139.464844 C 251.089844 141.082031 253.738281 144.566406 254.28125 148.636719 L 258.746094 181.933594 C 259.949219 190.910156 250.910156 197.777344 242.589844 194.207031 L 120.808594 142.035156 C 117.035156 140.417969 114.386719 136.933594 113.839844 132.859375 L 109.378906 99.566406 C 108.175781 90.589844 117.210938 83.722656 125.53125 87.289062 Z M 17.449219 106.296875 L 139.230469 158.46875 C 143.003906 160.085938 145.652344 163.570312 146.199219 167.640625 L 150.660156 200.9375 C 151.863281 209.914062 142.828125 216.78125 134.507812 213.210938 L 12.722656 161.039062 C 8.949219 159.421875 6.300781 155.9375 5.757812 151.863281 L 1.292969 118.570312 C 0.0859375 109.589844 9.125 102.726562 17.449219 106.296875 Z M 17.449219 106.296875 " fill-opacity="1" fill-rule="nonzero"/></g></g></g><g transform="matrix(1, 0, 0, 1, 475, 601)"><g><g fill="currentColor" fill-opacity="1"><g transform="translate(9.616637, 213.256064)"><g><path d="M 75.46875 0 L -6.640625 -195.796875 L 43.671875 -195.796875 L 93.03125 -67.15625 L 142.390625 -195.796875 L 192.703125 -195.796875 L 110.59375 0 Z M 75.46875 0 "/></g></g></g><g fill="currentColor" fill-opacity="1"><g transform="translate(196.156344, 213.256064)"><g><path d="M 14.234375 -195.796875 L 84.25 -195.796875 C 103.082031 -195.796875 118.429688 -190.769531 130.296875 -180.71875 C 142.160156 -170.675781 148.09375 -156.320312 148.09375 -137.65625 C 148.09375 -123.25 144.492188 -111.179688 137.296875 -101.453125 C 130.097656 -91.722656 120.328125 -84.878906 107.984375 -80.921875 L 175.390625 0 L 118.65625 0 L 58.859375 -77.375 L 58.859375 0 L 14.234375 0 Z M 58.859375 -108.9375 L 64.078125 -108.9375 C 68.191406 -108.9375 71.671875 -109.015625 74.515625 -109.171875 C 77.367188 -109.328125 80.613281 -109.878906 84.25 -110.828125 C 87.882812 -111.773438 90.8125 -113.117188 93.03125 -114.859375 C 95.25 -116.609375 97.148438 -119.140625 98.734375 -122.453125 C 100.316406 -125.773438 101.109375 -129.8125 101.109375 -134.5625 C 101.109375 -139.3125 100.316406 -143.347656 98.734375 -146.671875 C 97.148438 -149.992188 95.25 -152.523438 93.03125 -154.265625 C 90.8125 -156.003906 87.882812 -157.347656 84.25 -158.296875 C 80.613281 -159.242188 77.367188 -159.796875 74.515625 -159.953125 C 71.671875 -160.117188 68.191406 -160.203125 64.078125 -160.203125 L 58.859375 -160.203125 Z M 58.859375 -108.9375 "/></g></g></g><g fill="currentColor" fill-opacity="1"><g transform="translate(357.064636, 213.256064)"><g><path d="M 1.90625 -156.640625 L 1.90625 -195.796875 L 139.546875 -195.796875 L 139.546875 -156.640625 L 93.03125 -156.640625 L 93.03125 0 L 48.421875 0 L 48.421875 -156.640625 Z M 1.90625 -156.640625 "/></g></g></g><g fill="currentColor" fill-opacity="1"><g transform="translate(491.392213, 213.256064)"><g><path d="M 118.421875 -40.34375 C 125.222656 -40.34375 131.828125 -41.367188 138.234375 -43.421875 C 144.648438 -45.484375 149.359375 -47.460938 152.359375 -49.359375 L 156.875 -52.453125 L 175.859375 -14.484375 C 175.222656 -14.003906 174.351562 -13.367188 173.25 -12.578125 C 172.144531 -11.785156 169.570312 -10.320312 165.53125 -8.1875 C 161.5 -6.050781 157.1875 -4.191406 152.59375 -2.609375 C 148.007812 -1.023438 142 0.394531 134.5625 1.65625 C 127.125 2.925781 119.453125 3.5625 111.546875 3.5625 C 93.347656 3.5625 76.097656 -0.90625 59.796875 -9.84375 C 43.503906 -18.789062 30.375 -31.09375 20.40625 -46.75 C 10.4375 -62.414062 5.453125 -79.347656 5.453125 -97.546875 C 5.453125 -111.304688 8.378906 -124.515625 14.234375 -137.171875 C 20.085938 -149.828125 27.878906 -160.664062 37.609375 -169.6875 C 47.347656 -178.707031 58.703125 -185.90625 71.671875 -191.28125 C 84.648438 -196.664062 97.941406 -199.359375 111.546875 -199.359375 C 124.203125 -199.359375 135.867188 -197.851562 146.546875 -194.84375 C 157.222656 -191.84375 164.78125 -188.835938 169.21875 -185.828125 L 175.859375 -181.3125 L 156.875 -143.34375 C 155.769531 -144.289062 154.109375 -145.4375 151.890625 -146.78125 C 149.671875 -148.132812 145.238281 -149.914062 138.59375 -152.125 C 131.945312 -154.34375 125.222656 -155.453125 118.421875 -155.453125 C 107.660156 -155.453125 98.007812 -153.707031 89.46875 -150.21875 C 80.925781 -146.738281 74.160156 -142.148438 69.171875 -136.453125 C 64.191406 -130.765625 60.394531 -124.632812 57.78125 -118.0625 C 55.175781 -111.5 53.875 -104.816406 53.875 -98.015625 C 53.875 -83.140625 59.453125 -69.804688 70.609375 -58.015625 C 81.765625 -46.234375 97.703125 -40.34375 118.421875 -40.34375 Z M 118.421875 -40.34375 "/></g></g></g><g fill="currentColor" fill-opacity="1"><g transform="translate(670.574781, 213.256064)"><g><path d="M 58.859375 -195.796875 L 58.859375 -39.15625 L 126.265625 -39.15625 L 126.265625 0 L 14.234375 0 L 14.234375 -195.796875 Z M 58.859375 -195.796875 "/></g></g></g></g></g><g transform="matrix(1, 0, 0, 1, 682, 828)"><g><g fill="currentColor" fill-opacity="1"><g transform="translate(1.074659, 35.604048)"><g><path d="M 5.40625 0 L 2.796875 0 L 2.796875 -25.390625 L 5.40625 -25.390625 L 5.40625 -13.953125 L 16.953125 -13.953125 L 16.953125 -25.390625 L 19.5625 -25.390625 L 19.5625 0 L 16.953125 0 L 16.953125 -11.34375 L 5.40625 -11.34375 Z M 5.40625 0 "/></g></g></g><g fill="currentColor" fill-opacity="1"><g transform="translate(24.17927, 35.604048)"><g><path d="M 21.171875 -8.40625 C 21.171875 -5.664062 20.273438 -3.5 18.484375 -1.90625 C 16.785156 -0.40625 14.53125 0.34375 11.71875 0.34375 C 8.882812 0.34375 6.617188 -0.40625 4.921875 -1.90625 C 3.128906 -3.5 2.234375 -5.664062 2.234375 -8.40625 L 2.234375 -25.390625 L 4.859375 -25.390625 L 4.859375 -8.03125 C 4.859375 -6.113281 5.550781 -4.644531 6.9375 -3.625 C 8.132812 -2.726562 9.726562 -2.28125 11.71875 -2.28125 C 14.832031 -2.28125 16.925781 -3.320312 18 -5.40625 C 18.363281 -6.132812 18.546875 -7.007812 18.546875 -8.03125 L 18.546875 -25.390625 L 21.171875 -25.390625 Z M 21.171875 -8.40625 "/></g></g></g><g fill="currentColor" fill-opacity="1"><g transform="translate(48.32901, 35.604048)"><g><path d="M 26.203125 0 L 22.25 -18.0625 L 14.625 1.5 L 6.984375 -18.0625 L 3.0625 0 L 0.375 0 L 6.3125 -27.0625 L 14.625 -5.34375 L 22.953125 -27.0625 L 28.859375 0 Z M 26.203125 0 "/></g></g></g><g fill="currentColor" fill-opacity="1"><g transform="translate(78.301529, 35.604048)"><g><path d="M 6.90625 -9.328125 L 16.125 -9.328125 L 11.53125 -21.015625 Z M 22.65625 0 L 19.828125 0 L 17.09375 -6.90625 L 5.9375 -6.90625 L 3.203125 0 L 0.375 0 L 11.53125 -27.140625 Z M 22.65625 0 "/></g></g></g><g fill="currentColor" fill-opacity="1"><g transform="translate(102.078012, 35.604048)"><g><path d="M 5.40625 -18.703125 L 5.40625 0 L 2.796875 0 L 2.796875 -26.984375 L 17.0625 -6.71875 L 17.0625 -25.390625 L 19.671875 -25.390625 L 19.671875 1.5625 Z M 5.40625 -18.703125 "/></g></g></g><g fill="currentColor" fill-opacity="1"><g transform="translate(125.294608, 35.604048)"><g/></g></g><g fill="currentColor" fill-opacity="1"><g transform="translate(136.119128, 35.604048)"><g><path d="M 11.390625 -6.265625 C 11.390625 -3.828125 10.539062 -2.035156 8.84375 -0.890625 C 7.5 0.00390625 5.820312 0.425781 3.8125 0.375 C 2.957031 0.351562 2.207031 0.238281 1.5625 0.03125 C 0.894531 -0.132812 0.4375 -0.316406 0.1875 -0.515625 L 0.1875 -3.390625 C 0.882812 -2.796875 1.914062 -2.425781 3.28125 -2.28125 C 4.726562 -2.101562 5.960938 -2.300781 6.984375 -2.875 C 8.171875 -3.539062 8.765625 -4.671875 8.765625 -6.265625 L 8.765625 -25.390625 L 11.390625 -25.390625 Z M 11.390625 -6.265625 "/></g></g></g><g fill="currentColor" fill-opacity="1"><g transform="translate(150.489561, 35.604048)"><g><path d="M 21.171875 -8.40625 C 21.171875 -5.664062 20.273438 -3.5 18.484375 -1.90625 C 16.785156 -0.40625 14.53125 0.34375 11.71875 0.34375 C 8.882812 0.34375 6.617188 -0.40625 4.921875 -1.90625 C 3.128906 -3.5 2.234375 -5.664062 2.234375 -8.40625 L 2.234375 -25.390625 L 4.859375 -25.390625 L 4.859375 -8.03125 C 4.859375 -6.113281 5.550781 -4.644531 6.9375 -3.625 C 8.132812 -2.726562 9.726562 -2.28125 11.71875 -2.28125 C 14.832031 -2.28125 16.925781 -3.320312 18 -5.40625 C 18.363281 -6.132812 18.546875 -7.007812 18.546875 -8.03125 L 18.546875 -25.390625 L 21.171875 -25.390625 Z M 21.171875 -8.40625 "/></g></g></g><g fill="currentColor" fill-opacity="1"><g transform="translate(174.6393, 35.604048)"><g><path d="M 22.515625 -12.6875 C 22.515625 -10.84375 22.175781 -9.148438 21.5 -7.609375 C 20.800781 -6.046875 19.867188 -4.703125 18.703125 -3.578125 C 17.535156 -2.460938 16.15625 -1.59375 14.5625 -0.96875 C 12.96875 -0.320312 11.257812 0 9.4375 0 L 2.796875 0 L 2.796875 -25.390625 L 9.4375 -25.390625 C 11.257812 -25.390625 12.96875 -25.078125 14.5625 -24.453125 C 16.15625 -23.804688 17.535156 -22.921875 18.703125 -21.796875 C 19.867188 -20.679688 20.800781 -19.351562 21.5 -17.8125 C 22.175781 -16.238281 22.515625 -14.53125 22.515625 -12.6875 Z M 19.96875 -12.6875 C 19.96875 -15.570312 18.945312 -17.988281 16.90625 -19.9375 C 14.914062 -21.820312 12.453125 -22.765625 9.515625 -22.765625 L 5.40625 -22.765625 L 5.40625 -2.609375 L 9.515625 -2.609375 C 12.453125 -2.609375 14.914062 -3.554688 16.90625 -5.453125 C 18.945312 -7.390625 19.96875 -9.800781 19.96875 -12.6875 Z M 19.96875 -12.6875 "/></g></g></g><g fill="currentColor" fill-opacity="1"><g transform="translate(199.572878, 35.604048)"><g><path d="M 27.84375 -11.875 L 27.578125 -10.296875 C 27.035156 -7.210938 25.53125 -4.675781 23.0625 -2.6875 C 20.601562 -0.695312 17.832031 0.296875 14.75 0.296875 C 12.957031 0.296875 11.265625 -0.0507812 9.671875 -0.75 C 8.078125 -1.414062 6.695312 -2.347656 5.53125 -3.546875 C 4.332031 -4.710938 3.394531 -6.09375 2.71875 -7.6875 C 2.03125 -9.28125 1.6875 -10.984375 1.6875 -12.796875 C 1.6875 -14.585938 2.03125 -16.28125 2.71875 -17.875 C 3.394531 -19.46875 4.332031 -20.863281 5.53125 -22.0625 C 6.695312 -23.226562 8.078125 -24.160156 9.671875 -24.859375 C 11.265625 -25.535156 12.867188 -25.875 14.484375 -25.875 C 17.515625 -25.875 20.191406 -25.015625 22.515625 -23.296875 C 24.847656 -21.578125 26.4375 -19.3125 27.28125 -16.5 L 24.53125 -16.5 C 23.726562 -18.5625 22.445312 -20.203125 20.6875 -21.421875 C 18.894531 -22.640625 16.914062 -23.25 14.75 -23.25 C 11.863281 -23.25 9.398438 -22.226562 7.359375 -20.1875 C 5.316406 -18.15625 4.296875 -15.691406 4.296875 -12.796875 C 4.296875 -9.941406 5.316406 -7.476562 7.359375 -5.40625 C 9.367188 -3.34375 11.832031 -2.3125 14.75 -2.3125 C 17.03125 -2.3125 19.117188 -2.972656 21.015625 -4.296875 C 22.878906 -5.640625 24.1875 -7.40625 24.9375 -9.59375 L 14.625 -9.59375 L 14.625 -11.875 Z M 27.84375 -11.875 "/></g></g></g><g fill="currentColor" fill-opacity="1"><g transform="translate(229.843994, 35.604048)"><g><path d="M 26.203125 0 L 22.25 -18.0625 L 14.625 1.5 L 6.984375 -18.0625 L 3.0625 0 L 0.375 0 L 6.3125 -27.0625 L 14.625 -5.34375 L 22.953125 -27.0625 L 28.859375 0 Z M 26.203125 0 "/></g></g></g><g fill="currentColor" fill-opacity="1"><g transform="translate(259.816514, 35.604048)"><g><path d="M 17.875 0 L 2.796875 0 L 2.796875 -25.390625 L 17.875 -25.390625 L 17.875 -22.953125 L 5.40625 -22.953125 L 5.40625 -13.921875 L 17.5 -13.921875 L 17.5 -11.453125 L 5.40625 -11.453125 L 5.40625 -2.421875 L 17.875 -2.421875 Z M 17.875 0 "/></g></g></g><g fill="currentColor" fill-opacity="1"><g transform="translate(281.241484, 35.604048)"><g><path d="M 5.40625 -18.703125 L 5.40625 0 L 2.796875 0 L 2.796875 -26.984375 L 17.0625 -6.71875 L 17.0625 -25.390625 L 19.671875 -25.390625 L 19.671875 1.5625 Z M 5.40625 -18.703125 "/></g></g></g><g fill="currentColor" fill-opacity="1"><g transform="translate(304.458098, 35.604048)"><g><path d="M 0.75 -23.03125 L 0.75 -25.453125 L 15.671875 -25.453125 L 15.671875 -23.03125 L 9.515625 -23.03125 L 9.515625 -0.078125 L 6.90625 -0.078125 L 6.90625 -23.03125 Z M 0.75 -23.03125 "/></g></g></g><g fill="currentColor" fill-opacity="1"><g transform="translate(321.627946, 35.604048)"><g><path d="M 4.96875 0.375 C 4.394531 0.375 3.894531 0.160156 3.46875 -0.265625 C 3.019531 -0.660156 2.796875 -1.144531 2.796875 -1.71875 C 2.796875 -2.289062 3.007812 -2.785156 3.4375 -3.203125 C 3.851562 -3.628906 4.363281 -3.84375 4.96875 -3.84375 C 5.5625 -3.84375 6.082031 -3.644531 6.53125 -3.25 C 6.957031 -2.820312 7.171875 -2.320312 7.171875 -1.75 C 7.171875 -1.15625 6.945312 -0.660156 6.5 -0.265625 C 6.050781 0.160156 5.539062 0.375 4.96875 0.375 Z M 4.96875 0.375 "/></g></g></g><g fill="currentColor" fill-opacity="1"><g transform="translate(332.340482, 35.604048)"><g/></g></g><g fill="currentColor" fill-opacity="1"><g transform="translate(343.164985, 35.604048)"><g><path d="M 6.90625 -9.328125 L 16.125 -9.328125 L 11.53125 -21.015625 Z M 22.65625 0 L 19.828125 0 L 17.09375 -6.90625 L 5.9375 -6.90625 L 3.203125 0 L 0.375 0 L 11.53125 -27.140625 Z M 22.65625 0 "/></g></g></g><g fill="currentColor" fill-opacity="1"><g transform="translate(366.941502, 35.604048)"><g><path d="M 5.40625 0 L 2.796875 0 L 2.796875 -25.390625 L 5.40625 -25.390625 Z M 5.40625 0 "/></g></g></g><g fill="currentColor" fill-opacity="1"><g transform="translate(375.899718, 35.604048)"><g/></g></g><g fill="currentColor" fill-opacity="1"><g transform="translate(386.724255, 35.604048)"><g><path d="M 17.875 0 L 2.796875 0 L 2.796875 -25.390625 L 17.875 -25.390625 L 17.875 -22.953125 L 5.40625 -22.953125 L 5.40625 -13.921875 L 17.5 -13.921875 L 17.5 -11.453125 L 5.40625 -11.453125 L 5.40625 -2.421875 L 17.875 -2.421875 Z M 17.875 0 "/></g></g></g><g fill="currentColor" fill-opacity="1"><g transform="translate(408.149191, 35.604048)"><g><path d="M 18.625 0 L 11.3125 -10.828125 L 4 0 L 0.78125 0 L 9.703125 -12.65625 L 0.75 -25.390625 L 4 -25.390625 L 11.3125 -14.5625 L 18.625 -25.390625 L 21.84375 -25.390625 L 12.921875 -12.6875 L 21.84375 0 Z M 18.625 0 "/></g></g></g><g fill="currentColor" fill-opacity="1"><g transform="translate(431.515093, 35.604048)"><g><path d="M 17.875 0 L 2.796875 0 L 2.796875 -25.390625 L 17.875 -25.390625 L 17.875 -22.953125 L 5.40625 -22.953125 L 5.40625 -13.921875 L 17.5 -13.921875 L 17.5 -11.453125 L 5.40625 -11.453125 L 5.40625 -2.421875 L 17.875 -2.421875 Z M 17.875 0 "/></g></g></g><g fill="currentColor" fill-opacity="1"><g transform="translate(452.940097, 35.604048)"><g><path d="M 26.09375 -7.765625 C 25.144531 -5.328125 23.601562 -3.375 21.46875 -1.90625 C 19.300781 -0.382812 16.921875 0.375 14.328125 0.375 C 10.828125 0.375 7.832031 -0.921875 5.34375 -3.515625 C 2.90625 -6.046875 1.6875 -9.09375 1.6875 -12.65625 C 1.6875 -14.414062 2.007812 -16.09375 2.65625 -17.6875 C 3.300781 -19.257812 4.195312 -20.644531 5.34375 -21.84375 C 7.832031 -24.425781 10.828125 -25.71875 14.328125 -25.71875 C 16.921875 -25.71875 19.285156 -24.984375 21.421875 -23.515625 C 23.566406 -22.023438 25.113281 -20.070312 26.0625 -17.65625 L 23.1875 -17.65625 C 21.8125 -20.164062 19.769531 -21.832031 17.0625 -22.65625 C 16.164062 -22.90625 15.128906 -23.03125 13.953125 -23.03125 C 12.785156 -23.03125 11.59375 -22.753906 10.375 -22.203125 C 9.15625 -21.640625 8.097656 -20.882812 7.203125 -19.9375 C 5.265625 -17.914062 4.296875 -15.488281 4.296875 -12.65625 C 4.296875 -9.84375 5.265625 -7.425781 7.203125 -5.40625 C 9.171875 -3.34375 11.546875 -2.3125 14.328125 -2.3125 C 16.222656 -2.3125 17.96875 -2.8125 19.5625 -3.8125 C 21.125 -4.800781 22.34375 -6.117188 23.21875 -7.765625 Z M 26.09375 -7.765625 "/></g></g></g><g fill="currentColor" fill-opacity="1"><g transform="translate(480.897023, 35.604048)"><g><path d="M 21.171875 -8.40625 C 21.171875 -5.664062 20.273438 -3.5 18.484375 -1.90625 C 16.785156 -0.40625 14.53125 0.34375 11.71875 0.34375 C 8.882812 0.34375 6.617188 -0.40625 4.921875 -1.90625 C 3.128906 -3.5 2.234375 -5.664062 2.234375 -8.40625 L 2.234375 -25.390625 L 4.859375 -25.390625 L 4.859375 -8.03125 C 4.859375 -6.113281 5.550781 -4.644531 6.9375 -3.625 C 8.132812 -2.726562 9.726562 -2.28125 11.71875 -2.28125 C 14.832031 -2.28125 16.925781 -3.320312 18 -5.40625 C 18.363281 -6.132812 18.546875 -7.007812 18.546875 -8.03125 L 18.546875 -25.390625 L 21.171875 -25.390625 Z M 21.171875 -8.40625 "/></g></g></g><g fill="currentColor" fill-opacity="1"><g transform="translate(505.046763, 35.604048)"><g><path d="M 0.75 -23.03125 L 0.75 -25.453125 L 15.671875 -25.453125 L 15.671875 -23.03125 L 9.515625 -23.03125 L 9.515625 -0.078125 L 6.90625 -0.078125 L 6.90625 -23.03125 Z M 0.75 -23.03125 "/></g></g></g><g fill="currentColor" fill-opacity="1"><g transform="translate(522.216645, 35.604048)"><g><path d="M 5.40625 0 L 2.796875 0 L 2.796875 -25.390625 L 5.40625 -25.390625 Z M 5.40625 0 "/></g></g></g><g fill="currentColor" fill-opacity="1"><g transform="translate(531.17486, 35.604048)"><g><path d="M 25.15625 -12.765625 C 25.15625 -15.628906 24.132812 -18.082031 22.09375 -20.125 C 20.050781 -22.164062 17.585938 -23.1875 14.703125 -23.1875 C 11.847656 -23.1875 9.398438 -22.164062 7.359375 -20.125 C 5.316406 -18.082031 4.296875 -15.628906 4.296875 -12.765625 C 4.296875 -9.878906 5.316406 -7.414062 7.359375 -5.375 C 9.398438 -3.332031 11.847656 -2.3125 14.703125 -2.3125 C 17.585938 -2.3125 20.050781 -3.332031 22.09375 -5.375 C 24.132812 -7.414062 25.15625 -9.878906 25.15625 -12.765625 Z M 27.765625 -12.765625 C 27.765625 -10.972656 27.429688 -9.28125 26.765625 -7.6875 C 26.066406 -6.09375 25.132812 -4.710938 23.96875 -3.546875 C 22.769531 -2.347656 21.375 -1.414062 19.78125 -0.75 C 18.1875 -0.0507812 16.492188 0.296875 14.703125 0.296875 C 12.910156 0.296875 11.234375 -0.0507812 9.671875 -0.75 C 8.078125 -1.414062 6.695312 -2.347656 5.53125 -3.546875 C 4.332031 -4.710938 3.394531 -6.09375 2.71875 -7.6875 C 2.03125 -9.28125 1.6875 -10.972656 1.6875 -12.765625 C 1.6875 -14.554688 2.03125 -16.25 2.71875 -17.84375 C 3.394531 -19.4375 4.332031 -20.816406 5.53125 -21.984375 C 6.695312 -23.148438 8.078125 -24.082031 9.671875 -24.78125 C 11.234375 -25.457031 12.910156 -25.796875 14.703125 -25.796875 C 16.492188 -25.796875 18.1875 -25.457031 19.78125 -24.78125 C 21.375 -24.082031 22.769531 -23.148438 23.96875 -21.984375 C 25.132812 -20.816406 26.066406 -19.4375 26.765625 -17.84375 C 27.429688 -16.25 27.765625 -14.554688 27.765625 -12.765625 Z M 27.765625 -12.765625 "/></g></g></g><g fill="currentColor" fill-opacity="1"><g transform="translate(561.371332, 35.604048)"><g><path d="M 5.40625 -18.703125 L 5.40625 0 L 2.796875 0 L 2.796875 -26.984375 L 17.0625 -6.71875 L 17.0625 -25.390625 L 19.671875 -25.390625 L 19.671875 1.5625 Z M 5.40625 -18.703125 "/></g></g></g><g fill="currentColor" fill-opacity="1"><g transform="translate(584.587945, 35.604048)"><g><path d="M 4.96875 0.375 C 4.394531 0.375 3.894531 0.160156 3.46875 -0.265625 C 3.019531 -0.660156 2.796875 -1.144531 2.796875 -1.71875 C 2.796875 -2.289062 3.007812 -2.785156 3.4375 -3.203125 C 3.851562 -3.628906 4.363281 -3.84375 4.96875 -3.84375 C 5.5625 -3.84375 6.082031 -3.644531 6.53125 -3.25 C 6.957031 -2.820312 7.171875 -2.320312 7.171875 -1.75 C 7.171875 -1.15625 6.945312 -0.660156 6.5 -0.265625 C 6.050781 0.160156 5.539062 0.375 4.96875 0.375 Z M 4.96875 0.375 "/></g></g></g></g></g></svg></div></div>
+  <div class="f-bottom mono"><span>VRTCL © 2026</span><nav class="f-legal" aria-label="Legal"><a href="/aviso-legal/">Aviso legal</a><a href="/privacidad/">Privacidad</a><a href="/cookies/">Cookies</a><a href="/seguridad/">Seguridad</a><button type="button" class="f-btn" id="ckOpen" hidden>Configurar cookies</button><button type="button" class="f-btn" id="mvToggle" aria-pressed="false">Desactivar movimiento</button></nav></div>
+</footer>
+<div class="ck" id="ck" role="dialog" aria-live="polite" aria-label="Aviso de cookies" hidden>
+  <h2>Cookies</h2>
+  <p>Usamos cookies de analítica (Google Analytics) para saber cuánta gente visita la web y qué le interesa. Solo se activan si las aceptas. Más información en la <a href="/cookies/">política de cookies</a>.</p>
+  <div class="ck-opts" id="ckOpts" hidden>
+    <label><input type="checkbox" checked disabled> <span><b>Técnicas.</b> Necesarias para que la web funcione y recuerde tus preferencias. Siempre activas.</span></label>
+    <label><input type="checkbox" id="ckAn"> <span><b>Analítica.</b> Google Analytics 4: visitas, páginas vistas y de dónde llegas.</span></label>
+  </div>
+  <div class="ck-row"><button type="button" class="ck-r" id="ckNo">Rechazar</button><button type="button" class="ck-c" id="ckCfg">Configurar</button><button type="button" class="ck-a" id="ckYes">Aceptar</button></div>
+</div>
+
+
+<script>
+document.documentElement.classList.add('js');
+(function(){
+  var f=document.getElementById('form'), tel=f.querySelector('.tel'), ti=f.telefono, pre=f.prefijo, hint=document.getElementById('telHint');
+  function digits(){ return ti.value.replace(/[\s.\-()]/g,''); }
+  function telOk(){ var d=digits(); return pre.value==='+34' ? /^[6789]\d{8}$/.test(d) : /^\d{6,14}$/.test(d); }
+  function setHint(){ hint.textContent = pre.value==='+34' ? '9 cifras, empieza por 6, 7, 8 o 9.' : 'Solo cifras, sin el prefijo.'; }
+  function check(){ var ok=telOk(); tel.classList.toggle('ok',ok); return ok; }
+  ti.addEventListener('input',function(){ check(); if(telOk()) ti.closest('label').classList.remove('bad'); });
+  ti.addEventListener('blur',function(){ if(ti.value) ti.closest('label').classList.toggle('bad',!telOk()); });
+  pre.addEventListener('change',function(){ setHint(); check(); });
+  f.addEventListener('submit',function(e){
+    e.preventDefault(); var first=null;
+    [f.nombre,f.email,f.empresa].forEach(function(el){ var bad=!el.value.trim()||(el.type==='email'&&!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(el.value)); el.closest('label').classList.toggle('bad',bad); if(bad&&!first) first=el; });
+    var tb=!telOk(); ti.closest('label').classList.toggle('bad',tb); if(tb&&!first) first=ti;
+    var pb=!f.privacidad.checked; f.privacidad.closest('label').classList.toggle('bad',pb); if(pb&&!first) first=f.privacidad;
+    if(first){ first.focus(); return; }
+    var btn=f.querySelector('button[type=submit]'); f.classList.remove('fail'); f.classList.add('sending');
+    var data={}; new FormData(f).forEach(function(v,k){ data[k]=v; }); data.privacidad=f.privacidad.checked; data.pagina=location.pathname;
+    var q=new URLSearchParams(location.search), utm={}; ['utm_source','utm_medium','utm_campaign','utm_term','utm_content'].forEach(function(k){ if(q.get(k)) utm[k]=q.get(k).slice(0,100); }); if(Object.keys(utm).length) data.utm=utm;
+    fetch('/api/contacto',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(data)})
+      .then(function(r){ if(!r.ok) throw new Error(r.status); f.classList.add('done'); f.reset(); tel.classList.remove('ok'); if(window.vrtclLead) window.vrtclLead(); })
+      .catch(function(){ f.classList.add('fail'); })
+      .then(function(){ f.classList.remove('sending'); });
+  });
+})();
+</script>
+<script>
+(function(){
+  // Agentes en acción: panel animado. Solo corre cuando está a la vista.
+  var root=document.getElementById('ax'); if(!root) return;
+  var reduce=!!window.__noMotion||(window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches);
+  var SPEED=.72, panel=document.getElementById('axp');
+  var $=function(id){return document.getElementById(id)};
+  var seen=false, wakers=[];
+  if('IntersectionObserver' in window){ new IntersectionObserver(function(es){ seen=es[0].isIntersecting; if(seen){ var w=wakers; wakers=[]; w.forEach(function(f){f()}); } },{threshold:.15}).observe(root); } else seen=true;
+  function gate(){ return (seen&&!document.hidden)?Promise.resolve():new Promise(function(r){wakers.push(r)}); }
+  document.addEventListener('visibilitychange',function(){ if(!document.hidden&&seen){ var w=wakers; wakers=[]; w.forEach(function(f){f()}); } });
+  var wait=function(ms){return new Promise(function(r){setTimeout(r,reduce?0:ms*SPEED)})};
+
+  var NAMES=['Buscador','Limpiador','Vigía','Puntuador','Investigador','Redactor','Lector','Cuidador','Analista','Portavoz','Tu equipo'];
+  var svg='<svg width="15" height="19" viewBox="0 0 16 20"><path d="M1 1 L1 16 L5 12 L8 19 L11 18 L8 11 L14 11 Z" fill="#ffffff" stroke="#161616" stroke-width="1.4" stroke-linejoin="round"/></svg>';
+  var curs={};
+  NAMES.forEach(function(n){
+    var slot=document.createElement('i'); $('axDock').appendChild(slot);
+    var c=document.createElement('div'); c.className='ax-cur'+(n==='Tu equipo'?' human':''); c.innerHTML=svg+'<span>'+n+'</span>';
+    $('axCurs').appendChild(c); curs[n]={el:c,slot:slot};
+  });
+  function off(){ return getComputedStyle(curs['Vigía'].el).display==='none'; }
+  function pos(el,dx,dy){ var r=el.getBoundingClientRect(), p=panel.getBoundingClientRect(); return [r.left-p.left+(dx||0), r.top-p.top+(dy||0)]; }
+  function place(n,x,y,instant){ var c=curs[n].el; c.classList.toggle('flip', x>panel.clientWidth-150); if(instant) c.style.transition='none'; c.style.transform='translate('+x+'px,'+y+'px)'; if(instant){ c.offsetWidth; c.style.transition=''; } }
+  function park(n,instant){ var p=pos(curs[n].slot,0,0); place(n,p[0],p[1],instant); }
+  function busy(){ var k=NAMES.filter(function(n){return curs[n].el.classList.contains('on')}).length; $('axBusy').textContent=k>1?k+' tareas a la vez':(k===1?'1 tarea en curso':'10 agentes en marcha'); }
+  async function go(n,el,dx,dy){ await gate(); curs[n].el.classList.add('on'); busy(); if(off()){ await wait(350); return; } var p=pos(el,dx,dy); place(n,p[0],p[1]); await wait(1000); }
+  async function click(n){ curs[n].el.classList.add('click'); await wait(200); curs[n].el.classList.remove('click'); }
+  function home(n){ curs[n].el.classList.remove('on'); busy(); park(n); }
+  function hl(el,on){ el.classList.toggle('ax-hl',on); }
+  function log(who,txt){ var li=document.createElement('li'); li.innerHTML='<b>'+who+'</b>'+txt; $('axLog').insertBefore(li,$('axLog').firstChild); }
+  function bump(id,v){ var e=$(id); e.textContent=v; e.classList.add('ax-bump'); setTimeout(function(){e.classList.remove('ax-bump')},1200); }
+  function add(id,d){ bump(id,(+$(id).textContent)+d); }
+  async function type(el,text,ms){ el.innerHTML=''; var t=document.createTextNode(''), c=document.createElement('i'); c.className='ax-caret'; el.appendChild(t); el.appendChild(c);
+    if(reduce){ t.data=text; c.remove(); return; } for(var i=1;i<=text.length;i+=2){ t.data=text.slice(0,i+1); await wait(ms||14); } t.data=text; c.remove(); }
+  function cap(n,t){ $('axCapN').textContent=('0'+n).slice(-2); $('axCapT').innerHTML=t; }
+
+  var BASE=[
+    {k:'G',n:'Grupo de clínicas',s:'Pidió precios por correo',sc:84,tag:'SQL',hot:1},
+    {k:'C',n:'Constructora',s:'Visitó 3 veces tu web de servicios',sc:71,tag:'MQL'},
+    {k:'H',n:'Hotel Atlántico',s:'Ya está en tu CRM',sc:'',tag:''},
+    {k:'H',n:'Hotel Atlántico S.L.',s:'Duplicado del anterior',sc:'',tag:''},
+    {k:'A',n:'Asesoría fiscal',s:'Contrata responsable comercial',sc:66,tag:'ICP'}];
+  function rowHtml(r){ return '<span class="ax-av">'+r.k+'</span><div><b>'+r.n+'</b><small>'+r.s+'</small></div><span class="ax-sc">'+(r.sc||'')+(r.tag?'<em class="ax-tag'+(r.hot?' hot':'')+'">'+r.tag+'</em>':'')+'</span>'; }
+  function newRow(r){ var d=document.createElement('div'); d.className='ax-row new ax-enter'; d.innerHTML=rowHtml(r); $('axRows').insertBefore(d,$('axRows').firstChild); hl(d,true); setTimeout(function(){hl(d,false)},1000); return d; }
+  async function score(n,row,v,tag){ var s=row.querySelector('.ax-sc'); await go(n,s,4,8); hl(s,true); for(var x=0;x<=v;x+=reduce?v:6){ s.textContent=x; await wait(14);} s.innerHTML=v+'<em class="ax-tag hot">'+tag+'</em>'; hl(s,false); }
+  function chipTo(k,i,row){ var c=$('axChip'+k), col=$('axC'+i), p=pos(col,10,40+(row||0)*34), first=getComputedStyle(c).opacity==='0';
+    c.style.width=(col.offsetWidth-20)+'px'; if(first) c.style.transition='none'; c.style.transform='translate('+p[0]+'px,'+p[1]+'px)'; if(first){ c.offsetWidth; c.style.transition=''; } c.style.opacity=1; }
+  function flash(i){ var c=$('axC'+i); c.classList.add('ax-hl'); setTimeout(function(){c.classList.remove('ax-hl')},900); }
+
+  var MSG=[
+    {to:'Para Marta, directora de operaciones · Distribuidora de bebidas',b:'Hola, Marta: he visto que abrís un almacén nuevo. Cuando una distribuidora crece así, lo primero que se complica suele ser el reparto. ¿Te paso cómo lo ordenaron otras dos del sector?'},
+    {to:'Para Jorge, CEO · Agencia de viajes',b:'Hola, Jorge: enhorabuena por la ronda. Con más equipo comercial, el reto suele ser que cada uno no trabaje su propia lista. ¿Te cuento cómo lo resolvió otra agencia?'},
+    {to:'Para Lucía, gerente · Clínica dental',b:'Hola, Lucía: he visto que abrís una segunda sede. Repartir la agenda entre dos clínicas suele ser lo más difícil. Te paso una idea que funcionó en otra.'}];
+  function showMsg(i){ $('axTo').textContent=MSG[i].to; $('axBody').textContent=MSG[i].b; $('axMSt').textContent=(i+1)+' de 3 · espera tu OK'; $('axMSt').className='ax-state go';
+    [].forEach.call($('axQ').children,function(q,j){ q.classList.toggle('on',j===i); q.classList.toggle('sent',j<i); }); }
+
+  var dupRow=null;
+  function reset(){
+    $('axRows').innerHTML=''; BASE.forEach(function(r,i){ var d=document.createElement('div'); d.className='ax-row'; d.innerHTML=rowHtml(r); $('axRows').appendChild(d); if(i===3) dupRow=d; });
+    ['axT','axB1','axB2','axB3','axTo','axBody','axQ'].forEach(function(i){ $(i).textContent=''; });
+    $('axBriefSt').textContent='Esperando'; $('axMSt').textContent='—'; $('axMSt').className='ax-state';
+    $('axOk').className='ax-b ok'; $('axOk').textContent='Aprobar'; $('axVerd').className='ax-verd'; $('axVerd').textContent='Semana: —';
+    [['axW1',163],['axW2',57],['axW3',20],['axW4',8],['axF0',186],['axF1',163],['axF2',57],['axF3',20],['axF4',8],['axSigN',186]].forEach(function(p){ $(p[0]).textContent=p[1]; });
+    $('axLog').innerHTML=''; log('Buscador','12 cuentas nuevas de tu ICP'); log('Analista','un rival ha cambiado sus precios');
+    [0,1,2].forEach(function(i){ var c=$('axChip'+i); c.style.transition='none'; c.style.opacity=0; c.offsetWidth; c.style.transition=''; });
+    NAMES.forEach(function(n){ curs[n].el.classList.remove('on'); park(n,true); }); busy();
+  }
+
+  async function run(){
+    reset(); await gate(); await wait(600);
+    cap(1,'Vigía detecta una señal <em>· a la vez, Buscador trae cuentas nuevas</em>');
+    var p1=go('Buscador',$('axSigN'),-8,4).then(async function(){ add('axSigN',12); add('axF0',12); log('Buscador','12 cuentas nuevas y sus decisores'); await wait(500); home('Buscador'); });
+    await go('Vigía',$('axRows'),150,4);
+    newRow({k:'D',n:'Distribuidora de bebidas',s:'Abre un almacén nuevo'}); add('axSigN',1); add('axF0',1); log('Vigía','nueva señal: Distribuidora de bebidas'); chipTo(0,0,0); flash(0);
+    await p1; await wait(400); home('Vigía');
+
+    cap(2,'Limpiador fusiona un duplicado <em>· a la vez, Vigía detecta otra señal</em>');
+    var p2=(async function(){ await go('Vigía',$('axRows'),190,4); newRow({k:'V',n:'Agencia de viajes',s:'Cierra una ronda de financiación'}); add('axSigN',1); add('axF0',1); log('Vigía','nueva señal: Agencia de viajes'); await wait(500); home('Vigía'); })();
+    await go('Limpiador',dupRow,180,12); hl(dupRow,true); await click('Limpiador'); dupRow.classList.add('dup'); dupRow.querySelector('small').textContent='Fusionado con Hotel Atlántico'; log('Limpiador','fusionó 2 duplicados');
+    await wait(700); hl(dupRow,false); home('Limpiador'); dupRow.classList.add('gone'); await p2;
+
+    cap(3,'Puntuador puntúa: solo pasan las de 80 o más <em>· a la vez, Lector clasifica una respuesta</em>');
+    var rows=$('axRows').children;
+    var p3=(async function(){ await go('Lector',$('axLog'),40,10); log('Lector','Grupo de clínicas responde: interesada'); add('axW3',1); add('axF3',1); await wait(600); home('Lector'); })();
+    await score('Puntuador',rows[1],92,'SQL'); log('Puntuador','Distribuidora de bebidas · 92 · SQL');
+    await score('Puntuador',rows[0],88,'SQL'); log('Puntuador','Agencia de viajes · 88 · SQL'); home('Puntuador'); await p3;
+
+    cap(4,'Investigador prepara la ficha <em>· a la vez, Vigía encuentra otra cuenta y Cuidador hace un seguimiento</em>');
+    var p4=(async function(){ await go('Vigía',$('axRows'),210,4); var r3=newRow({k:'L',n:'Clínica dental',s:'Abre una segunda sede'}); add('axSigN',1); add('axF0',1); log('Vigía','nueva señal: Clínica dental'); await wait(300); home('Vigía'); await score('Puntuador',r3,81,'SQL'); log('Puntuador','Clínica dental · 81 · SQL'); home('Puntuador'); })();
+    var p5=(async function(){ await wait(600); await go('Cuidador',$('axLog'),120,10); log('Cuidador','seguimiento 2 a Constructora, con un ángulo nuevo'); await wait(500); home('Cuidador'); })();
+    await go('Investigador',$('axT'),60,10); hl($('axBrief'),true); $('axBriefSt').textContent='Investigando';
+    $('axT').innerHTML='Distribuidora de bebidas<em>92</em>';
+    await type($('axB1'),'Abre almacén y contrata 3 repartidores.',12);
+    await type($('axB2'),'Directora de operaciones · gerente',12);
+    await type($('axB3'),'Pedidos que crecen más rápido que el equipo.',12);
+    $('axBriefSt').textContent='3 fichas listas'; add('axW1',3); add('axF1',3); chipTo(0,1,0); flash(1); log('Investigador','3 fichas listas: Distribuidora, Agencia y Clínica'); hl($('axBrief'),false); home('Investigador');
+    await p4; await p5;
+
+    cap(5,'Redactor prepara un mensaje para cada contacto <em>· a la vez, Analista vigila a la competencia</em>');
+    var p6=(async function(){ await wait(500); await go('Analista',$('axLog'),80,10); log('Analista','un rival lanza una oferta en tu zona'); await wait(500); home('Analista'); })();
+    await go('Redactor',$('axBody'),40,6); hl($('axMsg'),true);
+    $('axQ').innerHTML='<i>Marta</i><i>Jorge</i><i>Lucía</i>'; $('axTo').textContent=MSG[0].to; $('axMSt').textContent='Redactando 3';
+    await type($('axBody'),MSG[0].b,10);
+    add('axF2',3); chipTo(0,2,0); flash(2); showMsg(0); log('Redactor','3 borradores listos, esperan tu OK'); hl($('axMsg'),false); home('Redactor'); await p6;
+
+    cap(6,'Tu equipo revisa y aprueba. Nada sale sin tu OK.');
+    await go('Tu equipo',$('axOk'),28,12);
+    for(var i=0;i<3;i++){ await gate(); await click('Tu equipo'); $('axOk').classList.add('done','press'); setTimeout(function(){$('axOk').classList.remove('press')},150); $('axOk').textContent='Aprobado ✓'; add('axW2',1); log('Tu equipo','aprobó el mensaje a '+['Marta','Jorge','Lucía'][i]); await wait(650); $('axOk').className='ax-b ok'; $('axOk').textContent='Aprobar'; if(i<2){ showMsg(i+1); await wait(450); } }
+    $('axMSt').textContent='3 enviados'; [].forEach.call($('axQ').children,function(q){ q.classList.remove('on'); q.classList.add('sent'); }); $('axOk').classList.add('done'); $('axOk').textContent='Todo aprobado ✓'; home('Tu equipo');
+    chipTo(1,2,1); chipTo(2,2,2);
+
+    cap(7,'La distribuidora responde y pide llamada <em>· a la vez, Cuidador sigue con las otras y Portavoz cierra la semana</em>');
+    var p7=(async function(){ await go('Cuidador',$('axLog'),140,10); log('Cuidador','seguimiento programado a Agencia de viajes'); await wait(600); home('Cuidador'); })();
+    var p8=(async function(){ await wait(300); await go('Portavoz',$('axVerd'),20,8); hl($('axVerd'),true); await click('Portavoz'); $('axVerd').textContent='Semana: buena'; $('axVerd').classList.add('on'); log('Portavoz','resumen enviado a dirección'); await wait(700); hl($('axVerd'),false); home('Portavoz'); })();
+    await go('Lector',$('axLog'),40,10); log('Lector','Distribuidora de bebidas pide llamada'); add('axW3',1); add('axF3',1); chipTo(0,3,0); flash(3); await wait(800); chipTo(0,4,0); flash(4); add('axF4',1); add('axW4',1); log('Lector','reunión cerrada con Distribuidora de bebidas'); home('Lector');
+    await p7; await p8;
+    cap(8,'Diez agentes, varias tareas a la vez. Y vuelta a empezar.');
+    await wait(2600);
+  }
+  async function loop(){ if(reduce){ await run(); return; } while(true){ await run(); } }
+  var rt; window.addEventListener('resize',function(){ clearTimeout(rt); rt=setTimeout(function(){ NAMES.forEach(function(n){ if(!curs[n].el.classList.contains('on')) park(n,true); }); },150); });
+  if(document.fonts&&document.fonts.ready) document.fonts.ready.then(loop); else loop();
+})();
+
+</script>
+
+<script>
+(function(){
+  var reduce=!!window.__noMotion||(window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches);
+  var SYM='#%&@$*+=/><?!0123456789';
+  function rnd(){ return SYM[Math.floor(Math.random()*SYM.length)]; }
+  // trocea un titular en letras sin perder subrayados ni saltos de línea
+  function split(el){
+    if(el.dataset.split) return el._chars; el.dataset.split='1';
+    if(!el.getAttribute('aria-label')) el.setAttribute('aria-label',el.textContent.replace(/\s+/g,' ').trim());
+    var chars=[];
+    (function walk(n){ [].slice.call(n.childNodes).forEach(function(c){
+      if(c.nodeType===3){ var f=document.createDocumentFragment();
+        var w=null; c.textContent.split('').forEach(function(ch){ if(/\s/.test(ch)){ w=null; f.appendChild(document.createTextNode(ch)); } else { if(!w){ w=document.createElement('span'); w.className='w'; f.appendChild(w); } var sp=document.createElement('span'); sp.className='ch'; sp.setAttribute('aria-hidden','true'); sp.textContent=ch; sp._t=ch; w.appendChild(sp); chars.push(sp); } });
+        c.parentNode.replaceChild(f,c);
+      } else if(c.nodeType===1&&c.tagName!=='BR'){ walk(c); } }); })(el);
+    el._chars=chars; return chars;
+  }
+  // una letra pasa por símbolos y vuelve a la suya (manteniendo su ancho)
+  function roll(sp,steps,ms,done){
+    var w=sp.getBoundingClientRect().width; sp.classList.add('roll'); sp.style.width=w+'px';
+    var k=0, t=setInterval(function(){ k++; sp.textContent=k<steps?rnd():sp._t; if(k>=steps){ clearInterval(t); sp.classList.remove('roll'); sp.style.width=''; done&&done(); } },ms);
+  }
+  if(reduce) return;
+  // B · titular de portada que se descifra al cargar
+  var h1=document.querySelector('.hero h1');
+  if(h1){ var cs=split(h1); cs.forEach(function(sp){ sp.textContent=rnd(); });
+    var start=function(){ cs.forEach(function(sp,i){ setTimeout(function(){ roll(sp,3+Math.floor(Math.random()*4),34); },60+i*9+Math.random()*60); }); };
+    if(document.fonts&&document.fonts.ready) document.fonts.ready.then(start); else start(); }
+  // C · en cada titular, al entrar en pantalla, ruedan tres letras al azar
+  var hs=[].slice.call(document.querySelectorAll('main h2.h-xl'));
+  if('IntersectionObserver' in window){
+    var io=new IntersectionObserver(function(es){ es.forEach(function(e){ if(!e.isIntersecting) return; io.unobserve(e.target);
+      var cs=split(e.target).filter(function(c){ return /[A-Za-zÁÉÍÓÚÑáéíóúñ]/.test(c._t); });
+      for(var k=0;k<3&&cs.length;k++){ (function(sp,d){ setTimeout(function(){ roll(sp,11,42); },d); })(cs.splice(Math.floor(Math.random()*cs.length),1)[0],k===0?0:(k===1?60:130)); }
+    }); },{rootMargin:'0px 0px -30% 0px'});
+    hs.forEach(function(h){ io.observe(h); });
+    // los desplegables vuelven a rodar al abrirlos
+    // (los desplegables ya no hacen rodar letras)
+    // D · foto y logos de clientes entran con fallo de señal
+    var go=new IntersectionObserver(function(es){ es.forEach(function(e){ if(e.isIntersecting){ e.target.classList.add('in'); go.unobserve(e.target); } }); },{threshold:.08});
+    document.querySelectorAll('.glitch').forEach(function(g,i){ g.style.animationDelay=(g.classList.contains('name')?(i*90)+'ms':'0ms'); go.observe(g); });
+  } else { document.querySelectorAll('.glitch').forEach(function(g){ g.classList.add('in'); }); }
+})();
+</script>
+
+<script>
+/* preferencias: movimiento y cookies (Google Analytics 4 solo con consentimiento) */
+(function(){
+  var GA_ID = window.VRTCL_GA_ID || '';
+  function get(k){ try{ return localStorage.getItem(k); }catch(e){ return null; } }
+  function set(k,v){ try{ localStorage.setItem(k,v); }catch(e){} }
+  // movimiento
+  var mv=document.getElementById('mvToggle');
+  if(mv){ var off=document.documentElement.classList.contains('no-motion'); mv.textContent=off?'Activar movimiento':'Desactivar movimiento'; mv.setAttribute('aria-pressed',off?'true':'false');
+    mv.addEventListener('click',function(){ set('vrtcl-motion', off?'on':'off'); location.reload(); }); }
+  if(!GA_ID) return;
+  var ck=document.getElementById('ck'), opts=document.getElementById('ckOpts'), an=document.getElementById('ckAn'), open=document.getElementById('ckOpen');
+  window.dataLayer=window.dataLayer||[]; function gtag(){ dataLayer.push(arguments); } window.gtag=gtag;
+  gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied'});
+  var loaded=false;
+  function load(){ if(loaded) return; loaded=true; gtag('consent','update',{analytics_storage:'granted'}); gtag('js',new Date()); gtag('config',GA_ID);
+    var sc=document.createElement('script'); sc.async=true; sc.src='https://www.googletagmanager.com/gtag/js?id='+encodeURIComponent(GA_ID); document.head.appendChild(sc); }
+  function clearGa(){ document.cookie.split(';').forEach(function(c){ var n=c.split('=')[0].trim(); if(/^_ga/.test(n)){ ['', '; domain=.'+location.hostname.replace(/^www\./,''), '; domain='+location.hostname].forEach(function(d){ document.cookie=n+'=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/'+d; }); } }); }
+  function decide(ok){ var prev=get('vrtcl-consent'); set('vrtcl-consent', JSON.stringify({analytics:ok,date:new Date().toISOString(),v:1})); ck.hidden=true;
+    if(ok) load(); else { clearGa(); if(loaded) location.reload(); } }
+  window.vrtclLead=function(){ if(loaded) gtag('event','generate_lead',{form_name:'contacto'}); };
+  var saved=null; try{ saved=JSON.parse(get('vrtcl-consent')||'null'); }catch(e){}
+  if(saved && saved.analytics) load(); else if(!saved) ck.hidden=false;
+  if(open){ open.hidden=false; open.addEventListener('click',function(){ ck.hidden=false; opts.hidden=false; an.checked=!!(saved&&saved.analytics)||loaded; document.getElementById('ckCfg').textContent='Guardar'; }); }
+  document.getElementById('ckYes').addEventListener('click',function(){ decide(true); });
+  document.getElementById('ckNo').addEventListener('click',function(){ decide(false); });
+  document.getElementById('ckCfg').addEventListener('click',function(){ if(opts.hidden){ opts.hidden=false; this.textContent='Guardar'; } else decide(an.checked); });
+})();
+</script>
+
+<script>
+/* logos: cascada en diagonal, una sola vez */
+(function(){
+  var g=document.querySelector('.logos'); if(!g) return;
+  var reduce=!!window.__noMotion||(window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches);
+  if(reduce||!('IntersectionObserver' in window)) return;
+  var cells=[].slice.call(g.children);
+  function delays(){ var cols=getComputedStyle(g).gridTemplateColumns.split(' ').length||4, step=innerWidth<700?45:60;
+    cells.forEach(function(c,i){ c.style.setProperty('--d',((i%cols)+Math.floor(i/cols))*step+'ms'); }); }
+  delays(); g.classList.add('fl-wait');
+  var io=new IntersectionObserver(function(es){ es.forEach(function(e){ if(!e.isIntersecting) return; io.disconnect(); delays(); g.classList.remove('fl-wait'); g.classList.add('fl-go');
+    setTimeout(function(){ g.classList.remove('fl-go'); },2000); }); },{threshold:.2});
+  io.observe(g);
+})();
+</script>
+</body>
+</html>
