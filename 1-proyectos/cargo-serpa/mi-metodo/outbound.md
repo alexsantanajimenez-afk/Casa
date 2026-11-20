@@ -48,4 +48,23 @@ Versión anterior (06/10, tercer párrafo del 22/10): ver el historial de git.
 - A los 4-5 días del primer envío sin respuesta, Claude propone el segundo toque: lista de contactos que no han contestado, con la fecha del primer envío. Alex da el OK y envía él.
 - Quien contesta sale de la secuencia y pasa a respuesta de prospecto (`respuesta-de-prospecto.md`).
 - Para saber quién contestó se cruza Notion con la bandeja de Outlook; los envíos de Outlook no quedan reflejados solos en Notion.
-- Texto del segundo correo: `[POR COMPROBAR]`, aún sin redactar.
+- Texto del segundo correo: plantilla oficial de abajo (20/11/2026).
+
+## Recordatorio (segundo correo) · plantilla oficial (Alex, 20/11/2026)
+
+Es la versión que le funcionó a Zulema Zubizarreta (Fonestar, lead del 20/11). Se envía como respuesta en el mismo hilo del primer correo. Se entrega en el chat con bloques de copiar (email y cuerpo).
+
+> Hola, [nombre]:
+>
+> Te escribo de nuevo por si mi correo anterior se quedó entre otros.
+>
+> Si en algún momento necesitáis una segunda opción para un envío urgente, a Canarias o Baleares, o simplemente para comparar precios y plazos de cualquier otro servicio como Internacional, Nacional, EU, podéis responderme por aquí y una persona de nuestro departamento comercial podría ponerse en contacto con ustedes y os pasa el dossier.
+>
+> Un saludo,
+>
+> Alex Santana
+> Cargo Serpa
+> Centro de Carga Aérea, Calle Echo, Parcela 2-4, Nave 4
+> 28042 Madrid
+> +34 91 329 03 18
+> www.cargoserpa.es
