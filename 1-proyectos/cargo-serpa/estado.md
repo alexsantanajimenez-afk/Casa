@@ -13,6 +13,7 @@
   - **Recordatorios de "Por contactar"**: 98 vencidos hoy (incluidos 35 del 12/11); vencen 75 el 23/11, 49 el 24/11, 68 el 25/11 y 39 el 26/11.
   - **La rutina diaria no crea fichas en Prospectos desde el 06/11** `[POR COMPROBAR]` si está parada.
 - **Fonestar (lead de hoy, 08:17)**: Zulema Zubizarreta (Purchasing Director, correo 1:1 del 10/11) reenvía a **Silvia Lavín** (Logistics – Purchasing Department, logistics@fonestar.com, 942 254 555), que pide información de la empresa. No consta en el CRM. Fichas en "Por contactar": Zulema → Respondió; Silvia, ficha nueva (Escalada). Respuesta y aviso a Lidia redactados en el chat; **pendiente que Alex los envíe**.
+- **Sea Marconi (LEAD CALIENTE, 09:34)**: Daniel López Robles (Responsable de Logística, daniel.lopez@seamarconi.es) responde al 1:1 del 17/11 a Bibiana Mateo pidiendo **cotización y disponibilidad de un tráiler tauliner completo**: carga vie 27/11 (8:00-16:00) en Gallarta (Vizcaya), descarga mar 01/12 a las 10:00 en Aulnay-l'Aître (Francia). No consta en el CRM. Fichas: Bibiana → Respondió; Daniel, ficha nueva (Decisor principal). Respuesta y aviso a Lidia (con internacional@ en copia) redactados en el chat; **pendiente que Alex los envíe hoy** (la carga es en 7 días). Faltan mercancía, peso, palets y si es ADR `[POR COMPROBAR]`.
 - **Post de LinkedIn del viernes 20/11: publicado** (Alex). Tema y texto `[POR COMPROBAR]`.
 
 ## Hoy, 17/11/2026 (martes): ramas fusionadas
