@@ -1,0 +1,451 @@
+<section class="cover">
+  <div class="cv-top">@@LOGO@@<span class="mono">Manual de instalación · v2 · 21/11/2026</span></div>
+  <div class="cv-mid">
+    <span class="lab mono">/ Uso interno del equipo VRTCL</span>
+    <h1>Manual de<br>instalación<i>.</i></h1>
+    <p class="lead">Qué instalamos en un cliente y cómo se instala, paso a paso: auditoría de 2 semanas y proyecto cerrado de 16 semanas. Estrategia, CRM con su dashboard, base de conocimiento y 10 agentes de IA, todo en las cuentas del cliente y a su nombre.</p>
+  </div>
+  <div class="cv-bot mono"><span>VRTCL · vrtcl.tech</span><span>Documento interno. No compartir con clientes.</span></div>
+</section>
+
+<section>
+  <h2><span class="n">00</span>Cómo usar este manual</h2>
+  <p>Este manual es para cualquier persona del equipo que tenga que instalar la máquina en un cliente. Sigue los pasos en orden. Cada paso indica:</p>
+  <table class="legend">
+    <tbody>
+      <tr><td><b>Responsable</b></td><td>Qué rol lo hace</td></tr>
+      <tr><td><b>Necesitas</b></td><td>Lo que tiene que estar listo antes de empezar</td></tr>
+      <tr><td><b>Haz</b></td><td>Las acciones, en orden</td></tr>
+      <tr><td><b>Resultado</b></td><td>Lo que queda hecho o se entrega</td></tr>
+      <tr><td><b>Hecho cuando</b></td><td>La comprobación para pasar al siguiente paso. <b>Si no se cumple, no avances.</b></td></tr>
+    </tbody>
+  </table>
+  <h3>Roles</h3>
+  <table>
+    <thead><tr><th>Rol</th><th>Quién</th><th>Qué hace</th></tr></thead>
+    <tbody>
+      <tr><td><b>Responsable de proyecto</b></td><td>VRTCL</td><td>Lleva al cliente, la estrategia, la base de conocimiento y las reuniones</td></tr>
+      <tr><td><b>Responsable técnico</b></td><td>VRTCL</td><td>Instala el stack, el CRM con su dashboard y los agentes</td></tr>
+      <tr><td><b>Dueño del sistema</b></td><td>Cliente</td><td>Una persona del cliente que aprueba, decide y se queda con la máquina al terminar</td></tr>
+      <tr><td><b>Dirección</b></td><td>Cliente</td><td>Fija el objetivo y recibe el informe semanal</td></tr>
+    </tbody>
+  </table>
+  <h3>Reglas que no se saltan</h3>
+  <ul>
+    <li><b>Nada sale sin aprobación humana.</b> Los agentes preparan; el cliente aprueba y envía.</li>
+    <li><b>Todo a nombre del cliente.</b> Cuentas, datos, código y facturas de herramientas.</li>
+    <li><b>Todo queda escrito en Notion.</b> Lo que no está en el historial no ha pasado.</li>
+    <li><b>Una reunión a la semana</b> con el dueño del sistema, con acta en Notion.</li>
+    <li><b>No inventes datos.</b> Si algo no consta, se marca como pendiente de comprobar.</li>
+  </ul>
+  <h3>Índice</h3>
+  <ol class="toc">
+    <li>La máquina en una página</li>
+    <li>Stack y cuentas</li>
+    <li>Notion: historial y base de conocimiento</li>
+    <li>CRM con su dashboard</li>
+    <li>Los 10 agentes</li>
+    <li>Instalación · Semanas 1 y 2 (auditoría)</li>
+    <li>Instalación · Semanas 3 a 10 (construcción)</li>
+    <li>Instalación · Semanas 11 a 16 (traspaso)</li>
+    <li>Legal y seguridad</li>
+    <li>Métricas y riesgos</li>
+    <li>Anexo A · Plantillas</li>
+    <li>Anexo B · Pendientes de decidir</li>
+  </ol>
+</section>
+
+<section>
+  <h2><span class="n">01</span>La máquina en una página</h2>
+  <p>Instalamos un sistema que <b>encuentra, ordena y trabaja a los clientes</b> de la empresa. Tiene cuatro piezas:</p>
+  <div class="four">
+    <div class="card"><span class="mono lab2">01</span><h4>Estrategia de growth</h4><p>Cliente ideal real, prioridades y plan, a partir de los datos de la empresa.</p></div>
+    <div class="card"><span class="mono lab2">02</span><h4>CRM con su dashboard</h4><p>Una sola web privada: cuentas, cola de aprobación, embudo e informe semanal.</p></div>
+    <div class="card"><span class="mono lab2">03</span><h4>Base de conocimiento</h4><p>El criterio del cliente por escrito en Notion, para que la IA trabaje como su equipo.</p></div>
+    <div class="card"><span class="mono lab2">04</span><h4>10 agentes de IA</h4><p>Cada uno con una sola tarea. Leen la base de conocimiento y trabajan sobre el CRM.</p></div>
+  </div>
+  <h3>Cómo fluye un lead</h3>
+  <div class="flow mono">SEÑAL → CUENTA → LIMPIEZA → FICHA → PUNTUACIÓN → BORRADOR → <b>✋ APROBACIÓN</b> → ENVÍO → RESPUESTA → REUNIÓN → OPORTUNIDAD → INFORME</div>
+  <ul>
+    <li>Los agentes <b>no se hablan entre ellos</b>: cada uno lee del CRM lo que está en su estado, hace su tarea, escribe el resultado y cambia el estado.</li>
+    <li>El único paso humano obligatorio es <b>✋ Aprobación</b>, en la cola del dashboard.</li>
+    <li>Cada día, todo lo hecho se resume en el <b>historial de Notion</b>.</li>
+  </ul>
+  <h3>Las 16 semanas</h3>
+  <table class="weeks">
+    <thead><tr><th>Semanas</th><th>Fase</th><th>Qué se instala</th></tr></thead>
+    <tbody>
+      <tr><td>1–2</td><td><b>Auditoría</b></td><td>Cuentas, datos, análisis e informe de prioridades. Reunión de decisión</td></tr>
+      <tr><td>3–10</td><td><b>Construcción</b></td><td>Base de conocimiento, CRM con dashboard y los 10 agentes</td></tr>
+      <tr><td>11–16</td><td><b>Traspaso</b></td><td>Operación acompañada, formación, manual y entrega</td></tr>
+    </tbody>
+  </table>
+</section>
+
+<section class="tight">
+  <h2><span class="n">02</span>Stack y cuentas</h2>
+  <p>Cada herramienta es una <b>cuenta a nombre del cliente</b>, creada con su email y pagada con su tarjeta. El equipo VRTCL entra como miembro invitado y sale en la semana 16.</p>
+  <table class="stack">
+    <thead><tr><th>Herramienta</th><th>Para qué en la máquina</th><th>Tipo</th><th>Plan</th></tr></thead>
+    <tbody>
+      <tr class="grp"><td colspan="4">Núcleo</td></tr>
+      <tr><td><b>Notion</b></td><td>Historial diario, base de conocimiento, actas y manual</td><td>Obligatoria</td><td>De equipo</td></tr>
+      <tr><td><b>Claude (API)</b></td><td>El cerebro de los 10 agentes. Con límite de gasto mensual</td><td>Obligatoria</td><td>Pago por uso</td></tr>
+      <tr><td><b>Supabase</b> (región UE)</td><td>Base de datos del CRM: la fuente de verdad</td><td>Obligatoria</td><td>Gratis o pago</td></tr>
+      <tr><td><b>GitHub</b></td><td>Código del CRM, el dashboard y los agentes, en un repositorio del cliente</td><td>Obligatoria</td><td>Gratis o pago</td></tr>
+      <tr><td><b>Vercel</b></td><td>Aloja el CRM con su dashboard y ejecuta los agentes programados</td><td>Obligatoria</td><td>Gratis o pago</td></tr>
+      <tr class="grp"><td colspan="4">Datos, contacto y medición</td></tr>
+      <tr><td><b>Apollo</b></td><td>Empresas, decisores, emails y ofertas de empleo, por API</td><td>Obligatoria</td><td>De pago</td></tr>
+      <tr><td><b>Email conectado</b> (Google Workspace o Microsoft 365)</td><td>Enviar 1 a 1 desde el correo del comercial y leer respuestas</td><td>Obligatoria</td><td>El que tengan</td></tr>
+      <tr><td><b>Dominio y DNS</b></td><td>SPF, DKIM y DMARC correctos para no caer en spam</td><td>Obligatoria</td><td>El que tengan</td></tr>
+      <tr><td><b>Calendario</b> (Google Calendar o Cal.com)</td><td>Que el Lector cree las reuniones cuando hay interés</td><td>Obligatoria</td><td>Gratis o pago</td></tr>
+      <tr><td><b>LinkedIn</b> (+ Sales Navigator)</td><td>Contacto 1 a 1, siempre a mano</td><td>Obligatoria</td><td>Sales Navigator de pago</td></tr>
+      <tr><td><b>Google Analytics 4 + Search Console</b></td><td>Señales de la web: visitas, páginas y origen</td><td>Obligatoria</td><td>Gratis</td></tr>
+      <tr><td><b>Gestor de contraseñas</b> (1Password o Bitwarden)</td><td>Claves y accesos compartidos, nunca por email ni chat</td><td>Obligatoria</td><td>De pago</td></tr>
+      <tr class="grp"><td colspan="4">Recomendables</td></tr>
+      <tr><td><b>Slack</b> (o WhatsApp Business)</td><td>Avisos: mensajes por aprobar, reuniones agendadas</td><td>Recomendable</td><td>Gratis o pago</td></tr>
+      <tr><td><b>Transcripción de reuniones</b> (Fireflies o Google Meet)</td><td>Resumen de cada llamada al CRM y a Notion</td><td>Recomendable</td><td>De pago</td></tr>
+      <tr><td><b>Verificador de emails</b></td><td>Evitar rebotes que dañan el dominio</td><td>Recomendable</td><td>De pago</td></tr>
+      <tr><td><b>Monitorización</b> (Sentry y UptimeRobot)</td><td>Aviso si un agente falla o el CRM se cae</td><td>Recomendable</td><td>Gratis o pago</td></tr>
+      <tr><td><b>Firma digital</b></td><td>Contrato de encargado del tratamiento y acta de entrega</td><td>Recomendable</td><td>La que tengan</td></tr>
+      <tr class="grp"><td colspan="4">Fuentes de señales</td></tr>
+      <tr><td><b>BORME</b></td><td>Nombramientos de cargos, ampliaciones de capital, empresas nuevas</td><td>Fuente</td><td>Gratis</td></tr>
+      <tr><td><b>Portales de empleo</b></td><td>Empresas que contratan perfiles comerciales o de marketing</td><td>Fuente</td><td>Gratis</td></tr>
+      <tr><td><b>Noticias y rondas</b> (alertas y RSS)</td><td>Rondas, expansión, aperturas</td><td>Fuente</td><td>Gratis</td></tr>
+      <tr><td><b>Contratación del Sector Público</b></td><td>Licitaciones, para clientes industriales o de servicios</td><td>Fuente</td><td>Gratis</td></tr>
+      <tr class="grp"><td colspan="4">Solo si el cliente ya lo usa</td></tr>
+      <tr><td><b>HubSpot o Pipedrive</b></td><td>Los agentes trabajan sobre su CRM en lugar del nuestro</td><td>Opcional</td><td>El suyo</td></tr>
+      <tr><td><b>Brevo</b></td><td>Envíos masivos solo a contactos con consentimiento</td><td>Opcional</td><td>El suyo</td></tr>
+    </tbody>
+  </table>
+  <h3>Cómo se conecta</h3>
+<pre class="diagram mono">GitHub ──(cada cambio)──► Vercel ──► CRM + dashboard (web privada con login)
+                            │
+                            ├──► Supabase (UE) ◄─── agentes programados ───► Claude API
+                            │                          │
+                            │       Apollo · BORME · empleo · noticias · GA4 (señales y datos)
+                            │       Email + Calendario (respuestas y reuniones)
+                            │
+                            └──► Notion: historial diario · base de conocimiento · actas · manual
+                                          │
+                              Slack / email: avisos al equipo del cliente</pre>
+  <p class="small">Supabase guarda los datos. Notion es lo que leen las personas. GitHub guarda el código y Vercel lo publica solo.</p>
+</section>
+
+<section>
+  <h2><span class="n">03</span>Notion: historial y base de conocimiento</h2>
+  <p>Notion es <b>obligatorio</b>. Es donde el cliente y el equipo leen cada día qué se ha hecho, qué queda y con qué criterio trabaja la máquina.</p>
+  <h3>Estructura del espacio "Máquina de crecimiento"</h3>
+  <table>
+    <thead><tr><th>Página o base de datos</th><th>Qué guarda</th><th>Quién escribe</th></tr></thead>
+    <tbody>
+      <tr><td><b>Historial</b> (base de datos)</td><td>Una entrada por acción: fecha, quién (agente o persona), tipo, cuenta relacionada, resumen y enlace al CRM. Resumen del día cada tarde</td><td>Agentes y equipo</td></tr>
+      <tr><td><b>Base de conocimiento</b> (base de datos)</td><td>Los 12 documentos, con versión, estado (borrador / aprobado), fecha y agentes que lo usan</td><td>Responsable de proyecto; aprueba el dueño del sistema</td></tr>
+      <tr><td><b>Actas</b> (base de datos)</td><td>Una por reunión semanal: decisiones, pendientes, responsables y fecha</td><td>Responsable de proyecto</td></tr>
+      <tr><td><b>Manual de operación</b> (página)</td><td>Cómo se usa, cómo se cambia y qué hacer si algo falla</td><td>Equipo VRTCL</td></tr>
+      <tr><td><b>Ficha del proyecto</b> (página)</td><td>Objetivo, responsables, calendario, cuentas del stack y estado</td><td>Responsable de proyecto</td></tr>
+    </tbody>
+  </table>
+  <h3>Cómo se conecta con la máquina</h3>
+  <ul>
+    <li><b>Los agentes escriben</b> en el Historial cada acción relevante y un resumen al final del día.</li>
+    <li><b>Los agentes leen</b> la última versión <b>aprobada</b> de cada documento de la base de conocimiento. Una copia diaria se guarda en el CRM con su versión, para saber con qué criterio se hizo cada cosa.</li>
+    <li>Los borradores de la base de conocimiento <b>no los lee ningún agente</b> hasta que el dueño del sistema los aprueba.</li>
+  </ul>
+  <h3>Los 12 documentos de la base de conocimiento</h3>
+  <table class="kb">
+    <thead><tr><th>#</th><th>Documento</th><th>Debe responder</th><th>Lo usan</th></tr></thead>
+    <tbody>
+      <tr><td>1</td><td><b>Quiénes somos</b></td><td>Qué hace la empresa, desde cuándo, equipo, qué la diferencia</td><td>Investigador, Redactor</td></tr>
+      <tr><td>2</td><td><b>Oferta</b></td><td>Qué vende, qué incluye y qué no, plazos, condiciones, precio orientativo si se puede decir</td><td>Redactor, Lector</td></tr>
+      <tr><td>3</td><td><b>Cliente ideal</b></td><td>Sector, tamaño, zona, ticket, recurrencia y quién decide. Sale de la auditoría</td><td>Buscador, Puntuador</td></tr>
+      <tr><td>4</td><td><b>Segmentos</b></td><td>Variantes del cliente ideal y qué cambia en mensaje y prioridad</td><td>Puntuador, Redactor</td></tr>
+      <tr><td>5</td><td><b>Señales y su peso</b></td><td>Qué hechos indican que una empresa compra ahora y cuánto pesa cada uno</td><td>Vigía, Puntuador</td></tr>
+      <tr><td>6</td><td><b>Exclusiones</b></td><td>A quién no se contacta nunca: clientes actuales, competidores, bajas, sectores vetados</td><td>Limpiador y todos</td></tr>
+      <tr><td>7</td><td><b>Tono y estilo</b></td><td>Cómo habla la empresa, tuteo o usted, longitud, palabras prohibidas, firmas</td><td>Redactor</td></tr>
+      <tr><td>8</td><td><b>Plantillas</b></td><td>Primer mensaje y 2 seguimientos por segmento, señal y canal</td><td>Redactor</td></tr>
+      <tr><td>9</td><td><b>Objeciones</b></td><td>Respuesta a "no hay presupuesto", "ya tenemos proveedor", "ahora no"…</td><td>Lector, Cuidador</td></tr>
+      <tr><td>10</td><td><b>Casos y pruebas</b></td><td>Resultados que se pueden contar, con permiso y cifras reales</td><td>Redactor</td></tr>
+      <tr><td>11</td><td><b>Reglas legales</b></td><td>RGPD, LSSI, bajas y qué no se puede prometer</td><td>Todos</td></tr>
+      <tr><td>12</td><td><b>Glosario</b></td><td>ICP, MQL, SQL, nurturing y demás términos, con la definición del cliente</td><td>Todos</td></tr>
+    </tbody>
+  </table>
+  <h3>Cómo aprende la base de conocimiento</h3>
+  <ul>
+    <li>Cada mensaje <b>aprobado sin tocar</b> se guarda como buen ejemplo en el documento 8.</li>
+    <li>Cada mensaje <b>editado</b> guarda la versión final del humano como ejemplo.</li>
+    <li>Cada mes, el <b>Analista</b> propone cambios; el dueño del sistema los aprueba y sube la versión.</li>
+  </ul>
+</section>
+
+<section>
+  <h2><span class="n">04</span>CRM con su dashboard</h2>
+  <p>El CRM y el dashboard son <b>una sola web privada</b> con login, alojada en el Vercel del cliente. Los datos están en su Supabase; la web solo los muestra y permite actuar.</p>
+  <h3>Las 4 pantallas</h3>
+  <table>
+    <thead><tr><th>Pantalla</th><th>Qué se ve y qué se hace</th></tr></thead>
+    <tbody>
+      <tr><td><b>Cuentas</b></td><td>Buscador de empresas y contactos: ficha, puntuación, historial de mensajes y respuestas, oportunidades</td></tr>
+      <tr><td><b>Cola de aprobación</b></td><td>Lo que han preparado los agentes: ficha + mensaje propuesto, con <b>Aprobar · Editar · Descartar</b>. Funciona desde el móvil</td></tr>
+      <tr><td><b>Embudo</b></td><td>Cuántas cuentas hay en cada paso esta semana: señales → investigadas → aprobadas → respondidas → reuniones</td></tr>
+      <tr><td><b>Informe semanal</b></td><td>El informe del Portavoz de cada lunes: cómo ha ido la semana, qué funciona, qué no y qué ajustar</td></tr>
+    </tbody>
+  </table>
+  <h3>Tablas de la base de datos</h3>
+  <table>
+    <thead><tr><th>Tabla</th><th>Contenido</th></tr></thead>
+    <tbody>
+      <tr><td><code>empresas</code></td><td>Datos de la cuenta, segmento, estado y puntuación</td></tr>
+      <tr><td><code>personas</code></td><td>Decisores y contactos, cargo, email, LinkedIn, consentimiento y bajas</td></tr>
+      <tr><td><code>senales</code></td><td>Señal detectada, fuente, fecha y enlace</td></tr>
+      <tr><td><code>fichas</code></td><td>Qué hacen, por qué ahora, quién compra y qué le duele</td></tr>
+      <tr><td><code>mensajes</code></td><td>Borrador → aprobado → enviado, con canal, autor y versión del conocimiento usada</td></tr>
+      <tr><td><code>interacciones</code></td><td>Respuestas, llamadas y reuniones</td></tr>
+      <tr><td><code>oportunidades</code></td><td>Negocio abierto, fase, importe y fecha prevista</td></tr>
+      <tr><td><code>exclusiones</code></td><td>Empresas y personas que no se contactan</td></tr>
+      <tr><td><code>conocimiento</code></td><td>Copia versionada de la base de conocimiento de Notion</td></tr>
+      <tr><td><code>registro_agentes</code></td><td>Cada acción de cada agente: qué, cuándo, con qué datos y cuánto costó</td></tr>
+    </tbody>
+  </table>
+  <h3>Dos variantes</h3>
+  <div class="two">
+    <div class="card"><span class="mono lab2">Variante A · por defecto</span><h4>El cliente no tiene CRM</h4><p>Instalamos nuestro CRM con su dashboard desde la plantilla de VRTCL y cargamos su cartera.</p></div>
+    <div class="card"><span class="mono lab2">Variante B</span><h4>Ya usa HubSpot o Pipedrive</h4><p>Los agentes leen y escriben en su CRM por API. Solo instalamos la cola de aprobación, el informe y el registro de agentes.</p></div>
+  </div>
+</section>
+
+<section>
+  <h2><span class="n">05</span>Los 10 agentes</h2>
+  <table class="agents">
+    <thead><tr><th>#</th><th>Agente</th><th>Tarea única</th><th>Lee</th><th>Escribe</th><th>Cuándo</th></tr></thead>
+    <tbody>
+      <tr><td>1</td><td><b>Vigía</b></td><td>Detecta señales</td><td>Fuentes, GA4, CRM, docs 5</td><td>Señales</td><td>Cada mañana</td></tr>
+      <tr><td>2</td><td><b>Buscador</b></td><td>Trae cuentas y decisores que encajan</td><td>Señales, Apollo, docs 3–4</td><td>Empresas y personas</td><td>Diario</td></tr>
+      <tr><td>3</td><td><b>Limpiador</b></td><td>Duplicados, normalización, emails válidos, exclusiones</td><td>Altas nuevas, doc 6</td><td>Registros limpios o descartados</td><td>Tras cada alta</td></tr>
+      <tr><td>4</td><td><b>Investigador</b></td><td>Hace la ficha de la cuenta</td><td>Web, señal, docs 1–3</td><td>Ficha</td><td>Tras la limpieza</td></tr>
+      <tr><td>5</td><td><b>Puntuador</b></td><td>Prioridad A/B/C y estado, con motivo</td><td>Ficha, docs 3–5</td><td>Puntuación</td><td>Tras la ficha</td></tr>
+      <tr><td>6</td><td><b>Redactor</b></td><td>Primer mensaje y seguimientos</td><td>Ficha, docs 7, 8, 10 y ejemplos</td><td>Borrador en la cola</td><td>Solo A y B</td></tr>
+      <tr><td>7</td><td><b>Lector</b></td><td>Clasifica respuestas; si hay interés, propone hueco y crea la reunión con un resumen previo</td><td>Correo, calendario, docs 2 y 9</td><td>Estado, reunión; bajas a exclusiones</td><td>Cada hora</td></tr>
+      <tr><td>8</td><td><b>Cuidador</b></td><td>Seguimientos: los que no responden y los "ahora no"</td><td>Mensajes enviados, señales, docs 8 y 9</td><td>Borradores de seguimiento</td><td>Diario</td></tr>
+      <tr><td>9</td><td><b>Analista</b></td><td>Competencia y mercado; propone mejoras al conocimiento</td><td>Webs de competidores, registro</td><td>Alertas y propuestas en Notion</td><td>Semanal y mensual</td></tr>
+      <tr><td>10</td><td><b>Portavoz</b></td><td>Cierra la semana: informe semanal y resumen diario en Notion; avisos al equipo</td><td>Todo el registro</td><td>Informe, Historial, avisos</td><td>Cada tarde y los lunes</td></tr>
+    </tbody>
+  </table>
+  <h3>Reglas de todos los agentes</h3>
+  <ul>
+    <li>Una sola tarea y solo sus herramientas.</li>
+    <li><b>Nunca envían</b> nada a un tercero: solo dejan borradores.</li>
+    <li>Registran cada acción en <code>registro_agentes</code> y resumen el día en el Historial de Notion.</li>
+    <li>Tienen límite diario de volumen y de gasto: si se pasan, se pausan y avisan.</li>
+    <li>Respetan siempre las exclusiones y las bajas.</li>
+  </ul>
+  <h3>Procedimiento para instalar cualquier agente</h3>
+  <ol class="steps">
+    <li><b>Ficha del agente en Notion:</b> tarea, qué lee, qué escribe, documentos de conocimiento que usa, qué no puede hacer nunca y límites.</li>
+    <li><b>Parte de la plantilla de VRTCL</b> del agente en GitHub y cambia solo la configuración del cliente.</li>
+    <li><b>Prueba en seco</b> con 10 registros, sin escribir en el CRM.</li>
+    <li><b>Revisión</b> de los 10 resultados con el dueño del sistema en la reunión semanal.</li>
+    <li><b>Activación</b> con límites, monitorización y registro. Anótalo en el Historial.</li>
+  </ol>
+</section>
+
+<section>
+  <h2><span class="n">06</span>Instalación · Semanas 1 y 2 <span class="wk">auditoría</span></h2>
+  <p>Dos reuniones en dos semanas: <b>arranque</b> y <b>decisión</b>. Todo lo demás lo ejecuta el equipo VRTCL.</p>
+
+  <div class="step"><div class="sh"><span class="sn mono">Paso 1</span><b>Reunión de arranque</b><span class="sw mono">Semana 1 · día 1</span></div>
+  <p><b>Responsable:</b> responsable de proyecto · <b>Necesitas:</b> contrato firmado · <b>Duración:</b> 1 h 30 min</p>
+  <p><b>Haz:</b> sigue el guion del Anexo A2: objetivo del año, qué es un buen cliente para ellos, cómo venden hoy, nombramiento del <b>dueño del sistema</b>, lista de accesos y datos, y fecha de la reunión de decisión.</p>
+  <p><b>Resultado:</b> acta en Notion · <b>Hecho cuando:</b> hay dueño del sistema nombrado y fecha de decisión fijada. <b>Sin dueño del sistema no se sigue.</b></p></div>
+
+  <div class="step"><div class="sh"><span class="sn mono">Paso 2</span><b>Contrato de encargado del tratamiento</b><span class="sw mono">Semana 1</span></div>
+  <p><b>Responsable:</b> responsable de proyecto · <b>Haz:</b> envía el contrato (art. 28 RGPD) para firma digital. · <b>Hecho cuando:</b> está firmado. <b>No se toca ningún dato personal antes.</b></p></div>
+
+  <div class="step"><div class="sh"><span class="sn mono">Paso 3</span><b>Cuentas del stack</b><span class="sw mono">Semana 1</span></div>
+  <p><b>Responsable:</b> dueño del sistema crea; responsable técnico guía · <b>Haz:</b> envía el email de cuentas (Anexo A1) con la checklist del capítulo 02. El cliente crea cada cuenta con su email y su tarjeta, e invita al equipo VRTCL. Claves solo en el gestor de contraseñas.</p>
+  <p><b>Hecho cuando:</b> todas las cuentas obligatorias existen y el equipo VRTCL tiene acceso.</p></div>
+
+  <div class="step"><div class="sh"><span class="sn mono">Paso 4</span><b>Recepción de datos</b><span class="sw mono">Semana 1</span></div>
+  <p><b>Responsable:</b> responsable de proyecto · <b>Haz:</b> pide la lista del Anexo A3 (cartera de clientes, ventas de 24 meses por cliente, CRM o Excel actual, acceso a GA4 y web, campañas). Guarda todo en su Supabase o en su Notion, nunca en equipos personales.</p>
+  <p><b>Hecho cuando:</b> tienes la cartera y las ventas por cliente.</p></div>
+
+  <div class="step"><div class="sh"><span class="sn mono">Paso 5</span><b>Notion y repositorio base</b><span class="sw mono">Semana 1</span></div>
+  <p><b>Responsable:</b> responsable técnico · <b>Haz:</b> crea el espacio "Máquina de crecimiento" con la estructura del capítulo 03 y la Ficha del proyecto. Crea el repositorio del cliente en GitHub desde la plantilla de VRTCL, conéctalo a Vercel y a Supabase.</p>
+  <p><b>Hecho cuando:</b> la web del CRM abre con login (vacía) y el Historial tiene su primera entrada.</p></div>
+
+  <div class="step"><div class="sh"><span class="sn mono">Paso 6</span><b>Carga y limpieza inicial</b><span class="sw mono">Semana 1–2</span></div>
+  <p><b>Responsable:</b> responsable técnico · <b>Haz:</b> importa la cartera, elimina duplicados, normaliza nombres y sectores, marca clientes actuales y bajas como exclusiones.</p>
+  <p><b>Hecho cuando:</b> cero duplicados en una muestra de 100 registros.</p></div>
+
+  <div class="step"><div class="sh"><span class="sn mono">Paso 7</span><b>Análisis</b><span class="sw mono">Semana 2</span></div>
+  <p><b>Responsable:</b> responsable de proyecto · <b>Haz, con sus datos:</b></p>
+  <ul>
+    <li><b>Cliente ideal real:</b> ordena los clientes por facturación y recurrencia; describe el 20 % de arriba (sector, tamaño, zona, ticket).</li>
+    <li><b>Embudo:</b> dónde se pierden las oportunidades (captación, respuesta, seguimiento, cierre, recompra).</li>
+    <li><b>Cartera dormida:</b> clientes con compras en los últimos 24 meses y ninguna en los últimos 6.</li>
+    <li><b>Web y canales:</b> qué trae contactos (GA4), cómo es el formulario, qué se mide.</li>
+  </ul></div>
+
+  <div class="step"><div class="sh"><span class="sn mono">Paso 8</span><b>Informe de prioridades</b><span class="sw mono">Semana 2</span></div>
+  <p><b>Responsable:</b> responsable de proyecto · <b>Haz:</b> redacta el informe con el índice del Anexo A4 (máx. 15 páginas) y súbelo a Notion.</p>
+  <p><b>Hecho cuando:</b> cada prioridad tiene un dato que la justifica.</p></div>
+
+  <div class="step"><div class="sh"><span class="sn mono">Paso 9</span><b>Reunión de decisión</b><span class="sw mono">Semana 2 · último día</span></div>
+  <p><b>Responsable:</b> responsable de proyecto · <b>Duración:</b> 1 h · <b>Haz:</b> presenta el informe y el plan de las 14 semanas. El cliente decide: lo instalamos nosotros o lo hace su equipo con el plan.</p>
+  <p><b>Resultado:</b> decisión en el acta de Notion · <b>Hecho cuando:</b> la decisión está escrita y firmada por dirección.</p></div>
+</section>
+
+<section>
+  <h2><span class="n">07</span>Instalación · Semanas 3 a 10 <span class="wk">construcción</span></h2>
+  <p>Cada semana termina en la <b>reunión semanal</b> con el dueño del sistema, donde se revisa lo instalado y se valida el "hecho cuando". Acta en Notion.</p>
+  <table class="weeks">
+    <thead><tr><th>Sem.</th><th>Paso</th><th>Haz</th><th>Hecho cuando</th></tr></thead>
+    <tbody>
+      <tr><td>3</td><td><b>10 · Base de conocimiento</b></td><td>Redacta los 12 documentos en Notion (cap. 03) con lo aprendido en la auditoría. El dueño del sistema los corrige y aprueba</td><td>Los 12 en estado "aprobado"</td></tr>
+      <tr><td>4</td><td><b>11 · CRM</b></td><td>Tablas definitivas (cap. 04), importación final, exclusiones y permisos</td><td>Datos completos y cero duplicados en la muestra</td></tr>
+      <tr><td>5</td><td><b>12 · Dashboard</b></td><td>Las 4 pantallas y un usuario por persona del cliente</td><td>El dueño del sistema aprueba un mensaje de prueba desde el móvil</td></tr>
+      <tr><td>6</td><td><b>13 · Vigía, Buscador, Limpiador</b></td><td>Procedimiento del cap. 05 para cada uno; 2 o 3 fuentes de señales</td><td>80 % de las señales de la semana son reales y recientes</td></tr>
+      <tr><td>7</td><td><b>14 · Investigador, Puntuador</b></td><td>Calibración con 20 cuentas reales revisadas con el cliente</td><td>El cliente coincide en 16 de 20 puntuaciones</td></tr>
+      <tr><td>8</td><td><b>15 · Redactor + piloto</b></td><td>Email conectado. Piloto de 20 mensajes aprobados y enviados</td><td>En la segunda tanda, la mitad se aprueba sin tocar</td></tr>
+      <tr><td>9</td><td><b>16 · Lector, Cuidador</b></td><td>Lectura de respuestas, calendario conectado y seguimientos</td><td>Ninguna baja recibe otro mensaje; las reuniones se crean solas</td></tr>
+      <tr><td>10</td><td><b>17 · Analista y Portavoz</b></td><td>Competencia, informe semanal, resumen diario en Notion, monitorización y límites de gasto</td><td>El primer informe llega el lunes y el gasto está dentro del límite</td></tr>
+    </tbody>
+  </table>
+</section>
+
+<section>
+  <h2><span class="n">08</span>Instalación · Semanas 11 a 16 <span class="wk">traspaso</span></h2>
+  <table class="weeks">
+    <thead><tr><th>Sem.</th><th>Paso</th><th>Haz</th><th>Hecho cuando</th></tr></thead>
+    <tbody>
+      <tr><td>11–12</td><td><b>18 · Operación acompañada</b></td><td>El cliente aprueba y envía; el equipo VRTCL ajusta plantillas, puntuación y fuentes con datos reales</td><td>La cola se aprueba sin pedir ayuda</td></tr>
+      <tr><td>13</td><td><b>19 · Formación</b></td><td>3 sesiones: dirección (leer el informe), equipo comercial (aprobar y enviar), dueño del sistema (cambiar conocimiento, ver costes, pausar agentes)</td><td>Cada perfil hace su tarea solo, delante del equipo VRTCL</td></tr>
+      <tr><td>14</td><td><b>20 · Manual de operación</b></td><td>Escribe en Notion el manual: uso diario, cambios, incidencias, mapa de cuentas y costes</td><td>Alguien que no estuvo en el proyecto lo entiende</td></tr>
+      <tr><td>15</td><td><b>21 · Revisión de resultados</b></td><td>Métricas frente a la situación de la auditoría; últimos ajustes</td><td>Informe de resultados con datos reales</td></tr>
+      <tr><td>16</td><td><b>22 · Entrega</b></td><td>Acta de entrega (Anexo A6) y <b>retirada de todos los accesos de VRTCL</b></td><td>No queda ningún acceso de VRTCL en sus cuentas</td></tr>
+    </tbody>
+  </table>
+  <h3>Checklist de entrega</h3>
+  <table class="check">
+    <tbody>
+      <tr><td>☐</td><td>Los 10 agentes activos, con límites, monitorización y registro</td></tr>
+      <tr><td>☐</td><td>CRM con su dashboard, con un usuario por persona del cliente</td></tr>
+      <tr><td>☐</td><td>Base de conocimiento aprobada y versionada en Notion</td></tr>
+      <tr><td>☐</td><td>Historial diario funcionando en Notion</td></tr>
+      <tr><td>☐</td><td>Manual de operación en Notion</td></tr>
+      <tr><td>☐</td><td>Formación hecha a los tres perfiles</td></tr>
+      <tr><td>☐</td><td>Informe de resultados frente a la auditoría</td></tr>
+      <tr><td>☐</td><td>Código en el GitHub del cliente y web en su Vercel</td></tr>
+      <tr><td>☐</td><td>Todas las cuentas y facturas a nombre del cliente</td></tr>
+      <tr><td>☐</td><td>Acta firmada y accesos de VRTCL retirados</td></tr>
+    </tbody>
+  </table>
+</section>
+
+<section>
+  <h2><span class="n">09</span>Legal y seguridad</h2>
+  <h3>Legal</h3>
+  <ul>
+    <li><b>Contrato de encargado del tratamiento</b> (art. 28 RGPD) firmado antes de tocar datos personales.</li>
+    <li><b>Datos en la UE:</b> Supabase en región europea. Para proveedores fuera de la UE (Anthropic, Apollo, Google, Vercel), comprobar sus garantías y región de datos en cada cliente.</li>
+    <li><b>Contacto:</b> LinkedIn 1 a 1 como canal principal. El email comercial en frío está limitado por la LSSI (art. 21): solo con base legal clara.</li>
+    <li><b>Bajas:</b> quien pida no recibir más mensajes entra en exclusiones al momento, para todos los agentes.</li>
+    <li><b>IA:</b> los agentes solo preparan borradores; decide y envía una persona. Queda documentado en el manual.</li>
+  </ul>
+  <h3>Seguridad</h3>
+  <ul>
+    <li>Tablas sin lectura pública; acceso al CRM solo con login.</li>
+    <li>Claves en las variables del cliente (Vercel, Supabase) y en el gestor de contraseñas. Nunca en el código, en Notion ni en el chat.</li>
+    <li>Una cuenta por persona, con doble factor cuando se pueda.</li>
+    <li>Límite de gasto en la API de Claude y en cada agente.</li>
+    <li>En la semana 16, retirada de todos los accesos de VRTCL, con acta.</li>
+  </ul>
+</section>
+
+<section>
+  <h2><span class="n">10</span>Métricas y riesgos</h2>
+  <h3>Métricas (los objetivos se fijan en la auditoría)</h3>
+  <table>
+    <thead><tr><th>Métrica</th><th>Qué indica</th></tr></thead>
+    <tbody>
+      <tr><td>Señales por semana</td><td>Si el Vigía encuentra movimiento real</td></tr>
+      <tr><td>Cuentas investigadas</td><td>Volumen de trabajo de los agentes</td></tr>
+      <tr><td>% aprobado sin editar</td><td>Calidad del Redactor y de la base de conocimiento</td></tr>
+      <tr><td>Tasa de respuesta</td><td>Si señal y mensaje funcionan</td></tr>
+      <tr><td>Reuniones y oportunidades</td><td>Resultado comercial</td></tr>
+      <tr><td>Coste por reunión</td><td>Eficiencia de herramientas e IA</td></tr>
+      <tr><td>Clientes dormidos reactivados</td><td>Rendimiento de la cartera existente</td></tr>
+    </tbody>
+  </table>
+  <h3>Riesgos</h3>
+  <table>
+    <thead><tr><th>Riesgo</th><th>Cómo se evita</th></tr></thead>
+    <tbody>
+      <tr><td>No hay dueño del sistema</td><td>Sin dueño nombrado en el paso 1, no se sigue</td></tr>
+      <tr><td>Datos sucios</td><td>Pasos 6 y 11 de limpieza; el Limpiador sigue después</td></tr>
+      <tr><td>El equipo no usa la cola</td><td>Aprobar desde el móvil en un clic; formación por perfil</td></tr>
+      <tr><td>Mensajes genéricos</td><td>Base de conocimiento aprobada por el cliente y piloto revisado</td></tr>
+      <tr><td>Gasto de IA descontrolado</td><td>Límites por agente y por mes, y aviso</td></tr>
+      <tr><td>Problema legal</td><td>Contrato de encargado, bajas inmediatas, LinkedIn primero</td></tr>
+      <tr><td>Instalar a medida cada vez</td><td>Partir siempre de las plantillas de VRTCL y registrar lo nuevo para convertirlo en plantilla</td></tr>
+    </tbody>
+  </table>
+</section>
+
+<section>
+  <h2><span class="n">A</span>Anexo A · Plantillas</h2>
+  <h3>A1 · Email de cuentas al cliente</h3>
+  <div class="tpl">Asunto: Cuentas para instalar vuestra máquina de crecimiento<br><br>
+  Hola [nombre del dueño del sistema]:<br><br>
+  Para empezar necesitamos que creéis estas cuentas con un email de la empresa y vuestra tarjeta, y que nos invitéis como miembros: Notion, Claude (API, con límite de gasto de [importe] €/mes), Supabase (región UE), GitHub, Vercel, Apollo y gestor de contraseñas. Además, acceso a Google Analytics 4, al dominio (DNS), al correo y al calendario.<br><br>
+  Las claves, por favor, solo en el gestor de contraseñas. Os dejamos la guía de cada cuenta en vuestro Notion.<br><br>
+  [Firma]</div>
+  <h3>A2 · Guion de la reunión de arranque (1 h 30 min)</h3>
+  <ol>
+    <li>Objetivo del año y cómo se medirá (15 min).</li>
+    <li>Qué es un buen cliente para vosotros y cuáles son los mejores hoy (20 min).</li>
+    <li>Cómo se vende hoy: canales, equipo, herramientas (20 min).</li>
+    <li>Nombramiento del dueño del sistema (5 min).</li>
+    <li>Lista de cuentas, accesos y datos (A1 y A3) con fechas (20 min).</li>
+    <li>Fecha de la reunión semanal y de la reunión de decisión (10 min).</li>
+  </ol>
+  <h3>A3 · Datos que pedimos</h3>
+  <table class="check"><tbody>
+    <tr><td>☐</td><td>Listado de clientes con sector, provincia y fecha de alta</td></tr>
+    <tr><td>☐</td><td>Ventas o facturación por cliente y mes de los últimos 24 meses</td></tr>
+    <tr><td>☐</td><td>Exportación del CRM o Excel comercial actual</td></tr>
+    <tr><td>☐</td><td>Acceso a GA4, Search Console y web</td></tr>
+    <tr><td>☐</td><td>Campañas y acciones comerciales del último año</td></tr>
+    <tr><td>☐</td><td>Lista de clientes, competidores y contactos que no se deben contactar</td></tr>
+  </tbody></table>
+  <h3>A4 · Índice del informe de prioridades</h3>
+  <ol>
+    <li>Resumen en una página.</li>
+    <li>Cliente ideal real (con datos).</li>
+    <li>Embudo y dónde se pierden oportunidades.</li>
+    <li>Cartera dormida: tamaño y valor.</li>
+    <li>Web y canales.</li>
+    <li>Prioridades ordenadas, cada una con su dato.</li>
+    <li>Plan de 14 semanas y stack necesario.</li>
+  </ol>
+  <h3>A5 · Acta semanal (Notion)</h3>
+  <p class="tpl">Fecha · Asistentes · Lo instalado esta semana · "Hecho cuando" validados · Decisiones · Pendientes (qué, quién, cuándo) · Próxima reunión</p>
+  <h3>A6 · Acta de entrega</h3>
+  <p class="tpl">Fecha · Checklist de entrega completa · Resultados frente a la auditoría · Cuentas y propietario · Accesos de VRTCL retirados (lista) · Firmas de dirección y del equipo VRTCL</p>
+</section>
+
+<section>
+  <h2><span class="n">B</span>Anexo B · Pendientes de decidir</h2>
+  <p>Hasta que se decidan, no se presentan al cliente como cerrados.</p>
+  <table>
+    <thead><tr><th>Tema</th><th>Qué falta</th></tr></thead>
+    <tbody>
+      <tr><td>Precio</td><td>Precio de la auditoría y del proyecto de 16 semanas</td></tr>
+      <tr><td>Variante B</td><td>Si se ofrece instalar sobre HubSpot o Pipedrive del cliente</td></tr>
+            <tr><td>Plantillas de VRTCL</td><td>Repositorio plantilla del CRM, el dashboard y los 10 agentes, listo para copiar</td></tr>
+      <tr><td>Fuentes de datos</td><td>Plan de Apollo y fuentes de señales estándar</td></tr>
+      <tr><td>Contrato de encargado</td><td>Modelo revisado por abogado</td></tr>
+    </tbody>
+  </table>
+  <div class="end2">@@LOGO@@<p class="mono small">VRTCL · hello@vrtcl.tech · vrtcl.tech</p></div>
+</section>
