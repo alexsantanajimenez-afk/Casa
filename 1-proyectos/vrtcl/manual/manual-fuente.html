@@ -160,7 +160,7 @@
       <tr><td>2</td><td><b>Oferta</b></td><td>Qué vende, qué incluye y qué no, plazos, condiciones, precio orientativo si se puede decir</td><td>Redactor, Lector</td></tr>
       <tr><td>3</td><td><b>Cliente ideal</b></td><td>Sector, tamaño, zona, ticket, recurrencia y quién decide. Sale de la auditoría</td><td>Buscador, Puntuador</td></tr>
       <tr><td>4</td><td><b>Segmentos</b></td><td>Variantes del cliente ideal y qué cambia en mensaje y prioridad</td><td>Puntuador, Redactor</td></tr>
-      <tr><td>5</td><td><b>Señales y su peso</b></td><td>Qué hechos indican que una empresa compra ahora y cuánto pesa cada uno</td><td>Vigía, Puntuador</td></tr>
+      <tr><td>5</td><td><b>Señales y su peso</b></td><td>Cada señal escrita con la frase: «Cuando una empresa publica ___, puede necesitar lo que vendemos porque ___». Si no se completa la segunda parte, no es una señal. Más el peso de cada una</td><td>Vigía, Puntuador</td></tr>
       <tr><td>6</td><td><b>Exclusiones</b></td><td>A quién no se contacta nunca: clientes actuales, competidores, bajas, sectores vetados</td><td>Limpiador y todos</td></tr>
       <tr><td>7</td><td><b>Tono y estilo</b></td><td>Cómo habla la empresa, tuteo o usted, longitud, palabras prohibidas, firmas</td><td>Redactor</td></tr>
       <tr><td>8</td><td><b>Plantillas</b></td><td>Primer mensaje y 2 seguimientos por segmento, señal y canal</td><td>Redactor</td></tr>
@@ -214,7 +214,7 @@
   </div>
 </section>
 
-<section>
+<section class="tight agents-sec">
   <h2><span class="n">05</span>Los 10 agentes</h2>
   <table class="agents">
     <thead><tr><th>#</th><th>Agente</th><th>Tarea única</th><th>Lee</th><th>Escribe</th><th>Cuándo</th></tr></thead>
@@ -222,15 +222,17 @@
       <tr><td>1</td><td><b>Vigía</b></td><td>Detecta señales</td><td>Fuentes, GA4, CRM, docs 5</td><td>Señales</td><td>Cada mañana</td></tr>
       <tr><td>2</td><td><b>Buscador</b></td><td>Trae cuentas y decisores que encajan</td><td>Señales, Apollo, docs 3–4</td><td>Empresas y personas</td><td>Diario</td></tr>
       <tr><td>3</td><td><b>Limpiador</b></td><td>Duplicados, normalización, emails válidos, exclusiones</td><td>Altas nuevas, doc 6</td><td>Registros limpios o descartados</td><td>Tras cada alta</td></tr>
-      <tr><td>4</td><td><b>Investigador</b></td><td>Hace la ficha de la cuenta</td><td>Web, señal, docs 1–3</td><td>Ficha</td><td>Tras la limpieza</td></tr>
+      <tr><td>4</td><td><b>Investigador</b></td><td>Hace la ficha de la cuenta. Si la señal es una oferta de empleo, la lee por dentro y saca qué trabajo necesitan sacar adelante</td><td>Web, señal, docs 1–3</td><td>Ficha</td><td>Tras la limpieza</td></tr>
       <tr><td>5</td><td><b>Puntuador</b></td><td>Prioridad A/B/C y estado, con motivo</td><td>Ficha, docs 3–5</td><td>Puntuación</td><td>Tras la ficha</td></tr>
-      <tr><td>6</td><td><b>Redactor</b></td><td>Primer mensaje y seguimientos</td><td>Ficha, docs 7, 8, 10 y ejemplos</td><td>Borrador en la cola</td><td>Solo A y B</td></tr>
+      <tr><td>6</td><td><b>Redactor</b></td><td>Primer mensaje y seguimientos. Abre con el problema concreto de la ficha, nunca con lo que vendemos</td><td>Ficha, docs 7, 8, 10 y ejemplos</td><td>Borrador en la cola</td><td>Solo A y B</td></tr>
       <tr><td>7</td><td><b>Lector</b></td><td>Clasifica respuestas; si hay interés, propone hueco y crea la reunión con un resumen previo</td><td>Correo, calendario, docs 2 y 9</td><td>Estado, reunión; bajas a exclusiones</td><td>Cada hora</td></tr>
       <tr><td>8</td><td><b>Cuidador</b></td><td>Seguimientos: los que no responden y los "ahora no"</td><td>Mensajes enviados, señales, docs 8 y 9</td><td>Borradores de seguimiento</td><td>Diario</td></tr>
       <tr><td>9</td><td><b>Analista</b></td><td>Competencia y mercado; propone mejoras al conocimiento</td><td>Webs de competidores, registro</td><td>Alertas y propuestas en Notion</td><td>Semanal y mensual</td></tr>
       <tr><td>10</td><td><b>Portavoz</b></td><td>Cierra la semana: informe semanal y resumen diario en Notion; avisos al equipo</td><td>Todo el registro</td><td>Informe, Historial, avisos</td><td>Cada tarde y los lunes</td></tr>
     </tbody>
   </table>
+  <div class="two rules">
+    <div>
   <h3>Reglas de todos los agentes</h3>
   <ul>
     <li>Una sola tarea y solo sus herramientas.</li>
@@ -239,6 +241,16 @@
     <li>Tienen límite diario de volumen y de gasto: si se pasan, se pausan y avisan.</li>
     <li>Respetan siempre las exclusiones y las bajas.</li>
   </ul>
+    </div>
+    <div>
+  <h3>Regla de calidad de los mensajes</h3>
+  <ul>
+    <li><b>Prueba del nombre:</b> si quitas el nombre de la empresa y el mensaje vale para cualquier otra, se descarta. Poner el nombre no es personalizar.</li>
+    <li>El primer mensaje parte de la señal y del trabajo concreto que la empresa necesita resolver, y suele abrir con una pregunta sobre cómo lo hacen hoy.</li>
+    <li>Ejemplo que no sirve: «Ayudamos a empresas como la vuestra a ahorrar tiempo con IA». Ejemplo que sí: «He visto que buscáis a alguien para revisar las confirmaciones de vuestros proveedores. ¿Cómo hacéis esa comprobación ahora?».</li>
+  </ul>
+    </div>
+  </div>
   <h3>Procedimiento para instalar cualquier agente</h3>
   <ol class="steps">
     <li><b>Ficha del agente en Notion:</b> tarea, qué lee, qué escribe, documentos de conocimiento que usa, qué no puede hacer nunca y límites.</li>
@@ -301,7 +313,7 @@
   <table class="weeks">
     <thead><tr><th>Sem.</th><th>Paso</th><th>Haz</th><th>Hecho cuando</th></tr></thead>
     <tbody>
-      <tr><td>3</td><td><b>10 · Base de conocimiento</b></td><td>Redacta los 12 documentos en Notion (cap. 03) con lo aprendido en la auditoría. El dueño del sistema los corrige y aprueba</td><td>Los 12 en estado "aprobado"</td></tr>
+      <tr><td>3</td><td><b>10 · Base de conocimiento</b></td><td>Redacta los 12 documentos en Notion (cap. 03) con lo aprendido en la auditoría. El dueño del sistema los corrige y aprueba</td><td>Los 12 en estado "aprobado" y cada señal del doc. 5 completa la frase</td></tr>
       <tr><td>4</td><td><b>11 · CRM</b></td><td>Tablas definitivas (cap. 04), importación final, exclusiones y permisos</td><td>Datos completos y cero duplicados en la muestra</td></tr>
       <tr><td>5</td><td><b>12 · Dashboard</b></td><td>Las 4 pantallas y un usuario por persona del cliente</td><td>El dueño del sistema aprueba un mensaje de prueba desde el móvil</td></tr>
       <tr><td>6</td><td><b>13 · Vigía, Buscador, Limpiador</b></td><td>Procedimiento del cap. 05 para cada uno; 2 o 3 fuentes de señales</td><td>80 % de las señales de la semana son reales y recientes</td></tr>
