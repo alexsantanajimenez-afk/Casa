@@ -73,14 +73,10 @@ Este archivo no se borra: solo crece.
 - **Los 10 agentes** (nombres de la web): Vigía, Buscador, Limpiador, Investigador, Puntuador, Redactor, Lector
   (también crea la reunión si hay interés), Cuidador (seguimientos), Analista (competencia y mejoras) y Portavoz
   (informe semanal, resumen diario en Notion y avisos). Se descarta "Agendador".
-- **Señales y mensajes** (idea tomada de un post de Nico Manzaneque, "Lead signals", porque enriquece el sistema):
-  - Toda señal se escribe con la frase «Cuando una empresa publica ___, puede necesitar lo que vendemos porque ___».
-    Si no se completa la segunda parte, no es señal. Va en el documento 5 de la base de conocimiento de cada cliente.
-  - El Investigador lee la oferta de empleo por dentro y saca qué trabajo necesitan sacar adelante.
+- **Método de búsqueda por señales que VRTCL instala en cada cliente** (no es para la prospección propia de VRTCL).
+  Idea tomada de un post de Nico Manzaneque ("Lead signals") porque enriquece el sistema. Va en el manual:
+  - Toda señal del cliente se escribe con la frase «Cuando una empresa publica ___, puede necesitar lo que vendemos
+    porque ___». Si no se completa la segunda parte, no es señal. Va en el documento 5 de su base de conocimiento.
+  - El Investigador lee la oferta de empleo por dentro y saca qué trabajo necesita sacar adelante esa empresa.
   - Prueba del nombre: si quitas el nombre de la empresa y el mensaje vale para otra, se descarta. El primer mensaje
     parte del problema concreto y suele abrir con una pregunta.
-  - Frases de VRTCL: *pymes* «Cuando una pyme publica una oferta de comercial o de director comercial, puede
-    necesitarnos porque quiere vender más y lo intenta resolver solo con personas; le montamos el sistema que
-    encuentra y prepara clientes para ese equipo». *Startups* «Cuando una startup anuncia una ronda, puede
-    necesitarnos porque tiene que crecer rápido sin sistema ni equipo; se lo montamos en 16 semanas a su nombre».
-  - Validar con una prueba de 20 empresas frente a lo que se hace hoy `[POR COMPROBAR]`.
