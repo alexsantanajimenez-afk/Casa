@@ -1,9 +1,11 @@
 # VRTCL
 
 Marca propia de Alex Santana y Carlos Cedres (dos autónomos, corresponsables). Servicio de
-**Growth + Go To Market**: proyecto cerrado de 16 semanas que empieza con una auditoría de 2 semanas
-(CRM a medida, 10 agentes de IA con Claude y panel de dirección, todo a nombre del cliente).
-En estudio: formato **fractional** de 6 meses. Eslogan: "Human judgment. AI execution."
+**Growth + Go To Market**: proyecto cerrado de 16 semanas que empieza con una auditoría de 2 semanas.
+Cuatro piezas: estrategia de growth, CRM con su dashboard, base de conocimiento en Notion y 10 agentes de IA,
+todo a nombre del cliente. Clientes: pymes B2B de 10–250 personas y startups con ronda. Sin fractional ni cobro
+por resultado. Eslogan: "Human judgment. AI execution."
+Cómo se instala en un cliente: `manual/VRTCL-manual-instalacion.pdf` (fuente en `manual/manual-fuente.html`).
 Lee `estado.md` antes de empezar.
 
 ## Reglas

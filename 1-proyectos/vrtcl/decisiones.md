@@ -45,3 +45,31 @@ Este archivo no se borra: solo crece.
   ("a mí me hubiese llegado esto en Chekin y lo hubiese contratado").
 - Contacto en frío: primero LinkedIn 1 a 1, sin herramientas que automaticen LinkedIn; email en frío con cuidado
   (LSSI art. 21) `[POR COMPROBAR con abogado]`.
+- Aviso de cada contacto del formulario a hello@vrtcl.tech por el SMTP de DonDominio (funcionando desde el 20/11).
+- **Cliente objetivo (corrige lo anterior del día)**: dos segmentos con la misma oferta (auditoría de 2 semanas +
+  proyecto de 16 semanas): **pymes B2B de 10 a 250 personas** que quieren crecer y no tienen manos ni sistema, y
+  **startups con ronda levantada** (últimos 12 meses). **Fuera**: grandes empresas, el formato fractional de 6 meses
+  y el cobro por resultado / cuota tipo "Service-as-Software". Pendiente fijar un mínimo de facturación para la
+  pequeña empresa `[POR DECIDIR]`.
+
+## 21/11/2026
+
+- **Manual de instalación** (v2) como documento de uso interno para quien entre al equipo: tono de manual de
+  operaciones, sin nombres de socios, sin clientes concretos y sin explicaciones para convencer. Fuente y PDF en `manual/`.
+- **Notion es obligatorio** en cada cliente: historial diario de lo hecho, base de conocimiento, actas y manual.
+  Nunca Google Docs.
+- **CRM y dashboard son una sola pieza**: una web privada con login (cuentas, cola de aprobación, embudo e informe
+  semanal). Se dice **"dashboard"**, no "panel".
+- **Base de conocimiento** como pieza propia: 12 documentos en Notion que leen los agentes (solo versiones aprobadas).
+- Las cuatro piezas de la web y del manual: Estrategia de growth · CRM con su dashboard · Base de conocimiento ·
+  Diez agentes de IA.
+- **Stack de cliente**: Notion, Claude (API), Supabase (UE), GitHub (repositorio del cliente), Vercel (aloja el CRM y
+  los agentes), Apollo, email conectado, dominio y DNS, calendario, LinkedIn, Google Analytics 4 + Search Console y
+  gestor de contraseñas como obligatorios; Slack, transcripción de reuniones, verificador de emails, monitorización y
+  firma digital como recomendables; BORME, portales de empleo, noticias y licitaciones como fuentes de señales.
+  Todo a nombre del cliente. La web de VRTCL sigue en Netlify.
+- **Auditoría (semanas 1–2)**: una reunión de arranque, ejecutamos nosotros y una reunión de decisión. Sin entrevistas
+  a comerciales. Durante el proyecto, **una reunión semanal** con el dueño del sistema y acta en Notion.
+- **Los 10 agentes** (nombres de la web): Vigía, Buscador, Limpiador, Investigador, Puntuador, Redactor, Lector
+  (también crea la reunión si hay interés), Cuidador (seguimientos), Analista (competencia y mejoras) y Portavoz
+  (informe semanal, resumen diario en Notion y avisos). Se descarta "Agendador".
