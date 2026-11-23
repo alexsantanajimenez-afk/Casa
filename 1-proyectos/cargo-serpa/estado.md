@@ -1,6 +1,16 @@
 # Estado · Cargo Serpa
 
-Última actualización: 20/11/2026 (limpieza de Notion y Fonestar). Anterior: 17/11/2026 (ramas fusionadas). Anterior: 05/11/2026 (maqueta web V9). Anterior: 29/10/2026 (informe T1 interno rehecho y plan T2). Anterior: 28/10/2026 (lote Barcelona). Anterior: 27/10/2026 (Por contactar y Apollo). Anterior: 23/10/2026 (resumen de leads de las dos últimas semanas y leads pasados a un comercial). Anterior: 13/10/2026 (cierre del día: leads, respuestas del 1:1, segundo toque, A&A, Brevo y LinkedIn).
+Última actualización: 23/11/2026 (100 correos, recordatorios y clientes nuevos). Anterior: 20/11/2026 (limpieza de Notion y Fonestar). Anterior: 17/11/2026 (ramas fusionadas). Anterior: 05/11/2026 (maqueta web V9). Anterior: 29/10/2026 (informe T1 interno rehecho y plan T2). Anterior: 28/10/2026 (lote Barcelona). Anterior: 27/10/2026 (Por contactar y Apollo). Anterior: 23/10/2026 (resumen de leads de las dos últimas semanas y leads pasados a un comercial). Anterior: 13/10/2026 (cierre del día: leads, respuestas del 1:1, segundo toque, A&A, Brevo y LinkedIn).
+
+## Hoy, 23/11/2026 (lunes): 100 correos nuevos, 20 recordatorios y clientes nuevos
+
+- **100 correos 1:1 nuevos enviados** (Alex, en tandas de 10, asunto `[Empresa] . Cargo Serpa presentación`): lotes País Vasco, Madrid y Barcelona y "sin lote" (carga Apollo 22/10: farmacia y construcción). Todos marcados en "Por contactar" con primer envío el 23/11 y recordatorio el **30/11**. Antes de cada tanda se cruzaron CRM, Prospectos (por dominio) y exclusiones: 0 coincidencias.
+- **20 segundos toques enviados** (lotes 09/11 y 11/11, plantilla del 20/11 en el mismo hilo): último toque 23/11, cierre el **30/11**. **Koolnova** no tenía hilo (el envío del 11/11 no salió): se le mandó el primer correo. Quedan 12 recordatorios vencidos del 11/11 (incluidas Inelec y Mevet, que se dejaron fuera) y 76 del 16/11.
+- **Respuestas de hoy**: Gometegui y Proyme (nurturing, no van a Lidia); **Guerola** (Cristian Castillo, director de compras: pone en copia a Javier para **homologarnos como proveedor**; aviso a Lidia redactado; email de Javier `[POR COMPROBAR]`); **Intecsa Industrial** (Virginia Camarero, homologación de proveedores, registrada en otra sesión: pendiente recibir su documentación y pasarla a gerencia); VisualCounter (buzón de Jaime cerrado; reenviado a luis.quitana@, ficha nueva); Acústica Integral (aviso de vacaciones antiguo).
+- **Pendiente decidir**: las homologaciones (Intecsa y Guerola) ¿las lleva gerencia o Lidia? `[POR DECIDIR]`.
+- **Clientes nuevos (semana 16-20/11, cruce de los Excel de Alex con el CRM)**: **Grupo Quero (7653), atribuible a Alex, gestionado por Víctor del Campo**; además Técnicas Anticorrosivas del Noroeste y Gabriel de Olivar (Mercedes Pérez), Sanitarios Ecológicos, Transvolando, Diagonal 80 y Josefa Heredia (cuenta "Cargo Serpa"). Los 7 dados de alta en el CRM. Eranovum (7639, Sergio Esteban) tuvo su primer envío el 17/11, pero sale en negativo en el listado `[POR COMPROBAR]` (¿abono?). Pedro García Henríquez (7316) hizo su primer envío. Reactivados: Bonnet, Reciclajes del Norte de Tenerife y DISA La Gomera (Javier Martín). El CRM solo tiene envíos hasta el 31/10: faltan por importar los de noviembre.
+- **Notion**: se agotó el cupo de SQL a media mañana (se repone cada hora); las actualizaciones de fichas siguen funcionando.
+- **Post de LinkedIn del lunes**: pendiente (Alex pidió que Claude busque las noticias).
 
 ## Hoy, 20/11/2026 (viernes): limpieza de Notion, Fonestar y post
 

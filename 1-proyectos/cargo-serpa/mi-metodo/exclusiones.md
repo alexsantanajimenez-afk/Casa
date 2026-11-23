@@ -15,6 +15,11 @@ representante es Sergio Jiménez).
 - **Eranovum E-Mobility SL** (cliente nº 7639, comercial Sergio Esteban): lead caliente del 13/10, captado por la prospección de Alex (atribuible). Sin envíos en el CRM a 12/11.
 - **AMP (Advanced Mineral Processing)** (nº 7586) y **Rosenbauer Española** (nº 7614): clientes de Víctor del Campo. No prospectar.
 
+## Clientes nuevos captados (CRM, 23/11/2026, semana 16-20/11)
+
+- **Agruquero Thermoplastics (Grupo Quero)** (nº 7653, comercial Víctor del Campo): **atribuible a Alex** (prospección 1:1; Ana Cañizares derivó a Javier Santiago el 28/10). Primer envío 19/11. No prospectar más contactos de Grupo Quero.
+- Altas del 23/11 sin origen en la prospección (no prospectar): Sanitarios Ecológicos de Canarias (7642), Transvolando (7643), Diagonal 80 (7648) y Josefa Heredia Carmona (7644, particular), en la cuenta "Cargo Serpa"; Técnicas Anticorrosivas del Noroeste (7650) y Gabriel de Olivar Ripoll (7652, particular), de Mercedes Pérez.
+
 ## Ya trabajados
 
 Palex, GE, Medtronic, Werfen.

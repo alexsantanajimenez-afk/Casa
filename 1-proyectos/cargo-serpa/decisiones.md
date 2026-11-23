@@ -298,3 +298,11 @@ Ver `mi-metodo/outbound.md` (contenido, tuteo, cierre literal, firma, respuestas
 - **Limpieza sin borrar**: solo cambios de propiedades, con los IDs anotados en `trabajo-en-curso/limpieza-notion-2026-11-20.md` para poder deshacer.
 - **Fonestar**: lead 1:1 a nutrir (piden información); aviso a Lidia.
 
+
+## Decisiones del 23/11/2026 (lunes: 100 correos, 20 recordatorios y clientes nuevos)
+
+- **Regla de atribución (Alex, 23/11)**: todo cliente que salga de la prospección de Alex **se asigna a un comercial, que es quien lo gestiona, pero cuenta como trabajo de Alex** (bonus). En el CRM se pone el comercial en `persona_asignada` y "ATRIBUIBLE A ALEX" en `notas`; en Notion, `Atribución = Atribuible a Alex` y el comercial en `Responsable Cargo Serpa`.
+- **Grupo Quero es cliente atribuible a Alex**: Agruquero Thermoplastics (Grupo Quero), nº 7653, gestionado por Víctor del Campo. Primer envío el 19/11 (Pinto-Palma, 16 bultos, 1.335 kg). Viene del 1:1 del 28/10 (Ana Cañizares → Javier Santiago).
+- **Altas en el CRM (OK de Alex)**: 7 clientes nuevos de la semana 16-20/11 dados de alta en `clientes_info` con el comercial del listado de cartera donde aparecen (Sergio Esteban, Víctor del Campo, Mercedes Pérez, Francisco Vázquez, Pablo Vila, Javier Martín y la cuenta "Cargo Serpa"). Fecha de alta = primer envío. Josefa Heredia (7644) no sale en ninguna cartera: queda en "Cargo Serpa" `[POR COMPROBAR]`.
+- **Asunto del primer correo**: siempre `[Empresa] . Cargo Serpa presentación` (guardado en `outbound.md`).
+- **Recordatorios**: antes de enviar uno, comprobar que existe el hilo en Outlook. Koolnova figuraba como contactada el 11/11 y el correo no había salido: se le envió el primer correo el 23/11.
