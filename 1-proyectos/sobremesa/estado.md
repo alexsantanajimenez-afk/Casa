@@ -36,6 +36,10 @@
    cinta debajo de la foto, franja blanca con el animal del ganador, "🏆 Gana la Nochebuena", nombre y puntos.
    Botón "Saltar" si no quieren foto. Las fotos no salen del móvil.
 3. **Nombre de familia o grupo** opcional para la tarjeta ("Familia Santana"). **Por confirmar.**
+4. **Logo "El vapor"** (elegido el 23/11, ver `referencias/propuestas-logo.png`, fila 1): pulirlo y hacer
+   versiones horizontal, apilada (SOBRE / MESA), blanca para el degradado, berenjena con vapor rojo para
+   fondo claro, y solo la O con vapor como símbolo. SVG y PNG en `app/assets/marca/`. Después, meterlo en
+   portada, tarjeta, pantalla de arranque y foto final. **Enseñar las versiones en imagen antes de tocar la app.**
 
 Estimación dada a Alex: todo junto 2,5–3 h; solo Mímica ~2 h. Recomendado hacerlo en una sesión nueva
 (esta se alargó mucho).

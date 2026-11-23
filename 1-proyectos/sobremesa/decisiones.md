@@ -57,3 +57,7 @@ descartadas, con el motivo:
 - Foto de grupo: mejor **una sola foto al final** con marco de la marca (menos desarrollo, sirve para
   medir si la gente la comparte). Foto por ronda, más adelante si funciona.
 - Para ahorrar créditos, seguir en una **sesión nueva** que lea este `estado.md`.
+- **Logo elegido: opción 1, "El vapor"**: SOBREMESA en Bricolage condensada y mayúsculas, con dos volutas
+  de vapor saliendo de la O. Descartadas: "La O es una cara" y "El sello". Propuestas en
+  `referencias/propuestas-logo.png`.
+- Maqueta de la foto final con marco en `referencias/maqueta-foto-final.png` (enseñada, falta OK final).
