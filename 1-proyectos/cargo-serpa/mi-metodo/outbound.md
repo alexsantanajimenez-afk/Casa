@@ -12,6 +12,10 @@
 - **Cuando un prospecto contesta**: se le agradece y se dice que una persona del equipo comercial
   le contactará lo antes posible, sin pedir datos ni hacer preguntas.
 
+## Asunto del primer correo (Alex, 23/11/2026)
+
+Siempre `[Empresa] . Cargo Serpa presentación` (ejemplo: `Gometegui . Cargo Serpa presentación`). Sustituye a "Presentación · Cargo Serpa". Se entrega en el chat con bloque de copiar propio, junto al email y al cuerpo.
+
 ## Plantilla oficial (12/11/2026, sustituye a la del 06/10 y a la regla del 22/10)
 
 Es la versión que Alex fijó el 12/11/2026 y que se envió ese día a 39 contactos. Tuteo en el saludo y en el cierre; "vosotros" en el tercer párrafo.
