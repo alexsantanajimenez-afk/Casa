@@ -303,4 +303,7 @@ Ver `mi-metodo/outbound.md` (contenido, tuteo, cierre literal, firma, respuestas
 - **Envíos de Alex fuera de la casa se registran igual** (Alex: "ponle enviados"): los 58 correos del 26/11 quedan en "Por contactar" como Contactado. Si la persona ya tenía ficha, no se crea otra ni se suma como envío nuevo: se actualiza su ficha (último toque y nota "2º correo").
 - **Plantilla "ingenierías y proyecto" (26/11)** guardada en `mi-metodo/outbound.md` junto a la del 12/11; si la sustituye `[POR DECIDIR]`.
 - **Los leads pasados al comercial van también a la tabla `leads` del CRM** (Alex: "sí, pásalos al CRM"). Se cargaron los 43 del 13/10 al 24/11 con `enviado_a_cargo_serpa`; Notion sigue siendo la fuente y el CRM se actualiza a mano (añadir o completar filas, sin borrar).
+- **Plantilla del 26/11 ajustada (Alex, 27/11)**: servicios en una sola frase (no en viñetas); la frase de carga de proyecto solo para ingenierías donde conste que hacen proyectos; se vuelve a poner la frase de baja. Se marca Asunto test = B para compararla con la del 12/11 (A).
+- **Antes de proponer contactos, cruzar también por variantes del nombre de empresa** (lección: Construcciones Amenabar / Amenabar) y excluir las fichas marcadas para la lista de visitas de Lidia.
+- **Grupo Mondragon**: el transporte lo compra Ategi (respuesta de Embega). Se prepara el abordaje a Ategi; seguir escribiendo a cooperativas sueltas `[POR DECIDIR]`.
 
