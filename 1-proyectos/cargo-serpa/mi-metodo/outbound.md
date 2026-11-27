@@ -33,6 +33,32 @@ Es la versión que Alex fijó el 12/11/2026 y que se envió ese día a 39 contac
 
 Versión anterior (06/10, tercer párrafo del 22/10): ver el historial de git.
 
+## Plantilla "ingenierías y proyecto" (Alex, 26/11/2026)
+
+La usó Alex el 26/11/2026 con los 58 contactos de Apollo de ese día (industria, ingenierías,
+renovables). No consta si sustituye a la oficial del 12/11 o convive con ella `[POR DECIDIR]`.
+Cambios frente a la del 12/11: nombra el departamento en vez del cargo, añade la carga de
+proyecto para ingenierías como prueba, servicios en dos viñetas y cierre de "operador
+alternativo para cotizar y comparar"; quita la frase de baja y la de Latinoamérica.
+
+> Hola, [nombre]:
+>
+> Veo que formas parte del departamento de [Compras] en [empresa]. Llevamos años moviendo [sector] para empresas de vuestro sector, así que te escribo simplemente para presentarme.
+>
+> Soy Alex, de Cargo Serpa: más de 30 años en el sector del transporte, miembros de IATA y WCA y agentes de aduanas. Además de la operativa diaria, gestionamos habitualmente cargas de proyecto para ingenierías, sin ir más lejos, hace poco movimos una carga internacional de grandes dimensiones para uno de los estudios de ingenierías más conocidos a nivel nacional.
+>
+> Cubrimos todo el recorrido puerta a puerta, aduana incluida:
+>
+> - Internacional: Transporte aéreo, marítimo y terrestre en toda la UE.
+> - Nacional e islas: Territorio nacional, Andorra y conexiones diarias entre Península, Canarias y Baleares.
+>
+> No quiero robarte tiempo hoy, pero si en algún momento desde [Compras] buscáis un operador alternativo para cotizar algún envío y comparar servicio o tarifas frente a lo que manejáis ahora, dime y lo vemos sin compromiso.
+>
+> Un saludo,
+> Alex Santana
+
+Ejemplo real: "Hola, Saida: Veo que formas parte del departamento de Compras en MAM…" (sector: "mercancía industrial y de distribución").
+
 ## Comerciales y leads
 
 - Los comerciales reciben por email el contenido real del resumen (cada uno solo su cartera).
