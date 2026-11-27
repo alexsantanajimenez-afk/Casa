@@ -1,6 +1,15 @@
 # Estado · Cargo Serpa
 
-Última actualización: 20/11/2026 (limpieza de Notion y Fonestar). Anterior: 17/11/2026 (ramas fusionadas). Anterior: 05/11/2026 (maqueta web V9). Anterior: 29/10/2026 (informe T1 interno rehecho y plan T2). Anterior: 28/10/2026 (lote Barcelona). Anterior: 27/10/2026 (Por contactar y Apollo). Anterior: 23/10/2026 (resumen de leads de las dos últimas semanas y leads pasados a un comercial). Anterior: 13/10/2026 (cierre del día: leads, respuestas del 1:1, segundo toque, A&A, Brevo y LinkedIn).
+Última actualización: 27/11/2026 (envíos del 26/11 en Notion y leads al CRM). Anterior: 20/11/2026 (limpieza de Notion y Fonestar). Anterior: 17/11/2026 (ramas fusionadas). Anterior: 05/11/2026 (maqueta web V9). Anterior: 29/10/2026 (informe T1 interno rehecho y plan T2). Anterior: 28/10/2026 (lote Barcelona). Anterior: 27/10/2026 (Por contactar y Apollo). Anterior: 23/10/2026 (resumen de leads de las dos últimas semanas y leads pasados a un comercial). Anterior: 13/10/2026 (cierre del día: leads, respuestas del 1:1, segundo toque, A&A, Brevo y LinkedIn).
+
+## Hoy, 27/11/2026 (viernes): envíos del 26/11 en Notion y leads al CRM
+
+- **Del 21 al 26/11 no consta nada en la casa** `[POR COMPROBAR]`. En Notion aparecen 3 leads del 24/11 registrados por otra sesión: **Winche** (Andrea Lozano, nurturing), **Intecsa Industrial** (Virginia Camarero, homologación de proveedor, pasado a Lidia) y **Cocoon Bioscience** (Teresa Bilbao, nurturing). Noviembre va por **23 leads**.
+- **Apollo 26/11 (Alex, por su cuenta)**: 81 contactos nuevos (11:03-15:29), 2 listas ("Decisores Compras y Logística España — Ingeniería Industrial", 19; "… Sector Químico de Superficies", 3) y 59 sin lista (renovables y supply chain industrial). **58 con email verificado, todos enviados por Alex el 26/11** con la plantilla nueva "ingenierías y proyecto" (guardada en `mi-metodo/outbound.md`).
+- **Cruce con Notion y CRM y registro (OK de Alex)**: **46 fichas nuevas** en "Por contactar" (Contactado, primer envío 26/11, recordatorio **03/12**, Lote Apollo "2026-11-26"); **12 repetidos** (misma persona ya con ficha) no se suman: último toque 26/11 y nota "2º correo". Entre los repetidos, **Divisegur (Jesús Ureña) y Erreka (David Fernández) ya eran leads** y recibieron otro correo en frío.
+- **Avisos del lote**: PVHardware (2) es grupo Gransolar, descartada el 19/11; Haizea recibió 4 correos a la vez; BNZ tenía un contacto "Cerrado sin éxito"; 4 fuera de España (Koppers, Rütgers, Buckman, Tucai Bulgaria); compras@tmssa.com es buzón genérico; **Prime Energy** consta en el CRM (nº 3316, sin envíos).
+- **Leads al CRM (OK de Alex)**: la tabla `leads` de Supabase no se sincronizaba desde el 16/10 (solo 4 leads de septiembre con fecha de paso). Se pasaron **43 fichas (33 empresas)** pasadas al comercial entre el 13/10 y el 24/11: 35 filas nuevas y 8 ya existentes completadas (fecha de paso, estado y notas). Eranovum enlazada al cliente nº 7639. Tabla: 758 filas, 47 con fecha de paso.
+- **Pendiente**: respuestas a los correos del 26/11 (Alex las pasa); decidir si la plantilla "ingenierías y proyecto" sustituye a la del 12/11; mantener `leads` al día cada vez que se pase un lead (no hay sincronización automática).
 
 ## Hoy, 20/11/2026 (viernes): limpieza de Notion, Fonestar y post
 

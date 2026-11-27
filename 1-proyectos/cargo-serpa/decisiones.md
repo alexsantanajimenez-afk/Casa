@@ -298,3 +298,9 @@ Ver `mi-metodo/outbound.md` (contenido, tuteo, cierre literal, firma, respuestas
 - **Limpieza sin borrar**: solo cambios de propiedades, con los IDs anotados en `trabajo-en-curso/limpieza-notion-2026-11-20.md` para poder deshacer.
 - **Fonestar**: lead 1:1 a nutrir (piden información); aviso a Lidia.
 
+## Decisiones del 27/11/2026 (viernes: envíos del 26/11 y leads al CRM)
+
+- **Envíos de Alex fuera de la casa se registran igual** (Alex: "ponle enviados"): los 58 correos del 26/11 quedan en "Por contactar" como Contactado. Si la persona ya tenía ficha, no se crea otra ni se suma como envío nuevo: se actualiza su ficha (último toque y nota "2º correo").
+- **Plantilla "ingenierías y proyecto" (26/11)** guardada en `mi-metodo/outbound.md` junto a la del 12/11; si la sustituye `[POR DECIDIR]`.
+- **Los leads pasados al comercial van también a la tabla `leads` del CRM** (Alex: "sí, pásalos al CRM"). Se cargaron los 43 del 13/10 al 24/11 con `enviado_a_cargo_serpa`; Notion sigue siendo la fuente y el CRM se actualiza a mano (añadir o completar filas, sin borrar).
+
